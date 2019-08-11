@@ -9,14 +9,19 @@
 //╔════╗
 //║TEMP║
 //╚════╝
+//
 //ItemDisplay[]: %NAME%
 
 //╔════╗
 //║MISC║
 //╚════╝
+//
 ItemDisplay[GOLD<4000 CLVL>40]:
 
-//QUEST
+//╔═════╗
+//║QUEST║
+//╚═════╝
+//
 ItemDisplay[bbb]: %TAN%%NAME%
 ItemDisplay[ass]: %TAN%%NAME%
 ItemDisplay[bkd]: %TAN%%NAME%
@@ -33,7 +38,10 @@ ItemDisplay[tr1]: %TAN%%NAME%
 ItemDisplay[tr2]: %TAN%%NAME%
 ItemDisplay[xyz]: %TAN%%NAME%
 
-//POTIONS
+//╔═══════╗
+//║POTIONS║
+//╚═══════╝
+//
 ItemDisplay[rvs]: %PURPLE%!SR %WHITE%35%
 ItemDisplay[rvl]: %PURPLE%!FR %WHITE%70%
 
@@ -493,6 +501,8 @@ ItemDisplay[(EQ1 OR EQ7) ETH NMAG !RW SOCK=2]: %RED%¤¤¤ %WHITE%ETH %NAME% %YE
 //║BODY ARMOR║
 //╚══════════╝
 //
+ItemDisplay[EQ2 !ETH SUP NMAG !RW (SOCK=3 OR SOCK=4) DEF>450]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ (450+)
+ItemDisplay[EQ2 !ETH !SUP NMAG !RW (SOCK=3 OR SOCK=4) DEF>450]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ (450+)
 ItemDisplay[EQ2 !ETH SUP NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %ORANGE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
 ItemDisplay[EQ2 ETH SUP NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %ORANGE%ETH %NAME% %RED%[%SOCKETS%] %RED%¤¤¤
 
@@ -602,6 +612,6 @@ ItemDisplay[(cm1 OR cm2 OR cm3) MAG ILVL<90]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 //╚═════════╝
 ItemDisplay[cx5]: %RED%¤¤¤ %PURPLE%OOC %RED%¤¤¤
 ItemDisplay[NMAG !RW SOCK<2]: %NAME% %WHITE%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
-ItemDisplay[NMAG !RW SOCK>1]: %NAME% %DGREEN%[%SOCKETS%] %WHITE%[%TAN%$%PRICE%%WHITE%]
+ItemDisplay[NMAG !RW SOCK>1]: %NAME% %DGREEN%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
 ItemDisplay[(MAG OR RARE) !ID]: %NAME% [L%ILVL%] %WHITE%%PRICE%%TAN%G
 ItemDisplay[(UNI OR SET) !ID]: %NAME%
