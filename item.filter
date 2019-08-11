@@ -127,6 +127,9 @@ ItemDisplay[gpb]: %RED%¤¤¤ %ORANGE%%NAME% %RED%¤¤¤
 ItemDisplay[gpy]: %RED%¤¤¤ %ORANGE%%NAME% %RED%¤¤¤
 ItemDisplay[skz]: %RED%¤¤¤ %ORANGE%%NAME% %RED%¤¤¤
 
+//Wirts Leg
+ItemDisplay[leg]: %NAME%
+
 //Essences (Respec Token)
 ItemDisplay[tes]: %RED%¤¤¤ Suffering [Andariel & Duriel] ¤¤¤
 ItemDisplay[ceh]: %RED%¤¤¤ Hatred [Mephisto] ¤¤¤
