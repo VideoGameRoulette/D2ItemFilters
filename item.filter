@@ -336,6 +336,29 @@ ItemDisplay[ETH UNI !ID pac]: %RED%¤¤¤ ETH %GOLD%Alma Negra %RED%¤¤¤
 ItemDisplay[UNI !ID (rin OR amu OR jew)]: %RED%¤¤¤ %GOLD%%NAME% %RED%¤¤¤
 ItemDisplay[SET !ID amu ILVL>66]: %RED%¤¤¤ %GREEN%Tals Ammy? %RED%¤¤¤
 
+//╔══════════════╗
+//║MAGIC AND RARE║
+//╚══════════════╝
+//╔════════╗
+//║CIRCLETS║
+//╚════════╝
+//
+ItemDisplay[EQ7 MAG !ID]: ¤¤¤ %NAME% ¤¤¤ %WHITE%[L%ILVL%] %WHITE%%PRICE%%TAN%G%BLUE%
+ItemDisplay[EQ7 RARE !ID]: ¤¤¤ %NAME% ¤¤¤ %WHITE%[L%ILVL%] %WHITE%%PRICE%%TAN%G%YELLOW%
+
+ItemDisplay[EQ7 MAG ID]: %NAME% %WHITE%[L%ILVL%]%BLUE%
+ItemDisplay[EQ7 RARE ID]: %NAME% %WHITE%[L%ILVL%]%YELLOW%
+
+//╔═════════════════╗
+//║AMULETS AND RINGS║
+//╚═════════════════╝
+//
+ItemDisplay[(rin OR amu) MAG !ID ]: %NAME% %WHITE%[L%ILVL%]%BLUE%
+ItemDisplay[(rin OR amu) RARE !ID ]: %NAME% %WHITE%[L%ILVL%]%YELLOW%
+
+ItemDisplay[(rin OR amu) MAG ID ]: %NAME% %WHITE%[L%ILVL%]%BLUE%
+ItemDisplay[(rin OR amu) RARE ID ]: %NAME% %WHITE%[L%ILVL%]%YELLOW%
+
 //╔═══════════════════╗
 //║CLASS SPECIFIC GEAR║
 //╚═══════════════════╝
@@ -556,12 +579,12 @@ ItemDisplay[(EQ1 OR EQ7) ETH NMAG !RW SOCK=2]: %RED%¤¤¤ %WHITE%ETH %NAME% %YE
 //║BODY ARMOR║
 //╚══════════╝
 //
-ItemDisplay[EQ2 !ETH SUP NMAG !RW (SOCK=3 OR SOCK=4) DEF>500]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ (500+)
-ItemDisplay[EQ2 !ETH !SUP NMAG !RW (SOCK=3 OR SOCK=4) DEF>450]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ (450+)
+ItemDisplay[EQ2 !ETH SUP NMAG !RW (SOCK=3 OR SOCK=4) DEF>500]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ [500+]
+ItemDisplay[EQ2 !ETH !SUP NMAG !RW (SOCK=3 OR SOCK=4) DEF>450]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ [450+]
 ItemDisplay[EQ2 !ETH SUP NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %ORANGE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
 ItemDisplay[EQ2 ETH SUP NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %ORANGE%ETH %NAME% %RED%[%SOCKETS%] %RED%¤¤¤
 
-ItemDisplay[EQ2 !ETH SUP NMAG !RW SOCK=2 DEF>450]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ (SMOKE)
+ItemDisplay[EQ2 !ETH SUP NMAG !RW SOCK=2 DEF>500]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ [500+] (SMOKE)
 ItemDisplay[EQ2 !ETH SUP NMAG !RW SOCK=2]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤
 ItemDisplay[EQ2 ETH SUP NMAG !RW SOCK=2]: %RED%¤¤¤ %ORANGE%ETH %NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤
 
@@ -571,9 +594,11 @@ ItemDisplay[EQ2 ETH SUP NMAG !RW SOCK=0]: %RED%¤¤¤ %ORANGE%ETH %NAME% %WHITE%
 ItemDisplay[EQ2 !ETH NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %WHITE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
 ItemDisplay[EQ2 ETH NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %WHITE%ETH %NAME% %RED%[%SOCKETS%] %RED%¤¤¤
 
+ItemDisplay[EQ2 !ETH NMAG !RW SOCK=2 DEF>450]: %RED%¤¤¤ %WHITE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ [450+] (SMOKE)
 ItemDisplay[EQ2 !ETH NMAG !RW SOCK=2]: %RED%¤¤¤ %WHITE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤
 ItemDisplay[EQ2 ETH NMAG !RW SOCK=2]: %RED%¤¤¤ %WHITE%ETH %NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤
 
+ItemDisplay[EQ2 !ETH NMAG !RW SOCK=0 DEF>450]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ [450+]
 ItemDisplay[EQ2 !ETH NMAG !RW SOCK=0]: %RED%¤¤¤ %WHITE%%NAME% %WHITE%[%SOCKETS%] %RED%¤¤¤
 ItemDisplay[EQ2 ETH NMAG !RW SOCK=0]: %RED%¤¤¤ %WHITE%ETH %NAME% %WHITE%[%SOCKETS%] %RED%¤¤¤
 
