@@ -82,6 +82,33 @@ ItemDisplay[tsc]: %GREEN%!%WHITE%TP
 //SCROLL OF IDENTIFY
 ItemDisplay[isc]: %GREEN%!%WHITE%ID
 
+//chipped (Tier 1)
+ItemDisplay[gcv]: %ORANGE%Chipped Amethyst
+ItemDisplay[gcw]: %ORANGE%Chipped Diamond
+ItemDisplay[gcg]: %ORANGE%Chipped Emerald
+ItemDisplay[gcr]: %ORANGE%Chipped Ruby
+ItemDisplay[gcb]: %ORANGE%Chipped Sapphire
+ItemDisplay[gcy]: %ORANGE%Chipped Topaz
+ItemDisplay[skc]: %ORANGE%Chipped Skull
+
+//flawed (Tier2)
+ItemDisplay[gfv DIFFICULTY>0]:
+ItemDisplay[gfw DIFFICULTY>0]:
+ItemDisplay[gfg DIFFICULTY>0]:
+ItemDisplay[gfr DIFFICULTY>0]:
+ItemDisplay[gfb DIFFICULTY>0]:
+ItemDisplay[gfy DIFFICULTY>0]:
+ItemDisplay[skf DIFFICULTY>0]:
+
+//normal (Tier3)
+ItemDisplay[gsv DIFFICULTY>0]:
+ItemDisplay[gsw DIFFICULTY>0]:
+ItemDisplay[gsg DIFFICULTY>0]:
+ItemDisplay[gsr DIFFICULTY>0]:
+ItemDisplay[gsb DIFFICULTY>0]:
+ItemDisplay[gsy DIFFICULTY>0]:
+ItemDisplay[sku DIFFICULTY>0]:
+
 //FLAWLESS
 ItemDisplay[gzv]: %ORANGE%%NAME%
 ItemDisplay[glw]: %ORANGE%%NAME%
