@@ -45,11 +45,36 @@ ItemDisplay[xyz]: %TAN%%NAME%
 ItemDisplay[rvs]: %PURPLE%!SR %WHITE%35%
 ItemDisplay[rvl]: %PURPLE%!FR %WHITE%70%
 
+ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%MH
+ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%LH
+ItemDisplay[hp3 CLVL<24]: %RED%!%WHITE%H
+ItemDisplay[hp1 CLVL>14]:
+ItemDisplay[hp2 CLVL>17]:
+ItemDisplay[hp3 CLVL>24]:
 ItemDisplay[hp4]: %RED%!%WHITE%GH
 ItemDisplay[hp5]: %RED%!%WHITE%SH
 
+ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%MM
+ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%LM
+ItemDisplay[mp3 CLVL<26]: %BLUE%!%WHITE%M
+ItemDisplay[mp1 CLVL>14]:
+ItemDisplay[mp2 CLVL>19]:
+ItemDisplay[mp3 CLVL>25]:
 ItemDisplay[mp4]: %BLUE%!%WHITE%GM
 ItemDisplay[mp5]: %BLUE%!%WHITE%SM
+
+//MISC POTIONS
+ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
+ItemDisplay[yps]: %GREEN%!%WHITE%Antidote
+ItemDisplay[vps CLVL<60]: %GREEN%!%WHITE%Stamina
+
+//Choking, Exploding, Fulminating, Oil, Rancid, Strangling 
+ItemDisplay[gpm]:
+ItemDisplay[opm]:
+ItemDisplay[opl]:
+ItemDisplay[ops]:
+ItemDisplay[gps]:
+ItemDisplay[gpl]:
 
 //TOWN PORTAL SCROLLS
 ItemDisplay[tsc]: %GREEN%!%WHITE%TP
@@ -127,9 +152,9 @@ ItemDisplay[r31]: %RED%¤¤¤ %PURPLE%%RUNENAME% Rune [31] %RED%¤¤¤ (2.5+ HR)
 ItemDisplay[r32]: %RED%¤¤¤ %RUNENAME% Rune [32] ¤¤¤ (0.75 HR) [SC] (0.625 HR) [HC]
 ItemDisplay[r33]: %RED%¤¤¤ %RUNENAME% Rune [33] ¤¤¤ (1.5 HR) [SC] (0.5 HR) [HC]
 
-//╔═══════╗
-//║UNIQUES║
-//╚═══════╝
+//╔════════════════╗
+//║UNIQUES AND SETS║
+//╚════════════════╝
 //Helms
 //Griffons Eye
 ItemDisplay[!ETH UNI !ID ci3]: %RED%¤¤¤ %GOLD%Griffons Eye %RED%¤¤¤
@@ -246,8 +271,8 @@ ItemDisplay[ETH UNI !ID 7s8]: %RED%¤¤¤ ETH %GOLD%Reapers Toll %RED%¤¤¤
 ItemDisplay[!ETH UNI !ID 7b8]: %RED%¤¤¤ %GOLD%Lacerator %RED%¤¤¤
 ItemDisplay[ETH UNI !ID 7b8]: %RED%¤¤¤ ETH %GOLD%Lacerator %RED%¤¤¤
 //Azurewrath or Lightsaber
-ItemDisplay[!ETH UNI !ID 7cr]: %RED%¤¤¤ %GOLD%Azurewrath/Lightsaber %RED%¤¤¤
-ItemDisplay[ETH UNI !ID 7cr]: %RED%¤¤¤ ETH %GOLD%Azurewrath/Lightsaber %RED%¤¤¤
+ItemDisplay[!ETH UNI !ID 7cr]: %RED%¤¤¤ %GOLD%Azurewrath or Lightsaber %RED%¤¤¤
+ItemDisplay[ETH UNI !ID 7cr]: %RED%¤¤¤ ETH %GOLD%Azurewrath or Lightsaber %RED%¤¤¤
 //Tombreaver
 //ItemDisplay[!ETH UNI !ID 7pa]: %RED%¤¤¤ %GOLD%Tombreaver %RED%¤¤¤
 //ItemDisplay[ETH UNI !ID 7pa]: %RED%¤¤¤ ETH %GOLD%Tombreaver %RED%¤¤¤
@@ -501,7 +526,7 @@ ItemDisplay[(EQ1 OR EQ7) ETH NMAG !RW SOCK=2]: %RED%¤¤¤ %WHITE%ETH %NAME% %YE
 //║BODY ARMOR║
 //╚══════════╝
 //
-ItemDisplay[EQ2 !ETH SUP NMAG !RW (SOCK=3 OR SOCK=4) DEF>450]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ (450+)
+ItemDisplay[EQ2 !ETH SUP NMAG !RW (SOCK=3 OR SOCK=4) DEF>500]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ (500+)
 ItemDisplay[EQ2 !ETH !SUP NMAG !RW (SOCK=3 OR SOCK=4) DEF>450]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ (450+)
 ItemDisplay[EQ2 !ETH SUP NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %ORANGE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
 ItemDisplay[EQ2 ETH SUP NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %ORANGE%ETH %NAME% %RED%[%SOCKETS%] %RED%¤¤¤
@@ -611,7 +636,10 @@ ItemDisplay[(cm1 OR cm2 OR cm3) MAG ILVL<90]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 //║CATCH ALL║
 //╚═════════╝
 ItemDisplay[cx5]: %RED%¤¤¤ %PURPLE%OOC %RED%¤¤¤
-ItemDisplay[NMAG !RW SOCK<2]: %NAME% %WHITE%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
+ItemDisplay[NORM (NMAG OR MAG OR RARE) !RW CLVL>60]:
+ItemDisplay[EXC (NMAG OR MAG OR RARE) !RW CLVL>80]:
+ItemDisplay[NMAG !RW SOCK=1]:
+ItemDisplay[NMAG !RW SOCK<1]: %NAME% %WHITE%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
 ItemDisplay[NMAG !RW SOCK>1]: %NAME% %DGREEN%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
 ItemDisplay[(MAG OR RARE) !ID]: %NAME% [L%ILVL%] %WHITE%%PRICE%%TAN%G
 ItemDisplay[(UNI OR SET) !ID]: %NAME%
