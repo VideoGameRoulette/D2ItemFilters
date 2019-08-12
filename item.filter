@@ -663,6 +663,13 @@ ItemDisplay[WP8 ETH NMAG !RW SOCK=0]: %RED%¤¤¤ %WHITE%ETH %NAME% %WHITE%[%SOC
 //
 ItemDisplay[fla !ETH NMAG !RW (SOCK=4 OR SOCK=5)]: %RED%¤¤¤ %WHITE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
 
+//╔════════╗
+//║SCEPTERS║
+//╚════════╝
+//
+ItemDisplay[WP13 !ETH NMAG !RW SOCK=4]: %RED%¤¤¤ %ORANGE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
+ItemDisplay[WP13 !ETH !SUP NMAG !RW SOCK=0]: %RED%¤¤¤ %YELLOW%%NAME% %WHITE%[%SOCKETS%] %RED%¤¤¤
+
 //╔══════╗
 //║JEWELS║
 //╚══════╝
