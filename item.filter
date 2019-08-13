@@ -1,6 +1,6 @@
 ﻿//VGRoulette Item Filter
 //Filter: Advanced
-//Version: 1.1(Buildz)
+//Version: 1.1
 //Created by: VGRoulette
 //For questions, comments, feedback, or suggestions:
 //Contact on discord: VideoGameRoulette#7026
@@ -17,6 +17,7 @@
 //╚════╝
 //
 ItemDisplay[GOLD<4000 CLVL>40]:
+ItemDisplay[key]: %NAME%
 
 //╔═════╗
 //║QUEST║
@@ -64,8 +65,10 @@ ItemDisplay[mp4]: %BLUE%!%WHITE%GM
 ItemDisplay[mp5]: %BLUE%!%WHITE%SM
 
 //MISC POTIONS
+ItemDisplay[wms CLVL>59]:
 ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
 ItemDisplay[yps]: %GREEN%!%WHITE%Antidote
+ItemDisplay[vps CLVL>59]:
 ItemDisplay[vps CLVL<60]: %GREEN%!%WHITE%Stamina
 
 //Choking, Exploding, Fulminating, Oil, Rancid, Strangling 
