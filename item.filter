@@ -220,8 +220,8 @@ ItemDisplay[ETH UNI !ID ulm]: %RED%¤¤¤ ETH %GOLD%Steelshade %RED%¤¤¤
 ItemDisplay[!ETH SET !ID xhm]: %RED%¤¤¤ %GOLD%G Face %RED%¤¤¤
 ItemDisplay[ETH SET !ID xhm]: %RED%¤¤¤ ETH %GOLD%G Face %RED%¤¤¤
 //Nightwings Veil
-ItemDisplay[!ETH SET !ID uhm]: %RED%¤¤¤ %GOLD%Nightwings Veil? %RED%¤¤¤
-ItemDisplay[ETH SET !ID uhm]: %RED%¤¤¤ ETH %GOLD%Nightwings Veil? %RED%¤¤¤
+ItemDisplay[!ETH UNI !ID uhm]: %RED%¤¤¤ %GOLD%Nightwings Veil? %RED%¤¤¤
+ItemDisplay[ETH UNI !ID uhm]: %RED%¤¤¤ ETH %GOLD%Nightwings Veil? %RED%¤¤¤
 
 //Armor
 //Duriels Shell
