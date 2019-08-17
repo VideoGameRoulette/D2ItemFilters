@@ -170,10 +170,10 @@ ItemDisplay[r16]: %TAN%%RUNENAME% Rune [16]
 ItemDisplay[r17]: %TAN%%RUNENAME% Rune [17]
 ItemDisplay[r18]: %TAN%%RUNENAME% Rune [18]
 ItemDisplay[r19]: %TAN%%RUNENAME% Rune [19]
-ItemDisplay[r20]: %TAN%%RUNENAME% Rune [20]
-ItemDisplay[r21]: %TAN%%RUNENAME% Rune [21]
-ItemDisplay[r22]: %TAN%%RUNENAME% Rune [22]
-ItemDisplay[r23]: %TAN%%RUNENAME% Rune [23]
+ItemDisplay[r20]: %RED%¤¤¤ %RUNENAME% Rune [20] ¤¤¤
+ItemDisplay[r21]: %RED%¤¤¤ %RUNENAME% Rune [21] ¤¤¤
+ItemDisplay[r22]: %RED%¤¤¤ %RUNENAME% Rune [22] ¤¤¤
+ItemDisplay[r23]: %RED%¤¤¤ %RUNENAME% Rune [23] ¤¤¤
 ItemDisplay[r24]: %RED%¤¤¤ %RUNENAME% Rune [24] ¤¤¤ (0.125 HR | 3 x 0.5 HR) [SC or HC]
 ItemDisplay[r25]: %RED%¤¤¤ %RUNENAME% Rune [25] ¤¤¤ (0.25 HR) [SC or HC]
 ItemDisplay[r26]: %RED%¤¤¤ %RUNENAME% Rune [26] ¤¤¤ (0.5 HR) [SC or HC]
@@ -427,7 +427,7 @@ ItemDisplay[CL5 NMAG !RW (SK271>0 OR SK276>0) SOCK=0]: %RED%¤¤¤ %WHITE%%NAME%
 //║+3 WARCRIES WEAPONS║
 //╚═══════════════════╝
 //
-ItemDisplay[WEAPON (TABSK34=3)]: %RED%¤¤¤ %WHITE%%NAME% %RED%¤¤¤
+ItemDisplay[WEAPON (TABSK34=3)]: %RED%¤¤¤ %ORANGE%%NAME% %RED%¤¤¤ %PURPLE%[+3 BO STICK]
 
 //╔═════════════════════╗
 //║BATTLE ORDERS HELMETS║
