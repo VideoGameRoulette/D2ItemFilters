@@ -18,6 +18,10 @@
 //
 ItemDisplay[GOLD<4000 CLVL>40]:
 ItemDisplay[key]: %NAME%
+ItemDisplay[ma4]: %RED%¤¤¤ %PURPLE%%NAME% %RED%¤¤¤ %GOLD%[T1]
+ItemDisplay[ma5]: %RED%¤¤¤ %PURPLE%%NAME% %RED%¤¤¤ %GOLD%[T2]
+ItemDisplay[ma6]: %RED%¤¤¤ %PURPLE%%NAME% %RED%¤¤¤ %GOLD%[T3]
+ItemDisplay[ma2]: %RED%¤¤¤ %PURPLE%%NAME% %RED%¤¤¤ %GOLD%[T4]
 
 //╔═════╗
 //║QUEST║
@@ -132,6 +136,15 @@ ItemDisplay[skz]: %RED%¤¤¤ %ORANGE%%NAME% %RED%¤¤¤
 
 //Wirts Leg
 ItemDisplay[leg]: %NAME%
+
+//╔═════════╗
+//║CATCH ALL║
+//╚═════════╝
+ItemDisplay[cx5]: %RED%¤¤¤ %PURPLE%OOC %RED%¤¤¤
+ItemDisplay[NORM (NMAG OR MAG OR RARE) !RW CLVL>60]:
+ItemDisplay[EXC (NMAG OR MAG OR RARE) !RW CLVL>80]:
+ItemDisplay[(aq2 OR cq2) MAG CLVL>60]:
+ItemDisplay[NMAG !RW SOCK=1]:
 
 //Essences (Respec Token)
 ItemDisplay[tes]: %RED%¤¤¤ Suffering [Andariel & Duriel] ¤¤¤
@@ -404,8 +417,10 @@ ItemDisplay[CL5 NMAG !RW (SK274>0) SOCK=0]: %RED%¤¤¤ %WHITE%%NAME% [%SOCKETS%
 //║FIRE TRAP CLAWS║
 //╚═══════════════╝
 //
-ItemDisplay[CL5 NMAG !RW (SK262>0 OR SK272>0) SOCK=3]: %RED%¤¤¤ %WHITE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
-ItemDisplay[CL5 NMAG !RW (SK262>0 OR SK272>0) SOCK=0]: %RED%¤¤¤ %WHITE%%NAME% [%SOCKETS%] %RED%¤¤¤
+ItemDisplay[CL5 NMAG !RW SK262>2 SOCK=3]: %RED%¤¤¤ %WHITE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤ [+3 WOF] (PLAGUE)
+ItemDisplay[CL5 NMAG !RW SK262>2 SOCK=0]: %RED%¤¤¤ %WHITE%%NAME% [%SOCKETS%] %RED%¤¤¤ [+3 WOF] (PLAGUE)
+ItemDisplay[CL5 NMAG !RW SK272>2 SOCK=3]: %RED%¤¤¤ %WHITE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤ [+3 WOI] (PLAGUE)
+ItemDisplay[CL5 NMAG !RW SK272>2 SOCK=0]: %RED%¤¤¤ %WHITE%%NAME% [%SOCKETS%] %RED%¤¤¤ [+3 WOI] (PLAGUE)
 
 //╔════════════════╗
 //║LIGHT TRAP CLAWS║
@@ -582,8 +597,8 @@ ItemDisplay[(EQ1 OR EQ7) ETH NMAG !RW SOCK=2]: %RED%¤¤¤ %WHITE%ETH %NAME% %YE
 //║BODY ARMOR║
 //╚══════════╝
 //
-ItemDisplay[EQ2 !ETH SUP NMAG !RW (SOCK=3 OR SOCK=4) DEF>500]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ [500+]
-ItemDisplay[EQ2 !ETH !SUP NMAG !RW (SOCK=3 OR SOCK=4) DEF>450]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ [450+]
+ItemDisplay[EQ2 !ETH SUP NMAG !RW (SOCK=3 OR SOCK=4) DEF>499]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ [500+]
+ItemDisplay[EQ2 !ETH !SUP NMAG !RW (SOCK=3 OR SOCK=4) DEF>449]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ [450+]
 ItemDisplay[EQ2 !ETH SUP NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %ORANGE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
 ItemDisplay[EQ2 ETH SUP NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %ORANGE%ETH %NAME% %RED%[%SOCKETS%] %RED%¤¤¤
 
@@ -700,10 +715,6 @@ ItemDisplay[(cm1 OR cm2 OR cm3) MAG ILVL<90]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 //╔═════════╗
 //║CATCH ALL║
 //╚═════════╝
-ItemDisplay[cx5]: %RED%¤¤¤ %PURPLE%OOC %RED%¤¤¤
-ItemDisplay[NORM (NMAG OR MAG OR RARE) !RW CLVL>60]:
-ItemDisplay[EXC (NMAG OR MAG OR RARE) !RW CLVL>80]:
-ItemDisplay[NMAG !RW SOCK=1]:
 ItemDisplay[NMAG !RW SOCK<1]: %NAME% %WHITE%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
 ItemDisplay[NMAG !RW SOCK>1]: %NAME% %DGREEN%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
 ItemDisplay[(MAG OR RARE) !ID]: %NAME% [L%ILVL%] %WHITE%%PRICE%%TAN%G
