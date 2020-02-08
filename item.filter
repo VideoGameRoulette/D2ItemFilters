@@ -776,8 +776,8 @@ ItemDisplay[(UNI OR SET) !ID]: %NAME%
 //║CATCH ALL║
 //╚═════════╝
 ItemDisplay[cx5]: %RED%¤¤¤ %PURPLE%OOC %RED%¤¤¤
-ItemDisplay[NORM (NMAG OR MAG OR RARE) !RW CLVL>60]:
-ItemDisplay[EXC (NMAG OR MAG OR RARE) !RW CLVL>80]:
+ItemDisplay[NORM (NMAG OR MAG OR RARE) !RW CLVL>60]: %NAME%
+ItemDisplay[EXC (NMAG OR MAG OR RARE) !RW CLVL>80]: %NAME%
 ItemDisplay[ELT NMAG !RW]: %NAME% [L%ILVL%] %WHITE%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
 ItemDisplay[ELT (MAG OR RARE)]: %NAME% [L%ILVL%] %WHITE%%PRICE%%TAN%G
 ItemDisplay[(aq2 OR cq2) MAG CLVL>60]:
