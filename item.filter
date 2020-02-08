@@ -551,15 +551,15 @@ ItemDisplay[CL4 NMAG !RW (SK83=3) !SOCK=1]: %RED%¤¤¤ %WHITE%%NAME% [%SOCKETS%
 //║BONESPEAR & BONE SPIRIT WANDS║
 //╚═════════════════════════════╝
 //
-ItemDisplay[WP12 NMAG !RW (SK84>0 AND SK93>0) SOCK=2]: %RED%¤¤¤ %ORANGE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
-ItemDisplay[WP12 NMAG !RW (SK84>0 AND SK93>0) !SOCK=1]: %RED%¤¤¤ %ORANGE%%NAME% [%SOCKETS%] %RED%¤¤¤
+ItemDisplay[WP12 NMAG !RW (SK84>0 AND SK93>0) SOCK=2]: %RED%¤¤¤ %WHITE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
+ItemDisplay[WP12 NMAG !RW (SK84>0 AND SK93>0) !SOCK=1]: %RED%¤¤¤ %WHITE%%NAME% [%SOCKETS%] %RED%¤¤¤
 
-//╔══════════════════════════════════════╗
-//║BONESPEAR & BONE SPIRIT SHRUNKEN HEADS║
-//╚══════════════════════════════════════╝
+//╔════════════════════════╗
+//║BONESPEAR SHRUNKEN HEADS║
+//╚════════════════════════╝
 //
-ItemDisplay[CL4 NMAG !RW (SK84>0) SOCK=2]: %RED%¤¤¤ %ORANGE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
-ItemDisplay[CL4 NMAG !RW (SK84>0) !SOCK=1]: %RED%¤¤¤ %ORANGE%%NAME% [%SOCKETS%] %RED%¤¤¤
+ItemDisplay[CL4 NMAG !RW (SK84=3) SOCK=2]: %RED%¤¤¤ %WHITE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤ %ORANGE%[3 BSPE]
+ItemDisplay[CL4 NMAG !RW (SK84=3) !SOCK=1]: %RED%¤¤¤ %WHITE%%NAME% [%SOCKETS%] %RED%¤¤¤ %ORANGE%[3 BSPE]
 
 //╔═══════════════╗
 //║BONESPEAR WANDS║
