@@ -145,12 +145,12 @@ ItemDisplay[fed]: %RED%¤¤¤ Destruction [Baal] ¤¤¤
 ItemDisplay[toa]: %RED%¤¤¤ Token of Absolution ¤¤¤
 
 //Uber Keys
-ItemDisplay[pk1]: %RED%¤¤¤ %GOLD%Terror [Countess]%RED%¤¤¤
-ItemDisplay[pk2]: %RED%¤¤¤ %GOLD%Hate [Summoner]%RED%¤¤¤
-ItemDisplay[pk3]: %RED%¤¤¤ %GOLD%Destruction [Nihlathak]%RED%¤¤¤
-ItemDisplay[dhn]: %RED%¤¤¤ %GOLD%Diablos Horn%RED%¤¤¤
-ItemDisplay[bey]: %RED%¤¤¤ %GOLD%Baals Eye%RED%¤¤¤
-ItemDisplay[mbr]: %RED%¤¤¤ %GOLD%Mephistos Brain%RED%¤¤¤
+ItemDisplay[pk1]: %RED%¤¤¤ %GOLD%Terror [Countess] %RED%¤¤¤
+ItemDisplay[pk2]: %RED%¤¤¤ %GOLD%Hate [Summoner] %RED%¤¤¤
+ItemDisplay[pk3]: %RED%¤¤¤ %GOLD%Destruction [Nihlathak] %RED%¤¤¤
+ItemDisplay[dhn]: %RED%¤¤¤ %GOLD%Diablos Horn %RED%¤¤¤
+ItemDisplay[bey]: %RED%¤¤¤ %GOLD%Baals Eye %RED%¤¤¤
+ItemDisplay[mbr]: %RED%¤¤¤ %GOLD%Mephistos Brain %RED%¤¤¤
 
 //╔═════╗
 //║RUNES║
