@@ -1,6 +1,6 @@
 ﻿//VGRoulette Item Filter
 //Filter: Advanced
-//Version: 1.2
+//Version: 1.3
 //Created by: VGRoulette
 //For questions, comments, feedback, or suggestions:
 //Contact on discord: VideoGameRoulette#7026
@@ -10,7 +10,6 @@
 //║TEMP║
 //╚════╝
 //
-//ItemDisplay[]: %NAME%
 
 //╔════╗
 //║MISC║
@@ -381,8 +380,12 @@ ItemDisplay[(rin OR amu) RARE ID ]: %NAME% %WHITE%[L%ILVL%]%YELLOW%
 //║JAVELIN & SPEAR + IAS GLOVES║
 //╚════════════════════════════╝
 //
-ItemDisplay[EQ4 RARE TABSK2>0 AND IAS>9]: %RED%¤¤¤ %YELLOW%%NAME% %RED%¤¤¤
-ItemDisplay[EQ4 MAG TABSK2>0 AND IAS>9]: %RED%¤¤¤ %BLUE%%NAME% %RED%¤¤¤
+ItemDisplay[EQ4 RARE TABSK2=3 AND IAS=20]: %PURPLE%¤¤¤ %YELLOW%3 Jav 20 IAS Gloves %PURPLE%¤¤¤
+ItemDisplay[EQ4 MAG TABSK2=3 AND IAS=20]: %PURPLE%¤¤¤ %BLUE%3 Jav 20 IAS Gloves %PURPLE%¤¤¤
+ItemDisplay[EQ4 RARE TABSK2=2 AND IAS=20]: %RED%¤¤¤ %YELLOW%2 Jav 20 IAS Gloves %RED%¤¤¤
+ItemDisplay[EQ4 MAG TABSK2=2 AND IAS=20]: %RED%¤¤¤ %BLUE%2 Jav 20 IAS Gloves %RED%¤¤¤
+ItemDisplay[EQ4 RARE TABSK2=1 AND IAS>9]: %ORANGE%¤¤¤ %YELLOW%1 Jav IAS Gloves %ORANGE%¤¤¤
+ItemDisplay[EQ4 MAG TABSK2=1 AND IAS>9]: %ORANGE%¤¤¤ %BLUE%1 Jav IAS Gloves %ORANGE%¤¤¤
 
 //╔════════╗
 //║ASSASSIN║
@@ -631,6 +634,7 @@ ItemDisplay[(EQ1 OR EQ7) ETH NMAG !RW SOCK=2]: %RED%¤¤¤ %WHITE%ETH %NAME% %YE
 //║BODY ARMOR║
 //╚══════════╝
 //
+ItemDisplay[EQ2 NORM !ETH NMAG !RW SOCK=0]:
 ItemDisplay[EQ2 !ETH SUP NMAG !RW (SOCK=3 OR SOCK=4) DEF>499]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ [500+]
 ItemDisplay[EQ2 !ETH !SUP NMAG !RW (SOCK=3 OR SOCK=4) DEF>449]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤ [450+]
 ItemDisplay[EQ2 !ETH SUP NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %ORANGE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
@@ -663,23 +667,23 @@ ItemDisplay[uit !ETH SUP NMAG !RW DEF>148 SOCK=4]: %RED%¤¤¤ %ORANGE%%NAME% %R
 ItemDisplay[uit !ETH !SUP NMAG !RW DEF=148 SOCK=0]: %RED%¤¤¤ %ORANGE%PERFECT %NAME% %DGREEN%[%SOCKETS%] %RED%¤¤¤
 ItemDisplay[uit !ETH SUP NMAG !RW DEF>148 SOCK=0]: %RED%¤¤¤ %ORANGE%%NAME% %DGREEN%[%SOCKETS%] %RED%¤¤¤
 
-ItemDisplay[EQ3 !ETH SUP NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %ORANGE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
-ItemDisplay[EQ3 ETH SUP NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %ORANGE%ETH %NAME% %RED%[%SOCKETS%] %RED%¤¤¤
+ItemDisplay[EQ3 (EXC OR ELT) !ETH SUP NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %ORANGE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
+ItemDisplay[EQ3 (EXC OR ELT) ETH SUP NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %ORANGE%ETH %NAME% %RED%[%SOCKETS%] %RED%¤¤¤
 
-ItemDisplay[EQ3 !ETH SUP NMAG !RW SOCK=2]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤
-ItemDisplay[EQ3 ETH SUP NMAG !RW SOCK=2]: %RED%¤¤¤ %ORANGE%ETH %NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤
+ItemDisplay[EQ3 (EXC OR ELT) !ETH SUP NMAG !RW SOCK=2]: %RED%¤¤¤ %ORANGE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤
+ItemDisplay[EQ3 (EXC OR ELT) ETH SUP NMAG !RW SOCK=2]: %RED%¤¤¤ %ORANGE%ETH %NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤
 
-ItemDisplay[EQ3 !ETH SUP NMAG !RW SOCK=0]: %RED%¤¤¤ %ORANGE%%NAME% %WHITE%[%SOCKETS%] %RED%¤¤¤
-ItemDisplay[EQ3 ETH SUP NMAG !RW SOCK=0]: %RED%¤¤¤ %ORANGE%ETH %NAME% %WHITE%[%SOCKETS%] %RED%¤¤¤
+ItemDisplay[EQ3 (EXC OR ELT) !ETH SUP NMAG !RW SOCK=0]: %RED%¤¤¤ %ORANGE%%NAME% %WHITE%[%SOCKETS%] %RED%¤¤¤
+ItemDisplay[EQ3 (EXC OR ELT) ETH SUP NMAG !RW SOCK=0]: %RED%¤¤¤ %ORANGE%ETH %NAME% %WHITE%[%SOCKETS%] %RED%¤¤¤
 
-ItemDisplay[EQ3 !ETH NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %WHITE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
-ItemDisplay[EQ3 ETH NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %WHITE%ETH %NAME% %RED%[%SOCKETS%] %RED%¤¤¤
+ItemDisplay[EQ3 (EXC OR ELT) !ETH NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %WHITE%%NAME% %RED%[%SOCKETS%] %RED%¤¤¤
+ItemDisplay[EQ3 (EXC OR ELT) ETH NMAG !RW (SOCK=3 OR SOCK=4)]: %RED%¤¤¤ %WHITE%ETH %NAME% %RED%[%SOCKETS%] %RED%¤¤¤
 
-ItemDisplay[EQ3 !ETH NMAG !RW SOCK=2]: %RED%¤¤¤ %WHITE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤
-ItemDisplay[EQ3 ETH NMAG !RW SOCK=2]: %RED%¤¤¤ %WHITE%ETH %NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤
+ItemDisplay[EQ3 (EXC OR ELT) !ETH NMAG !RW SOCK=2]: %RED%¤¤¤ %WHITE%%NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤
+ItemDisplay[EQ3 (EXC OR ELT) ETH NMAG !RW SOCK=2]: %RED%¤¤¤ %WHITE%ETH %NAME% %YELLOW%[%SOCKETS%] %RED%¤¤¤
 
-ItemDisplay[EQ3 !ETH NMAG !RW SOCK=0]: %RED%¤¤¤ %WHITE%%NAME% %WHITE%[%SOCKETS%] %RED%¤¤¤
-ItemDisplay[EQ3 ETH NMAG !RW SOCK=0]: %RED%¤¤¤ %WHITE%ETH %NAME% %WHITE%[%SOCKETS%] %RED%¤¤¤
+ItemDisplay[EQ3 (EXC OR ELT) !ETH NMAG !RW SOCK=0]: %RED%¤¤¤ %WHITE%%NAME% %WHITE%[%SOCKETS%] %RED%¤¤¤
+ItemDisplay[EQ3 (EXC OR ELT) ETH NMAG !RW SOCK=0]: %RED%¤¤¤ %WHITE%ETH %NAME% %WHITE%[%SOCKETS%] %RED%¤¤¤
 
 //╔═════════════╗
 //║CRYSTAL SWORD║
@@ -765,20 +769,26 @@ ItemDisplay[(cm1 OR cm2 OR cm3) MAG ILVL<90]: %BLUE%%NAME% %WHITE%[L%ILVL%]
 //╔═════════╗
 //║CATCH ALL║
 //╚═════════╝
-ItemDisplay[NMAG !ETH !RW SOCK<1]: %NAME% %WHITE%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
-ItemDisplay[NMAG !ETH !RW SOCK>1]: %NAME% %DGREEN%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
-ItemDisplay[NMAG ETH !RW SOCK<1]: ETH %NAME% %WHITE%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
-ItemDisplay[NMAG ETH !RW SOCK>1]: ETH %NAME% %DGREEN%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
-ItemDisplay[(MAG OR RARE) !ID]: %NAME% [L%ILVL%] %WHITE%%PRICE%%TAN%G
 ItemDisplay[(UNI OR SET) !ID]: %NAME%
-
-//╔═════════╗
-//║CATCH ALL║
-//╚═════════╝
 ItemDisplay[cx5]: %RED%¤¤¤ %PURPLE%OOC %RED%¤¤¤
-ItemDisplay[NORM (NMAG OR MAG OR RARE) !RW CLVL>60]: %NAME%
-ItemDisplay[EXC (NMAG OR MAG OR RARE) !RW CLVL>80]: %NAME%
+
+ItemDisplay[ELT NMAG !ETH !RW SOCK<1]: %NAME% %WHITE%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
+ItemDisplay[ELT NMAG !ETH !RW SOCK>1]: %NAME% %DGREEN%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
+ItemDisplay[ELT NMAG ETH !RW SOCK<1]: ETH %NAME% %WHITE%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
+ItemDisplay[ELT NMAG ETH !RW SOCK>1]: ETH %NAME% %DGREEN%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
+
+ItemDisplay[NORM (NMAG OR MAG OR RARE) !RW CLVL<25]: %NAME% %WHITE%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
+ItemDisplay[NORM NMAG !RW CLVL>24]:
+ItemDisplay[NORM (MAG OR RARE) !ID !RW CLVL>24]:
+ItemDisplay[NORM MAG ID CLVL>24]: %NAME% %WHITE%%PRICE%%TAN%G
+
+ItemDisplay[EXC (NMAG OR MAG OR RARE) !RW CLVL<50]: %NAME% %WHITE%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
+ItemDisplay[EXC NMAG !RW CLVL>49]:
+ItemDisplay[EXC (MAG OR RARE) !ID !RW CLVL>49]:
+ItemDisplay[EXC MAG ID CLVL>49]: %NAME% %WHITE%%PRICE%%TAN%G
+
 ItemDisplay[ELT NMAG !RW]: %NAME% [L%ILVL%] %WHITE%[%SOCKETS%] %WHITE%%PRICE%%TAN%G
 ItemDisplay[ELT (MAG OR RARE)]: %NAME% [L%ILVL%] %WHITE%%PRICE%%TAN%G
+
 ItemDisplay[(aq2 OR cq2) MAG CLVL>60]:
-ItemDisplay[NMAG !RW SOCK=1]:
+ItemDisplay[NMAG SOCK=1]:
