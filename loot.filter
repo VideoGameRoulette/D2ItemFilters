@@ -415,11 +415,19 @@ ItemDisplay[dcso]: %MAP%%NAME%{%WHITE%Used to summon the Prime Evil DClone}
 //╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                                                                               RUNEWORD                                                                                               ║
 //╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
-ItemDisplay[WP7 !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%%NAME% %ORANGE%---{%WHITE%Add %TAN%Ral %WHITE%+ %TAN%Tir %WHITE%+ %TAN%Tal %WHITE%+ %TAN%Sol %WHITE%to make %GOLD%Insight}//Spears
-ItemDisplay[WP8 !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%%NAME% %ORANGE%---{%WHITE%Add %TAN%Ral %WHITE%+ %TAN%Tir %WHITE%+ %TAN%Tal %WHITE%+ %TAN%Sol %WHITE%to make %GOLD%Insight}//Polearms
-ItemDisplay[72h ETH NMAG (SOCKS=3 OR SOCKS=0)]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%Eth %NAME% %ORANGE%---{%WHITE%Add %TAN%Amn %WHITE%+ %TAN%Lem %WHITE%+ %TAN%Ko %WHITE%to make %GOLD%Lawbringer}//Legend Sword
-ItemDisplay[7ls ETH NMAG (SOCKS=4 OR SOCKS=0)]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%Eth %NAME% %ORANGE%---{%WHITE%Add %TAN%A %WHITE%+ %TAN%B %WHITE%+ %TAN%C %WHITE%+ %TAN%D %WHITE%to make %GOLD%Runeword}//Cryptic Sword
-ItemDisplay[7fl ETH NMAG (SOCKS=4 OR SOCKS=0)]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%Eth %NAME% %ORANGE%---{%WHITE%Add %TAN%A %WHITE%+ %TAN%B %WHITE%+ %TAN%C %WHITE%+ %TAN%D %WHITE%to make %GOLD%Runeword}//Scourge
+
+ItemDisplay[WP7 NORM !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%YELLOW%--- %WHITE%%NAME% %YELLOW%---{%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
+ItemDisplay[WP8 NORM !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%YELLOW%--- %WHITE%%NAME% %YELLOW%---{%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
+
+ItemDisplay[WP7 EXC !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%%NAME% %ORANGE%---{%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
+ItemDisplay[WP8 EXC !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%%NAME% %ORANGE%---{%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
+
+ItemDisplay[WP7 ELT !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %WHITE%%NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
+ItemDisplay[WP8 ELT !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %WHITE%%NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
+
+ItemDisplay[72h ETH NMAG (SOCKS=3 OR SOCKS=0)]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%Eth %NAME% %ORANGE%---{%WHITE%Add Amn + Lem + Ko %WHITE%to make %GOLD%Lawbringer}//Legend Sword
+ItemDisplay[7ls ETH NMAG (SOCKS=4 OR SOCKS=0)]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%Eth %NAME% %ORANGE%---{%WHITE%Add %TAN%A + B + C + D %WHITE%to make %GOLD%Runeword}//Cryptic Sword
+ItemDisplay[7fl ETH NMAG (SOCKS=4 OR SOCKS=0)]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%Eth %NAME% %ORANGE%---{%WHITE%Add %TAN%A + B + C + D %WHITE%to make %GOLD%Runeword}//Scourge
 
 //╔═══════════════════════════════════════════╗
 //║                   ARMOR                   ║
@@ -1950,7 +1958,7 @@ ItemDisplay[7ar !ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%%
 ItemDisplay[wrb !ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%%NAME%%WHITE%//Wrist Blade
 ItemDisplay[9wb !ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%%NAME%%WHITE%//Wrist Spike
 ItemDisplay[7wb !ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%%NAME%%WHITE%//Wrist Sword
-ItemDisplay[axf !ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%%NAME%%WHITE%//Hatchet Hands
+ItemDisplay[axf !ETH SUP NMAG]: //Hatchet Hands
 ItemDisplay[9xf !ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%%NAME%%WHITE%//Fascia
 ItemDisplay[7xf !ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%%NAME%%WHITE%//War Fist
 ItemDisplay[ces !ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%%NAME%%WHITE%//Cestus
@@ -2590,7 +2598,7 @@ ItemDisplay[urg ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Et
 ItemDisplay[spk ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Spiked Shield 
 ItemDisplay[xpk ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Barbed Shield 
 ItemDisplay[upk ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Blade Barrier
-ItemDisplay[kit ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Kite Shield 
+ItemDisplay[kit ETH SUP NMAG]: //Kite Shield 
 ItemDisplay[xit ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Dragon Shield 
 ItemDisplay[uit ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Monarch
 ItemDisplay[bsh ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Bone Shield 
@@ -2962,7 +2970,7 @@ ItemDisplay[7ar ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Et
 ItemDisplay[wrb ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Wrist Blade
 ItemDisplay[9wb ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Wrist Spike
 ItemDisplay[7wb ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Wrist Sword
-ItemDisplay[axf ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Hatchet Hands
+ItemDisplay[axf ETH SUP NMAG]: //Hatchet Hands
 ItemDisplay[9xf ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Fascia
 ItemDisplay[7xf ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//War Fist
 ItemDisplay[ces ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Cestus
