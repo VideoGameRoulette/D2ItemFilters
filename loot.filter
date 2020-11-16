@@ -418,6 +418,9 @@ ItemDisplay[dcso]: %MAP%%NAME%{%WHITE%Used to summon the Prime Evil DClone}
 ItemDisplay[WP7 !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%%NAME% %ORANGE%---{%WHITE%Add %TAN%Ral %WHITE%+ %TAN%Tir %WHITE%+ %TAN%Tal %WHITE%+ %TAN%Sol %WHITE%to make %GOLD%Insight}//Spears
 ItemDisplay[WP8 !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%%NAME% %ORANGE%---{%WHITE%Add %TAN%Ral %WHITE%+ %TAN%Tir %WHITE%+ %TAN%Tal %WHITE%+ %TAN%Sol %WHITE%to make %GOLD%Insight}//Polearms
 ItemDisplay[72h ETH NMAG (SOCKS=3 OR SOCKS=0)]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%Eth %NAME% %ORANGE%---{%WHITE%Add %TAN%Amn %WHITE%+ %TAN%Lem %WHITE%+ %TAN%Ko %WHITE%to make %GOLD%Lawbringer}//Legend Sword
+ItemDisplay[7ls ETH NMAG (SOCKS=4 OR SOCKS=0)]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%Eth %NAME% %ORANGE%---{%WHITE%Add %TAN%A %WHITE%+ %TAN%B %WHITE%+ %TAN%C %WHITE%+ %TAN%D %WHITE%to make %GOLD%Runeword}//Cryptic Sword
+ItemDisplay[7fl ETH NMAG (SOCKS=4 OR SOCKS=0)]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%Eth %NAME% %ORANGE%---{%WHITE%Add %TAN%A %WHITE%+ %TAN%B %WHITE%+ %TAN%C %WHITE%+ %TAN%D %WHITE%to make %GOLD%Runeword}//Scourge
+
 //╔═══════════════════════════════════════════╗
 //║                   ARMOR                   ║
 //╚═══════════════════════════════════════════╝
