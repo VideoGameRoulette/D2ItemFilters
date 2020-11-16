@@ -415,7 +415,9 @@ ItemDisplay[dcso]: %MAP%%NAME%{%WHITE%Used to summon the Prime Evil DClone}
 //╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                                                                               RUNEWORD                                                                                               ║
 //╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
-
+ItemDisplay[WP7 !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%%NAME% %ORANGE%---{%WHITE%Add %TAN%Ral %WHITE%+ %TAN%Tir %WHITE%+ %TAN%Tal %WHITE%+ %TAN%Sol %WHITE%to make %GOLD%Insight}//Spears
+ItemDisplay[WP8 !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%%NAME% %ORANGE%---{%WHITE%Add %TAN%Ral %WHITE%+ %TAN%Tir %WHITE%+ %TAN%Tal %WHITE%+ %TAN%Sol %WHITE%to make %GOLD%Insight}//Polearms
+ItemDisplay[72h ETH NMAG (SOCKS=3 OR SOCKS=0)]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%Eth %NAME% %ORANGE%---{%WHITE%Add %TAN%Amn %WHITE%+ %TAN%Lem %WHITE%+ %TAN%Ko %WHITE%to make %GOLD%Lawbringer}//Legend Sword
 //╔═══════════════════════════════════════════╗
 //║                   ARMOR                   ║
 //╚═══════════════════════════════════════════╝
@@ -3296,7 +3298,7 @@ ItemDisplay[wsd ETH NMAG]: //War Sword
 ItemDisplay[9wd ETH NMAG]: //Ancient Sword 
 ItemDisplay[7wd ETH NMAG]: //Mythical Sword
 ItemDisplay[2hs ETH NMAG]: //Two-handed Sword 
-ItemDisplay[92h ETH NMAG]: //Espandon 
+ItemDisplay[92h ETH NMAG]: //Espandon
 ItemDisplay[72h ETH NMAG]: //Legend Sword
 ItemDisplay[clm ETH NMAG]: //Claymore 
 ItemDisplay[9cm ETH NMAG]: //Dacian Falx 
