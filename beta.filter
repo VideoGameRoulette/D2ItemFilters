@@ -605,6 +605,11 @@ ItemDisplay[WP11 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//STAFF
 ItemDisplay[WP12 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//WAND
 ItemDisplay[WP13 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//SCEPTER
 
+ItemDisplay[!RW !ETH SUP NMAG SOCKS=0]: %ORANGE%%NAME%//Any Non Eth + Superior
+ItemDisplay[!RW !ETH !SUP NMAG SOCKS=0]: %NAME%//Any Non Eth + Non Superior
+ItemDisplay[!RW !ETH SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%%NAME%//Any Non Eth + Superior
+ItemDisplay[!RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//Any Non Eth + Non Superior
+
 //╔═════════════════════════════════════════╗
 //║                   ETH                   ║
 //╚═════════════════════════════════════════╝
