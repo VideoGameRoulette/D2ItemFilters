@@ -3027,503 +3027,503 @@ ItemDisplay[amf ETH SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Et
 //║                   ARMOR                   ║
 //╚═══════════════════════════════════════════╝
 
-ItemDisplay[cap ETH NMAG]: //Cap 
-ItemDisplay[xap ETH NMAG]: //War Hat 
-ItemDisplay[uap ETH NMAG]: //Shako
-ItemDisplay[skp ETH NMAG]: //Skull Cap 
-ItemDisplay[xkp ETH NMAG]: //Sallet 
-ItemDisplay[ukp ETH NMAG]: //Hydraskull
-ItemDisplay[hlm ETH NMAG]: //Helm 
-ItemDisplay[xlm ETH NMAG]: //Casque ulm Armet
-ItemDisplay[fhl ETH NMAG]: //Full Helm 
-ItemDisplay[xhl ETH NMAG]: //Basinet 
-ItemDisplay[uhl ETH NMAG]: //Giant Conch
-ItemDisplay[msk ETH NMAG]: //Mask 
-ItemDisplay[xsk ETH NMAG]: //Death Mask 
-ItemDisplay[usk ETH NMAG]: //Demonhead
-ItemDisplay[bhm ETH NMAG]: //Bone Helm 
-ItemDisplay[xh9 ETH NMAG]: //Grim Helm 
-ItemDisplay[uh9 ETH NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Bone Visage
-ItemDisplay[ghm ETH NMAG]: //Great Helm 
-ItemDisplay[xhm ETH NMAG]: //Winged Helm 
-ItemDisplay[uhm ETH NMAG]: //Spired Helm
-ItemDisplay[crn ETH NMAG]: //Crown 
-ItemDisplay[xrn ETH NMAG]: //Grand Crown 
-ItemDisplay[urn ETH NMAG]: //Corona
-ItemDisplay[qui ETH NMAG]: //Quilted Armor 
-ItemDisplay[xui ETH NMAG]: //Ghost Armor 
-ItemDisplay[uui ETH NMAG]: //Dusk Shroud
-ItemDisplay[lea ETH NMAG]: //Leather Armor 
-ItemDisplay[xea ETH NMAG]: //Serpentskin 
-ItemDisplay[uea ETH NMAG]: //Wyrmhide
-ItemDisplay[hla ETH NMAG]: //Hard Leather Armor 
-ItemDisplay[xla ETH NMAG]: //Demonhide Armor 
-ItemDisplay[ula ETH NMAG]: //Scarab Husk
-ItemDisplay[stu ETH NMAG]: //Studded Leather 
-ItemDisplay[xtu ETH NMAG]: //Trellised Armor 
-ItemDisplay[utu ETH NMAG]: //Wire Fleece
-ItemDisplay[rng ETH NMAG]: //Ring Mail 
-ItemDisplay[xng ETH NMAG]: //Linked Mail 
-ItemDisplay[ung ETH NMAG]: //Diamond Mail
-ItemDisplay[scl ETH NMAG]: //Scale Mail 
-ItemDisplay[xcl ETH NMAG]: //Tigulated Mail 
-ItemDisplay[ucl ETH NMAG]: //Loricated Mail
-ItemDisplay[brs ETH NMAG]: //Breast Plate 
-ItemDisplay[xrs ETH NMAG]: //Cuirass 
-ItemDisplay[urs ETH NMAG]: //Great Hauberk
-ItemDisplay[chn ETH NMAG]: //Chain Mail 
-ItemDisplay[xhn ETH NMAG]: //Mesh Armor 
-ItemDisplay[uhn ETH NMAG]: //Boneweave
-ItemDisplay[spl ETH NMAG]: //Splint Mail 
-ItemDisplay[xpl ETH NMAG]: //Russet Armor 
-ItemDisplay[upl ETH NMAG]: //Balrog Skin
-ItemDisplay[ltp ETH NMAG]: //Light Plate 
-ItemDisplay[xtp ETH NMAG]: //Mage Plate 
-ItemDisplay[utp ETH NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Archon Plate
-ItemDisplay[fld ETH NMAG]: //Field Plate 
-ItemDisplay[xld ETH NMAG]: //Sharktooth 
-ItemDisplay[uld ETH NMAG]: //Kraken Shell
-ItemDisplay[plt ETH NMAG]: //Plate Mail 
-ItemDisplay[xlt ETH NMAG]: //Templar Coat 
-ItemDisplay[ult ETH NMAG]: //Hellforge Plate
-ItemDisplay[gth ETH NMAG]: //Gothic Plate 
-ItemDisplay[xth ETH NMAG]: //Embossed Plate 
-ItemDisplay[uth ETH NMAG]: //Lacquered Plate
-ItemDisplay[ful ETH NMAG]: //Full Plate 
-ItemDisplay[xul ETH NMAG]: //Chaos Armor 
-ItemDisplay[uul ETH NMAG]: //Shadow Plate
-ItemDisplay[aar ETH NMAG]: //Ancient Armor 
-ItemDisplay[xar ETH NMAG]: //Ornate Plate 
-ItemDisplay[uar ETH NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Sacred Armor
-ItemDisplay[buc ETH NMAG]: //Buckler 
-ItemDisplay[xuc ETH NMAG]: //Defender 
-ItemDisplay[uuc ETH NMAG]: //Heater
-ItemDisplay[sml ETH NMAG]: //Small Shield 
-ItemDisplay[xml ETH NMAG]: //Round Shield 
-ItemDisplay[uml ETH NMAG]: //Luna
-ItemDisplay[lrg ETH NMAG]: //Large Shield 
-ItemDisplay[xrg ETH NMAG]: //Scutum 
-ItemDisplay[urg ETH NMAG]: //Hyperion
-ItemDisplay[spk ETH NMAG]: //Spiked Shield 
-ItemDisplay[xpk ETH NMAG]: //Barbed Shield 
-ItemDisplay[upk ETH NMAG]: //Blade Barrier
-ItemDisplay[kit ETH NMAG]: //Kite Shield 
-ItemDisplay[xit ETH NMAG]: //Dragon Shield 
-ItemDisplay[uit ETH NMAG]: //Monarch
-ItemDisplay[bsh ETH NMAG]: //Bone Shield 
-ItemDisplay[xsh ETH NMAG]: //Grim Shield 
-ItemDisplay[ush ETH NMAG]: //Troll Nest
-ItemDisplay[tow ETH NMAG]: //Tower Shield 
-ItemDisplay[xow ETH NMAG]: //Pavise 
-ItemDisplay[uow ETH NMAG]: //Aegis
-ItemDisplay[gts ETH NMAG]: //Gothic Shield 
-ItemDisplay[xts ETH NMAG]: //Ancient Shield 
-ItemDisplay[uts ETH NMAG]: //Ward
-ItemDisplay[lgl ETH NMAG]: //Leather Gloves 
-ItemDisplay[xlg ETH NMAG]: //Demonhide Gloves 
-ItemDisplay[ulg ETH NMAG]: //Bramble Mitts
-ItemDisplay[vgl ETH NMAG]: //Heavy Gloves 
-ItemDisplay[xvg ETH NMAG]: //Sharkskin Gloves 
-ItemDisplay[uvg ETH NMAG]: //Vampirebone Gloves
-ItemDisplay[mgl ETH NMAG]: //Chain Gloves 
-ItemDisplay[xmg ETH NMAG]: //Heavy Bracers 
-ItemDisplay[umg ETH NMAG]: //Vambraces
-ItemDisplay[tgl ETH NMAG]: //Light Gauntlets 
-ItemDisplay[xtg ETH NMAG]: //Battle Gauntlets 
-ItemDisplay[utg ETH NMAG]: //Crusader Gauntlets
-ItemDisplay[hgl ETH NMAG]: //Gauntlets 
-ItemDisplay[xhg ETH NMAG]: //War Gauntlets 
-ItemDisplay[uhg ETH NMAG]: //Ogre Gauntlets
-ItemDisplay[lbt ETH NMAG]: //Boots 
-ItemDisplay[xlb ETH NMAG]: //Demonhide Boots 
-ItemDisplay[ulb ETH NMAG]: //Wyrmhide Boots
-ItemDisplay[vbt ETH NMAG]: //Heavy Boots 
-ItemDisplay[xvb ETH NMAG]: //Sharkskin Boots 
-ItemDisplay[uvb ETH NMAG]: //Scarabshell Boots
-ItemDisplay[mbt ETH NMAG]: //Chain Boots 
-ItemDisplay[xmb ETH NMAG]: //Mesh Boots 
-ItemDisplay[umb ETH NMAG]: //Boneweave Boots
-ItemDisplay[tbt ETH NMAG]: //Light Plated Boots 
-ItemDisplay[xtb ETH NMAG]: //Battle Boots 
-ItemDisplay[utb ETH NMAG]: //Mirrored Boots
-ItemDisplay[hbt ETH NMAG]: //Greaves 
-ItemDisplay[xhb ETH NMAG]: //War Boots 
-ItemDisplay[uhb ETH NMAG]: //Myrmidon Greaves
-ItemDisplay[lbl ETH NMAG]: //Sash 
-ItemDisplay[zlb ETH NMAG]: //Demonhide Sash 
-ItemDisplay[ulc ETH NMAG]: //Spiderweb Sash
-ItemDisplay[vbl ETH NMAG]: //Light Belt 
-ItemDisplay[zvb ETH NMAG]: //Sharkskin Belt 
-ItemDisplay[uvc ETH NMAG]: //Vampirefang Belt
-ItemDisplay[mbl ETH NMAG]: //Belt 
-ItemDisplay[zmb ETH NMAG]: //Mesh Belt 
-ItemDisplay[umc ETH NMAG]: //Mithril Coil
-ItemDisplay[tbl ETH NMAG]: //Heavy Belt 
-ItemDisplay[ztb ETH NMAG]: //Battle Belt 
-ItemDisplay[utc ETH NMAG]: //Troll Belt
-ItemDisplay[hbl ETH NMAG]: //Plated Belt 
-ItemDisplay[zhb ETH NMAG]: //War Belt 
-ItemDisplay[uhc ETH NMAG]: //Colossus Girdle
-ItemDisplay[ci0 ETH NMAG]: //Circlet 
-ItemDisplay[ci2 ETH NMAG]: //Tiara 
-ItemDisplay[ci3 ETH NMAG]: //Diadem
-ItemDisplay[ci1 ETH NMAG]: //Coronet
-ItemDisplay[dr1 ETH NMAG]: //Wolf Head 
-ItemDisplay[dr6 ETH NMAG]: //Alpha Helm 
-ItemDisplay[drb ETH NMAG]: //Blood Spirit
-ItemDisplay[dr2 ETH NMAG]: //Hawk Helm 
-ItemDisplay[dr7 ETH NMAG]: //Griffon Headress 
-ItemDisplay[drc ETH NMAG]: //Sun Spirit
-ItemDisplay[dr3 ETH NMAG]: //Antlers 
-ItemDisplay[dr8 ETH NMAG]: //Hunter's Guise 
-ItemDisplay[drd ETH NMAG]: //Earth Spirit
-ItemDisplay[dr4 ETH NMAG]: //Falcon Mask 
-ItemDisplay[dr9 ETH NMAG]: //Sacred Feathers 
-ItemDisplay[dre ETH NMAG]: //Sky Spirit
-ItemDisplay[dr5 ETH NMAG]: //Spirit Mask 
-ItemDisplay[dra ETH NMAG]: //Totemic Mask 
-ItemDisplay[drf ETH NMAG]: //Dream Spirit
-ItemDisplay[ba1 ETH NMAG]: //Jawbone Cap 
-ItemDisplay[ba6 ETH NMAG]: //Jawbone Visor 
-ItemDisplay[bab ETH NMAG]: //Carnage Helm
-ItemDisplay[ba2 ETH NMAG]: //Fanged Helm 
-ItemDisplay[ba7 ETH NMAG]: //Lion Helm 
-ItemDisplay[bac ETH NMAG]: //Fury Visor
-ItemDisplay[ba3 ETH NMAG]: //Horned Helm 
-ItemDisplay[ba8 ETH NMAG]: //Rage Mask 
-ItemDisplay[bad ETH NMAG]: //Destroyer Helm
-ItemDisplay[ba4 ETH NMAG]: //Assault Helmet 
-ItemDisplay[ba9 ETH NMAG]: //Savage Helmet 
-ItemDisplay[bae ETH NMAG]: //Conqueror Crown
-ItemDisplay[ba5 ETH NMAG]: //Avenger Guard 
-ItemDisplay[baa ETH NMAG]: //Slayer Guard 
-ItemDisplay[baf ETH NMAG]: //Guardian Crown
-ItemDisplay[pa1 ETH NMAG]: //Targe 
-ItemDisplay[pa6 ETH NMAG]: //Akaran Targe 
-ItemDisplay[pab ETH NMAG]: //Sacred Targe
-ItemDisplay[pa2 ETH NMAG]: //Rondache 
-ItemDisplay[pa7 ETH NMAG]: //Akaran Rondache 
-ItemDisplay[pac ETH NMAG]: //Sacred Rondache
-ItemDisplay[pa3 ETH NMAG]: //Heraldic Shield 
-ItemDisplay[pa8 ETH NMAG]: //Protector Shield 
-ItemDisplay[pad ETH NMAG]: //Kurast Shield
-ItemDisplay[pa4 ETH NMAG]: //Aerin Shield 
-ItemDisplay[pa9 ETH NMAG]: //Gilded Shield 
-ItemDisplay[pae ETH NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Zakarum Shield
-ItemDisplay[pa5 ETH NMAG]: //Crown Shield 
-ItemDisplay[paa ETH NMAG]: //Royal Shield 
-ItemDisplay[paf ETH NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Vortex Shield
-ItemDisplay[ne1 ETH NMAG]: //Preserved Head 
-ItemDisplay[ne6 ETH NMAG]: //Mummified Trophy 
-ItemDisplay[neb ETH NMAG]: //Minion Skull
-ItemDisplay[ne2 ETH NMAG]: //Zombie Head 
-ItemDisplay[ne7 ETH NMAG]: //Fetish Trophy 
-ItemDisplay[neg ETH NMAG]: //Hellspawn Skull
-ItemDisplay[ne3 ETH NMAG]: //Unraveller Head 
-ItemDisplay[ne8 ETH NMAG]: //Sexton Trophy 
-ItemDisplay[ned ETH NMAG]: //Overseer Skull
-ItemDisplay[ne4 ETH NMAG]: //Gargoyle Head 
-ItemDisplay[ne9 ETH NMAG]: //Cantor Trophy 
-ItemDisplay[nee ETH NMAG]: //Succubae Skull
-ItemDisplay[ne5 ETH NMAG]: //Demon Head 
-ItemDisplay[nea ETH NMAG]: //Heirophant Trophy 
-ItemDisplay[nef ETH NMAG]: //Bloodlord Skull
+ItemDisplay[cap ETH !SUP NMAG]: //Cap 
+ItemDisplay[xap ETH !SUP NMAG]: //War Hat 
+ItemDisplay[uap ETH !SUP NMAG]: //Shako
+ItemDisplay[skp ETH !SUP NMAG]: //Skull Cap 
+ItemDisplay[xkp ETH !SUP NMAG]: //Sallet 
+ItemDisplay[ukp ETH !SUP NMAG]: //Hydraskull
+ItemDisplay[hlm ETH !SUP NMAG]: //Helm 
+ItemDisplay[xlm ETH !SUP NMAG]: //Casque ulm Armet
+ItemDisplay[fhl ETH !SUP NMAG]: //Full Helm 
+ItemDisplay[xhl ETH !SUP NMAG]: //Basinet 
+ItemDisplay[uhl ETH !SUP NMAG]: //Giant Conch
+ItemDisplay[msk ETH !SUP NMAG]: //Mask 
+ItemDisplay[xsk ETH !SUP NMAG]: //Death Mask 
+ItemDisplay[usk ETH !SUP NMAG]: //Demonhead
+ItemDisplay[bhm ETH !SUP NMAG]: //Bone Helm 
+ItemDisplay[xh9 ETH !SUP NMAG]: //Grim Helm 
+ItemDisplay[uh9 ETH !SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Bone Visage
+ItemDisplay[ghm ETH !SUP NMAG]: //Great Helm 
+ItemDisplay[xhm ETH !SUP NMAG]: //Winged Helm 
+ItemDisplay[uhm ETH !SUP NMAG]: //Spired Helm
+ItemDisplay[crn ETH !SUP NMAG]: //Crown 
+ItemDisplay[xrn ETH !SUP NMAG]: //Grand Crown 
+ItemDisplay[urn ETH !SUP NMAG]: //Corona
+ItemDisplay[qui ETH !SUP NMAG]: //Quilted Armor 
+ItemDisplay[xui ETH !SUP NMAG]: //Ghost Armor 
+ItemDisplay[uui ETH !SUP NMAG]: //Dusk Shroud
+ItemDisplay[lea ETH !SUP NMAG]: //Leather Armor 
+ItemDisplay[xea ETH !SUP NMAG]: //Serpentskin 
+ItemDisplay[uea ETH !SUP NMAG]: //Wyrmhide
+ItemDisplay[hla ETH !SUP NMAG]: //Hard Leather Armor 
+ItemDisplay[xla ETH !SUP NMAG]: //Demonhide Armor 
+ItemDisplay[ula ETH !SUP NMAG]: //Scarab Husk
+ItemDisplay[stu ETH !SUP NMAG]: //Studded Leather 
+ItemDisplay[xtu ETH !SUP NMAG]: //Trellised Armor 
+ItemDisplay[utu ETH !SUP NMAG]: //Wire Fleece
+ItemDisplay[rng ETH !SUP NMAG]: //Ring Mail 
+ItemDisplay[xng ETH !SUP NMAG]: //Linked Mail 
+ItemDisplay[ung ETH !SUP NMAG]: //Diamond Mail
+ItemDisplay[scl ETH !SUP NMAG]: //Scale Mail 
+ItemDisplay[xcl ETH !SUP NMAG]: //Tigulated Mail 
+ItemDisplay[ucl ETH !SUP NMAG]: //Loricated Mail
+ItemDisplay[brs ETH !SUP NMAG]: //Breast Plate 
+ItemDisplay[xrs ETH !SUP NMAG]: //Cuirass 
+ItemDisplay[urs ETH !SUP NMAG]: //Great Hauberk
+ItemDisplay[chn ETH !SUP NMAG]: //Chain Mail 
+ItemDisplay[xhn ETH !SUP NMAG]: //Mesh Armor 
+ItemDisplay[uhn ETH !SUP NMAG]: //Boneweave
+ItemDisplay[spl ETH !SUP NMAG]: //Splint Mail 
+ItemDisplay[xpl ETH !SUP NMAG]: //Russet Armor 
+ItemDisplay[upl ETH !SUP NMAG]: //Balrog Skin
+ItemDisplay[ltp ETH !SUP NMAG]: //Light Plate 
+ItemDisplay[xtp ETH !SUP NMAG]: //Mage Plate 
+ItemDisplay[utp ETH !SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Archon Plate
+ItemDisplay[fld ETH !SUP NMAG]: //Field Plate 
+ItemDisplay[xld ETH !SUP NMAG]: //Sharktooth 
+ItemDisplay[uld ETH !SUP NMAG]: //Kraken Shell
+ItemDisplay[plt ETH !SUP NMAG]: //Plate Mail 
+ItemDisplay[xlt ETH !SUP NMAG]: //Templar Coat 
+ItemDisplay[ult ETH !SUP NMAG]: //Hellforge Plate
+ItemDisplay[gth ETH !SUP NMAG]: //Gothic Plate 
+ItemDisplay[xth ETH !SUP NMAG]: //Embossed Plate 
+ItemDisplay[uth ETH !SUP NMAG]: //Lacquered Plate
+ItemDisplay[ful ETH !SUP NMAG]: //Full Plate 
+ItemDisplay[xul ETH !SUP NMAG]: //Chaos Armor 
+ItemDisplay[uul ETH !SUP NMAG]: //Shadow Plate
+ItemDisplay[aar ETH !SUP NMAG]: //Ancient Armor 
+ItemDisplay[xar ETH !SUP NMAG]: //Ornate Plate 
+ItemDisplay[uar ETH !SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Sacred Armor
+ItemDisplay[buc ETH !SUP NMAG]: //Buckler 
+ItemDisplay[xuc ETH !SUP NMAG]: //Defender 
+ItemDisplay[uuc ETH !SUP NMAG]: //Heater
+ItemDisplay[sml ETH !SUP NMAG]: //Small Shield 
+ItemDisplay[xml ETH !SUP NMAG]: //Round Shield 
+ItemDisplay[uml ETH !SUP NMAG]: //Luna
+ItemDisplay[lrg ETH !SUP NMAG]: //Large Shield 
+ItemDisplay[xrg ETH !SUP NMAG]: //Scutum 
+ItemDisplay[urg ETH !SUP NMAG]: //Hyperion
+ItemDisplay[spk ETH !SUP NMAG]: //Spiked Shield 
+ItemDisplay[xpk ETH !SUP NMAG]: //Barbed Shield 
+ItemDisplay[upk ETH !SUP NMAG]: //Blade Barrier
+ItemDisplay[kit ETH !SUP NMAG]: //Kite Shield 
+ItemDisplay[xit ETH !SUP NMAG]: //Dragon Shield 
+ItemDisplay[uit ETH !SUP NMAG]: //Monarch
+ItemDisplay[bsh ETH !SUP NMAG]: //Bone Shield 
+ItemDisplay[xsh ETH !SUP NMAG]: //Grim Shield 
+ItemDisplay[ush ETH !SUP NMAG]: //Troll Nest
+ItemDisplay[tow ETH !SUP NMAG]: //Tower Shield 
+ItemDisplay[xow ETH !SUP NMAG]: //Pavise 
+ItemDisplay[uow ETH !SUP NMAG]: //Aegis
+ItemDisplay[gts ETH !SUP NMAG]: //Gothic Shield 
+ItemDisplay[xts ETH !SUP NMAG]: //Ancient Shield 
+ItemDisplay[uts ETH !SUP NMAG]: //Ward
+ItemDisplay[lgl ETH !SUP NMAG]: //Leather Gloves 
+ItemDisplay[xlg ETH !SUP NMAG]: //Demonhide Gloves 
+ItemDisplay[ulg ETH !SUP NMAG]: //Bramble Mitts
+ItemDisplay[vgl ETH !SUP NMAG]: //Heavy Gloves 
+ItemDisplay[xvg ETH !SUP NMAG]: //Sharkskin Gloves 
+ItemDisplay[uvg ETH !SUP NMAG]: //Vampirebone Gloves
+ItemDisplay[mgl ETH !SUP NMAG]: //Chain Gloves 
+ItemDisplay[xmg ETH !SUP NMAG]: //Heavy Bracers 
+ItemDisplay[umg ETH !SUP NMAG]: //Vambraces
+ItemDisplay[tgl ETH !SUP NMAG]: //Light Gauntlets 
+ItemDisplay[xtg ETH !SUP NMAG]: //Battle Gauntlets 
+ItemDisplay[utg ETH !SUP NMAG]: //Crusader Gauntlets
+ItemDisplay[hgl ETH !SUP NMAG]: //Gauntlets 
+ItemDisplay[xhg ETH !SUP NMAG]: //War Gauntlets 
+ItemDisplay[uhg ETH !SUP NMAG]: //Ogre Gauntlets
+ItemDisplay[lbt ETH !SUP NMAG]: //Boots 
+ItemDisplay[xlb ETH !SUP NMAG]: //Demonhide Boots 
+ItemDisplay[ulb ETH !SUP NMAG]: //Wyrmhide Boots
+ItemDisplay[vbt ETH !SUP NMAG]: //Heavy Boots 
+ItemDisplay[xvb ETH !SUP NMAG]: //Sharkskin Boots 
+ItemDisplay[uvb ETH !SUP NMAG]: //Scarabshell Boots
+ItemDisplay[mbt ETH !SUP NMAG]: //Chain Boots 
+ItemDisplay[xmb ETH !SUP NMAG]: //Mesh Boots 
+ItemDisplay[umb ETH !SUP NMAG]: //Boneweave Boots
+ItemDisplay[tbt ETH !SUP NMAG]: //Light Plated Boots 
+ItemDisplay[xtb ETH !SUP NMAG]: //Battle Boots 
+ItemDisplay[utb ETH !SUP NMAG]: //Mirrored Boots
+ItemDisplay[hbt ETH !SUP NMAG]: //Greaves 
+ItemDisplay[xhb ETH !SUP NMAG]: //War Boots 
+ItemDisplay[uhb ETH !SUP NMAG]: //Myrmidon Greaves
+ItemDisplay[lbl ETH !SUP NMAG]: //Sash 
+ItemDisplay[zlb ETH !SUP NMAG]: //Demonhide Sash 
+ItemDisplay[ulc ETH !SUP NMAG]: //Spiderweb Sash
+ItemDisplay[vbl ETH !SUP NMAG]: //Light Belt 
+ItemDisplay[zvb ETH !SUP NMAG]: //Sharkskin Belt 
+ItemDisplay[uvc ETH !SUP NMAG]: //Vampirefang Belt
+ItemDisplay[mbl ETH !SUP NMAG]: //Belt 
+ItemDisplay[zmb ETH !SUP NMAG]: //Mesh Belt 
+ItemDisplay[umc ETH !SUP NMAG]: //Mithril Coil
+ItemDisplay[tbl ETH !SUP NMAG]: //Heavy Belt 
+ItemDisplay[ztb ETH !SUP NMAG]: //Battle Belt 
+ItemDisplay[utc ETH !SUP NMAG]: //Troll Belt
+ItemDisplay[hbl ETH !SUP NMAG]: //Plated Belt 
+ItemDisplay[zhb ETH !SUP NMAG]: //War Belt 
+ItemDisplay[uhc ETH !SUP NMAG]: //Colossus Girdle
+ItemDisplay[ci0 ETH !SUP NMAG]: //Circlet 
+ItemDisplay[ci2 ETH !SUP NMAG]: //Tiara 
+ItemDisplay[ci3 ETH !SUP NMAG]: //Diadem
+ItemDisplay[ci1 ETH !SUP NMAG]: //Coronet
+ItemDisplay[dr1 ETH !SUP NMAG]: //Wolf Head 
+ItemDisplay[dr6 ETH !SUP NMAG]: //Alpha Helm 
+ItemDisplay[drb ETH !SUP NMAG]: //Blood Spirit
+ItemDisplay[dr2 ETH !SUP NMAG]: //Hawk Helm 
+ItemDisplay[dr7 ETH !SUP NMAG]: //Griffon Headress 
+ItemDisplay[drc ETH !SUP NMAG]: //Sun Spirit
+ItemDisplay[dr3 ETH !SUP NMAG]: //Antlers 
+ItemDisplay[dr8 ETH !SUP NMAG]: //Hunter's Guise 
+ItemDisplay[drd ETH !SUP NMAG]: //Earth Spirit
+ItemDisplay[dr4 ETH !SUP NMAG]: //Falcon Mask 
+ItemDisplay[dr9 ETH !SUP NMAG]: //Sacred Feathers 
+ItemDisplay[dre ETH !SUP NMAG]: //Sky Spirit
+ItemDisplay[dr5 ETH !SUP NMAG]: //Spirit Mask 
+ItemDisplay[dra ETH !SUP NMAG]: //Totemic Mask 
+ItemDisplay[drf ETH !SUP NMAG]: //Dream Spirit
+ItemDisplay[ba1 ETH !SUP NMAG]: //Jawbone Cap 
+ItemDisplay[ba6 ETH !SUP NMAG]: //Jawbone Visor 
+ItemDisplay[bab ETH !SUP NMAG]: //Carnage Helm
+ItemDisplay[ba2 ETH !SUP NMAG]: //Fanged Helm 
+ItemDisplay[ba7 ETH !SUP NMAG]: //Lion Helm 
+ItemDisplay[bac ETH !SUP NMAG]: //Fury Visor
+ItemDisplay[ba3 ETH !SUP NMAG]: //Horned Helm 
+ItemDisplay[ba8 ETH !SUP NMAG]: //Rage Mask 
+ItemDisplay[bad ETH !SUP NMAG]: //Destroyer Helm
+ItemDisplay[ba4 ETH !SUP NMAG]: //Assault Helmet 
+ItemDisplay[ba9 ETH !SUP NMAG]: //Savage Helmet 
+ItemDisplay[bae ETH !SUP NMAG]: //Conqueror Crown
+ItemDisplay[ba5 ETH !SUP NMAG]: //Avenger Guard 
+ItemDisplay[baa ETH !SUP NMAG]: //Slayer Guard 
+ItemDisplay[baf ETH !SUP NMAG]: //Guardian Crown
+ItemDisplay[pa1 ETH !SUP NMAG]: //Targe 
+ItemDisplay[pa6 ETH !SUP NMAG]: //Akaran Targe 
+ItemDisplay[pab ETH !SUP NMAG]: //Sacred Targe
+ItemDisplay[pa2 ETH !SUP NMAG]: //Rondache 
+ItemDisplay[pa7 ETH !SUP NMAG]: //Akaran Rondache 
+ItemDisplay[pac ETH !SUP NMAG]: //Sacred Rondache
+ItemDisplay[pa3 ETH !SUP NMAG]: //Heraldic Shield 
+ItemDisplay[pa8 ETH !SUP NMAG]: //Protector Shield 
+ItemDisplay[pad ETH !SUP NMAG]: //Kurast Shield
+ItemDisplay[pa4 ETH !SUP NMAG]: //Aerin Shield 
+ItemDisplay[pa9 ETH !SUP NMAG]: //Gilded Shield 
+ItemDisplay[pae ETH !SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Zakarum Shield
+ItemDisplay[pa5 ETH !SUP NMAG]: //Crown Shield 
+ItemDisplay[paa ETH !SUP NMAG]: //Royal Shield 
+ItemDisplay[paf ETH !SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Vortex Shield
+ItemDisplay[ne1 ETH !SUP NMAG]: //Preserved Head 
+ItemDisplay[ne6 ETH !SUP NMAG]: //Mummified Trophy 
+ItemDisplay[neb ETH !SUP NMAG]: //Minion Skull
+ItemDisplay[ne2 ETH !SUP NMAG]: //Zombie Head 
+ItemDisplay[ne7 ETH !SUP NMAG]: //Fetish Trophy 
+ItemDisplay[neg ETH !SUP NMAG]: //Hellspawn Skull
+ItemDisplay[ne3 ETH !SUP NMAG]: //Unraveller Head 
+ItemDisplay[ne8 ETH !SUP NMAG]: //Sexton Trophy 
+ItemDisplay[ned ETH !SUP NMAG]: //Overseer Skull
+ItemDisplay[ne4 ETH !SUP NMAG]: //Gargoyle Head 
+ItemDisplay[ne9 ETH !SUP NMAG]: //Cantor Trophy 
+ItemDisplay[nee ETH !SUP NMAG]: //Succubae Skull
+ItemDisplay[ne5 ETH !SUP NMAG]: //Demon Head 
+ItemDisplay[nea ETH !SUP NMAG]: //Heirophant Trophy 
+ItemDisplay[nef ETH !SUP NMAG]: //Bloodlord Skull
 
 //╔═════════════════════════════════════════════╗
 //║                   WEAPONS                   ║
 //╚═════════════════════════════════════════════╝
 
-ItemDisplay[hax ETH NMAG]: //Hand Axe 
-ItemDisplay[9ha ETH NMAG]: //Hatchet 
-ItemDisplay[7ha ETH NMAG]: //Tomahawk
-ItemDisplay[axe ETH NMAG]: //Axe 
-ItemDisplay[9ax ETH NMAG]: //Cleaver 
-ItemDisplay[7ax ETH NMAG]: //Small Crescent
-ItemDisplay[2ax ETH NMAG]: //Double Axe 
-ItemDisplay[92a ETH NMAG]: //Twin Axe 
-ItemDisplay[72a ETH NMAG]: //Ettin Axe
-ItemDisplay[mpi ETH NMAG]: //Military Pick 
-ItemDisplay[9mp ETH NMAG]: //Crowbill 
-ItemDisplay[7mp ETH NMAG]: //War Spike
-ItemDisplay[wax ETH NMAG]: //War Axe 
-ItemDisplay[9wa ETH NMAG]: //Naga 
-ItemDisplay[7wa ETH NMAG]: //Berserker Axe
-ItemDisplay[lax ETH NMAG]: //Large Axe 
-ItemDisplay[9la ETH NMAG]: //Military Axe 
-ItemDisplay[7la ETH NMAG]: //Feral Axe
-ItemDisplay[bax ETH NMAG]: //Broad Axe 
-ItemDisplay[9ba ETH NMAG]: //Bearded Axe 
-ItemDisplay[7ba ETH NMAG]: //Silver Edged Axe
-ItemDisplay[btx ETH NMAG]: //Battle Axe 
-ItemDisplay[9bt ETH NMAG]: //Tabar 
-ItemDisplay[7bt ETH NMAG]: //Decapitator
-ItemDisplay[gax ETH NMAG]: //Great Axe 
-ItemDisplay[9ga ETH NMAG]: //Gothic Axe 
-ItemDisplay[7ga ETH NMAG]: //Champion Axe
-ItemDisplay[gix ETH NMAG]: //Giant Axe 
-ItemDisplay[9gi ETH NMAG]: //Ancient Axe 
-ItemDisplay[7gi ETH NMAG]: //Glorious Axe
-ItemDisplay[clb ETH NMAG]: //Club 
-ItemDisplay[9cl ETH NMAG]: //Cudgel 
-ItemDisplay[7cl ETH NMAG]: //Truncheon
-ItemDisplay[spc ETH NMAG]: //Spiked Club 
-ItemDisplay[9sp ETH NMAG]: //Barbed Club 
-ItemDisplay[7sp ETH NMAG]: //Tyrant Club
-ItemDisplay[mac ETH NMAG]: //Mace 
-ItemDisplay[9ma ETH NMAG]: //Flanged Mace 
-ItemDisplay[7ma ETH NMAG]: //Reinforced Mace
-ItemDisplay[mst ETH NMAG]: //Morning Star 
-ItemDisplay[9mt ETH NMAG]: //Jagged Star 
-ItemDisplay[7mt ETH NMAG]: //Devil Star
-ItemDisplay[fla ETH NMAG]: //Flail 
-ItemDisplay[9fl ETH NMAG]: //Knout 
-ItemDisplay[7fl ETH NMAG]: //Scourge
-ItemDisplay[whm ETH NMAG]: //War Hammer 
-ItemDisplay[9wh ETH NMAG]: //Battle Hammer 
-ItemDisplay[7wh ETH NMAG]: //Legendary Mallet
-ItemDisplay[mau ETH NMAG]: //Maul 
-ItemDisplay[9m9 ETH NMAG]: //War Club 
-ItemDisplay[7m7 ETH NMAG]: //Ogre Maul
-ItemDisplay[gma ETH NMAG]: //Great Maul 
-ItemDisplay[9gm ETH NMAG]: //Martel de Fer 
-ItemDisplay[7gm ETH NMAG]: //Thunder Maul
-ItemDisplay[ssd ETH NMAG]: //Short Sword 
-ItemDisplay[9ss ETH NMAG]: //Gladius 
-ItemDisplay[7ss ETH NMAG]: //Falcata
-ItemDisplay[scm ETH NMAG]: //Scimitar 
-ItemDisplay[9sm ETH NMAG]: //Cutlass 
-ItemDisplay[7sm ETH NMAG]: //Ataghan
-ItemDisplay[sbr ETH NMAG]: //Saber 
-ItemDisplay[9sb ETH NMAG]: //Shamshir 
-ItemDisplay[7sb ETH NMAG]: //Elegant Blade
-ItemDisplay[flc ETH NMAG]: //Falchion 
-ItemDisplay[9fc ETH NMAG]: //Tulwar 
-ItemDisplay[7fc ETH NMAG]: //Hydra Edge
-ItemDisplay[crs ETH NMAG]: //Crystal Sword 
-ItemDisplay[9cr ETH NMAG]: //Dimensional Blade 
-ItemDisplay[7cr ETH NMAG]: //Phase Blade
-ItemDisplay[bsd ETH NMAG]: //Broad Sword 
-ItemDisplay[9bs ETH NMAG]: //Battle Sword 
-ItemDisplay[7bs ETH NMAG]: //Conquest Sword
-ItemDisplay[lsd ETH NMAG]: //Long Sword 
-ItemDisplay[9ls ETH NMAG]: //Rune Sword 
-ItemDisplay[7ls ETH NMAG]: //Cryptic Sword
-ItemDisplay[wsd ETH NMAG]: //War Sword 
-ItemDisplay[9wd ETH NMAG]: //Ancient Sword 
-ItemDisplay[7wd ETH NMAG]: //Mythical Sword
-ItemDisplay[2hs ETH NMAG]: //Two-handed Sword 
-ItemDisplay[92h ETH NMAG]: //Espandon
-ItemDisplay[72h ETH NMAG]: //Legend Sword
-ItemDisplay[clm ETH NMAG]: //Claymore 
-ItemDisplay[9cm ETH NMAG]: //Dacian Falx 
-ItemDisplay[7cm ETH NMAG]: //Highland Blade
-ItemDisplay[gis ETH NMAG]: //Giant Sword 
-ItemDisplay[9gs ETH NMAG]: //Tusk Sword 
-ItemDisplay[7gs ETH NMAG]: //Balrog Blade
-ItemDisplay[bsw ETH NMAG]: //Bastard Sword 
-ItemDisplay[9b9 ETH NMAG]: //Gothic Sword 
-ItemDisplay[7b7 ETH NMAG]: //Champion Sword
-ItemDisplay[flb ETH NMAG]: //Flamberge 
-ItemDisplay[9fb ETH NMAG]: //Zweihander 
-ItemDisplay[7fb ETH NMAG]: //Colossus Sword
-ItemDisplay[gsd ETH NMAG]: //Great Sword 
-ItemDisplay[9gd ETH NMAG]: //Executioner Sword 
-ItemDisplay[7gd ETH NMAG]: //Colossus Blade
-ItemDisplay[dgr ETH NMAG]: //Dagger 
-ItemDisplay[9dg ETH NMAG]: //Poignard 
-ItemDisplay[7dg ETH NMAG]: //Bone Knife
-ItemDisplay[dir ETH NMAG]: //Dirk 
-ItemDisplay[9di ETH NMAG]: //Rondel 
-ItemDisplay[7di ETH NMAG]: //Mithril Point
-ItemDisplay[kri ETH NMAG]: //Kriss 
-ItemDisplay[9kr ETH NMAG]: //Cinquedeas 
-ItemDisplay[7kr ETH NMAG]: //Fanged Knife
-ItemDisplay[bld ETH NMAG]: //Blade 
-ItemDisplay[9bl ETH NMAG]: //Stilleto 
-ItemDisplay[7bl ETH NMAG]: //Legend Spike
-ItemDisplay[tkf ETH NMAG]: //Throwing Knife
-ItemDisplay[9tk ETH NMAG]: //Battle Dart
-ItemDisplay[7tk ETH NMAG]: //Flying Knife
-ItemDisplay[tax ETH NMAG]: //Throwing Axe
-ItemDisplay[9ta ETH NMAG]: //Francisca
-ItemDisplay[7ta ETH NMAG]: //Flying Axe
-ItemDisplay[bkf ETH NMAG]: //Balanced Knife
-ItemDisplay[9bk ETH NMAG]: //War Dart
-ItemDisplay[7bk ETH NMAG]: //Winged Knife
-ItemDisplay[bal ETH NMAG]: //Balanced Axe
-ItemDisplay[9b8 ETH NMAG]: //Hurlbat
-ItemDisplay[7b8 ETH NMAG]: //Winged Axe
-ItemDisplay[jav ETH NMAG]: //Javelin
-ItemDisplay[9ja ETH NMAG]: //War Javelin
-ItemDisplay[7ja ETH NMAG]: //Hyperion Javelin
-ItemDisplay[pil ETH NMAG]: //Pilum
-ItemDisplay[9pi ETH NMAG]: //Great Pilum
-ItemDisplay[7pi ETH NMAG]: //Stygian Pilum
-ItemDisplay[ssp ETH NMAG]: //Short Spear
-ItemDisplay[9s9 ETH NMAG]: //Simbilan
-ItemDisplay[7s7 ETH NMAG]: //Balrog Spear
-ItemDisplay[glv ETH NMAG]: //Glaive
-ItemDisplay[9gl ETH NMAG]: //Spiculum
-ItemDisplay[7gl ETH NMAG]: //Ghost Glaive
-ItemDisplay[tsp ETH NMAG]: //Throwing Spear
-ItemDisplay[9ts ETH NMAG]: //Harpoon
-ItemDisplay[7ts ETH NMAG]: //Winged Harpoon
-ItemDisplay[spr ETH NMAG]: //Spear
-ItemDisplay[9sr ETH NMAG]: //War Spear
-ItemDisplay[7sr ETH NMAG]: //Hyperion Spear
-ItemDisplay[tri ETH NMAG]: //Trident
-ItemDisplay[9tr ETH NMAG]: //Fuscina
-ItemDisplay[7tr ETH NMAG]: //Stygian Pike
-ItemDisplay[brn ETH NMAG]: //Brandistock
-ItemDisplay[9br ETH NMAG]: //War Fork
-ItemDisplay[7br ETH NMAG]: //Mancatcher
-ItemDisplay[spt ETH NMAG]: //Spetum
-ItemDisplay[9st ETH NMAG]: //Yari
-ItemDisplay[7st ETH NMAG]: //Ghost Spear
-ItemDisplay[pik ETH NMAG]: //Pike
-ItemDisplay[9p9 ETH NMAG]: //Lance
-ItemDisplay[7p7 ETH NMAG]: //War Pike
-ItemDisplay[bar ETH NMAG]: //Bardiche
-ItemDisplay[9b7 ETH NMAG]: //Lochaber Axe
-ItemDisplay[7o7 ETH NMAG]: //Ogre Axe
-ItemDisplay[vou ETH NMAG]: //Voulge
-ItemDisplay[9vo ETH NMAG]: //Bill
-ItemDisplay[7vo ETH NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Colossus Voulge
-ItemDisplay[scy ETH NMAG]: //Scythe
-ItemDisplay[9s8 ETH NMAG]: //Battle Scythe
-ItemDisplay[7s8 ETH NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Thresher
-ItemDisplay[pax ETH NMAG]: //Poleaxe
-ItemDisplay[9pa ETH NMAG]: //Partizan
-ItemDisplay[7pa ETH NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Cryptic Axe
-ItemDisplay[hal ETH NMAG]: //Halberd
-ItemDisplay[9h9 ETH NMAG]: //Bec-de-Corbin
-ItemDisplay[7h7 ETH NMAG]: //Great Poleaxe
-ItemDisplay[wsc ETH NMAG]: //War Scythe
-ItemDisplay[9wc ETH NMAG]: //Grim Scythe
-ItemDisplay[7wc ETH NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Giant Thresher
-ItemDisplay[sbw ETH NMAG]: //Short Bow
-ItemDisplay[8sb ETH NMAG]: //Edge Bow
-ItemDisplay[6sb ETH NMAG]: //Spider Bow
-ItemDisplay[hbw ETH NMAG]: //Hunter’s Bow
-ItemDisplay[8hb ETH NMAG]: //Razor Bow
-ItemDisplay[6hb ETH NMAG]: //Blade Bow
-ItemDisplay[lbw ETH NMAG]: //Long Bow
-ItemDisplay[8lb ETH NMAG]: //Cedar Bow
-ItemDisplay[6lb ETH NMAG]: //Shadow Bow
-ItemDisplay[cbw ETH NMAG]: //Composite Bow
-ItemDisplay[8cb ETH NMAG]: //Double Bow
-ItemDisplay[6cb ETH NMAG]: //Great Bow
-ItemDisplay[sbb ETH NMAG]: //Short Battle Bow
-ItemDisplay[8s8 ETH NMAG]: //Short Siege Bow
-ItemDisplay[6s7 ETH NMAG]: //Diamond Bow
-ItemDisplay[lbb ETH NMAG]: //Long Battle Bow
-ItemDisplay[8l8 ETH NMAG]: //Long Siege Bow
-ItemDisplay[6l7 ETH NMAG]: //Crusader Bow
-ItemDisplay[swb ETH NMAG]: //Short War Bow
-ItemDisplay[8sw ETH NMAG]: //Rune Bow
-ItemDisplay[6sw ETH NMAG]: //Ward Bow
-ItemDisplay[lwb ETH NMAG]: //Long War Bow
-ItemDisplay[8lw ETH NMAG]: //Gothic Bow
-ItemDisplay[6lw ETH NMAG]: //Hydra Bow
-ItemDisplay[lxb ETH NMAG]: //Light Crossbow
-ItemDisplay[8lx ETH NMAG]: //Arbalest
-ItemDisplay[6lx ETH NMAG]: //Pellet Bow
-ItemDisplay[mxb ETH NMAG]: //Crossbow
-ItemDisplay[8mx ETH NMAG]: //Siege Crossbow
-ItemDisplay[6mx ETH NMAG]: //Gorgon Crossbow
-ItemDisplay[hxb ETH NMAG]: //Heavy Crossbow
-ItemDisplay[8hx ETH NMAG]: //Ballista
-ItemDisplay[6hx ETH NMAG]: //Colossus Crossbow
-ItemDisplay[rxb ETH NMAG]: //Repeating Crossbow
-ItemDisplay[8rx ETH NMAG]: //Chu-Ko-Nu
-ItemDisplay[6rx ETH NMAG]: //Demon Crossbow
-ItemDisplay[sst ETH NMAG]: //Short Staff
-ItemDisplay[8ss ETH NMAG]: //Jo Staff
-ItemDisplay[6ss ETH NMAG]: //Walking Stick
-ItemDisplay[lst ETH NMAG]: //Long Staff
-ItemDisplay[8ls ETH NMAG]: //Quarterstaff
-ItemDisplay[6ls ETH NMAG]: //Stalagmite
-ItemDisplay[cst ETH NMAG]: //Gnarled Staff
-ItemDisplay[8cs ETH NMAG]: //Cedar Staff
-ItemDisplay[6cs ETH NMAG]: //Elder Staff
-ItemDisplay[bst ETH NMAG]: //Battle Staff
-ItemDisplay[8bs ETH NMAG]: //Gothic Staff
-ItemDisplay[6bs ETH NMAG]: //Shillelagh
-ItemDisplay[wst ETH NMAG]: //War Staff
-ItemDisplay[8ws ETH NMAG]: //Rune Staff
-ItemDisplay[6ws ETH NMAG]: //Archon Staff
-ItemDisplay[wnd ETH NMAG]: //Wand
-ItemDisplay[9wn ETH NMAG]: //Burnt Wand
-ItemDisplay[7wn ETH NMAG]: //Polished Wand
-ItemDisplay[ywn ETH NMAG]: //Yew Wand
-ItemDisplay[9yw ETH NMAG]: //Petrified Wand
-ItemDisplay[7yw ETH NMAG]: //Ghost Wand
-ItemDisplay[bwn ETH NMAG]: //Bone Wand
-ItemDisplay[9bw ETH NMAG]: //Tomb Wand
-ItemDisplay[7bw ETH NMAG]: //Lich Wand
-ItemDisplay[gwn ETH NMAG]: //Grim Wand
-ItemDisplay[9gw ETH NMAG]: //Grave Wand
-ItemDisplay[7gw ETH NMAG]: //Unearthed Wand
-ItemDisplay[scp ETH NMAG]: //Scepter
-ItemDisplay[9sc ETH NMAG]: //Rune Scepter
-ItemDisplay[7sc ETH NMAG]: //Mighty Scepter
-ItemDisplay[gsc ETH NMAG]: //Grand Scepter
-ItemDisplay[9qs ETH NMAG]: //Holy Water Sprinkler
-ItemDisplay[7qs ETH NMAG]: //Seraph Rod
-ItemDisplay[wsp ETH NMAG]: //War Scepter
-ItemDisplay[9ws ETH NMAG]: //Divine Scepter
-ItemDisplay[7ws ETH NMAG]: //Caduceus
-ItemDisplay[ktr ETH NMAG]: //Katar
-ItemDisplay[9ar ETH NMAG]: //Quhab
-ItemDisplay[7ar ETH NMAG]: //Suwayyah
-ItemDisplay[wrb ETH NMAG]: //Wrist Blade
-ItemDisplay[9wb ETH NMAG]: //Wrist Spike
-ItemDisplay[7wb ETH NMAG]: //Wrist Sword
-ItemDisplay[axf ETH NMAG]: //Hatchet Hands
-ItemDisplay[9xf ETH NMAG]: //Fascia
-ItemDisplay[7xf ETH NMAG]: //War Fist
-ItemDisplay[ces ETH NMAG]: //Cestus
-ItemDisplay[9cs ETH NMAG]: //Hand Scythe
-ItemDisplay[7cs ETH NMAG]: //Battle Cestus
-ItemDisplay[clw ETH NMAG]: //Claws
-ItemDisplay[9lw ETH NMAG]: //Greater Claws
-ItemDisplay[7lw ETH NMAG]: //Feral Claws
-ItemDisplay[btl ETH NMAG]: //Blade Talons
-ItemDisplay[9tw ETH NMAG]: //Greater Talons
-ItemDisplay[7tw ETH NMAG]: //Runic Talons
-ItemDisplay[skr ETH NMAG]: //Scissors Katar
-ItemDisplay[9qr ETH NMAG]: //Scissors Quhab
-ItemDisplay[7qr ETH NMAG]: //Scissors Suwayyah
-ItemDisplay[ob1 ETH NMAG]: //Eagle Orb
-ItemDisplay[ob6 ETH NMAG]: //Glowing Orb
-ItemDisplay[obb ETH NMAG]: //Heavenly Stone
-ItemDisplay[ob2 ETH NMAG]: //Sacred Globe
-ItemDisplay[ob7 ETH NMAG]: //Crystalline Globe
-ItemDisplay[obc ETH NMAG]: //Eldritch Orb
-ItemDisplay[ob3 ETH NMAG]: //Smoked Sphere
-ItemDisplay[ob8 ETH NMAG]: //Cloudy Sphere
-ItemDisplay[obd ETH NMAG]: //Demon Heart
-ItemDisplay[ob4 ETH NMAG]: //Clasped Orb
-ItemDisplay[ob9 ETH NMAG]: //Sparkling Ball
-ItemDisplay[obe ETH NMAG]: //Vortex Orb
-ItemDisplay[ob5 ETH NMAG]: //Jared's Stone
-ItemDisplay[oba ETH NMAG]: //Swirling Crystal
-ItemDisplay[obf ETH NMAG]: //Dimensional Shard
-ItemDisplay[am1 ETH NMAG]: //Stag Bow
-ItemDisplay[am6 ETH NMAG]: //Ashwood Bow
-ItemDisplay[amb ETH NMAG]: //Matriarchal Bow
-ItemDisplay[am2 ETH NMAG]: //Reflex Bow
-ItemDisplay[am7 ETH NMAG]: //Ceremonial Bow
-ItemDisplay[amc ETH NMAG]: //Grand Matron Bow
-ItemDisplay[am3 ETH NMAG]: //Maiden Spear
-ItemDisplay[am8 ETH NMAG]: //Ceremonial Spear
-ItemDisplay[amd ETH NMAG]: //Matriarchal Spear
-ItemDisplay[am4 ETH NMAG]: //Maiden Pike
-ItemDisplay[am9 ETH NMAG]: //Ceremonial Pike
-ItemDisplay[ame ETH NMAG]: //Matriarchal Pike
-ItemDisplay[am5 ETH NMAG]: //Maiden Javelin
-ItemDisplay[ama ETH NMAG]: //Ceremonial Javelin
-ItemDisplay[amf ETH NMAG]: //Matriarchal Javelin
+ItemDisplay[hax ETH !SUP NMAG]: //Hand Axe 
+ItemDisplay[9ha ETH !SUP NMAG]: //Hatchet 
+ItemDisplay[7ha ETH !SUP NMAG]: //Tomahawk
+ItemDisplay[axe ETH !SUP NMAG]: //Axe 
+ItemDisplay[9ax ETH !SUP NMAG]: //Cleaver 
+ItemDisplay[7ax ETH !SUP NMAG]: //Small Crescent
+ItemDisplay[2ax ETH !SUP NMAG]: //Double Axe 
+ItemDisplay[92a ETH !SUP NMAG]: //Twin Axe 
+ItemDisplay[72a ETH !SUP NMAG]: //Ettin Axe
+ItemDisplay[mpi ETH !SUP NMAG]: //Military Pick 
+ItemDisplay[9mp ETH !SUP NMAG]: //Crowbill 
+ItemDisplay[7mp ETH !SUP NMAG]: //War Spike
+ItemDisplay[wax ETH !SUP NMAG]: //War Axe 
+ItemDisplay[9wa ETH !SUP NMAG]: //Naga 
+ItemDisplay[7wa ETH !SUP NMAG]: //Berserker Axe
+ItemDisplay[lax ETH !SUP NMAG]: //Large Axe 
+ItemDisplay[9la ETH !SUP NMAG]: //Military Axe 
+ItemDisplay[7la ETH !SUP NMAG]: //Feral Axe
+ItemDisplay[bax ETH !SUP NMAG]: //Broad Axe 
+ItemDisplay[9ba ETH !SUP NMAG]: //Bearded Axe 
+ItemDisplay[7ba ETH !SUP NMAG]: //Silver Edged Axe
+ItemDisplay[btx ETH !SUP NMAG]: //Battle Axe 
+ItemDisplay[9bt ETH !SUP NMAG]: //Tabar 
+ItemDisplay[7bt ETH !SUP NMAG]: //Decapitator
+ItemDisplay[gax ETH !SUP NMAG]: //Great Axe 
+ItemDisplay[9ga ETH !SUP NMAG]: //Gothic Axe 
+ItemDisplay[7ga ETH !SUP NMAG]: //Champion Axe
+ItemDisplay[gix ETH !SUP NMAG]: //Giant Axe 
+ItemDisplay[9gi ETH !SUP NMAG]: //Ancient Axe 
+ItemDisplay[7gi ETH !SUP NMAG]: //Glorious Axe
+ItemDisplay[clb ETH !SUP NMAG]: //Club 
+ItemDisplay[9cl ETH !SUP NMAG]: //Cudgel 
+ItemDisplay[7cl ETH !SUP NMAG]: //Truncheon
+ItemDisplay[spc ETH !SUP NMAG]: //Spiked Club 
+ItemDisplay[9sp ETH !SUP NMAG]: //Barbed Club 
+ItemDisplay[7sp ETH !SUP NMAG]: //Tyrant Club
+ItemDisplay[mac ETH !SUP NMAG]: //Mace 
+ItemDisplay[9ma ETH !SUP NMAG]: //Flanged Mace 
+ItemDisplay[7ma ETH !SUP NMAG]: //Reinforced Mace
+ItemDisplay[mst ETH !SUP NMAG]: //Morning Star 
+ItemDisplay[9mt ETH !SUP NMAG]: //Jagged Star 
+ItemDisplay[7mt ETH !SUP NMAG]: //Devil Star
+ItemDisplay[fla ETH !SUP NMAG]: //Flail 
+ItemDisplay[9fl ETH !SUP NMAG]: //Knout 
+ItemDisplay[7fl ETH !SUP NMAG]: //Scourge
+ItemDisplay[whm ETH !SUP NMAG]: //War Hammer 
+ItemDisplay[9wh ETH !SUP NMAG]: //Battle Hammer 
+ItemDisplay[7wh ETH !SUP NMAG]: //Legendary Mallet
+ItemDisplay[mau ETH !SUP NMAG]: //Maul 
+ItemDisplay[9m9 ETH !SUP NMAG]: //War Club 
+ItemDisplay[7m7 ETH !SUP NMAG]: //Ogre Maul
+ItemDisplay[gma ETH !SUP NMAG]: //Great Maul 
+ItemDisplay[9gm ETH !SUP NMAG]: //Martel de Fer 
+ItemDisplay[7gm ETH !SUP NMAG]: //Thunder Maul
+ItemDisplay[ssd ETH !SUP NMAG]: //Short Sword 
+ItemDisplay[9ss ETH !SUP NMAG]: //Gladius 
+ItemDisplay[7ss ETH !SUP NMAG]: //Falcata
+ItemDisplay[scm ETH !SUP NMAG]: //Scimitar 
+ItemDisplay[9sm ETH !SUP NMAG]: //Cutlass 
+ItemDisplay[7sm ETH !SUP NMAG]: //Ataghan
+ItemDisplay[sbr ETH !SUP NMAG]: //Saber 
+ItemDisplay[9sb ETH !SUP NMAG]: //Shamshir 
+ItemDisplay[7sb ETH !SUP NMAG]: //Elegant Blade
+ItemDisplay[flc ETH !SUP NMAG]: //Falchion 
+ItemDisplay[9fc ETH !SUP NMAG]: //Tulwar 
+ItemDisplay[7fc ETH !SUP NMAG]: //Hydra Edge
+ItemDisplay[crs ETH !SUP NMAG]: //Crystal Sword 
+ItemDisplay[9cr ETH !SUP NMAG]: //Dimensional Blade 
+ItemDisplay[7cr ETH !SUP NMAG]: //Phase Blade
+ItemDisplay[bsd ETH !SUP NMAG]: //Broad Sword 
+ItemDisplay[9bs ETH !SUP NMAG]: //Battle Sword 
+ItemDisplay[7bs ETH !SUP NMAG]: //Conquest Sword
+ItemDisplay[lsd ETH !SUP NMAG]: //Long Sword 
+ItemDisplay[9ls ETH !SUP NMAG]: //Rune Sword 
+ItemDisplay[7ls ETH !SUP NMAG]: //Cryptic Sword
+ItemDisplay[wsd ETH !SUP NMAG]: //War Sword 
+ItemDisplay[9wd ETH !SUP NMAG]: //Ancient Sword 
+ItemDisplay[7wd ETH !SUP NMAG]: //Mythical Sword
+ItemDisplay[2hs ETH !SUP NMAG]: //Two-handed Sword 
+ItemDisplay[92h ETH !SUP NMAG]: //Espandon
+ItemDisplay[72h ETH !SUP NMAG]: //Legend Sword
+ItemDisplay[clm ETH !SUP NMAG]: //Claymore 
+ItemDisplay[9cm ETH !SUP NMAG]: //Dacian Falx 
+ItemDisplay[7cm ETH !SUP NMAG]: //Highland Blade
+ItemDisplay[gis ETH !SUP NMAG]: //Giant Sword 
+ItemDisplay[9gs ETH !SUP NMAG]: //Tusk Sword 
+ItemDisplay[7gs ETH !SUP NMAG]: //Balrog Blade
+ItemDisplay[bsw ETH !SUP NMAG]: //Bastard Sword 
+ItemDisplay[9b9 ETH !SUP NMAG]: //Gothic Sword 
+ItemDisplay[7b7 ETH !SUP NMAG]: //Champion Sword
+ItemDisplay[flb ETH !SUP NMAG]: //Flamberge 
+ItemDisplay[9fb ETH !SUP NMAG]: //Zweihander 
+ItemDisplay[7fb ETH !SUP NMAG]: //Colossus Sword
+ItemDisplay[gsd ETH !SUP NMAG]: //Great Sword 
+ItemDisplay[9gd ETH !SUP NMAG]: //Executioner Sword 
+ItemDisplay[7gd ETH !SUP NMAG]: //Colossus Blade
+ItemDisplay[dgr ETH !SUP NMAG]: //Dagger 
+ItemDisplay[9dg ETH !SUP NMAG]: //Poignard 
+ItemDisplay[7dg ETH !SUP NMAG]: //Bone Knife
+ItemDisplay[dir ETH !SUP NMAG]: //Dirk 
+ItemDisplay[9di ETH !SUP NMAG]: //Rondel 
+ItemDisplay[7di ETH !SUP NMAG]: //Mithril Point
+ItemDisplay[kri ETH !SUP NMAG]: //Kriss 
+ItemDisplay[9kr ETH !SUP NMAG]: //Cinquedeas 
+ItemDisplay[7kr ETH !SUP NMAG]: //Fanged Knife
+ItemDisplay[bld ETH !SUP NMAG]: //Blade 
+ItemDisplay[9bl ETH !SUP NMAG]: //Stilleto 
+ItemDisplay[7bl ETH !SUP NMAG]: //Legend Spike
+ItemDisplay[tkf ETH !SUP NMAG]: //Throwing Knife
+ItemDisplay[9tk ETH !SUP NMAG]: //Battle Dart
+ItemDisplay[7tk ETH !SUP NMAG]: //Flying Knife
+ItemDisplay[tax ETH !SUP NMAG]: //Throwing Axe
+ItemDisplay[9ta ETH !SUP NMAG]: //Francisca
+ItemDisplay[7ta ETH !SUP NMAG]: //Flying Axe
+ItemDisplay[bkf ETH !SUP NMAG]: //Balanced Knife
+ItemDisplay[9bk ETH !SUP NMAG]: //War Dart
+ItemDisplay[7bk ETH !SUP NMAG]: //Winged Knife
+ItemDisplay[bal ETH !SUP NMAG]: //Balanced Axe
+ItemDisplay[9b8 ETH !SUP NMAG]: //Hurlbat
+ItemDisplay[7b8 ETH !SUP NMAG]: //Winged Axe
+ItemDisplay[jav ETH !SUP NMAG]: //Javelin
+ItemDisplay[9ja ETH !SUP NMAG]: //War Javelin
+ItemDisplay[7ja ETH !SUP NMAG]: //Hyperion Javelin
+ItemDisplay[pil ETH !SUP NMAG]: //Pilum
+ItemDisplay[9pi ETH !SUP NMAG]: //Great Pilum
+ItemDisplay[7pi ETH !SUP NMAG]: //Stygian Pilum
+ItemDisplay[ssp ETH !SUP NMAG]: //Short Spear
+ItemDisplay[9s9 ETH !SUP NMAG]: //Simbilan
+ItemDisplay[7s7 ETH !SUP NMAG]: //Balrog Spear
+ItemDisplay[glv ETH !SUP NMAG]: //Glaive
+ItemDisplay[9gl ETH !SUP NMAG]: //Spiculum
+ItemDisplay[7gl ETH !SUP NMAG]: //Ghost Glaive
+ItemDisplay[tsp ETH !SUP NMAG]: //Throwing Spear
+ItemDisplay[9ts ETH !SUP NMAG]: //Harpoon
+ItemDisplay[7ts ETH !SUP NMAG]: //Winged Harpoon
+ItemDisplay[spr ETH !SUP NMAG]: //Spear
+ItemDisplay[9sr ETH !SUP NMAG]: //War Spear
+ItemDisplay[7sr ETH !SUP NMAG]: //Hyperion Spear
+ItemDisplay[tri ETH !SUP NMAG]: //Trident
+ItemDisplay[9tr ETH !SUP NMAG]: //Fuscina
+ItemDisplay[7tr ETH !SUP NMAG]: //Stygian Pike
+ItemDisplay[brn ETH !SUP NMAG]: //Brandistock
+ItemDisplay[9br ETH !SUP NMAG]: //War Fork
+ItemDisplay[7br ETH !SUP NMAG]: //Mancatcher
+ItemDisplay[spt ETH !SUP NMAG]: //Spetum
+ItemDisplay[9st ETH !SUP NMAG]: //Yari
+ItemDisplay[7st ETH !SUP NMAG]: //Ghost Spear
+ItemDisplay[pik ETH !SUP NMAG]: //Pike
+ItemDisplay[9p9 ETH !SUP NMAG]: //Lance
+ItemDisplay[7p7 ETH !SUP NMAG]: //War Pike
+ItemDisplay[bar ETH !SUP NMAG]: //Bardiche
+ItemDisplay[9b7 ETH !SUP NMAG]: //Lochaber Axe
+ItemDisplay[7o7 ETH !SUP NMAG]: //Ogre Axe
+ItemDisplay[vou ETH !SUP NMAG]: //Voulge
+ItemDisplay[9vo ETH !SUP NMAG]: //Bill
+ItemDisplay[7vo ETH !SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Colossus Voulge
+ItemDisplay[scy ETH !SUP NMAG]: //Scythe
+ItemDisplay[9s8 ETH !SUP NMAG]: //Battle Scythe
+ItemDisplay[7s8 ETH !SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Thresher
+ItemDisplay[pax ETH !SUP NMAG]: //Poleaxe
+ItemDisplay[9pa ETH !SUP NMAG]: //Partizan
+ItemDisplay[7pa ETH !SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Cryptic Axe
+ItemDisplay[hal ETH !SUP NMAG]: //Halberd
+ItemDisplay[9h9 ETH !SUP NMAG]: //Bec-de-Corbin
+ItemDisplay[7h7 ETH !SUP NMAG]: //Great Poleaxe
+ItemDisplay[wsc ETH !SUP NMAG]: //War Scythe
+ItemDisplay[9wc ETH !SUP NMAG]: //Grim Scythe
+ItemDisplay[7wc ETH !SUP NMAG]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%Eth %NAME%%WHITE%//Giant Thresher
+ItemDisplay[sbw ETH !SUP NMAG]: //Short Bow
+ItemDisplay[8sb ETH !SUP NMAG]: //Edge Bow
+ItemDisplay[6sb ETH !SUP NMAG]: //Spider Bow
+ItemDisplay[hbw ETH !SUP NMAG]: //Hunter’s Bow
+ItemDisplay[8hb ETH !SUP NMAG]: //Razor Bow
+ItemDisplay[6hb ETH !SUP NMAG]: //Blade Bow
+ItemDisplay[lbw ETH !SUP NMAG]: //Long Bow
+ItemDisplay[8lb ETH !SUP NMAG]: //Cedar Bow
+ItemDisplay[6lb ETH !SUP NMAG]: //Shadow Bow
+ItemDisplay[cbw ETH !SUP NMAG]: //Composite Bow
+ItemDisplay[8cb ETH !SUP NMAG]: //Double Bow
+ItemDisplay[6cb ETH !SUP NMAG]: //Great Bow
+ItemDisplay[sbb ETH !SUP NMAG]: //Short Battle Bow
+ItemDisplay[8s8 ETH !SUP NMAG]: //Short Siege Bow
+ItemDisplay[6s7 ETH !SUP NMAG]: //Diamond Bow
+ItemDisplay[lbb ETH !SUP NMAG]: //Long Battle Bow
+ItemDisplay[8l8 ETH !SUP NMAG]: //Long Siege Bow
+ItemDisplay[6l7 ETH !SUP NMAG]: //Crusader Bow
+ItemDisplay[swb ETH !SUP NMAG]: //Short War Bow
+ItemDisplay[8sw ETH !SUP NMAG]: //Rune Bow
+ItemDisplay[6sw ETH !SUP NMAG]: //Ward Bow
+ItemDisplay[lwb ETH !SUP NMAG]: //Long War Bow
+ItemDisplay[8lw ETH !SUP NMAG]: //Gothic Bow
+ItemDisplay[6lw ETH !SUP NMAG]: //Hydra Bow
+ItemDisplay[lxb ETH !SUP NMAG]: //Light Crossbow
+ItemDisplay[8lx ETH !SUP NMAG]: //Arbalest
+ItemDisplay[6lx ETH !SUP NMAG]: //Pellet Bow
+ItemDisplay[mxb ETH !SUP NMAG]: //Crossbow
+ItemDisplay[8mx ETH !SUP NMAG]: //Siege Crossbow
+ItemDisplay[6mx ETH !SUP NMAG]: //Gorgon Crossbow
+ItemDisplay[hxb ETH !SUP NMAG]: //Heavy Crossbow
+ItemDisplay[8hx ETH !SUP NMAG]: //Ballista
+ItemDisplay[6hx ETH !SUP NMAG]: //Colossus Crossbow
+ItemDisplay[rxb ETH !SUP NMAG]: //Repeating Crossbow
+ItemDisplay[8rx ETH !SUP NMAG]: //Chu-Ko-Nu
+ItemDisplay[6rx ETH !SUP NMAG]: //Demon Crossbow
+ItemDisplay[sst ETH !SUP NMAG]: //Short Staff
+ItemDisplay[8ss ETH !SUP NMAG]: //Jo Staff
+ItemDisplay[6ss ETH !SUP NMAG]: //Walking Stick
+ItemDisplay[lst ETH !SUP NMAG]: //Long Staff
+ItemDisplay[8ls ETH !SUP NMAG]: //Quarterstaff
+ItemDisplay[6ls ETH !SUP NMAG]: //Stalagmite
+ItemDisplay[cst ETH !SUP NMAG]: //Gnarled Staff
+ItemDisplay[8cs ETH !SUP NMAG]: //Cedar Staff
+ItemDisplay[6cs ETH !SUP NMAG]: //Elder Staff
+ItemDisplay[bst ETH !SUP NMAG]: //Battle Staff
+ItemDisplay[8bs ETH !SUP NMAG]: //Gothic Staff
+ItemDisplay[6bs ETH !SUP NMAG]: //Shillelagh
+ItemDisplay[wst ETH !SUP NMAG]: //War Staff
+ItemDisplay[8ws ETH !SUP NMAG]: //Rune Staff
+ItemDisplay[6ws ETH !SUP NMAG]: //Archon Staff
+ItemDisplay[wnd ETH !SUP NMAG]: //Wand
+ItemDisplay[9wn ETH !SUP NMAG]: //Burnt Wand
+ItemDisplay[7wn ETH !SUP NMAG]: //Polished Wand
+ItemDisplay[ywn ETH !SUP NMAG]: //Yew Wand
+ItemDisplay[9yw ETH !SUP NMAG]: //Petrified Wand
+ItemDisplay[7yw ETH !SUP NMAG]: //Ghost Wand
+ItemDisplay[bwn ETH !SUP NMAG]: //Bone Wand
+ItemDisplay[9bw ETH !SUP NMAG]: //Tomb Wand
+ItemDisplay[7bw ETH !SUP NMAG]: //Lich Wand
+ItemDisplay[gwn ETH !SUP NMAG]: //Grim Wand
+ItemDisplay[9gw ETH !SUP NMAG]: //Grave Wand
+ItemDisplay[7gw ETH !SUP NMAG]: //Unearthed Wand
+ItemDisplay[scp ETH !SUP NMAG]: //Scepter
+ItemDisplay[9sc ETH !SUP NMAG]: //Rune Scepter
+ItemDisplay[7sc ETH !SUP NMAG]: //Mighty Scepter
+ItemDisplay[gsc ETH !SUP NMAG]: //Grand Scepter
+ItemDisplay[9qs ETH !SUP NMAG]: //Holy Water Sprinkler
+ItemDisplay[7qs ETH !SUP NMAG]: //Seraph Rod
+ItemDisplay[wsp ETH !SUP NMAG]: //War Scepter
+ItemDisplay[9ws ETH !SUP NMAG]: //Divine Scepter
+ItemDisplay[7ws ETH !SUP NMAG]: //Caduceus
+ItemDisplay[ktr ETH !SUP NMAG]: //Katar
+ItemDisplay[9ar ETH !SUP NMAG]: //Quhab
+ItemDisplay[7ar ETH !SUP NMAG]: //Suwayyah
+ItemDisplay[wrb ETH !SUP NMAG]: //Wrist Blade
+ItemDisplay[9wb ETH !SUP NMAG]: //Wrist Spike
+ItemDisplay[7wb ETH !SUP NMAG]: //Wrist Sword
+ItemDisplay[axf ETH !SUP NMAG]: //Hatchet Hands
+ItemDisplay[9xf ETH !SUP NMAG]: //Fascia
+ItemDisplay[7xf ETH !SUP NMAG]: //War Fist
+ItemDisplay[ces ETH !SUP NMAG]: //Cestus
+ItemDisplay[9cs ETH !SUP NMAG]: //Hand Scythe
+ItemDisplay[7cs ETH !SUP NMAG]: //Battle Cestus
+ItemDisplay[clw ETH !SUP NMAG]: //Claws
+ItemDisplay[9lw ETH !SUP NMAG]: //Greater Claws
+ItemDisplay[7lw ETH !SUP NMAG]: //Feral Claws
+ItemDisplay[btl ETH !SUP NMAG]: //Blade Talons
+ItemDisplay[9tw ETH !SUP NMAG]: //Greater Talons
+ItemDisplay[7tw ETH !SUP NMAG]: //Runic Talons
+ItemDisplay[skr ETH !SUP NMAG]: //Scissors Katar
+ItemDisplay[9qr ETH !SUP NMAG]: //Scissors Quhab
+ItemDisplay[7qr ETH !SUP NMAG]: //Scissors Suwayyah
+ItemDisplay[ob1 ETH !SUP NMAG]: //Eagle Orb
+ItemDisplay[ob6 ETH !SUP NMAG]: //Glowing Orb
+ItemDisplay[obb ETH !SUP NMAG]: //Heavenly Stone
+ItemDisplay[ob2 ETH !SUP NMAG]: //Sacred Globe
+ItemDisplay[ob7 ETH !SUP NMAG]: //Crystalline Globe
+ItemDisplay[obc ETH !SUP NMAG]: //Eldritch Orb
+ItemDisplay[ob3 ETH !SUP NMAG]: //Smoked Sphere
+ItemDisplay[ob8 ETH !SUP NMAG]: //Cloudy Sphere
+ItemDisplay[obd ETH !SUP NMAG]: //Demon Heart
+ItemDisplay[ob4 ETH !SUP NMAG]: //Clasped Orb
+ItemDisplay[ob9 ETH !SUP NMAG]: //Sparkling Ball
+ItemDisplay[obe ETH !SUP NMAG]: //Vortex Orb
+ItemDisplay[ob5 ETH !SUP NMAG]: //Jared's Stone
+ItemDisplay[oba ETH !SUP NMAG]: //Swirling Crystal
+ItemDisplay[obf ETH !SUP NMAG]: //Dimensional Shard
+ItemDisplay[am1 ETH !SUP NMAG]: //Stag Bow
+ItemDisplay[am6 ETH !SUP NMAG]: //Ashwood Bow
+ItemDisplay[amb ETH !SUP NMAG]: //Matriarchal Bow
+ItemDisplay[am2 ETH !SUP NMAG]: //Reflex Bow
+ItemDisplay[am7 ETH !SUP NMAG]: //Ceremonial Bow
+ItemDisplay[amc ETH !SUP NMAG]: //Grand Matron Bow
+ItemDisplay[am3 ETH !SUP NMAG]: //Maiden Spear
+ItemDisplay[am8 ETH !SUP NMAG]: //Ceremonial Spear
+ItemDisplay[amd ETH !SUP NMAG]: //Matriarchal Spear
+ItemDisplay[am4 ETH !SUP NMAG]: //Maiden Pike
+ItemDisplay[am9 ETH !SUP NMAG]: //Ceremonial Pike
+ItemDisplay[ame ETH !SUP NMAG]: //Matriarchal Pike
+ItemDisplay[am5 ETH !SUP NMAG]: //Maiden Javelin
+ItemDisplay[ama ETH !SUP NMAG]: //Ceremonial Javelin
+ItemDisplay[amf ETH !SUP NMAG]: //Matriarchal Javelin
 
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                                                                               MAGIC                                                                                               ║
