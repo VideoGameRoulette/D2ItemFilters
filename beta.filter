@@ -394,6 +394,97 @@ ItemDisplay[t16]: %DOT-62%%NAME%{%WHITE%Used to summon the Ruins of Viz-Jun Map}
 ItemDisplay[t17]: %DOT-62%%NAME%{%WHITE%Used to summon the River of Blood Map}
 ItemDisplay[t18]: %DOT-62%%NAME%{%WHITE%Used to summon the Ruins of Lava Map}
 
+//╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+//║                                                                                               CHARGES                                                                                               ║
+//╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+//LIFE TAP CHARGES
+ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK82>0]: %ORANGE%Life Tap Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+
+//LOWER RESIST CHARGES
+ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK91>0]: %ORANGE%Lower Resist Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+
+//TELEPORT CHARGES
+ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK91>0]: %ORANGE%Teleport Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+
+//SHIVER ARMOR CHARGES
+ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK50>0]: %ORANGE%Shiver Armor Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+
+//CHILLING ARMOR CHARGES
+ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK60>0]: %ORANGE%Chilling Armor Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+
+//BATTLE ORDERS CHARGES
+ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK149>0]: %ORANGE%Battle Orders Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+
+//OAK SAGE CHARGES
+ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK226>0]: %ORANGE%Oak Sage Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+
+//HEART OF THE WOLVERINE CHARGES
+ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK236>0]: %ORANGE%Heart of Wolverine Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+
+//SPIRIT OF THE BARBS CHARGES
+ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK246>0]: %ORANGE%Spirit of Barbs Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+
+//╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+//║                                                                                               SKILL BASES                                                                                               ║
+//╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+//BARB SKILLS
+
+//BATTLE ORDERS SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK149>2]: %ORANGE%Battle Orders %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//SIN SKILLS
+
+//WAKE OF FIRE SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK262>2]: %ORANGE%Wake of Fire %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//WAKE OF INFERNO SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK272>2]: %ORANGE%Wake of Inferno %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//CHAIN LIGHTNING SENTRY SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK271>2]: %ORANGE%Chain Lightning Sentry %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//MIND BLAST SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK273>2]: %ORANGE%Mind Blast %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//DRAGON FLIGHT SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK275>2]: %ORANGE%Dragon Flight %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//SORC SKILLS
+//FROST NOVA SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK44>2]: %ORANGE%Frost Nova %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//NOVA SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK48>2]: %ORANGE%Nova %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//LIGHTNING SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK49>2]: %ORANGE%Lightning %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//CHAIN LIGHTNING SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK53>2]: %ORANGE%Chain Lightning %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//METEOR SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK56>2]: %ORANGE%Meteor %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//ENERGY SHIELD SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK58>2]: %ORANGE%Energy Shield %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//BLIZZARD SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK59>2]: %ORANGE%Blizzard %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//HYDRA SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK62>2]: %ORANGE%Hydra %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//FROZEN ORB SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK64>2]: %ORANGE%Frozen Orb %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//ICE BARRAGE SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK369>2]: %ORANGE%Ice Barrage %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//LESSER HYDRA SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) SK383>2]: %ORANGE%Lesser Hydra %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
 //╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                                                                               RUNEWORD                                                                                               ║
 //╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -996,6 +1087,13 @@ ItemDisplay[(amu OR rin) MAG]: %ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%BLUE%%NAME%
 //╔═════════════════════════════════════════════════╗
 //║                   CATCH ALL                     ║
 //╚═════════════════════════════════════════════════╝
+
+//WITHOUT PRICE
+//ItemDisplay[!ID MAG]: %BLUE%%NAME%//MAGIC
+//ItemDisplay[ID MAG SOCKS>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %NL%%BLUE%%NAME%//MAGIC
+//ItemDisplay[ID MAG]: %BLUE%%NAME%//MAGIC
+
+//WITH PRICE
 ItemDisplay[!ID MAG]: %ORANGE%Price: %WHITE%[%PRICE%%TAN%G]%NL%%BLUE%%NAME%//MAGIC
 ItemDisplay[ID MAG SOCKS>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%Price: %WHITE%[%PRICE%%TAN%G]%NL%%BLUE%%NAME%//MAGIC
 ItemDisplay[ID MAG]: %ORANGE%Price: %WHITE%[%PRICE%%TAN%G]%NL%%BLUE%%NAME%//MAGIC
@@ -1011,6 +1109,13 @@ ItemDisplay[(amu OR rin OR jew) RARE]: %DOT-A8%%ORANGE%Item LVL: %WHITE%[%ILVL%]
 //╔═════════════════════════════════════════════════╗
 //║                   CATCH ALL                     ║
 //╚═════════════════════════════════════════════════╝
+
+//WITHOUT PRICE
+//ItemDisplay[!ID RARE]: %YELLOW%%NAME%//RARE
+//ItemDisplay[ID RARE SOCKS>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %NL%%YELLOW%%NAME%//RARE
+//ItemDisplay[ID RARE]: %YELLOW%%NAME%//RARE
+
+//WITH PRICE
 ItemDisplay[!ID RARE]: %ORANGE%Price: %WHITE%[%PRICE%%TAN%G]%NL%%YELLOW%%NAME%//RARE
 ItemDisplay[ID RARE SOCKS>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%Price: %WHITE%[%PRICE%%TAN%G]%NL%%YELLOW%%NAME%//RARE
 ItemDisplay[ID RARE]: %ORANGE%Price: %WHITE%[%PRICE%%TAN%G]%NL%%YELLOW%%NAME%//RARE
