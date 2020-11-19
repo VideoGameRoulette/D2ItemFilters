@@ -360,7 +360,7 @@ ItemDisplay[mp5]: %BLUE%!%WHITE%SM
 //╚══════════════════════════════════════════════════╝
 
 ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
-ItemDisplay[yps]: %GREEN%!%WHITE%Antidote
+ItemDisplay[yps]: %GREEN%!%WHITE%Anti
 ItemDisplay[vps CLVL<60]: %GREEN%!%WHITE%Stamina
 
 //╔═════════════════════════════════════════════════════════╗
@@ -1098,6 +1098,9 @@ ItemDisplay[(amu OR rin) MAG]: %ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%BLUE%%NAME%
 //║                   CATCH ALL                     ║
 //╚═════════════════════════════════════════════════╝
 
+//CIRCLET
+ItemDisplay[EQ7 !ID MAG]: %DOT-A0%%BLUE%%NAME%//MAGIC CIRCLET
+
 //WITHOUT PRICE
 //ItemDisplay[!ID MAG]: %BLUE%%NAME%//MAGIC
 //ItemDisplay[ID MAG SOCKS>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %NL%%BLUE%%NAME%//MAGIC
@@ -1119,6 +1122,9 @@ ItemDisplay[(amu OR rin OR jew) RARE]: %DOT-A8%%ORANGE%Item LVL: %WHITE%[%ILVL%]
 //╔═════════════════════════════════════════════════╗
 //║                   CATCH ALL                     ║
 //╚═════════════════════════════════════════════════╝
+
+//CIRCLET
+ItemDisplay[EQ7 !ID MAG]: %DOT-A8%%YELLOW%%NAME%//RARE CIRCLET
 
 //WITHOUT PRICE
 //ItemDisplay[!ID RARE]: %YELLOW%%NAME%//RARE
