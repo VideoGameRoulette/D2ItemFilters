@@ -509,8 +509,14 @@ ItemDisplay[WP8 NORM !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%
 ItemDisplay[WP7 EXC !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%%NAME% %ORANGE%---{%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
 ItemDisplay[WP8 EXC !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%%NAME% %ORANGE%---{%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
 
-ItemDisplay[WP7 ELT !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %WHITE%%NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
-ItemDisplay[WP8 ELT !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %WHITE%%NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
+ItemDisplay[WP7 ELT !RW ETH SUP NMAG SOCKS=4 ED=15]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %RED%Perfect Eth %NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
+ItemDisplay[WP8 ELT !RW ETH SUP NMAG SOCKS=4 ED=15]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %RED%Perfect Eth %NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
+
+ItemDisplay[WP7 ELT !RW ETH NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %ORANGE%Eth %NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
+ItemDisplay[WP8 ELT !RW ETH NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %ORANGE%Eth %NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
+
+ItemDisplay[WP7 ELT !RW !ETH NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %WHITE%%NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
+ItemDisplay[WP8 ELT !RW !ETH NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %WHITE%%NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
 
 ItemDisplay[72h ETH NMAG (SOCKS=3 OR SOCKS=0)]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%Eth %NAME% %ORANGE%---{%WHITE%Add Amn + Lem + Ko %WHITE%to make %GOLD%Lawbringer}//Legend Sword
 ItemDisplay[7ls ETH NMAG (SOCKS=4 OR SOCKS=0)]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%Eth %NAME% %ORANGE%---{%WHITE%Add %TAN%A + B + C + D %WHITE%to make %GOLD%Runeword}//Cryptic Sword
