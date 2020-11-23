@@ -85,7 +85,7 @@ ItemDisplay[EQ6 NMAG DIFF>0]: //BELT
 ItemDisplay[(!CL1 && !CL2 && EQ1) NORM !RW NMAG DIFF>0]: //HELM
 ItemDisplay[EQ2 NORM !RW NMAG DIFF>0]: //CHEST
 ItemDisplay[(!CL3 && !CL4 && EQ3) NORM !RW NMAG DIFF>0]: //SHIELD
-ItemDisplay[EQ7 NORM !RW NMAG DIFF>0]: //CIRCLET
+ItemDisplay[EQ7 !RW NMAG DIFF>0]: //CIRCLET
 ItemDisplay[WP4 NMAG DIFF>0]: //DAGGER
 ItemDisplay[WP5 NMAG DIFF>0]: //THROWING
 ItemDisplay[WP6 NMAG DIFF>0]: //JAV
@@ -197,41 +197,11 @@ ItemDisplay[r31s]: %DOT-9B%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %PURPLE%
 ItemDisplay[r32s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %WHITE%[0.5-0.75]%NL%%RED%--- %PURPLE%Cham Rune Stack %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r33s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %GREEN%[0.5-1]%NL%%RED%--- %PURPLE%Zod Rune Stack %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
 
-//╔══════════════════════════════════════════════════╗
-//║                   CHIPPED GEMS                   ║
-//╚══════════════════════════════════════════════════╝
+//╔══════════════════════════════════════════════════════════════════════════════╗
+//║                   CHIPPED GEMS & FLAWED GEMS & NORMAL GEMS                   ║
+//╚══════════════════════════════════════════════════════════════════════════════╝
 
-ItemDisplay[gcv]:
-ItemDisplay[gcw]:
-ItemDisplay[gcg]:
-ItemDisplay[gcr]:
-ItemDisplay[gcb]:
-ItemDisplay[gcy]:
-ItemDisplay[skc]:
-
-//╔═════════════════════════════════════════════════╗
-//║                   FLAWED GEMS                   ║
-//╚═════════════════════════════════════════════════╝
-
-ItemDisplay[gfv DIFF>0]:
-ItemDisplay[gfw DIFF>0]:
-ItemDisplay[gfg DIFF>0]:
-ItemDisplay[gfr DIFF>0]:
-ItemDisplay[gfb DIFF>0]:
-ItemDisplay[gfy DIFF>0]:
-ItemDisplay[skf DIFF>0]:
-
-//╔═════════════════════════════════════════════════╗
-//║                   NORMAL GEMS                   ║
-//╚═════════════════════════════════════════════════╝
-
-ItemDisplay[gsv DIFF>0]:
-ItemDisplay[gsw DIFF>0]:
-ItemDisplay[gsg DIFF>0]:
-ItemDisplay[gsr DIFF>0]:
-ItemDisplay[gsb DIFF>0]:
-ItemDisplay[gsy DIFF>0]:
-ItemDisplay[sku DIFF>0]:
+ItemDisplay[GEMLEVEL<4 DIFF>0]:
 
 //╔═══════════════════════════════════════════════════╗
 //║                   FLAWLESS GEMS                   ║
@@ -1106,6 +1076,7 @@ ItemDisplay[(amu OR rin) MAG]: %ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%BLUE%%NAME%
 
 //CIRCLET
 ItemDisplay[EQ7 !ID MAG]: %DOT-A0%%BLUE%%NAME%//MAGIC CIRCLET
+ItemDisplay[EQ7 ID MAG]: %DOT-A0%%BLUE%%NAME%//MAGIC CIRCLET
 
 //WITHOUT PRICE
 //ItemDisplay[!ID MAG]: %BLUE%%NAME%//MAGIC
@@ -1130,7 +1101,8 @@ ItemDisplay[(amu OR rin OR jew) RARE]: %DOT-A8%%ORANGE%Item LVL: %WHITE%[%ILVL%]
 //╚═════════════════════════════════════════════════╝
 
 //CIRCLET
-ItemDisplay[EQ7 !ID MAG]: %DOT-A8%%YELLOW%%NAME%//RARE CIRCLET
+ItemDisplay[EQ7 !ID RARE]: %DOT-A8%%YELLOW%%NAME%//RARE CIRCLET
+ItemDisplay[EQ7 ID RARE]: %DOT-A8%%YELLOW%%NAME%//RARE CIRCLET
 
 //WITHOUT PRICE
 //ItemDisplay[!ID RARE]: %YELLOW%%NAME%//RARE
@@ -1213,6 +1185,12 @@ ItemDisplay[uhm !ID ETH UNI]: %DOT-A5%%RED%--- %GOLD%Eth Nightwings Veil? %RED%-
 //╔════════════════════════════════════════════╗
 //║                   ARMORS                   ║
 //╚════════════════════════════════════════════╝
+
+//╔═══════════════════════════════════════════════════════════╗
+//║                   Skin of the Vipermagi                   ║
+//╚═══════════════════════════════════════════════════════════╝
+ItemDisplay[xea !ID !ETH UNI]: %DOT-A5%%RED%--- %GOLD%Skin of the Vipermagi %RED%---
+ItemDisplay[xea !ID ETH UNI]: %DOT-A5%%RED%--- %GOLD%Eth Skin of the Vipermagi %RED%---
 
 //╔═══════════════════════════════════════════════════╗
 //║                   Duriels Shell                   ║
