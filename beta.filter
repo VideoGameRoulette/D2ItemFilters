@@ -65,40 +65,44 @@ ItemDisplay[tr2]: %TAN%%NAME%
 //║                   REMOVE                    ║
 //╚═════════════════════════════════════════════╝
 
-ItemDisplay[NMAG INF]: //Any Inferior Item
-ItemDisplay[(EQ4 OR EQ5 OR EQ6) NMAG CLVL>30]: //Gloves, Boots, and Belt
-ItemDisplay[WP1 !RW NMAG CLVL>30 SOCKS<4]: //Axes
-ItemDisplay[WP2 !RW NMAG CLVL>30 SOCKS<4]: //Maces
-ItemDisplay[WP3 !RW NMAG CLVL>30 SOCKS<4]: //Swords
-ItemDisplay[WP4 !RW NMAG CLVL>30]: //Daggers
-ItemDisplay[WP5 !RW NMAG CLVL>30]: //Throwing Weapons
-ItemDisplay[WP6 !RW NMAG CLVL>30]: //Javelins
-ItemDisplay[WP7 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]: //Spears
-ItemDisplay[WP8 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]: //Polearms
-ItemDisplay[WP9 !RW NMAG CLVL>30 SOCKS<4]: //Bows
-ItemDisplay[WP10 !RW NMAG CLVL>30 SOCKS<4]: //Crossbows
-ItemDisplay[WP11 !RW NMAG CLVL>30 (!SOCKS=2 OR !SOCKS=4)]: //Staves
-ItemDisplay[WP13 !RW NMAG CLVL>30 SOCKS<4]: //Scepters
-ItemDisplay[EQ4 NMAG DIFF>0]: //GLOVES
-ItemDisplay[EQ5 NMAG DIFF>0]: //BOOTS
-ItemDisplay[EQ6 NMAG DIFF>0]: //BELT
-ItemDisplay[(!CL1 && !CL2 && EQ1) NORM !RW NMAG DIFF>0]: //HELM
-ItemDisplay[EQ2 NORM !RW NMAG DIFF>0]: //CHEST
-ItemDisplay[(!CL3 && !CL4 && EQ3) NORM !RW NMAG DIFF>0]: //SHIELD
-ItemDisplay[EQ7 !RW NMAG DIFF>0]: //CIRCLET
-ItemDisplay[WP4 NMAG DIFF>0]: //DAGGER
-ItemDisplay[WP5 NMAG DIFF>0]: //THROWING
-ItemDisplay[WP6 NMAG DIFF>0]: //JAV
-ItemDisplay[NMAG SOCKS=1]: //ANY 1 SOCKET NON MAGICAL ITEM
-ItemDisplay[aqv]: //ARROWS
-ItemDisplay[cqv]: //BOLTS
-ItemDisplay[key]: //Keys
+ItemDisplay[NMAG INF]://Any Inferior Item
+ItemDisplay[(EQ4 OR EQ5 OR EQ6) NMAG CLVL>30]:%CONTINUE%//Gloves, Boots, and Belt
+ItemDisplay[WP1 !RW NMAG CLVL>30 SOCKS<3]:%CONTINUE%//Axes
+ItemDisplay[WP2 !RW NMAG CLVL>30 SOCKS<4]:%CONTINUE%//Maces
+ItemDisplay[WP3 !RW NMAG CLVL>30 SOCKS<3]:%CONTINUE%//Swords
+ItemDisplay[WP4 !RW NMAG CLVL>30]:%CONTINUE%//Daggers
+ItemDisplay[WP5 !RW NMAG CLVL>30]:%CONTINUE%//Throwing Weapons
+ItemDisplay[WP6 !RW NMAG CLVL>30]:%CONTINUE%//Javelins
+ItemDisplay[WP7 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]:%CONTINUE%//Spears
+ItemDisplay[WP8 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]:%CONTINUE%//Polearms
+ItemDisplay[WP9 !RW NMAG CLVL>30 SOCKS<4]:%CONTINUE%//Bows
+ItemDisplay[WP10 !RW NMAG CLVL>30 SOCKS<4]:%CONTINUE%//Crossbows
+ItemDisplay[WP11 !RW NMAG CLVL>30 (!SOCKS=2 OR !SOCKS=4)]:%CONTINUE%//Staves
+ItemDisplay[WP13 !RW NMAG CLVL>30 SOCKS<4]:%CONTINUE%//Scepters
+ItemDisplay[EQ4 NMAG DIFF>0]:%CONTINUE%//GLOVES
+ItemDisplay[EQ5 NMAG DIFF>0]:%CONTINUE%//BOOTS
+ItemDisplay[EQ6 NMAG DIFF>0]:%CONTINUE%//BELT
+ItemDisplay[(!CL1 && !CL2 && EQ1) NORM !RW NMAG DIFF>0]:%CONTINUE%//HELM
+ItemDisplay[(ob1 AND ob2 AND ob3 AND ob4) !RW NMAG DIFF>0]:%CONTINUE%//SORC WANDS 1
+ItemDisplay[(ob6 AND ob7 AND ob8 AND ob9) !RW NMAG DIFF>0]:%CONTINUE%//SORC WANDS 2
+ItemDisplay[(obb AND obc AND obd AND obe) !RW NMAG DIFF>0]:%CONTINUE%//SORC WANDS 3
+ItemDisplay[CL5 !RW NMAG (SOCKS=1 OR SOCKS=2) DIFF>0]://ASSASSIN CLAWS
+ItemDisplay[EQ2 NORM !RW NMAG DIFF>0]:%CONTINUE%//CHEST
+ItemDisplay[(!CL3 && !CL4 && EQ3) NORM !RW NMAG DIFF>0]:%CONTINUE%//SHIELD
+ItemDisplay[EQ7 !RW NMAG DIFF>0]:%CONTINUE%//CIRCLET
+ItemDisplay[WP4 NMAG DIFF>0]:%CONTINUE%//DAGGER
+ItemDisplay[WP5 NMAG DIFF>0]:%CONTINUE%//THROWING
+ItemDisplay[WP6 NMAG DIFF>0]:%CONTINUE%//JAV
+ItemDisplay[NMAG SOCKS=1]://ANY 1 SOCKET NON MAGICAL ITEM
+ItemDisplay[aqv]://ARROWS
+ItemDisplay[cqv]://BOLTS
+ItemDisplay[key]://Keys
 
 //╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                                                                               MISC                                                                                               ║
 //╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
-ItemDisplay[GOLD<4000 CLVL>30]: //Gold Piles
+ItemDisplay[GOLD<4000 CLVL>30]://Gold Piles
 
 //╔═══════════════════════════════════════════════════════════╗
 //║                   ESSENCES RESET TOKENS                   ║
@@ -433,37 +437,37 @@ ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw 
 
 //SORC SKILLS
 //FROST NOVA SKILLS
-ItemDisplay[!RW (NMAG OR MAG OR RARE) SK44>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Frost Nova: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[(ob5 AND oba AND obf) !RW (NMAG OR MAG OR RARE) SK44>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Frost Nova: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
 
 //NOVA SKILLS
-ItemDisplay[!RW (NMAG OR MAG OR RARE) SK48>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Nova: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[(ob5 AND oba AND obf) !RW (NMAG OR MAG OR RARE) SK48>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Nova: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
 
 //LIGHTNING SKILLS
-ItemDisplay[!RW (NMAG OR MAG OR RARE) SK49>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Lightning: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[(ob5 AND oba AND obf) !RW (NMAG OR MAG OR RARE) SK49>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Lightning: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
 
 //CHAIN LIGHTNING SKILLS
-ItemDisplay[!RW (NMAG OR MAG OR RARE) SK53>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Chain Lightning: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[(ob5 AND oba AND obf) !RW (NMAG OR MAG OR RARE) SK53>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Chain Lightning: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
 
 //METEOR SKILLS
-ItemDisplay[!RW (NMAG OR MAG OR RARE) SK56>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Meteor: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[(ob5 AND oba AND obf) !RW (NMAG OR MAG OR RARE) SK56>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Meteor: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
 
 //ENERGY SHIELD SKILLS
-ItemDisplay[!RW (NMAG OR MAG OR RARE) SK58>2 (SOCKS=0 OR SOCKS=4)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Energy Shield: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[(ob5 AND oba AND obf) !RW (NMAG OR MAG OR RARE) SK58>2 (SOCKS=0 OR SOCKS=4)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Energy Shield: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
 
 //BLIZZARD SKILLS
-ItemDisplay[!RW (NMAG OR MAG OR RARE) SK59>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Blizzard: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[(ob5 AND oba AND obf) !RW (NMAG OR MAG OR RARE) SK59>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Blizzard: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
 
 //HYDRA SKILLS
-ItemDisplay[!RW (NMAG OR MAG OR RARE) SK62>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Hydra: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[(ob5 AND oba AND obf) !RW (NMAG OR MAG OR RARE) SK62>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Hydra: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
 
 //FROZEN ORB SKILLS
-ItemDisplay[!RW (NMAG OR MAG OR RARE) SK64>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Frozen Orb: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[(ob5 AND oba AND obf) !RW (NMAG OR MAG OR RARE) SK64>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Frozen Orb: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
 
 //ICE BARRAGE SKILLS
-ItemDisplay[!RW (NMAG OR MAG OR RARE) SK369>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Ice Barrage: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[(ob5 AND oba AND obf) !RW (NMAG OR MAG OR RARE) SK369>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Ice Barrage: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
 
 //LESSER HYDRA SKILLS
-ItemDisplay[!RW (NMAG OR MAG OR RARE) SK383>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Lesser Hydra: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[(ob5 AND oba AND obf) !RW (NMAG OR MAG OR RARE) SK383>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Lesser Hydra: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
 
 //╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                                                                               RUNEWORD                                                                                               ║
@@ -1354,6 +1358,12 @@ ItemDisplay[ama !ID ETH UNI]: %DOT-A5%%RED%--- %GOLD%Eth Titans Revenge %RED%---
 //╔═════════════════════════════════════════════╗
 //║                   SHIELDS                   ║
 //╚═════════════════════════════════════════════╝
+
+//╔══════════════════════════════════════════════════╗
+//║                   Lidless Wall                   ║
+//╚══════════════════════════════════════════════════╝
+ItemDisplay[xsh !ID !ETH UNI]: %DOT-A5%%RED%--- %GOLD%Lidless Wall %RED%---
+ItemDisplay[xsh !ID ETH UNI]: %DOT-A5%%RED%--- %GOLD%Eth Lidless Wall %RED%---
 
 //╔═════════════════════════════════════════════════╗
 //║                   Stormshield                   ║
