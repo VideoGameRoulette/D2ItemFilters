@@ -66,33 +66,33 @@ ItemDisplay[tr2]: %TAN%%NAME%
 //╚═════════════════════════════════════════════╝
 
 ItemDisplay[NMAG INF]://Any Inferior Item
-ItemDisplay[(EQ4 OR EQ5 OR EQ6) NMAG CLVL>30]:%CONTINUE%//Gloves, Boots, and Belt
-ItemDisplay[WP1 !RW NMAG CLVL>30 SOCKS<3]:%CONTINUE%//Axes
-ItemDisplay[WP2 !RW NMAG CLVL>30 SOCKS<4]:%CONTINUE%//Maces
-ItemDisplay[WP3 !RW NMAG CLVL>30 SOCKS<3]:%CONTINUE%//Swords
-ItemDisplay[WP4 !RW NMAG CLVL>30]:%CONTINUE%//Daggers
-ItemDisplay[WP5 !RW NMAG CLVL>30]:%CONTINUE%//Throwing Weapons
-ItemDisplay[WP6 !RW NMAG CLVL>30]:%CONTINUE%//Javelins
-ItemDisplay[WP7 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]:%CONTINUE%//Spears
-ItemDisplay[WP8 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]:%CONTINUE%//Polearms
-ItemDisplay[WP9 !RW NMAG CLVL>30 SOCKS<4]:%CONTINUE%//Bows
-ItemDisplay[WP10 !RW NMAG CLVL>30 SOCKS<4]:%CONTINUE%//Crossbows
-ItemDisplay[WP11 !RW NMAG CLVL>30 (!SOCKS=2 OR !SOCKS=4)]:%CONTINUE%//Staves
-ItemDisplay[WP13 !RW NMAG CLVL>30 SOCKS<4]:%CONTINUE%//Scepters
-ItemDisplay[EQ4 NMAG DIFF>0]:%CONTINUE%//GLOVES
-ItemDisplay[EQ5 NMAG DIFF>0]:%CONTINUE%//BOOTS
-ItemDisplay[EQ6 NMAG DIFF>0]:%CONTINUE%//BELT
-ItemDisplay[(!CL1 && !CL2 && EQ1) NORM !RW NMAG DIFF>0]:%CONTINUE%//HELM
-ItemDisplay[(ob1 AND ob2 AND ob3 AND ob4) !RW NMAG DIFF>0]:%CONTINUE%//SORC WANDS 1
-ItemDisplay[(ob6 AND ob7 AND ob8 AND ob9) !RW NMAG DIFF>0]:%CONTINUE%//SORC WANDS 2
-ItemDisplay[(obb AND obc AND obd AND obe) !RW NMAG DIFF>0]:%CONTINUE%//SORC WANDS 3
+ItemDisplay[(EQ4 OR EQ5 OR EQ6) NMAG CLVL>30]://Gloves, Boots, and Belt
+ItemDisplay[WP1 !RW NMAG CLVL>30 SOCKS<3]://Axes
+ItemDisplay[WP2 !RW NMAG CLVL>30 SOCKS<4]://Maces
+ItemDisplay[WP3 !RW NMAG CLVL>30 SOCKS<3]://Swords
+ItemDisplay[WP4 !RW NMAG CLVL>30]://Daggers
+ItemDisplay[WP5 !RW NMAG CLVL>30]://Throwing Weapons
+ItemDisplay[WP6 !RW NMAG CLVL>30]://Javelins
+ItemDisplay[WP7 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]://Spears
+ItemDisplay[WP8 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]://Polearms
+ItemDisplay[WP9 !RW NMAG CLVL>30 SOCKS<4]://Bows
+ItemDisplay[WP10 !RW NMAG CLVL>30 SOCKS<4]://Crossbows
+ItemDisplay[WP11 !RW NMAG CLVL>30 (!SOCKS=2 OR !SOCKS=4)]://Staves
+ItemDisplay[WP13 !RW NMAG CLVL>30 SOCKS<4]://Scepters
+ItemDisplay[EQ4 NMAG DIFF>0]://GLOVES
+ItemDisplay[EQ5 NMAG DIFF>0]://BOOTS
+ItemDisplay[EQ6 NMAG DIFF>0]://BELT
+ItemDisplay[(!CL1 && !CL2 && EQ1) NORM !RW NMAG DIFF>0]://HELM
+ItemDisplay[(ob1 AND ob2 AND ob3 AND ob4) !RW NMAG DIFF>0]://SORC WANDS 1
+ItemDisplay[(ob6 AND ob7 AND ob8 AND ob9) !RW NMAG DIFF>0]://SORC WANDS 2
+ItemDisplay[(obb AND obc AND obd AND obe) !RW NMAG DIFF>0]://SORC WANDS 3
 ItemDisplay[CL5 !RW NMAG (SOCKS=1 OR SOCKS=2) DIFF>0]://ASSASSIN CLAWS
-ItemDisplay[EQ2 NORM !RW NMAG DIFF>0]:%CONTINUE%//CHEST
-ItemDisplay[(!CL3 && !CL4 && EQ3) NORM !RW NMAG DIFF>0]:%CONTINUE%//SHIELD
-ItemDisplay[EQ7 !RW NMAG DIFF>0]:%CONTINUE%//CIRCLET
-ItemDisplay[WP4 NMAG DIFF>0]:%CONTINUE%//DAGGER
-ItemDisplay[WP5 NMAG DIFF>0]:%CONTINUE%//THROWING
-ItemDisplay[WP6 NMAG DIFF>0]:%CONTINUE%//JAV
+ItemDisplay[EQ2 NORM !RW NMAG DIFF>0]://CHEST
+ItemDisplay[(!CL3 && !CL4 && EQ3) NORM !RW NMAG DIFF>0]://SHIELD
+ItemDisplay[EQ7 !RW NMAG DIFF>0]://CIRCLET
+ItemDisplay[WP4 NMAG DIFF>0]://DAGGER
+ItemDisplay[WP5 NMAG DIFF>0]://THROWING
+ItemDisplay[WP6 NMAG DIFF>0]://JAV
 ItemDisplay[NMAG SOCKS=1]://ANY 1 SOCKET NON MAGICAL ITEM
 ItemDisplay[aqv]://ARROWS
 ItemDisplay[cqv]://BOLTS
@@ -130,7 +130,7 @@ ItemDisplay[mbr]: %DOT-62%%RED%--- %GOLD%Mephistos Brain %RED%---{%WHITE%Cube wi
 //╚═══════════════════════════════════════════╝
 
 ItemDisplay[r01]: %DOT-60%%TAN%El Rune %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r02]: %DOT-60%%TAN%%EldRune %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r02]: %DOT-60%%TAN%EldRune %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r03]: %DOT-60%%TAN%Tir Rune %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r04]: %DOT-60%%ORANGE%Nef %WHITE%[%RUNENUM%]{%WHITE% Used for Blood Gloves recipe}
 ItemDisplay[r05]: %DOT-60%%TAN%Eth Rune %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
@@ -152,16 +152,16 @@ ItemDisplay[r20]: %DOT-62%%RED%--- %PURPLE%Lem Rune %WHITE%[%RUNENUM%] %RED%---{
 ItemDisplay[r21]: %DOT-62%%RED%--- %PURPLE%Pul Rune %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r22]: %DOT-62%%RED%--- %PURPLE%Um Rune %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r23]: %DOT-62%%RED%--- %PURPLE%Mal Rune %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r24]: %DOT-62%%ORANGE%HR: %WHITE%[0.125] 3x [0.5]%NL%%RED%--- Ist Rune %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r25]: %DOT-62%%ORANGE%HR: %WHITE%[0.25]%NL%%RED%--- %PURPLE%Gul Rune %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r26]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED%--- %PURPLE%Vex Rune %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r27]: %DOT-9B%%ORANGE%HR: %WHITE%[0.75]%NL%%RED%--- %PURPLE%Ohm Rune %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r24]: %DOT-62%%ORANGE%HR: %WHITE%[0.2] %NL%%RED%--- Ist Rune %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r25]: %DOT-62%%ORANGE%HR: %WHITE%[0.4]%NL%%RED%--- %PURPLE%Gul Rune %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r26]: %DOT-62%%ORANGE%HR: %WHITE%[0.8]%NL%%RED%--- %PURPLE%Vex Rune %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r27]: %DOT-9B%%ORANGE%HR: %WHITE%[1]%NL%%RED%--- %PURPLE%Ohm Rune %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r28]: %DOT-9B%%ORANGE%HR: %YELLOW%[1.5]%NL%%RED%--- %PURPLE%Lo Rune %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r29]: %DOT-9B%%ORANGE%HR: %GREEN%[1]%NL%%RED%--- %PURPLE%Sur Rune %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r30]: %DOT-9B%%ORANGE%HR: %RED%[2]%NL%%RED%--- %PURPLE%Ber Rune %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r31]: %DOT-9B%%ORANGE%HR: %PURPLE%[2-3]%NL%%RED%--- %PURPLE%Jah Rune %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r32]: %DOT-62%%ORANGE%HR: %WHITE%[0.5-0.75]%NL%%RED%--- %PURPLE%Cham Rune %WHITE%[%RUNENUM%] ---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r33]: %DOT-62%%ORANGE%HR: %GREEN%[0.5-1]%NL%%RED%--- %PURPLE%Zod Rune %WHITE%[%RUNENUM%] ---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r29]: %DOT-9B%%ORANGE%HR: %GREEN%[1.75]%NL%%RED%--- %PURPLE%Sur Rune %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r30]: %DOT-9B%%ORANGE%HR: %RED%[3.5]%NL%%RED%--- %PURPLE%Ber Rune %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r31]: %DOT-9B%%ORANGE%HR: %PURPLE%[2.5]%NL%%RED%--- %PURPLE%Jah Rune %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r32]: %DOT-62%%ORANGE%HR: %WHITE%[1.25]%NL%%RED%--- %PURPLE%Cham Rune %WHITE%[%RUNENUM%] ---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r33]: %DOT-62%%ORANGE%HR: %GREEN%[1.5-1.75]%NL%%RED%--- %PURPLE%Zod Rune %WHITE%[%RUNENUM%] ---{%WHITE%Cube to swap between stackable and socketable version}
 
 //╔══════════════════════════════════════════════════╗
 //║                   RUNES STACKS                   ║
@@ -190,22 +190,21 @@ ItemDisplay[r20s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%--- %PURPLE%
 ItemDisplay[r21s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%--- %PURPLE%Pul Rune Stack %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r22s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%--- %PURPLE%Um Rune Stack %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r23s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%--- %PURPLE%Mal Rune Stack %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r24s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %WHITE%[0.125] 3x [0.5]%NL%%RED%--- %PURPLE%Ist Rune Stack %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r25s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %WHITE%[0.25]%NL%%RED%--- %PURPLE%Gul Rune Stack %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r26s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %WHITE%[0.5]%NL%%RED%--- %PURPLE%Vex Rune Stack %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r27s]: %DOT-9B%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %WHITE%[0.75]%NL%%RED%--- %PURPLE%Ohm Rune Stack %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r24s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %WHITE%[0.2] %NL%%RED%--- %PURPLE%Ist Rune Stack %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r25s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %WHITE%[0.4]%NL%%RED%--- %PURPLE%Gul Rune Stack %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r26s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %WHITE%[0.8]%NL%%RED%--- %PURPLE%Vex Rune Stack %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r27s]: %DOT-9B%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %WHITE%[1]%NL%%RED%--- %PURPLE%Ohm Rune Stack %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r28s]: %DOT-9B%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %YELLOW%[1.5]%NL%%RED%--- %PURPLE%Lo Rune Stack %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r29s]: %DOT-9B%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %GREEN%[1]%NL%%RED%--- %PURPLE%Sur Rune Stack %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r30s]: %DOT-9B%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %RED%[2]%NL%%RED%--- %PURPLE%Ber Rune Stack %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r31s]: %DOT-9B%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %PURPLE%[2-3]%NL%%RED%--- %PURPLE%Jah Rune Stack %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r32s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %WHITE%[0.5-0.75]%NL%%RED%--- %PURPLE%Cham Rune Stack %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r33s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %GREEN%[0.5-1]%NL%%RED%--- %PURPLE%Zod Rune Stack %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r29s]: %DOT-9B%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %GREEN%[1.75]%NL%%RED%--- %PURPLE%Sur Rune Stack %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r30s]: %DOT-9B%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %RED%[3.5]%NL%%RED%--- %PURPLE%Ber Rune Stack %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r31s]: %DOT-9B%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %PURPLE%[2.5]%NL%%RED%--- %PURPLE%Jah Rune Stack %WHITE%[%RUNENUM%]  %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r32s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %WHITE%[1.25]%NL%%RED%--- %PURPLE%Cham Rune Stack %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r33s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %GREEN%[1.5-1.75]%NL%%RED%--- %PURPLE%Zod Rune Stack %WHITE%[%RUNENUM%] %RED%---{%WHITE%Cube to swap between stackable and socketable version}
 
 //╔══════════════════════════════════════════════════════════════════════════════╗
 //║                   CHIPPED GEMS & FLAWED GEMS & NORMAL GEMS                   ║
 //╚══════════════════════════════════════════════════════════════════════════════╝
-
-ItemDisplay[GEMLEVEL<4 DIFF>0]:
+//ItemDisplay[GEMLEVEL<4 DIFF>0]:
 
 //╔═══════════════════════════════════════════════════╗
 //║                   FLAWLESS GEMS                   ║
@@ -413,6 +412,9 @@ ItemDisplay[!RW RARE TABSK2>1 IAS=20]: %DOT-62%%ORANGE%Jav and Spear: %WHITE%[2]
 
 //BATTLE ORDERS SKILLS
 ItemDisplay[!RW (NMAG OR MAG OR RARE) SK149>2]: %DOT-62%%ORANGE%Battle Orders: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+
+//WARCRIES SKILLS
+ItemDisplay[!RW (NMAG OR MAG OR RARE) TABSK34>2]: %DOT-62%%ORANGE%Warcry: %WHITE%[3]%NL%%RED%--- %PURPLE%BO STICK %RED%---//ANY ITEMS WITH +3 SKILLS
 
 //SIN SKILLS
 
@@ -1072,6 +1074,8 @@ ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) MAG ILVL=99]: %DOT-62%%ORANGE%Item LVL: %
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) MAG ILVL>90]: %DOT-60%%ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%BLUE%%NAME%//MAGIC
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) MAG ILVL>41]: %DOT-A0%%ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%BLUE%%NAME%//MAGIC
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) MAG ILVL<42]: %ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%BLUE%%NAME%//MAGIC
+
+ItemDisplay[(amu OR rin) MAG ILVL=99]: %DOT-62%%ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%RED%--- %BLUE%%NAME% %RED%---//MAGIC
 ItemDisplay[(amu OR rin) MAG]: %ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%BLUE%%NAME%//MAGIC
 
 //╔═════════════════════════════════════════════════╗
@@ -1097,7 +1101,7 @@ ItemDisplay[ID MAG]: %ORANGE%Price: %WHITE%[%PRICE%%TAN%G]%NL%%BLUE%%NAME%//MAGI
 //╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
 //RINGS, AMULETS, AND JEWELS
-ItemDisplay[(amu OR rin OR jew) RARE ILVL=99]: %DOT-62%%ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%YELLOW%%RED%--- %NAME% %RED%---//RARE
+ItemDisplay[(amu OR rin OR jew) RARE ILVL=99]: %DOT-62%%ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%RED%--- %YELLOW%%NAME% %RED%---//RARE
 ItemDisplay[(amu OR rin OR jew) RARE]: %DOT-A8%%ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%YELLOW%%NAME%//RARE
 
 //╔═════════════════════════════════════════════════╗
