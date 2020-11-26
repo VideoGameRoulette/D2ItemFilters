@@ -404,9 +404,17 @@ ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK246>0]: %DOT-62%%ORANGE%Spirit of Barb
 
 //AMAZON SKILLS
 
+//BOW AND CROSSBOW SKILLS
+ItemDisplay[!RW MAG TABSK0>2 IAS=20]: %DOT-62%%ORANGE%Bow and XBow: %WHITE%[3] %ORANGE%IAS %WHITE%[20]%NL%%RED%--- %PURPLE%+3 Bow Gloves %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[!RW RARE TABSK0>1 IAS=20]: %DOT-62%%ORANGE%Bow and XBow: %WHITE%[2] %ORANGE%IAS %WHITE%[20]%NL%%RED%--- %PURPLE%+2 Bow Gloves %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[!RW MAG TABSK0>2]: %DOT-62%%ORANGE%Bow and XBow: %WHITE%[3]%NL%%RED%--- %PURPLE%+3 Bow Gloves %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[!RW RARE TABSK0>1]: %DOT-62%%ORANGE%Bow and XBow: %WHITE%[2]%NL%%RED%--- %PURPLE%+2 Bow Gloves %RED%---//ANY ITEMS WITH +3 SKILLS
+
 //JAV AND SPEAR SKILLS
-ItemDisplay[!RW MAG TABSK2>2 IAS=20]: %DOT-62%%ORANGE%Jav and Spear: %WHITE%[3] %ORANGE%IAS %WHITE%[20]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
-ItemDisplay[!RW RARE TABSK2>1 IAS=20]: %DOT-62%%ORANGE%Jav and Spear: %WHITE%[2] %ORANGE%IAS %WHITE%[20]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[!RW MAG TABSK2>2 IAS=20]: %DOT-62%%ORANGE%Jav and Spear: %WHITE%[3] %ORANGE%IAS %WHITE%[20]%NL%%RED%--- %PURPLE%+3 Jav Gloves %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[!RW RARE TABSK2>1 IAS=20]: %DOT-62%%ORANGE%Jav and Spear: %WHITE%[2] %ORANGE%IAS %WHITE%[20]%NL%%RED%--- %PURPLE%+2 Jav Gloves %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[!RW MAG TABSK2>2]: %DOT-62%%ORANGE%Jav and Spear: %WHITE%[3]%NL%%RED%--- %PURPLE%+3 Jav Gloves %RED%---//ANY ITEMS WITH +3 SKILLS
+ItemDisplay[!RW RARE TABSK2>1]: %DOT-62%%ORANGE%Jav and Spear: %WHITE%[2]%NL%%RED%--- %PURPLE%+2 Jav Gloves %RED%---//ANY ITEMS WITH +3 SKILLS
 
 //BARB SKILLS
 
@@ -1075,7 +1083,7 @@ ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) MAG ILVL>90]: %DOT-60%%ORANGE%Item LVL: %
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) MAG ILVL>41]: %DOT-A0%%ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%BLUE%%NAME%//MAGIC
 ItemDisplay[(cm1 OR cm2 OR cm3 OR jew) MAG ILVL<42]: %ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%BLUE%%NAME%//MAGIC
 
-ItemDisplay[(amu OR rin) MAG ILVL=99]: %DOT-62%%ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%RED%--- %BLUE%%NAME% %RED%---//MAGIC
+ItemDisplay[(amu OR rin) MAG !ID ILVL=99]: %DOT-62%%ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%RED%--- %BLUE%%NAME% %RED%---//MAGIC
 ItemDisplay[(amu OR rin) MAG]: %ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%BLUE%%NAME%//MAGIC
 
 //╔═════════════════════════════════════════════════╗
@@ -1101,7 +1109,7 @@ ItemDisplay[ID MAG]: %ORANGE%Price: %WHITE%[%PRICE%%TAN%G]%NL%%BLUE%%NAME%//MAGI
 //╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
 //RINGS, AMULETS, AND JEWELS
-ItemDisplay[(amu OR rin OR jew) RARE ILVL=99]: %DOT-62%%ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%RED%--- %YELLOW%%NAME% %RED%---//RARE
+ItemDisplay[(amu OR rin OR jew) RARE !ID ILVL=99]: %DOT-62%%ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%RED%--- %YELLOW%%NAME% %RED%---//RARE
 ItemDisplay[(amu OR rin OR jew) RARE]: %DOT-A8%%ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%YELLOW%%NAME%//RARE
 
 //╔═════════════════════════════════════════════════╗
