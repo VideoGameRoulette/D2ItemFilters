@@ -204,7 +204,9 @@ ItemDisplay[r33s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%] %ORANGE%HR: %GREEN%[
 //╔══════════════════════════════════════════════════════════════════════════════╗
 //║                   CHIPPED GEMS & FLAWED GEMS & NORMAL GEMS                   ║
 //╚══════════════════════════════════════════════════════════════════════════════╝
-//ItemDisplay[GEMLEVEL<4 DIFF>0]:
+ItemDisplay[GEMLEVEL=1 DIFF>0]:
+ItemDisplay[GEMLEVEL=2 DIFF>0]:
+ItemDisplay[GEMLEVEL=3 DIFF>0]:
 
 //╔═══════════════════════════════════════════════════╗
 //║                   FLAWLESS GEMS                   ║
@@ -372,31 +374,49 @@ ItemDisplay[t18]: %DOT-62%%NAME%{%WHITE%Used to summon the Ruins of Lava Map}
 //╚═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
 //LIFE TAP CHARGES
-ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK82>0]: %DOT-62%%ORANGE%Life Tap Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW NMAG CHSK82>0]: %DOT-62%%ORANGE%Life Tap Charges%NL%%WHITE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW MAG CHSK82>0]: %DOT-62%%ORANGE%Life Tap Charges%NL%%BLUE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW RARE CHSK82>0]: %DOT-62%%ORANGE%Life Tap Charges%NL%%YELLOW%%NAME%//ANY ITEMS WITH CHARGE
 
 //LOWER RESIST CHARGES
-ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK91>0]: %DOT-62%%ORANGE%Lower Resist Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW NMAG CHSK91>0]: %DOT-62%%ORANGE%Lower Resist Charges%NL%%WHITE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW MAG CHSK91>0]: %DOT-62%%ORANGE%Lower Resist Charges%NL%%BLUE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW RARE CHSK91>0]: %DOT-62%%ORANGE%Lower Resist Charges%NL%%YELLOW%%NAME%//ANY ITEMS WITH CHARGE
 
 //TELEPORT CHARGES
-ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK91>0]: %DOT-62%%ORANGE%Teleport Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW NMAG CHSK91>0]: %DOT-62%%ORANGE%Teleport Charges%NL%%WHITE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW MAG CHSK91>0]: %DOT-62%%ORANGE%Teleport Charges%NL%%BLUE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW RARE CHSK91>0]: %DOT-62%%ORANGE%Teleport Charges%NL%%YELLOW%%NAME%//ANY ITEMS WITH CHARGE
 
 //SHIVER ARMOR CHARGES
-ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK50>0]: %DOT-62%%ORANGE%Shiver Armor Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW NMAG CHSK50>0]: %DOT-62%%ORANGE%Shiver Armor Charges%NL%%WHITE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW MAG CHSK50>0]: %DOT-62%%ORANGE%Shiver Armor Charges%NL%%BLUE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW RARE CHSK50>0]: %DOT-62%%ORANGE%Shiver Armor Charges%NL%%YELLOW%%NAME%//ANY ITEMS WITH CHARGE
 
 //CHILLING ARMOR CHARGES
-ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK60>0]: %DOT-62%%ORANGE%Chilling Armor Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW NMAG CHSK60>0]: %DOT-62%%ORANGE%Chilling Armor Charges%NL%%WHITE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW MAG CHSK60>0]: %DOT-62%%ORANGE%Chilling Armor Charges%NL%%BLUE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW RARE CHSK60>0]: %DOT-62%%ORANGE%Chilling Armor Charges%NL%%YELLOW%%NAME%//ANY ITEMS WITH CHARGE
 
 //BATTLE ORDERS CHARGES
-ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK149>0]: %DOT-62%%ORANGE%Battle Orders Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW NMAG CHSK149>0]: %DOT-62%%ORANGE%Battle Orders Charges%NL%%WHITE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW MAG CHSK149>0]: %DOT-62%%ORANGE%Battle Orders Charges%NL%%BLUE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW RARE CHSK149>0]: %DOT-62%%ORANGE%Battle Orders Charges%NL%%YELLOW%%NAME%//ANY ITEMS WITH CHARGE
 
 //OAK SAGE CHARGES
-ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK226>0]: %DOT-62%%ORANGE%Oak Sage Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW NMAG CHSK226>0]: %DOT-62%%ORANGE%Oak Sage Charges%NL%%WHITE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW MAG CHSK226>0]: %DOT-62%%ORANGE%Oak Sage Charges%NL%%BLUE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW RARE CHSK226>0]: %DOT-62%%ORANGE%Oak Sage Charges%NL%%YELLOW%%NAME%//ANY ITEMS WITH CHARGE
 
 //HEART OF THE WOLVERINE CHARGES
-ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK236>0]: %DOT-62%%ORANGE%Heart of Wolverine Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW NMAG CHSK236>0]: %DOT-62%%ORANGE%Heart of Wolverine Charges%NL%%WHITE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW MAG CHSK236>0]: %DOT-62%%ORANGE%Heart of Wolverine Charges%NL%%BLUE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW RARE CHSK236>0]: %DOT-62%%ORANGE%Heart of Wolverine Charges%NL%%YELLOW%%NAME%//ANY ITEMS WITH CHARGE
 
 //SPIRIT OF THE BARBS CHARGES
-ItemDisplay[!RW (NMAG OR MAG OR RARE) CHSK246>0]: %DOT-62%%ORANGE%Spirit of Barbs Charges%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW NMAG CHSK246>0]: %DOT-62%%ORANGE%Spirit of Barbs Charges%NL%%WHITE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW MAG CHSK246>0]: %DOT-62%%ORANGE%Spirit of Barbs Charges%NL%%BLUE%%NAME%//ANY ITEMS WITH CHARGE
+ItemDisplay[!RW RARE CHSK246>0]: %DOT-62%%ORANGE%Spirit of Barbs Charges%NL%%YELLOW%%NAME%//ANY ITEMS WITH CHARGE
 
 //╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                                                                               SKILL BASES                                                                                               ║
