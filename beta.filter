@@ -361,10 +361,12 @@ ItemDisplay[imma]: %DOT-62%%NAME%{%WHITE%Cube with: %WHITE%Normal Map %WHITE%+ %
 ItemDisplay[scou]: %DOT-62%%NAME%{%WHITE%Cube with: %WHITE%Any Map %WHITE%+ %ORANGE%Hel %WHITE%to make a %WHITE%White Map}
 ItemDisplay[rera]: %DOT-62%%NAME%{%WHITE%Cube with: %YELLOW%Rare Map %WHITE%+ %WHITE%Perfect Gem %WHITE%+ %ORANGE%Thul [10]+ %WHITE%to make a %YELLOW%Rare Map}
 ItemDisplay[upma]: %DOT-62%%NAME%{%WHITE%Cube with: %BLUE%Magic Map %WHITE%+ %ORANGE%Thul [10] %WHITE%+ %WHITE%Perfect Skull to make a %YELLOW%Rare Map}
-ItemDisplay[dcma]: %DOT-62%%NAME%{%WHITE%Cube with: %GOLD%Vision of Terror %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Prime Evil Soul}
-ItemDisplay[dcbl]: %DOT-62%%NAME%{%WHITE%Cube with: %GOLD%Vision of Terror %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Prime Evil Soul}
-ItemDisplay[dcho]: %DOT-62%%NAME%{%WHITE%Cube with: %GOLD%Vision of Terror %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Prime Evil Soul}
-ItemDisplay[dcso]: %DOT-62%%NAME%{%WHITE%Used to summon the Prime Evil DClone}
+
+ItemDisplay[dcbl]: %DOT-62%%NAME%{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
+ItemDisplay[dcho]: %DOT-62%%NAME%{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
+ItemDisplay[dcso]: %DOT-62%%NAME%{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
+ItemDisplay[dcma]: %DOT-62%%NAME%{%WHITE%Used to summon the Prime Evil DClone}
+
 ItemDisplay[t16]: %DOT-62%%NAME%{%WHITE%Used to summon the Ruins of Viz-Jun Map}
 ItemDisplay[t17]: %DOT-62%%NAME%{%WHITE%Used to summon the River of Blood Map}
 ItemDisplay[t18]: %DOT-62%%NAME%{%WHITE%Used to summon the Ruins of Lava Map}
