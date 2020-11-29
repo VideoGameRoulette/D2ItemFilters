@@ -1450,7 +1450,13 @@ ItemDisplay[(cm1 OR cm2 OR cm3) !ID UNI]: %DOT-0A%%RED%--- %NAME% %RED%---//MAGI
 //║                   CATCH ALL                     ║
 //╚═════════════════════════════════════════════════╝
 ItemDisplay[!ID UNI]: %DOT-A5%%GOLD%%NAME%//UNIQUE
-ItemDisplay[ID UNI]: %NAME%//UNIQUE
+ItemDisplay[NORM ARMOR ID UNI]: %NAME%{%WHITE%Cube With: %ORANGE%Tal %WHITE%+ %ORANGE%Shael %WHITE%+ %GRAY%Perfect Diamond %WHITE%to Upgrade}//UNIQUE
+ItemDisplay[EXC ARMOR ID UNI]: %NAME%{%WHITE%Cube With: %ORANGE%Ko %WHITE%+ %RED%Lem %WHITE%+ %GREEN%Perfect Emerald %WHITE%to Upgrade}//UNIQUE
+ItemDisplay[ELT ARMOR ID UNI]: %NAME%//UNIQUE
+
+ItemDisplay[NORM WEAPON ID UNI]: %NAME%{%WHITE%Cube With: %ORANGE%Ral %WHITE%+ %ORANGE%Sol %WHITE%+ %GREEN%Perfect Emerald %WHITE%to Upgrade}//UNIQUE
+ItemDisplay[EXC WEAPON ID UNI]: %NAME%{%WHITE%Cube With: %ORANGE%Lum %WHITE%+ %RED%Pul %WHITE%+ %GREEN%Perfect Emerald %WHITE%to Upgrade}//UNIQUE
+ItemDisplay[ELT WEAPON ID UNI]: %NAME%//UNIQUE
 
 //╔═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                                                                               SET                                                                                               ║
