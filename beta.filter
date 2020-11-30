@@ -469,7 +469,7 @@ ItemDisplay[(ob5 AND oba AND obf) !RW (NMAG OR MAG OR RARE) SK383>2 (SOCKS=0 OR 
 //╚═════════════════════════════════════════════╝
 
 ItemDisplay[NMAG INF]://ANY INFERIOR ITEM
-ItemDisplay[NMAG (EQ4 OR EQ5 OR EQ6 OR WP4 OR WP5 OR WP6) DIFF>0]://ANY INFERIOR ITEM
+ItemDisplay[NMAG (EQ4 OR EQ5 OR EQ6 OR WP4 OR WP5 OR WP6) DIFF>0]://ANY
 ItemDisplay[NMAG SOCKS=1 DIFF>0]://ANY 1 SOCKET NON MAGICAL ITEM
 //ItemDisplay[NMAG ED=0 DIFF>0]://ANY 0 ED ITEM
 ItemDisplay[aqv]://ARROWS
@@ -482,7 +482,7 @@ ItemDisplay[key]://Keys
 ItemDisplay[NMAG RW]:%NAME%//ANY
 ItemDisplay[utp !RW NMAG (SOCKS=0 OR SOCKS=3 or SOCKS=4)]: %DOT-60%%NAME%%CONTINUE%
 ItemDisplay[7ga !RW NMAG (SOCKS=0 OR SOCKS=5)]: %DOT-60%%NAME%%CONTINUE%
-ItemDisplay[NMAG]: %NAME%%CONTINUE%
+ItemDisplay[NMAG !RW]: %NAME%%CONTINUE%
 ItemDisplay[NMAG ETH]: %NAME% Eth%CONTINUE%
 
 ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6 OR !WP4 OR !WP5 OR !WP6) NMAG ED=15]: %DOT-60%%ORANGE%ED: %WHITE%[15]%NL%%RED%Perfect %NAME%%CONTINUE%
