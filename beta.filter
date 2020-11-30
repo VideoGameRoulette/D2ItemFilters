@@ -479,18 +479,19 @@ ItemDisplay[key]://Keys
 //╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                                                                               NORMAL                                                                                               ║
 //╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+ItemDisplay[NMAG RW]:%NAME%//ANY
 ItemDisplay[utp !RW NMAG (SOCKS=0 OR SOCKS=3 or SOCKS=4)]: %DOT-60%%NAME%%CONTINUE%
 ItemDisplay[7ga !RW NMAG (SOCKS=0 OR SOCKS=5)]: %DOT-60%%NAME%%CONTINUE%
 ItemDisplay[NMAG]: %NAME%%CONTINUE%
 ItemDisplay[NMAG ETH]: %NAME% Eth%CONTINUE%
 
-ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6) NMAG ED=15]: %DOT-60%%ORANGE%ED: %WHITE%[15]%NL%%RED%Perfect %NAME%%CONTINUE%
-ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6) NMAG ED=14]: %ORANGE%ED: %WHITE%[14]%NL%%NAME%%CONTINUE%
-ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6) NMAG ED=13]: %ORANGE%ED: %WHITE%[13]%NL%%NAME%%CONTINUE%
-ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6) NMAG ED=12]: %ORANGE%ED: %WHITE%[12]%NL%%NAME%%CONTINUE%
-ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6) NMAG ED=11]: %ORANGE%ED: %WHITE%[11]%NL%%NAME%%CONTINUE%
-ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6) NMAG ED=10]: %ORANGE%ED: %WHITE%[10]%NL%%NAME%%CONTINUE%
-ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6) NMAG (ED<10 AND ED>0)]: %ORANGE%ED: %WHITE%[-10]%NL%%NAME%%CONTINUE%
+ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6 OR !WP4 OR !WP5 OR !WP6) NMAG ED=15]: %DOT-60%%ORANGE%ED: %WHITE%[15]%NL%%RED%Perfect %NAME%%CONTINUE%
+ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6 OR !WP4 OR !WP5 OR !WP6) NMAG ED=14]: %ORANGE%ED: %WHITE%[14]%NL%%NAME%%CONTINUE%
+ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6 OR !WP4 OR !WP5 OR !WP6) NMAG ED=13]: %ORANGE%ED: %WHITE%[13]%NL%%NAME%%CONTINUE%
+ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6 OR !WP4 OR !WP5 OR !WP6) NMAG ED=12]: %ORANGE%ED: %WHITE%[12]%NL%%NAME%%CONTINUE%
+ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6 OR !WP4 OR !WP5 OR !WP6) NMAG ED=11]: %ORANGE%ED: %WHITE%[11]%NL%%NAME%%CONTINUE%
+ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6 OR !WP4 OR !WP5 OR !WP6) NMAG ED=10]: %ORANGE%ED: %WHITE%[10]%NL%%NAME%%CONTINUE%
+ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6 OR !WP4 OR !WP5 OR !WP6) NMAG (ED<10 AND ED>0)]: %ORANGE%ED: %WHITE%[-10]%NL%%NAME%%CONTINUE%
 
 ItemDisplay[CL3 NMAG SUP RES=45]: %DOT-60%%ORANGE%Resist All: %WHITE%[45] %NAME%%CONTINUE%
 ItemDisplay[CL3 NMAG SUP RES=44]: %ORANGE%Resist All: %WHITE%[44] %NAME%%CONTINUE%
