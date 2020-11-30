@@ -61,43 +61,6 @@ ItemDisplay[hfh]: %TAN%%NAME%
 ItemDisplay[ice]: %TAN%%NAME%
 ItemDisplay[tr2]: %TAN%%NAME%
 
-//╔═════════════════════════════════════════════╗
-//║                   REMOVE                    ║
-//╚═════════════════════════════════════════════╝
-
-ItemDisplay[NMAG INF]://Any Inferior Item
-ItemDisplay[(EQ4 OR EQ5 OR EQ6) NMAG CLVL>30]://Gloves, Boots, and Belt
-ItemDisplay[WP1 !RW NMAG CLVL>30 SOCKS<3]://Axes
-ItemDisplay[WP2 !RW NMAG CLVL>30 SOCKS<4]://Maces
-ItemDisplay[WP3 !RW NMAG CLVL>30 SOCKS<3]://Swords
-ItemDisplay[WP4 !RW NMAG CLVL>30]://Daggers
-ItemDisplay[WP5 !RW NMAG CLVL>30]://Throwing Weapons
-ItemDisplay[WP6 !RW NMAG CLVL>30]://Javelins
-ItemDisplay[WP7 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]://Spears
-ItemDisplay[WP8 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]://Polearms
-ItemDisplay[WP9 !RW NMAG CLVL>30 SOCKS<4]://Bows
-ItemDisplay[WP10 !RW NMAG CLVL>30 SOCKS<4]://Crossbows
-ItemDisplay[WP11 !RW NMAG CLVL>30 (!SOCKS=2 OR !SOCKS=4)]://Staves
-ItemDisplay[WP13 !RW NMAG CLVL>30 SOCKS<4]://Scepters
-ItemDisplay[EQ4 NMAG DIFF>0]://GLOVES
-ItemDisplay[EQ5 NMAG DIFF>0]://BOOTS
-ItemDisplay[EQ6 NMAG DIFF>0]://BELT
-ItemDisplay[(!CL1 && !CL2 && EQ1) NORM !RW NMAG DIFF>0]://HELM
-ItemDisplay[(ob1 AND ob2 AND ob3 AND ob4) !RW NMAG DIFF>0]://SORC WANDS 1
-ItemDisplay[(ob6 AND ob7 AND ob8 AND ob9) !RW NMAG DIFF>0]://SORC WANDS 2
-ItemDisplay[(obb AND obc AND obd AND obe) !RW NMAG DIFF>0]://SORC WANDS 3
-ItemDisplay[CL5 !RW NMAG (SOCKS=1 OR SOCKS=2) DIFF>0]://ASSASSIN CLAWS
-ItemDisplay[EQ2 NORM !RW NMAG DIFF>0]://CHEST
-ItemDisplay[(!CL3 && !CL4 && EQ3) NORM !RW NMAG DIFF>0]://SHIELD
-ItemDisplay[EQ7 !RW NMAG DIFF>0]://CIRCLET
-ItemDisplay[WP4 NMAG DIFF>0]://DAGGER
-ItemDisplay[WP5 NMAG DIFF>0]://THROWING
-ItemDisplay[WP6 NMAG DIFF>0]://JAV
-ItemDisplay[NMAG SOCKS=1]://ANY 1 SOCKET NON MAGICAL ITEM
-ItemDisplay[aqv]://ARROWS
-ItemDisplay[cqv]://BOLTS
-ItemDisplay[key]://Keys
-
 //╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                                                                               MISC                                                                                               ║
 //╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -362,10 +325,10 @@ ItemDisplay[scou]: %DOT-62%%NAME%{%WHITE%Cube with: %WHITE%Any Map %WHITE%+ %ORA
 ItemDisplay[rera]: %DOT-62%%NAME%{%WHITE%Cube with: %YELLOW%Rare Map %WHITE%+ %WHITE%Perfect Gem %WHITE%+ %ORANGE%Thul [10]+ %WHITE%to make a %YELLOW%Rare Map}
 ItemDisplay[upma]: %DOT-62%%NAME%{%WHITE%Cube with: %BLUE%Magic Map %WHITE%+ %ORANGE%Thul [10] %WHITE%+ %WHITE%Perfect Skull to make a %YELLOW%Rare Map}
 
-ItemDisplay[dcbl]: %DOT-62%%NAME%{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
-ItemDisplay[dcho]: %DOT-62%%NAME%{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
-ItemDisplay[dcso]: %DOT-62%%NAME%{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
-ItemDisplay[dcma]: %DOT-62%%NAME%{%WHITE%Used to summon the Prime Evil DClone}
+ItemDisplay[dcbl]: %DOT-62%%RED%--- %GOLD%Pure Demonic Essence %RED%---{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
+ItemDisplay[dcho]: %DOT-62%%RED%--- %GOLD%Black Soulstone %RED%---{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
+ItemDisplay[dcso]: %DOT-62%%RED%--- %GOLD%Prime Evil Soul %RED%---{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
+ItemDisplay[dcma]: %DOT-62%%RED%--- %GOLD%Vision of Terror %RED%---{%WHITE%Used to summon the Prime Evil DClone}
 
 ItemDisplay[t16]: %DOT-62%%NAME%{%WHITE%Used to summon the Ruins of Viz-Jun Map}
 ItemDisplay[t17]: %DOT-62%%NAME%{%WHITE%Used to summon the River of Blood Map}
@@ -501,603 +464,141 @@ ItemDisplay[(ob5 AND oba AND obf) !RW (NMAG OR MAG OR RARE) SK369>2 (SOCKS=0 OR 
 //LESSER HYDRA SKILLS
 ItemDisplay[(ob5 AND oba AND obf) !RW (NMAG OR MAG OR RARE) SK383>2 (SOCKS=0 OR SOCKS=3)]: %ORANGE%%ORANGE%Sockets: %WHITE%[%SOCKETS%] Lesser Hydra: %WHITE%[3]%NL%%RED%--- %WHITE%%NAME% %RED%---//ANY ITEMS WITH +3 SKILLS
 
-//╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
-//║                                                                                               RUNEWORD                                                                                               ║
-//╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+//╔═════════════════════════════════════════════╗
+//║                   REMOVE                    ║
+//╚═════════════════════════════════════════════╝
 
-//COMPLETED RUNEWORDS
-ItemDisplay[RW]: %NAME%{%WHITE%Use: %TAN%Hel + Town Portal %WHITE%To Clear Items Sockets}//ANY RUNEWORD
-
-//BASES
-ItemDisplay[WP7 NORM !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%YELLOW%--- %WHITE%%NAME% %YELLOW%---{%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
-ItemDisplay[WP8 NORM !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%YELLOW%--- %WHITE%%NAME% %YELLOW%---{%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
-
-ItemDisplay[WP7 EXC !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%%NAME% %ORANGE%---{%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
-ItemDisplay[WP8 EXC !RW NMAG SOCKS=4]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%%NAME% %ORANGE%---{%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
-
-ItemDisplay[WP7 ELT !RW ETH SUP NMAG SOCKS=4 ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %RED%Perfect Eth %NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
-ItemDisplay[WP8 ELT !RW ETH SUP NMAG SOCKS=4 ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %RED%Perfect Eth %NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
-
-ItemDisplay[WP7 ELT !RW ETH NMAG SOCKS=4]: %DOT-60%%ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %ORANGE%Eth %NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
-ItemDisplay[WP8 ELT !RW ETH NMAG SOCKS=4]: %DOT-60%%ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %ORANGE%Eth %NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
-
-ItemDisplay[WP7 ELT !RW !ETH NMAG SOCKS=4]: %DOT-20%%ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %WHITE%%NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
-ItemDisplay[WP8 ELT !RW !ETH NMAG SOCKS=4]: %DOT-20%%ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%RED%--- %WHITE%%NAME% %RED%---{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
-
-ItemDisplay[72h ETH NMAG (SOCKS=3 OR SOCKS=0)]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%Eth %NAME% %ORANGE%---{%WHITE%Add Amn + Lem + Ko %WHITE%to make %GOLD%Lawbringer}//Legend Sword
-ItemDisplay[7ls ETH NMAG (SOCKS=4 OR SOCKS=0)]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%Eth %NAME% %ORANGE%---{%WHITE%Add %TAN%A + B + C + D %WHITE%to make %GOLD%Runeword}//Cryptic Sword
-ItemDisplay[7fl ETH NMAG (SOCKS=4 OR SOCKS=0)]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%--- %WHITE%Eth %NAME% %ORANGE%---{%WHITE%Add %TAN%A + B + C + D %WHITE%to make %GOLD%Runeword}//Scourge
+ItemDisplay[NMAG INF]://ANY INFERIOR ITEM
+ItemDisplay[NMAG (EQ4 OR EQ5 OR EQ6 OR WP4 OR WP5 OR WP6) DIFF>0]://ANY INFERIOR ITEM
+ItemDisplay[NMAG SOCKS=1 DIFF>0]://ANY 1 SOCKET NON MAGICAL ITEM
+//ItemDisplay[NMAG ED=0 DIFF>0]://ANY 0 ED ITEM
+ItemDisplay[aqv]://ARROWS
+ItemDisplay[cqv]://BOLTS
+ItemDisplay[key]://Keys
 
 //╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                                                                               NORMAL                                                                                               ║
 //╚════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+ItemDisplay[utp !RW NMAG (SOCKS=0 OR SOCKS=3 or SOCKS=4)]: %DOT-60%%NAME%%CONTINUE%
+ItemDisplay[7ga !RW NMAG (SOCKS=0 OR SOCKS=5)]: %DOT-60%%NAME%%CONTINUE%
+ItemDisplay[NMAG]: %NAME%%CONTINUE%
+ItemDisplay[NMAG ETH]: %NAME% Eth%CONTINUE%
+
+ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6) NMAG ED=15]: %DOT-60%%ORANGE%ED: %WHITE%[15]%NL%%RED%Perfect %NAME%%CONTINUE%
+ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6) NMAG ED=14]: %ORANGE%ED: %WHITE%[14]%NL%%NAME%%CONTINUE%
+ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6) NMAG ED=13]: %ORANGE%ED: %WHITE%[13]%NL%%NAME%%CONTINUE%
+ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6) NMAG ED=12]: %ORANGE%ED: %WHITE%[12]%NL%%NAME%%CONTINUE%
+ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6) NMAG ED=11]: %ORANGE%ED: %WHITE%[11]%NL%%NAME%%CONTINUE%
+ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6) NMAG ED=10]: %ORANGE%ED: %WHITE%[10]%NL%%NAME%%CONTINUE%
+ItemDisplay[(!EQ4 OR !EQ5 OR !EQ6) NMAG (ED<10 AND ED>0)]: %ORANGE%ED: %WHITE%[-10]%NL%%NAME%%CONTINUE%
+
+ItemDisplay[CL3 NMAG SUP RES=45]: %DOT-60%%ORANGE%Resist All: %WHITE%[45] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=44]: %ORANGE%Resist All: %WHITE%[44] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=43]: %ORANGE%Resist All: %WHITE%[43] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=42]: %ORANGE%Resist All: %WHITE%[42] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=41]: %ORANGE%Resist All: %WHITE%[41] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=40]: %ORANGE%Resist All: %WHITE%[40] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=39]: %ORANGE%Resist All: %WHITE%[39] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=38]: %ORANGE%Resist All: %WHITE%[38] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=37]: %ORANGE%Resist All: %WHITE%[37] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=36]: %ORANGE%Resist All: %WHITE%[36] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=35]: %ORANGE%Resist All: %WHITE%[35] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=34]: %ORANGE%Resist All: %WHITE%[34] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=33]: %ORANGE%Resist All: %WHITE%[33] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=32]: %ORANGE%Resist All: %WHITE%[32] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=31]: %ORANGE%Resist All: %WHITE%[31] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=30]: %ORANGE%Resist All: %WHITE%[30] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=29]: %ORANGE%Resist All: %WHITE%[29] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=28]: %ORANGE%Resist All: %WHITE%[28] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=27]: %ORANGE%Resist All: %WHITE%[27] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=26]: %ORANGE%Resist All: %WHITE%[26] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=25]: %ORANGE%Resist All: %WHITE%[25] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=24]: %ORANGE%Resist All: %WHITE%[24] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=23]: %ORANGE%Resist All: %WHITE%[23] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=22]: %ORANGE%Resist All: %WHITE%[22] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=21]: %ORANGE%Resist All: %WHITE%[21] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=20]: %ORANGE%Resist All: %WHITE%[20] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=19]: %ORANGE%Resist All: %WHITE%[19] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=18]: %ORANGE%Resist All: %WHITE%[18] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=17]: %ORANGE%Resist All: %WHITE%[17] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=16]: %ORANGE%Resist All: %WHITE%[16] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=15]: %ORANGE%Resist All: %WHITE%[15] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=14]: %ORANGE%Resist All: %WHITE%[14] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=13]: %ORANGE%Resist All: %WHITE%[13] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=12]: %ORANGE%Resist All: %WHITE%[12] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=11]: %ORANGE%Resist All: %WHITE%[11] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP RES=10]: %ORANGE%Resist All: %WHITE%[10] %NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG SUP (RES<10 AND RES>0)]: %ORANGE%Resist All: %WHITE%[-10] %NAME%%CONTINUE%
+
+ItemDisplay[CL3 NMAG !SUP RES=45]: %DOT-60%%ORANGE%Resist All: %WHITE%[45]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=44]: %ORANGE%Resist All: %WHITE%[44]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=43]: %ORANGE%Resist All: %WHITE%[43]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=42]: %ORANGE%Resist All: %WHITE%[42]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=41]: %ORANGE%Resist All: %WHITE%[41]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=40]: %ORANGE%Resist All: %WHITE%[40]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=39]: %ORANGE%Resist All: %WHITE%[39]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=38]: %ORANGE%Resist All: %WHITE%[38]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=37]: %ORANGE%Resist All: %WHITE%[37]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=36]: %ORANGE%Resist All: %WHITE%[36]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=35]: %ORANGE%Resist All: %WHITE%[35]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=34]: %ORANGE%Resist All: %WHITE%[34]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=33]: %ORANGE%Resist All: %WHITE%[33]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=32]: %ORANGE%Resist All: %WHITE%[32]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=31]: %ORANGE%Resist All: %WHITE%[31]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=30]: %ORANGE%Resist All: %WHITE%[30]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=29]: %ORANGE%Resist All: %WHITE%[29]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=28]: %ORANGE%Resist All: %WHITE%[28]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=27]: %ORANGE%Resist All: %WHITE%[27]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=26]: %ORANGE%Resist All: %WHITE%[26]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=25]: %ORANGE%Resist All: %WHITE%[25]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=24]: %ORANGE%Resist All: %WHITE%[24]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=23]: %ORANGE%Resist All: %WHITE%[23]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=22]: %ORANGE%Resist All: %WHITE%[22]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=21]: %ORANGE%Resist All: %WHITE%[21]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=20]: %ORANGE%Resist All: %WHITE%[20]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=19]: %ORANGE%Resist All: %WHITE%[19]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=18]: %ORANGE%Resist All: %WHITE%[18]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=17]: %ORANGE%Resist All: %WHITE%[17]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=16]: %ORANGE%Resist All: %WHITE%[16]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=15]: %ORANGE%Resist All: %WHITE%[15]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=14]: %ORANGE%Resist All: %WHITE%[14]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=13]: %ORANGE%Resist All: %WHITE%[13]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=12]: %ORANGE%Resist All: %WHITE%[12]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=11]: %ORANGE%Resist All: %WHITE%[11]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP RES=10]: %ORANGE%Resist All: %WHITE%[10]%NL%%NAME%%CONTINUE%
+ItemDisplay[CL3 NMAG !SUP (RES<10 AND RES>0)]: %ORANGE%Resist All: %WHITE%[-10]%NL%%NAME%%CONTINUE%
+
+ItemDisplay[NMAG SOCK>0 ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %NAME%%CONTINUE%
+ItemDisplay[NMAG SOCK>0 ED=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%%CONTINUE%
+
+ItemDisplay[NMAG PRICE=35000 ED>0]: %ORANGE%Price: %WHITE%[%PRICE%%GOLD%G%WHITE%] %NAME%%CONTINUE%
+ItemDisplay[NMAG PRICE=35000 ED=0]: %ORANGE%Price: %WHITE%[%PRICE%%GOLD%G%WHITE%]%NL%%NAME%%CONTINUE%
+
+//╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+//║                                                                                               RUNEWORD                                                                                               ║
+//╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+//COMPLETED RUNEWORDS
+ItemDisplay[RW]: %NAME%{%WHITE%Use: %TAN%Hel + Town Portal %WHITE%To Clear Items Sockets}//ANY RUNEWORD
+
+//BASES
+ItemDisplay[WP7 NORM !RW NMAG SOCKS=4]: %NAME%{%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
+ItemDisplay[WP8 NORM !RW NMAG SOCKS=4]: %NAME%{%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
 
-//╔═════════════════════════════════════════════╗
-//║                   NON-ETH                   ║
-//╚═════════════════════════════════════════════╝
+ItemDisplay[WP7 EXC !RW NMAG SOCKS=4]: %NAME%{%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
+ItemDisplay[WP8 EXC !RW NMAG SOCKS=4]: %NAME%{%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
 
-//╔═══════════════════════════════════════════╗
-//║                   ARMOR                   ║
-//╚═══════════════════════════════════════════╝
+ItemDisplay[WP7 ELT !RW ETH SUP NMAG SOCKS=4 ED=15]: %DOT-62%%NAME%{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
+ItemDisplay[WP8 ELT !RW ETH SUP NMAG SOCKS=4 ED=15]: %DOT-62%%NAME%{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
 
-//PERFECT
-ItemDisplay[EQ1 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//HELM
-ItemDisplay[EQ2 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//CHEST
-ItemDisplay[EQ3 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//SHIELD
-ItemDisplay[EQ7 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//CIRCLET
-ItemDisplay[ARMOR !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//ALL ARMORS
+ItemDisplay[WP7 ELT !RW ETH NMAG SOCKS=4]: %DOT-60%%NAME%{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
+ItemDisplay[WP8 ELT !RW ETH NMAG SOCKS=4]: %DOT-60%%NAME%{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
 
-//14 ED
-ItemDisplay[EQ1 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//HELM
-ItemDisplay[EQ2 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//CHEST
-ItemDisplay[EQ3 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SHIELD
-ItemDisplay[EQ7 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//CIRCLET
+ItemDisplay[WP7 ELT !RW !ETH NMAG SOCKS=4]: %DOT-20%%NAME%{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
+ItemDisplay[WP8 ELT !RW !ETH NMAG SOCKS=4]: %DOT-20%%NAME%{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
 
-//13 ED
-ItemDisplay[EQ1 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//HELM
-ItemDisplay[EQ2 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//CHEST
-ItemDisplay[EQ3 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SHIELD
-ItemDisplay[EQ7 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//CIRCLET
-
-//12 ED
-ItemDisplay[EQ1 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//HELM
-ItemDisplay[EQ2 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//CHEST
-ItemDisplay[EQ3 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SHIELD
-ItemDisplay[EQ7 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//CIRCLET
-
-//11 ED
-ItemDisplay[EQ1 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//HELM
-ItemDisplay[EQ2 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//CHEST
-ItemDisplay[EQ3 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SHIELD
-ItemDisplay[EQ7 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//CIRCLET
-
-//10 ED
-ItemDisplay[EQ1 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//HELM
-ItemDisplay[EQ2 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//CHEST
-ItemDisplay[EQ3 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SHIELD
-ItemDisplay[EQ7 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//CIRCLET
-
-//1-10 ED
-ItemDisplay[EQ1 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//HELM
-ItemDisplay[EQ2 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//CHEST
-ItemDisplay[EQ3 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SHIELD
-ItemDisplay[EQ7 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//CIRCLET
-
-//NON SUPERIOR
-ItemDisplay[EQ1 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL HELM
-ItemDisplay[EQ2 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL CHEST
-ItemDisplay[EQ3 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL SHIELD
-ItemDisplay[EQ7 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL CIRCLET
-
-ItemDisplay[EQ1 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE HELM
-ItemDisplay[EQ2 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE CHEST
-ItemDisplay[EQ3 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE SHIELD
-ItemDisplay[EQ7 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE CIRCLET
-
-ItemDisplay[EQ1 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE HELM
-ItemDisplay[EQ2 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE CHEST
-ItemDisplay[EQ3 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE SHIELD
-ItemDisplay[EQ7 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE CIRCLET
-
-//╔═════════════════════════════════════════════╗
-//║                   WEAPONS                   ║
-//╚═════════════════════════════════════════════╝
-
-//PERFECT
-ItemDisplay[WP1 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//AXE
-ItemDisplay[WP2 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//MACE
-ItemDisplay[WP3 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//SWORD
-ItemDisplay[WP7 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//SPEAR
-ItemDisplay[WP8 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//POLEARM
-ItemDisplay[WP9 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//BOW
-ItemDisplay[WP10 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//XBOW
-ItemDisplay[WP11 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//STAFF
-ItemDisplay[WP12 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//WAND
-ItemDisplay[WP13 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//SCEPTER
-ItemDisplay[WEAPON !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//ALL ARMORS
-
-//14 ED
-ItemDisplay[WP1 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//AXE
-ItemDisplay[WP2 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//MACE
-ItemDisplay[WP3 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SWORD
-ItemDisplay[WP7 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SPEAR
-ItemDisplay[WP8 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//POLEARM
-ItemDisplay[WP9 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BOW
-ItemDisplay[WP10 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//XBOW
-ItemDisplay[WP11 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//STAFF
-ItemDisplay[WP12 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//WAND
-ItemDisplay[WP13 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SCEPTER
-
-//13 ED
-ItemDisplay[WP1 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//AXE
-ItemDisplay[WP2 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//MACE
-ItemDisplay[WP3 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SWORD
-ItemDisplay[WP7 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SPEAR
-ItemDisplay[WP8 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//POLEARM
-ItemDisplay[WP9 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BOW
-ItemDisplay[WP10 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//XBOW
-ItemDisplay[WP11 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//STAFF
-ItemDisplay[WP12 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//WAND
-ItemDisplay[WP13 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SCEPTER
-
-//12 ED
-ItemDisplay[WP1 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//AXE
-ItemDisplay[WP2 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//MACE
-ItemDisplay[WP3 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SWORD
-ItemDisplay[WP7 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SPEAR
-ItemDisplay[WP8 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//POLEARM
-ItemDisplay[WP9 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BOW
-ItemDisplay[WP10 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//XBOW
-ItemDisplay[WP11 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//STAFF
-ItemDisplay[WP12 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//WAND
-ItemDisplay[WP13 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SCEPTER
-
-//11 ED
-ItemDisplay[WP1 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//AXE
-ItemDisplay[WP2 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//MACE
-ItemDisplay[WP3 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SWORD
-ItemDisplay[WP7 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SPEAR
-ItemDisplay[WP8 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//POLEARM
-ItemDisplay[WP9 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BOW
-ItemDisplay[WP10 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//XBOW
-ItemDisplay[WP11 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//STAFF
-ItemDisplay[WP12 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//WAND
-ItemDisplay[WP13 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SCEPTER
-
-//10 ED
-ItemDisplay[WP1 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//AXE
-ItemDisplay[WP2 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//MACE
-ItemDisplay[WP3 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SWORD
-ItemDisplay[WP7 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SPEAR
-ItemDisplay[WP8 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//POLEARM
-ItemDisplay[WP9 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BOW
-ItemDisplay[WP10 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//XBOW
-ItemDisplay[WP11 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//STAFF
-ItemDisplay[WP12 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//WAND
-ItemDisplay[WP13 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SCEPTER
-
-//1-10 ED
-ItemDisplay[WP1 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//AXE
-ItemDisplay[WP2 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//MACE
-ItemDisplay[WP3 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SWORD
-ItemDisplay[WP7 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SPEAR
-ItemDisplay[WP8 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//POLEARM
-ItemDisplay[WP9 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BOW
-ItemDisplay[WP10 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//XBOW
-ItemDisplay[WP11 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//STAFF
-ItemDisplay[WP12 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//WAND
-ItemDisplay[WP13 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SCEPTER
-
-//NON SUPERIOR
-ItemDisplay[WP1 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//AXE
-ItemDisplay[WP2 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//MACE
-ItemDisplay[WP3 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//SWORD
-ItemDisplay[WP7 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//SPEAR
-ItemDisplay[WP8 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//POLEARM
-ItemDisplay[WP9 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//BOW
-ItemDisplay[WP10 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//XBOW
-ItemDisplay[WP11 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//STAFF
-ItemDisplay[WP12 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//WAND
-ItemDisplay[WP13 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//SCEPTER
-
-ItemDisplay[WP1 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//AXE
-ItemDisplay[WP2 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//MACE
-ItemDisplay[WP3 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//SWORD
-ItemDisplay[WP7 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//SPEAR
-ItemDisplay[WP8 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//POLEARM
-ItemDisplay[WP9 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//BOW
-ItemDisplay[WP10 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//XBOW
-ItemDisplay[WP11 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//STAFF
-ItemDisplay[WP12 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//WAND
-ItemDisplay[WP13 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//SCEPTER
-
-ItemDisplay[WP1 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//AXE
-ItemDisplay[WP2 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//MACE
-ItemDisplay[WP3 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//SWORD
-ItemDisplay[WP7 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//SPEAR
-ItemDisplay[WP8 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//POLEARM
-ItemDisplay[WP9 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//BOW
-ItemDisplay[WP10 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//XBOW
-ItemDisplay[WP11 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//STAFF
-ItemDisplay[WP12 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//WAND
-ItemDisplay[WP13 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//SCEPTER
-
-ItemDisplay[!RW !ETH SUP NMAG SOCKS=0]: %ORANGE%%NAME%//Any Non Eth + Superior
-ItemDisplay[!RW !ETH !SUP NMAG SOCKS=0]: %NAME%//Any Non Eth + Non Superior
-ItemDisplay[!RW !ETH SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%ORANGE%%NAME%//Any Non Eth + Superior
-ItemDisplay[!RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//Any Non Eth + Non Superior
-
-//╔═════════════════════════════════════════════════╗
-//║                   CLASS ITEMS                   ║
-//╚═════════════════════════════════════════════════╝
-//PERFECT
-ItemDisplay[CL1 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//DRU
-ItemDisplay[CL2 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//BAR
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//DIN
-ItemDisplay[CL4 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//NEC
-ItemDisplay[CL5 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//SIN
-ItemDisplay[CL6 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//SOR
-ItemDisplay[CL7 !RW !ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//ZON
-
-//14 ED
-ItemDisplay[CL1 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DRU
-ItemDisplay[CL2 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BAR
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DIN
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//NEC
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SIN
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SOR
-ItemDisplay[CL7 !RW !ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//ZON
-
-//13 ED
-ItemDisplay[CL1 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DRU
-ItemDisplay[CL2 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BAR
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DIN
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//NEC
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SIN
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SOR
-ItemDisplay[CL7 !RW !ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//ZON
-
-//12 ED
-ItemDisplay[CL1 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DRU
-ItemDisplay[CL2 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BAR
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DIN
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//NEC
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SIN
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SOR
-ItemDisplay[CL7 !RW !ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//ZON
-
-//11 ED
-ItemDisplay[CL1 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DRU
-ItemDisplay[CL2 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BAR
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DIN
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//NEC
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SIN
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SOR
-ItemDisplay[CL7 !RW !ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//ZON
-
-//10 ED
-ItemDisplay[CL1 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DRU
-ItemDisplay[CL2 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BAR
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DIN
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//NEC
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SIN
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SOR
-ItemDisplay[CL7 !RW !ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//ZON
-
-//1-10 ED
-ItemDisplay[CL1 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DRU
-ItemDisplay[CL2 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BAR
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DIN
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//NEC
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SIN
-ItemDisplay[CL3 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SOR
-ItemDisplay[CL7 !RW !ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//ZON
-
-//NON SUPERIOR
-ItemDisplay[CL1 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL DRU
-ItemDisplay[CL2 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL BAR
-ItemDisplay[CL3 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL DIN
-ItemDisplay[CL3 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL NEC
-ItemDisplay[CL3 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL SIN
-ItemDisplay[CL3 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL SOR
-ItemDisplay[CL7 NORM !RW !ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL ZON
-
-ItemDisplay[CL1 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE DRU
-ItemDisplay[CL2 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE BAR
-ItemDisplay[CL3 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE DIN
-ItemDisplay[CL3 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE NEC
-ItemDisplay[CL3 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE SIN
-ItemDisplay[CL3 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE SOR
-ItemDisplay[CL7 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE ZON
-
-ItemDisplay[CL1 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE DRU
-ItemDisplay[CL2 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE BAR
-ItemDisplay[CL3 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE DIN
-ItemDisplay[CL3 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE NEC
-ItemDisplay[CL3 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE SIN
-ItemDisplay[CL3 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE SOR
-ItemDisplay[CL7 (EXC OR ELT) !RW !ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE ZON
-
-//╔═════════════════════════════════════════╗
-//║                   ETH                   ║
-//╚═════════════════════════════════════════╝
-
-//╔═══════════════════════════════════════════╗
-//║                   ARMOR                   ║
-//╚═══════════════════════════════════════════╝
-
-//PERFECT
-ItemDisplay[EQ1 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//HELM
-ItemDisplay[EQ2 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//CHEST
-ItemDisplay[EQ3 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//SHIELD
-ItemDisplay[EQ7 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//CIRCLET
-ItemDisplay[ARMOR !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//ALL ARMORS
-
-//14 ED
-ItemDisplay[EQ1 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//HELM
-ItemDisplay[EQ2 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//CHEST
-ItemDisplay[EQ3 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SHIELD
-ItemDisplay[EQ7 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//CIRCLET
-
-//13 ED
-ItemDisplay[EQ1 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//HELM
-ItemDisplay[EQ2 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//CHEST
-ItemDisplay[EQ3 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SHIELD
-ItemDisplay[EQ7 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//CIRCLET
-
-//12 ED
-ItemDisplay[EQ1 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//HELM
-ItemDisplay[EQ2 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//CHEST
-ItemDisplay[EQ3 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SHIELD
-ItemDisplay[EQ7 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//CIRCLET
-
-//11 ED
-ItemDisplay[EQ1 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//HELM
-ItemDisplay[EQ2 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//CHEST
-ItemDisplay[EQ3 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SHIELD
-ItemDisplay[EQ7 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//CIRCLET
-
-//10 ED
-ItemDisplay[EQ1 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//HELM
-ItemDisplay[EQ2 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//CHEST
-ItemDisplay[EQ3 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SHIELD
-ItemDisplay[EQ7 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//CIRCLET
-
-//1-10 ED
-ItemDisplay[EQ1 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//HELM
-ItemDisplay[EQ2 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//CHEST
-ItemDisplay[EQ3 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SHIELD
-ItemDisplay[EQ7 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//CIRCLET
-
-//NON SUPERIOR
-ItemDisplay[EQ1 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//NORMAL HELM
-ItemDisplay[EQ2 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//NORMAL CHEST
-ItemDisplay[EQ3 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//NORMAL SHIELD
-ItemDisplay[EQ7 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//NORMAL CIRCLET
-
-ItemDisplay[EQ1 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//EXCEPTIONAL OR ELITE HELM
-ItemDisplay[EQ2 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//EXCEPTIONAL OR ELITE CHEST
-ItemDisplay[EQ3 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//EXCEPTIONAL OR ELITE SHIELD
-ItemDisplay[EQ7 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//EXCEPTIONAL OR ELITE CIRCLET
-
-ItemDisplay[EQ1 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: Eth %NAME%//EXCEPTIONAL OR ELITE HELM
-ItemDisplay[EQ2 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: Eth %NAME%//EXCEPTIONAL OR ELITE CHEST
-ItemDisplay[EQ3 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: Eth %NAME%//EXCEPTIONAL OR ELITE SHIELD
-ItemDisplay[EQ7 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: Eth %NAME%//EXCEPTIONAL OR ELITE CIRCLET
-
-//╔═════════════════════════════════════════════╗
-//║                   WEAPONS                   ║
-//╚═════════════════════════════════════════════╝
-
-//PERFECT
-ItemDisplay[WP1 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//AXE
-ItemDisplay[WP2 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//MACE
-ItemDisplay[WP3 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//SWORD
-ItemDisplay[WP7 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//SPEAR
-ItemDisplay[WP8 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//POLEARM
-ItemDisplay[WP9 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//BOW
-ItemDisplay[WP10 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//XBOW
-ItemDisplay[WP11 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//STAFF
-ItemDisplay[WP12 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//WAND
-ItemDisplay[WP13 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//SCEPTER
-ItemDisplay[WEAPON !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect Eth %NAME%%WHITE%//ALL WEAPONS
-
-//14 ED
-ItemDisplay[WP1 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//AXE
-ItemDisplay[WP2 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//MACE
-ItemDisplay[WP3 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SWORD
-ItemDisplay[WP7 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SPEAR
-ItemDisplay[WP8 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//POLEARM
-ItemDisplay[WP9 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//BOW
-ItemDisplay[WP10 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//XBOW
-ItemDisplay[WP11 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//STAFF
-ItemDisplay[WP12 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//WAND
-ItemDisplay[WP13 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SCEPTER
-
-//13 ED
-ItemDisplay[WP1 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//AXE
-ItemDisplay[WP2 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//MACE
-ItemDisplay[WP3 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SWORD
-ItemDisplay[WP7 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SPEAR
-ItemDisplay[WP8 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//POLEARM
-ItemDisplay[WP9 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//BOW
-ItemDisplay[WP10 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//XBOW
-ItemDisplay[WP11 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//STAFF
-ItemDisplay[WP12 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//WAND
-ItemDisplay[WP13 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SCEPTER
-
-//12 ED
-ItemDisplay[WP1 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//AXE
-ItemDisplay[WP2 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//MACE
-ItemDisplay[WP3 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SWORD
-ItemDisplay[WP7 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SPEAR
-ItemDisplay[WP8 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//POLEARM
-ItemDisplay[WP9 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//BOW
-ItemDisplay[WP10 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//XBOW
-ItemDisplay[WP11 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//STAFF
-ItemDisplay[WP12 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//WAND
-ItemDisplay[WP13 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SCEPTER
-
-//11 ED
-ItemDisplay[WP1 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//AXE
-ItemDisplay[WP2 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//MACE
-ItemDisplay[WP3 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SWORD
-ItemDisplay[WP7 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SPEAR
-ItemDisplay[WP8 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//POLEARM
-ItemDisplay[WP9 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//BOW
-ItemDisplay[WP10 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//XBOW
-ItemDisplay[WP11 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//STAFF
-ItemDisplay[WP12 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//WAND
-ItemDisplay[WP13 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SCEPTER
-
-//10 ED
-ItemDisplay[WP1 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//AXE
-ItemDisplay[WP2 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//MACE
-ItemDisplay[WP3 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SWORD
-ItemDisplay[WP7 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SPEAR
-ItemDisplay[WP8 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//POLEARM
-ItemDisplay[WP9 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//BOW
-ItemDisplay[WP10 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//XBOW
-ItemDisplay[WP11 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//STAFF
-ItemDisplay[WP12 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//WAND
-ItemDisplay[WP13 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SCEPTER
-
-//1-10 ED
-ItemDisplay[WP1 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//AXE
-ItemDisplay[WP2 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//MACE
-ItemDisplay[WP3 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SWORD
-ItemDisplay[WP7 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SPEAR
-ItemDisplay[WP8 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//POLEARM
-ItemDisplay[WP9 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//BOW
-ItemDisplay[WP10 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//XBOW
-ItemDisplay[WP11 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//STAFF
-ItemDisplay[WP12 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//WAND
-ItemDisplay[WP13 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%Eth %NAME%%WHITE%//SCEPTER
-
-//NON SUPERIOR
-ItemDisplay[WP1 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//AXE
-ItemDisplay[WP2 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//MACE
-ItemDisplay[WP3 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//SWORD
-ItemDisplay[WP7 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//SPEAR
-ItemDisplay[WP8 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//POLEARM
-ItemDisplay[WP9 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//BOW
-ItemDisplay[WP10 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//XBOW
-ItemDisplay[WP11 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//STAFF
-ItemDisplay[WP12 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//WAND
-ItemDisplay[WP13 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//SCEPTER
-
-ItemDisplay[WP1 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//AXE
-ItemDisplay[WP2 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//MACE
-ItemDisplay[WP3 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//SWORD
-ItemDisplay[WP7 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//SPEAR
-ItemDisplay[WP8 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//POLEARM
-ItemDisplay[WP9 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//BOW
-ItemDisplay[WP10 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//XBOW
-ItemDisplay[WP11 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//STAFF
-ItemDisplay[WP12 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//WAND
-ItemDisplay[WP13 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%Eth %NAME%//SCEPTER
-
-ItemDisplay[WP1 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: Eth %NAME%//AXE
-ItemDisplay[WP2 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: Eth %NAME%//MACE
-ItemDisplay[WP3 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: Eth %NAME%//SWORD
-ItemDisplay[WP7 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: Eth %NAME%//SPEAR
-ItemDisplay[WP8 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: Eth %NAME%//POLEARM
-ItemDisplay[WP9 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: Eth %NAME%//BOW
-ItemDisplay[WP10 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: Eth %NAME%//XBOW
-ItemDisplay[WP11 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: Eth %NAME%//STAFF
-ItemDisplay[WP12 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: Eth %NAME%//WAND
-ItemDisplay[WP13 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: Eth %NAME%//SCEPTER
-
-//╔═════════════════════════════════════════════════╗
-//║                   CLASS ITEMS                   ║
-//╚═════════════════════════════════════════════════╝
-//PERFECT
-ItemDisplay[CL1 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//DRU
-ItemDisplay[CL2 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//BAR
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//DIN
-ItemDisplay[CL4 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//NEC
-ItemDisplay[CL5 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//SIN
-ItemDisplay[CL6 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//SOR
-ItemDisplay[CL7 !RW ETH SUP NMAG ED=15]: %DOT-62%%ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%RED%15%WHITE%]%NL%%RED%Perfect %NAME%%WHITE%//ZON
-
-//14 ED
-ItemDisplay[CL1 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DRU
-ItemDisplay[CL2 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BAR
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DIN
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//NEC
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SIN
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SOR
-ItemDisplay[CL7 !RW ETH SUP NMAG ED=14]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%14%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//ZON
-
-//13 ED
-ItemDisplay[CL1 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DRU
-ItemDisplay[CL2 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BAR
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DIN
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//NEC
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SIN
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SOR
-ItemDisplay[CL7 !RW ETH SUP NMAG ED=13]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%13%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//ZON
-
-//12 ED
-ItemDisplay[CL1 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DRU
-ItemDisplay[CL2 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BAR
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DIN
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//NEC
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SIN
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SOR
-ItemDisplay[CL7 !RW ETH SUP NMAG ED=12]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%ORANGE%12%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//ZON
-
-//11 ED
-ItemDisplay[CL1 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DRU
-ItemDisplay[CL2 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BAR
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DIN
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//NEC
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SIN
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SOR
-ItemDisplay[CL7 !RW ETH SUP NMAG ED=11]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%11%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//ZON
-
-//10 ED
-ItemDisplay[CL1 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DRU
-ItemDisplay[CL2 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BAR
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DIN
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//NEC
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SIN
-ItemDisplay[CL3 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SOR
-ItemDisplay[CL7 !RW ETH SUP NMAG ED=10]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%YELLOW%10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//ZON
-
-//1-10 ED
-ItemDisplay[CL1 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DRU
-ItemDisplay[CL2 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//BAR
-ItemDisplay[CL3 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//DIN
-ItemDisplay[CL3 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//NEC
-ItemDisplay[CL3 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SIN
-ItemDisplay[CL3 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//SOR
-ItemDisplay[CL7 !RW ETH SUP NMAG ED>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%ED: %WHITE%[%WHITE%-10%WHITE%]%NL%%ORANGE%%NAME%%WHITE%//ZON
-
-//NON SUPERIOR
-ItemDisplay[CL1 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL DRU
-ItemDisplay[CL2 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL BAR
-ItemDisplay[CL3 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL DIN
-ItemDisplay[CL3 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL NEC
-ItemDisplay[CL3 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL SIN
-ItemDisplay[CL3 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL SOR
-ItemDisplay[CL7 NORM !RW ETH !SUP NMAG SOCKS>1 DIFF=0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//NORMAL ZON
-
-ItemDisplay[CL1 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE DRU
-ItemDisplay[CL2 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE BAR
-ItemDisplay[CL3 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE DIN
-ItemDisplay[CL3 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE NEC
-ItemDisplay[CL3 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE SIN
-ItemDisplay[CL3 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE SOR
-ItemDisplay[CL7 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS>1]: %ORANGE%Sockets: %WHITE%[%SOCKETS%]%NL%%NAME%//EXCEPTIONAL OR ELITE ZON
-
-ItemDisplay[CL1 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE DRU
-ItemDisplay[CL2 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE BAR
-ItemDisplay[CL3 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE DIN
-ItemDisplay[CL3 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE NEC
-ItemDisplay[CL3 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE SIN
-ItemDisplay[CL3 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE SOR
-ItemDisplay[CL7 (EXC OR ELT) !RW ETH !SUP NMAG SOCKS=0]: %NAME%//EXCEPTIONAL OR ELITE ZON
+ItemDisplay[72h ETH NMAG (SOCKS=3 OR SOCKS=0)]: %NAME%{%WHITE%Add Amn + Lem + Ko %WHITE%to make %GOLD%Lawbringer}//Legend Sword
+ItemDisplay[7ls ETH NMAG (SOCKS=4 OR SOCKS=0)]: %NAME%{%WHITE%Add %TAN%A + B + C + D %WHITE%to make %GOLD%Runeword}//Cryptic Sword
+ItemDisplay[7fl ETH NMAG (SOCKS=4 OR SOCKS=0)]: %NAME%{%WHITE%Add %TAN%A + B + C + D %WHITE%to make %GOLD%Runeword}//Scourge
 
 //╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                                                                               MAGIC                                                                                               ║
@@ -1120,15 +621,11 @@ ItemDisplay[(amu OR rin) MAG]: %ORANGE%Item LVL: %WHITE%[%ILVL%]%NL%%BLUE%%NAME%
 ItemDisplay[EQ7 !ID MAG]: %DOT-A0%%BLUE%%NAME%//MAGIC CIRCLET
 ItemDisplay[EQ7 ID MAG]: %DOT-A0%%BLUE%%NAME%//MAGIC CIRCLET
 
-//WITHOUT PRICE
-//ItemDisplay[!ID MAG]: %BLUE%%NAME%//MAGIC
-//ItemDisplay[ID MAG SOCKS>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %NL%%BLUE%%NAME%//MAGIC
-//ItemDisplay[ID MAG]: %BLUE%%NAME%//MAGIC
-
 //WITH PRICE
-ItemDisplay[!ID MAG]: %ORANGE%Price: %WHITE%[%PRICE%%TAN%G]%NL%%BLUE%%NAME%//MAGIC
-ItemDisplay[ID MAG SOCKS>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%Price: %WHITE%[%PRICE%%TAN%G]%NL%%BLUE%%NAME%//MAGIC
-ItemDisplay[ID MAG]: %ORANGE%Price: %WHITE%[%PRICE%%TAN%G]%NL%%BLUE%%NAME%//MAGIC
+ItemDisplay[MAG]: %BLUE%%NAME%%CONTINUE%//MAGIC
+ItemDisplay[MAG PRICE=35000]: %ORANGE%Price: %WHITE%[%PRICE%%TAN%G%WHITE%]%NL%%BLUE%%NAME%%CONTINUE%//MAGIC
+ItemDisplay[MAG PRICE=35000 SOCKS>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %NL%%BLUE%%NAME%%CONTINUE%//MAGIC
+
 
 //╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                                                                               RARE                                                                                               ║
@@ -1146,15 +643,10 @@ ItemDisplay[(amu OR rin OR jew) RARE]: %DOT-A8%%ORANGE%Item LVL: %WHITE%[%ILVL%]
 ItemDisplay[EQ7 !ID RARE]: %DOT-A8%%YELLOW%%NAME%//RARE CIRCLET
 ItemDisplay[EQ7 ID RARE]: %DOT-A8%%YELLOW%%NAME%//RARE CIRCLET
 
-//WITHOUT PRICE
-//ItemDisplay[!ID RARE]: %YELLOW%%NAME%//RARE
-//ItemDisplay[ID RARE SOCKS>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %NL%%YELLOW%%NAME%//RARE
-//ItemDisplay[ID RARE]: %YELLOW%%NAME%//RARE
-
 //WITH PRICE
-ItemDisplay[!ID RARE]: %ORANGE%Price: %WHITE%[%PRICE%%TAN%G]%NL%%YELLOW%%NAME%//RARE
-ItemDisplay[ID RARE SOCKS>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %ORANGE%Price: %WHITE%[%PRICE%%TAN%G]%NL%%YELLOW%%NAME%//RARE
-ItemDisplay[ID RARE]: %ORANGE%Price: %WHITE%[%PRICE%%TAN%G]%NL%%YELLOW%%NAME%//RARE
+ItemDisplay[RARE]: %YELLOW%%NAME%%CONTINUE%//RARE
+ItemDisplay[RARE PRICE=35000]: %ORANGE%Price: %WHITE%[%PRICE%%TAN%G%WHITE%]%NL%%YELLOW%%NAME%%CONTINUE%//RARE
+ItemDisplay[RARE PRICE=35000 SOCKS>0]: %ORANGE%Sockets: %WHITE%[%SOCKETS%] %NL%%YELLOW%%NAME%%CONTINUE%//RARE
 
 //╔════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                                                                               UNIQUE                                                                                               ║
@@ -1339,6 +831,12 @@ ItemDisplay[uvb !ID ETH UNI]: %DOT-A5%%RED%--- %GOLD%Eth Sandstorm Trek %RED%---
 //╔═════════════════════════════════════════════╗
 //║                   WEAPONS                   ║
 //╚═════════════════════════════════════════════╝
+
+//╔══════════════════════════════════════════════════════╗
+//║                   Swirling Crystal                   ║
+//╚══════════════════════════════════════════════════════╝
+ItemDisplay[oba !ID !ETH UNI]: %DOT-A5%%RED%--- %GOLD%The Oculus %RED%---
+ItemDisplay[oba !ID ETH UNI]: %DOT-A5%%RED%--- %GOLD%Eth The Oculus %RED%---
 
 //╔═══════════════════════════════════════════════════╗
 //║                   Deaths Fathom                   ║
