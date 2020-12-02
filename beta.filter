@@ -1030,7 +1030,9 @@ ItemDisplay[xts !ID UNI]: %RED%<<< %GOLD%Radaments Sphere %RED%<<<
 ItemDisplay[(rin OR amu OR jew) !ID UNI]: %DOT-DA%%RED%>>> %GOLD%%NAME% %RED%<<<
 
 //CHARMS
-ItemDisplay[(cm1 OR cm2 OR cm3) !ID UNI]: %DOT-0A%%RED%>>> %NAME% %RED%<<<//MAGIC
+ItemDisplay[cm1 !ID UNI]: %DOT-0A%%RED%>>> %GOLD%Annihilus %RED%<<<//MAGIC
+ItemDisplay[cm2 !ID UNI]: %DOT-0A%%RED%>>> %GOLD%Hellfire Torch %RED%<<<//MAGIC
+ItemDisplay[cm3 !ID UNI]: %DOT-0A%%RED%>>> %GOLD%Gheed's Fortune %RED%<<<//MAGIC
 
 //╔═════════════════════════════════════════════════╗
 //║                   CATCH ALL                     ║
