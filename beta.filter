@@ -677,8 +677,8 @@ ItemDisplay[WP8 EXC !RW NMAG SOCKS=4]: %NAME%{%WHITE%Add %TAN%Ral + Tir + Tal + 
 ItemDisplay[WP7 ELT !RW ETH SUP NMAG SOCKS=4 ED=15]: %DOT-62%%NAME%{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
 ItemDisplay[WP8 ELT !RW ETH SUP NMAG SOCKS=4 ED=15]: %DOT-62%%NAME%{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
 
-ItemDisplay[WP7 ELT !RW ETH NMAG SOCKS=4]: %DOT-60%%NAME%{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
-ItemDisplay[WP8 ELT !RW ETH NMAG SOCKS=4]: %DOT-60%%NAME%{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
+ItemDisplay[WP7 ELT !RW ETH NMAG SOCKS=4]: %DOT-62%%NAME%{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
+ItemDisplay[WP8 ELT !RW ETH NMAG SOCKS=4]: %DOT-62%%NAME%{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
 
 ItemDisplay[WP7 ELT !RW !ETH NMAG SOCKS=4]: %DOT-20%%NAME%{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Spears
 ItemDisplay[WP8 ELT !RW !ETH NMAG SOCKS=4]: %DOT-20%%NAME%{%WHITE%Add %RED%Ber + Mal + Ber + Ist %WHITE%to make %GOLD%Infinity%NL%%WHITE%Add %TAN%Ral + Tir + Tal + Sol %WHITE%to make %GOLD%Insight}//Polearms
