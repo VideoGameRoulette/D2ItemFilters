@@ -108,11 +108,11 @@ ItemDisplay[GOLD<4000 CLVL>30]://Gold Piles
 //║                   ESSENCES RESET TOKENS                   ║
 //╚═══════════════════════════════════════════════════════════╝
 
-ItemDisplay[tes]: %DOT-62%%PURPLE%>>> Twisted Essence of Suffering [Andariel & Duriel] <<<{%WHITE%Cube with: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%to make a %RED%Token of Absolution}
-ItemDisplay[ceh]: %DOT-62%%PURPLE%>>> Charged Essence of Hatred [Mephisto] <<<{%WHITE%Cube with: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%to make a %RED%Token of Absolution}
-ItemDisplay[bet]: %DOT-62%%PURPLE%>>> Burning Essence of Terror [Diablo] <<<{%WHITE%Cube with: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%to make a %RED%Token of Absolution}
-ItemDisplay[fed]: %DOT-62%%PURPLE%>>> Festering Essence of Destruction [Baal] <<<{%WHITE%Cube with: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%to make a %RED%Token of Absolution}
-ItemDisplay[toa]: %DOT-62%%RED%>>> Token of Absolution <<<{%WHITE%Used to reset characters stats and skill points}
+ItemDisplay[tes]: %DOT-62%%RED%>>> %GOLD%Twisted Essence of Suffering [Andariel & Duriel] %RED%<<<{%WHITE%Cube with: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%to make a %RED%Token of Absolution}
+ItemDisplay[ceh]: %DOT-62%%RED%>>> %GOLD%Charged Essence of Hatred [Mephisto] %RED%<<<{%WHITE%Cube with: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%to make a %RED%Token of Absolution}
+ItemDisplay[bet]: %DOT-62%%RED%>>> %GOLD%Burning Essence of Terror [Diablo] %RED%<<<{%WHITE%Cube with: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%to make a %RED%Token of Absolution}
+ItemDisplay[fed]: %DOT-62%%RED%>>> %GOLD%Festering Essence of Destruction [Baal] %RED%<<<{%WHITE%Cube with: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%to make a %RED%Token of Absolution}
+ItemDisplay[toa]: %DOT-62%%RED%>>> %GOLD%Token of Absolution %RED%<<<{%WHITE%Used to reset characters stats and skill points}
 
 //╔═══════════════════════════════════════════════╗
 //║                   UBER KEYS                   ║
@@ -160,8 +160,8 @@ ItemDisplay[r28]: %DOT-9B%%ORANGE%HR: %YELLOW%[1.5]%NL%%RED%>>>>>>>>>>>> %PURPLE
 ItemDisplay[r29]: %DOT-9B%%ORANGE%HR: %GREEN%[1.5]%NL%%RED%>>>>>>>>>>>> %PURPLE%Sur Rune %WHITE%[%RUNENUM%]  %RED%<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r30]: %DOT-9B%%ORANGE%HR: %RED%[3]%NL%%RED%>>>>>>>>>>>>>>>>>>>>>>>> %PURPLE%Ber Rune %WHITE%[%RUNENUM%]  %RED%<<<<<<<<<<<<<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r31]: %DOT-9B%%ORANGE%HR: %PURPLE%[2]%NL%%RED%>>>>>>>>>>>>>>>>> %PURPLE%Jah Rune %WHITE%[%RUNENUM%]  %RED%<<<<<<<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r32]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED%>>>>> %PURPLE%Cham Rune %WHITE%[%RUNENUM%] <<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r33]: %DOT-62%%ORANGE%HR: %GREEN%[1]%NL%%RED%>>>>>>>>>> %PURPLE%Zod Rune %WHITE%[%RUNENUM%] <<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r32]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED%>>>>> %PURPLE%Cham Rune %WHITE%[%RUNENUM%] %RED%<<<<<{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r33]: %DOT-62%%ORANGE%HR: %GREEN%[1]%NL%%RED%>>>>>>>>>> %PURPLE%Zod Rune %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
 
 //╔══════════════════════════════════════════════════╗
 //║                   RUNES STACKS                   ║
@@ -198,8 +198,8 @@ ItemDisplay[r28s]: %DOT-9B%%ORANGE%HR: %YELLOW%[1.5]%NL%%RED%>>>>>>>>>>>> %PURPL
 ItemDisplay[r29s]: %DOT-9B%%ORANGE%HR: %GREEN%[1.5]%NL%%RED%>>>>>>>>>>>> %PURPLE%Sur Rune Stack %WHITE%[%RUNENUM%]  %RED%<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r30s]: %DOT-9B%%ORANGE%HR: %RED%[3]%NL%%RED%>>>>>>>>>>>>>>>>>>>>>>>> %PURPLE%Ber Rune Stack %WHITE%[%RUNENUM%]  %RED%<<<<<<<<<<<<<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r31s]: %DOT-9B%%ORANGE%HR: %PURPLE%[2]%NL%%RED%>>>>>>>>>>>>>>>>> %PURPLE%Jah Rune Stack %WHITE%[%RUNENUM%]  %RED%<<<<<<<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r32s]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED%>>>>> %PURPLE%Cham Rune Stack %WHITE%[%RUNENUM%] <<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r33s]: %DOT-62%%ORANGE%HR: %GREEN%[1]%NL%%RED%>>>>>>>>>> %PURPLE%Zod Rune Stack %WHITE%[%RUNENUM%] <<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r32s]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED%>>>>> %PURPLE%Cham Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<<{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r33s]: %DOT-62%%ORANGE%HR: %GREEN%[1]%NL%%RED%>>>>>>>>>> %PURPLE%Zod Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
 
 //╔══════════════════════════════════════════════════════════════════════════════╗
 //║                   CHIPPED GEMS & FLAWED GEMS & NORMAL GEMS                   ║
@@ -354,17 +354,17 @@ ItemDisplay[isc]: %GREEN%!%WHITE%ID
 //║                                                                                               PD2 EXCLUSIVE                                                                                               ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
-ItemDisplay[wss]: %DOT-62%%PURPLE%%NAME%{%WHITE%Cube with: %GOLD%Unique Item %WHITE%+ %PURPLE%Worldstone Shard %WHITE%to make a %RED%Corrupted Item}
-ItemDisplay[lbox]: %DOT-62%%NAME%{%WHITE%Used to socket items}
+ItemDisplay[wss]: %DOT-62%%RED%>>> %GOLD%Worldstone Shard %RED%<<<{%WHITE%Cube with: %GOLD%Unique Item %WHITE%+ %PURPLE%Worldstone Shard %WHITE%to make a %RED%Corrupted Item}
+ItemDisplay[lbox]: %DOT-62%%RED%>>>>>> %GOLD%Puzzlebox %RED%<<<<<<{%WHITE%Used to socket items}
 ItemDisplay[imra]: %DOT-62%%NAME%{%WHITE%Cube with: %WHITE%Normal Map %WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Thul [10]+ %WHITE%to make a %YELLOW%Rare Map}
 ItemDisplay[imma]: %DOT-62%%NAME%{%WHITE%Cube with: %WHITE%Normal Map %WHITE%+ %BLUE%Jewel %WHITE%to make a %BLUE%Magic Map}
 ItemDisplay[scou]: %DOT-62%%NAME%{%WHITE%Cube with: %WHITE%Any Map %WHITE%+ %ORANGE%Hel %WHITE%to make a %WHITE%White Map}
 ItemDisplay[rera]: %DOT-62%%NAME%{%WHITE%Cube with: %YELLOW%Rare Map %WHITE%+ %WHITE%Perfect Gem %WHITE%+ %ORANGE%Thul [10]+ %WHITE%to make a %YELLOW%Rare Map}
 ItemDisplay[upma]: %DOT-62%%NAME%{%WHITE%Cube with: %BLUE%Magic Map %WHITE%+ %ORANGE%Thul [10] %WHITE%+ %WHITE%Perfect Skull to make a %YELLOW%Rare Map}
 
-ItemDisplay[dcbl]: %DOT-62%%RED%----------------------------------------%NL%%RED%>>>>>>>>>>>>>>>>>>>>>>>> %NAME% %RED%<<<<<<<<<<<<<<<<<<<<<<<<%NL%%RED%----------------------------------------{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
-ItemDisplay[dcho]: %DOT-62%%RED%----------------------------------------%NL%%RED%>>>>>>>>>>>>>>>>>>>>>>>> %NAME% %RED%<<<<<<<<<<<<<<<<<<<<<<<<%NL%%RED%----------------------------------------{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
-ItemDisplay[dcso]: %DOT-62%%RED%----------------------------------------%NL%%RED%>>>>>>>>>>>>>>>>>>>>>>>> %NAME% %RED%<<<<<<<<<<<<<<<<<<<<<<<<%NL%%RED%----------------------------------------{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
+ItemDisplay[dcbl]: %DOT-62%%RED%--------------------%NL%%RED%>>>>>>>>>>>>>>>>>>>>>>>> %NAME% %RED%<<<<<<<<<<<<<<<<<<<<<<<<%NL%%RED%--------------------{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
+ItemDisplay[dcho]: %DOT-62%%RED%--------------------%NL%%RED%>>>>>>>>>>>>>>>>>>>>>>>> %NAME% %RED%<<<<<<<<<<<<<<<<<<<<<<<<%NL%%RED%--------------------{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
+ItemDisplay[dcso]: %DOT-62%%RED%--------------------%NL%%RED%>>>>>>>>>>>>>>>>>>>>>>>> %NAME% %RED%<<<<<<<<<<<<<<<<<<<<<<<<%NL%%RED%--------------------{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
 ItemDisplay[dcma]: %DOT-62%%NAME%{%WHITE%Used to summon the Prime Evil DClone}
 
 ItemDisplay[t16]: %DOT-62%%NAME%{%WHITE%Used to summon the Ruins of Viz-Jun Map}
@@ -488,6 +488,8 @@ ItemDisplay[NMAG ELT !RW]:%NAME%%CONTINUE%//NON MAGICAL ITEMS
 //╔═════════════════════════════════════════════╗
 //║                   MAGICAL                   ║
 //╚═════════════════════════════════════════════╝
+ItemDisplay[EQ7 !ID MAG]: %DOT-A0%%BLUE%%NAME%%CONTINUE%//MAGIC CIRCLET
+ItemDisplay[EQ7 ID MAG]: %DOT-A0%%BLUE%%NAME%%CONTINUE%//MAGIC CIRCLET
 ItemDisplay[MAG NORM !RW CLVL>30]://MAGICAL ITEMS
 ItemDisplay[MAG EXC !RW CLVL>60]://MAGICAL ITEMS
 ItemDisplay[MAG ELT !RW]:%NAME%%CONTINUE%//MAGICAL ITEMS
@@ -495,6 +497,8 @@ ItemDisplay[MAG ELT !RW]:%NAME%%CONTINUE%//MAGICAL ITEMS
 //╔══════════════════════════════════════════╗
 //║                   RARE                   ║
 //╚══════════════════════════════════════════╝
+ItemDisplay[EQ7 !ID RARE]: %DOT-A8%%YELLOW%%NAME%//RARE CIRCLET
+ItemDisplay[EQ7 ID RARE]: %DOT-A8%%YELLOW%%NAME%//RARE CIRCLET
 ItemDisplay[RARE NORM !RW CLVL>30]://RARE ITEMS
 ItemDisplay[RARE EXC !RW CLVL>60]://RARE ITEMS
 ItemDisplay[RARE ELT !RW]:%NAME%%CONTINUE%//RARE ITEMS
@@ -502,12 +506,12 @@ ItemDisplay[RARE ELT !RW]:%NAME%%CONTINUE%//RARE ITEMS
 //╔════════════════════════════════════════════╗
 //║                   UNIQUE                   ║
 //╚════════════════════════════════════════════╝
-ItemDisplay[UNI]:%NAME%%CONTINUE%//UNIQUE ITEMS
+ItemDisplay[UNI]:%DOT-0E%%NAME%%CONTINUE%//UNIQUE ITEMS
 
 //╔═════════════════════════════════════════╗
 //║                   SET                   ║
 //╚═════════════════════════════════════════╝
-ItemDisplay[SET]:%NAME%%CONTINUE%//SET ITEMS
+ItemDisplay[SET]:%DOT-84%%NAME%%CONTINUE%//SET ITEMS
 
 //╔═══════════════════════════════════════════════╗
 //║                   APPENDING                   ║
@@ -517,7 +521,7 @@ ItemDisplay[SET]:%NAME%%CONTINUE%//SET ITEMS
 ItemDisplay[ETH]:%NAME% Eth%CONTINUE%//ADD ETH TO ITEM
 
 //SOCKETS
-ItemDisplay[(NMAG OR MAG OR RARE) SOCKS>0]:%NAME% %ORANGE%SOCKS: %WHITE%%SOCKETS%%CONTINUE%//ADD ETH TO ITEM
+ItemDisplay[(NMAG OR MAG OR RARE) SOCKS>0]:%NAME% %ORANGE%OS: %WHITE%%SOCKETS%%CONTINUE%//ADD ETH TO ITEM
 
 //ENHANCED DAMAGE AND DEFENSE
 ItemDisplay[NMAG ED=15]:%NAME% %ORANGE%ED: %WHITE%15%CONTINUE%//ADD ETH TO ITEM
@@ -583,65 +587,737 @@ ItemDisplay[CL3 NMAG RES=3]:%NAME% %ORANGE%RES: %WHITE%3%CONTINUE%//ADD ETH TO I
 ItemDisplay[CL3 NMAG RES=2]:%NAME% %ORANGE%RES: %WHITE%2%CONTINUE%//ADD ETH TO ITEM
 ItemDisplay[CL3 NMAG RES=1]:%NAME% %ORANGE%RES: %WHITE%1%CONTINUE%//ADD ETH TO ITEM
 
-//SKILLS
-ItemDisplay[!RW ALLSK=2]:%NAME% %ORANGE%All Skills: %WHITE%2//All Skills
-ItemDisplay[!RW CLSK0=2]:%NAME% %ORANGE%Amazon: %WHITE%2//Amazon Skills
-ItemDisplay[!RW CLSK1=2]:%NAME% %ORANGE%Sorceress: %WHITE%2//Sorceress Skills
-ItemDisplay[!RW CLSK2=2]:%NAME% %ORANGE%Necromancer: %WHITE%2//Necromancer Skills
-ItemDisplay[!RW CLSK3=2]:%NAME% %ORANGE%Paladin: %WHITE%2//Paladin Skills
-ItemDisplay[!RW CLSK4=2]:%NAME% %ORANGE%Barbarian: %WHITE%2//Barbarian Skills
-ItemDisplay[!RW CLSK5=2]:%NAME% %ORANGE%Druid: %WHITE%2//Druid Skills
-ItemDisplay[!RW CLSK6=2]:%NAME% %ORANGE%Assassin: %WHITE%2//Assassin Skills
-ItemDisplay[!RW ALLSK=1]:%NAME% %ORANGE%All Skills: %WHITE%1//All Skills
-ItemDisplay[!RW CLSK0=1]:%NAME% %ORANGE%Amazon: %WHITE%1//Amazon Skills
-ItemDisplay[!RW CLSK1=1]:%NAME% %ORANGE%Sorceress: %WHITE%1//Sorceress Skills
-ItemDisplay[!RW CLSK2=1]:%NAME% %ORANGE%Necromancer: %WHITE%1//Necromancer Skills
-ItemDisplay[!RW CLSK3=1]:%NAME% %ORANGE%Paladin: %WHITE%1//Paladin Skills
-ItemDisplay[!RW CLSK4=1]:%NAME% %ORANGE%Barbarian: %WHITE%1//Barbarian Skills
-ItemDisplay[!RW CLSK5=1]:%NAME% %ORANGE%Druid: %WHITE%1//Druid Skills
-ItemDisplay[!RW CLSK6=1]:%NAME% %ORANGE%Assassin: %WHITE%1//Assassin Skills
-ItemDisplay[!RW TABSK0=3]:%NAME% %ORANGE%Bow and Crossbow: %WHITE%3//Bow and Crossbow Skills
-ItemDisplay[!RW TABSK1=3]:%NAME% %ORANGE%Passive and Magic: %WHITE%3//Passive and Magic Skills
-ItemDisplay[!RW TABSK2=3]:%NAME% %ORANGE%Javelin and Spear: %WHITE%3//Javelin and Spear Skills
-ItemDisplay[!RW TABSK8=3]:%NAME% %ORANGE%Fire: %WHITE%3//Fire Spells
-ItemDisplay[!RW TABSK9=3]:%NAME% %ORANGE%Lightning: %WHITE%3//Lightning Spells
-ItemDisplay[!RW TABSK10=3]:%NAME% %ORANGE%Cold: %WHITE%3//Cold Spells
-ItemDisplay[!RW TABSK16=3]:%NAME% %ORANGE%Curses: %WHITE%3//Curses
-ItemDisplay[!RW TABSK17=3]:%NAME% %ORANGE%Poison & Bone: %WHITE%3//Poison & Bone Spells
-ItemDisplay[!RW TABSK18=3]:%NAME% %ORANGE%SummoningN: %WHITE%3//Summoning Spells
-ItemDisplay[!RW TABSK24=3]:%NAME% %ORANGE%CombatP: %WHITE%3//Combat Skills
-ItemDisplay[!RW TABSK25=3]:%NAME% %ORANGE%Offensive: %WHITE%3//Offensive Auras
-ItemDisplay[!RW TABSK26=3]:%NAME% %ORANGE%Defensive: %WHITE%3//Defensive Auras
-ItemDisplay[!RW TABSK32=3]:%NAME% %ORANGE%CombatB: %WHITE%3//Combat Skills
-ItemDisplay[!RW TABSK33=3]:%NAME% %ORANGE%Masteries: %WHITE%3//Combat Masteries
-ItemDisplay[!RW TABSK34=3]:%NAME% %ORANGE%Warcries: %WHITE%3//Warcries
-ItemDisplay[!RW TABSK40=3]:%NAME% %ORANGE%SummoningD: %WHITE%3//Summoning
-ItemDisplay[!RW TABSK41=3]:%NAME% %ORANGE%Shape Shifting: %WHITE%3//Shape Shifting
-ItemDisplay[!RW TABSK42=3]:%NAME% %ORANGE%Elemental: %WHITE%3//Elemental
-ItemDisplay[!RW TABSK48=3]:%NAME% %ORANGE%Traps: %WHITE%3//Traps
-ItemDisplay[!RW TABSK49=3]:%NAME% %ORANGE%Shadow Disciplines: %WHITE%3//Shadow Disciplines
-ItemDisplay[!RW TABSK50=3]:%NAME% %ORANGE%Martial Arts: %WHITE%3//Martial Arts
-ItemDisplay[!RW TABSK0=2]:%NAME% %ORANGE%Bow and Crossbow: %WHITE%2//Bow and Crossbow Skills
-ItemDisplay[!RW TABSK1=2]:%NAME% %ORANGE%Passive and Magic: %WHITE%2//Passive and Magic Skills
-ItemDisplay[!RW TABSK2=2]:%NAME% %ORANGE%Javelin and Spear: %WHITE%2//Javelin and Spear Skills
-ItemDisplay[!RW TABSK8=2]:%NAME% %ORANGE%Fire: %WHITE%2//Fire Spells
-ItemDisplay[!RW TABSK9=2]:%NAME% %ORANGE%Lightning: %WHITE%2//Lightning Spells
-ItemDisplay[!RW TABSK10=2]:%NAME% %ORANGE%Cold: %WHITE%2//Cold Spells
-ItemDisplay[!RW TABSK16=2]:%NAME% %ORANGE%Curses: %WHITE%2//Curses
-ItemDisplay[!RW TABSK17=2]:%NAME% %ORANGE%Poison & Bone: %WHITE%2//Poison & Bone Spells
-ItemDisplay[!RW TABSK18=2]:%NAME% %ORANGE%SummoningN: %WHITE%2//Summoning Spells
-ItemDisplay[!RW TABSK24=2]:%NAME% %ORANGE%CombatP: %WHITE%2//Combat Skills
-ItemDisplay[!RW TABSK25=2]:%NAME% %ORANGE%Offensive: %WHITE%2//Offensive Auras
-ItemDisplay[!RW TABSK26=2]:%NAME% %ORANGE%Defensive: %WHITE%2//Defensive Auras
-ItemDisplay[!RW TABSK32=2]:%NAME% %ORANGE%CombatB: %WHITE%2//Combat Skills
-ItemDisplay[!RW TABSK33=2]:%NAME% %ORANGE%Masteries: %WHITE%2//Combat Masteries
-ItemDisplay[!RW TABSK34=2]:%NAME% %ORANGE%Warcries: %WHITE%2//Warcries
-ItemDisplay[!RW TABSK40=2]:%NAME% %ORANGE%SummoningD: %WHITE%2//Summoning
-ItemDisplay[!RW TABSK41=2]:%NAME% %ORANGE%Shape Shifting: %WHITE%2//Shape Shifting
-ItemDisplay[!RW TABSK42=2]:%NAME% %ORANGE%Elemental: %WHITE%2//Elemental
-ItemDisplay[!RW TABSK48=2]:%NAME% %ORANGE%Traps: %WHITE%2//Traps
-ItemDisplay[!RW TABSK49=2]:%NAME% %ORANGE%Shadow Disciplines: %WHITE%2//Shadow Disciplines
-ItemDisplay[!RW TABSK50=2]:%NAME% %ORANGE%Martial Arts: %WHITE%2//Martial Arts
-
 //PRICE
-ItemDisplay[(NMAG OR MAG OR RARE) PRICE=35000]:%NAME% %ORANGE%Price: %WHITE%35K%TAN%G//ADD ETH TO ITEM
+ItemDisplay[(NMAG OR MAG OR RARE) PRICE=35000]:%NAME% %ORANGE%Price: %WHITE%35K%TAN%G%CONTINUE%//ADD ETH TO ITEM
+
+//SKILLS
+ItemDisplay[(NMAG OR MAG OR RARE) !RW ALLSK=2]:%NAME%%NL%%ORANGE%All Skills: %WHITE%2%CONTINUE%//All Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW CLSK0=2]:%NAME%%NL%%ORANGE%Amazon: %WHITE%2%CONTINUE%//Amazon Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW CLSK1=2]:%NAME%%NL%%ORANGE%Sorceress: %WHITE%2%CONTINUE%//Sorceress Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW CLSK2=2]:%NAME%%NL%%ORANGE%Necromancer: %WHITE%2%CONTINUE%//Necromancer Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW CLSK3=2]:%NAME%%NL%%ORANGE%Paladin: %WHITE%2%CONTINUE%//Paladin Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW CLSK4=2]:%NAME%%NL%%ORANGE%Barbarian: %WHITE%2%CONTINUE%//Barbarian Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW CLSK5=2]:%NAME%%NL%%ORANGE%Druid: %WHITE%2%CONTINUE%//Druid Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW CLSK6=2]:%NAME%%NL%%ORANGE%Assassin: %WHITE%2%CONTINUE%//Assassin Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW ALLSK=1]:%NAME%%NL%%ORANGE%All Skills: %WHITE%1%CONTINUE%//All Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW CLSK0=1]:%NAME%%NL%%ORANGE%Amazon: %WHITE%1%CONTINUE%//Amazon Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW CLSK1=1]:%NAME%%NL%%ORANGE%Sorceress: %WHITE%1%CONTINUE%//Sorceress Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW CLSK2=1]:%NAME%%NL%%ORANGE%Necromancer: %WHITE%1%CONTINUE%//Necromancer Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW CLSK3=1]:%NAME%%NL%%ORANGE%Paladin: %WHITE%1%CONTINUE%//Paladin Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW CLSK4=1]:%NAME%%NL%%ORANGE%Barbarian: %WHITE%1%CONTINUE%//Barbarian Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW CLSK5=1]:%NAME%%NL%%ORANGE%Druid: %WHITE%1%CONTINUE%//Druid Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW CLSK6=1]:%NAME%%NL%%ORANGE%Assassin: %WHITE%1%CONTINUE%//Assassin Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK0=3]:%NAME%%NL%%ORANGE%Bow and Crossbow: %WHITE%3%CONTINUE%//Bow and Crossbow Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK1=3]:%NAME%%NL%%ORANGE%Passive and Magic: %WHITE%3%CONTINUE%//Passive and Magic Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK2=3]:%NAME%%NL%%ORANGE%Javelin and Spear: %WHITE%3%CONTINUE%//Javelin and Spear Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK8=3]:%NAME%%NL%%ORANGE%Fire: %WHITE%3%CONTINUE%//Fire Spells
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK9=3]:%NAME%%NL%%ORANGE%Lightning: %WHITE%3%CONTINUE%//Lightning Spells
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK10=3]:%NAME%%NL%%ORANGE%Cold: %WHITE%3%CONTINUE%//Cold Spells
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK16=3]:%NAME%%NL%%ORANGE%Curses: %WHITE%3%CONTINUE%//Curses
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK17=3]:%NAME%%NL%%ORANGE%Poison & Bone: %WHITE%3%CONTINUE%//Poison & Bone Spells
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK18=3]:%NAME%%NL%%ORANGE%SummoningN: %WHITE%3%CONTINUE%//Summoning Spells
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK24=3]:%NAME%%NL%%ORANGE%CombatP: %WHITE%3%CONTINUE%//Combat Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK25=3]:%NAME%%NL%%ORANGE%Offensive: %WHITE%3%CONTINUE%//Offensive Auras
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK26=3]:%NAME%%NL%%ORANGE%Defensive: %WHITE%3%CONTINUE%//Defensive Auras
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK32=3]:%NAME%%NL%%ORANGE%CombatB: %WHITE%3%CONTINUE%//Combat Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK33=3]:%NAME%%NL%%ORANGE%Masteries: %WHITE%3%CONTINUE%//Combat Masteries
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK34=3]:%NAME%%NL%%ORANGE%Warcries: %WHITE%3%CONTINUE%//Warcries
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK40=3]:%NAME%%NL%%ORANGE%SummoningD: %WHITE%3%CONTINUE%//Summoning
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK41=3]:%NAME%%NL%%ORANGE%Shape Shifting: %WHITE%3%CONTINUE%//Shape Shifting
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK42=3]:%NAME%%NL%%ORANGE%Elemental: %WHITE%3%CONTINUE%//Elemental
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK48=3]:%NAME%%NL%%ORANGE%Traps: %WHITE%3%CONTINUE%//Traps
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK49=3]:%NAME%%NL%%ORANGE%Shadow Disciplines: %WHITE%3%CONTINUE%//Shadow Disciplines
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK50=3]:%NAME%%NL%%ORANGE%Martial Arts: %WHITE%3%CONTINUE%//Martial Arts
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK0=2]:%NAME%%NL%%ORANGE%Bow and Crossbow: %WHITE%2%CONTINUE%//Bow and Crossbow Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK1=2]:%NAME%%NL%%ORANGE%Passive and Magic: %WHITE%2%CONTINUE%//Passive and Magic Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK2=2]:%NAME%%NL%%ORANGE%Javelin and Spear: %WHITE%2%CONTINUE%//Javelin and Spear Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK8=2]:%NAME%%NL%%ORANGE%Fire: %WHITE%2%CONTINUE%//Fire Spells
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK9=2]:%NAME%%NL%%ORANGE%Lightning: %WHITE%2%CONTINUE%//Lightning Spells
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK10=2]:%NAME%%NL%%ORANGE%Cold: %WHITE%2%CONTINUE%//Cold Spells
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK16=2]:%NAME%%NL%%ORANGE%Curses: %WHITE%2%CONTINUE%//Curses
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK17=2]:%NAME%%NL%%ORANGE%Poison & Bone: %WHITE%2%CONTINUE%//Poison & Bone Spells
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK18=2]:%NAME%%NL%%ORANGE%SummoningN: %WHITE%2%CONTINUE%//Summoning Spells
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK24=2]:%NAME%%NL%%ORANGE%CombatP: %WHITE%2%CONTINUE%//Combat Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK25=2]:%NAME%%NL%%ORANGE%Offensive: %WHITE%2%CONTINUE%//Offensive Auras
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK26=2]:%NAME%%NL%%ORANGE%Defensive: %WHITE%2%CONTINUE%//Defensive Auras
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK32=2]:%NAME%%NL%%ORANGE%CombatB: %WHITE%2%CONTINUE%//Combat Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK33=2]:%NAME%%NL%%ORANGE%Masteries: %WHITE%2%CONTINUE%//Combat Masteries
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK34=2]:%NAME%%NL%%ORANGE%Warcries: %WHITE%2%CONTINUE%//Warcries
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK40=2]:%NAME%%NL%%ORANGE%SummoningD: %WHITE%2%CONTINUE%//Summoning
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK41=2]:%NAME%%NL%%ORANGE%Shape Shifting: %WHITE%2%CONTINUE%//Shape Shifting
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK42=2]:%NAME%%NL%%ORANGE%Elemental: %WHITE%2%CONTINUE%//Elemental
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK48=2]:%NAME%%NL%%ORANGE%Traps: %WHITE%2%CONTINUE%//Traps
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK49=2]:%NAME%%NL%%ORANGE%Shadow Disciplines: %WHITE%2%CONTINUE%//Shadow Disciplines
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK50=2]:%NAME%%NL%%ORANGE%Martial Arts: %WHITE%2%CONTINUE%//Martial Arts
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK0=1]:%NAME%%NL%%ORANGE%Bow and Crossbow: %WHITE%1%CONTINUE%//Bow and Crossbow Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK1=1]:%NAME%%NL%%ORANGE%Passive and Magic: %WHITE%1%CONTINUE%//Passive and Magic Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK2=1]:%NAME%%NL%%ORANGE%Javelin and Spear: %WHITE%1%CONTINUE%//Javelin and Spear Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK8=1]:%NAME%%NL%%ORANGE%Fire: %WHITE%1%CONTINUE%//Fire Spells
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK9=1]:%NAME%%NL%%ORANGE%Lightning: %WHITE%1%CONTINUE%//Lightning Spells
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK10=1]:%NAME%%NL%%ORANGE%Cold: %WHITE%1%CONTINUE%//Cold Spells
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK16=1]:%NAME%%NL%%ORANGE%Curses: %WHITE%1%CONTINUE%//Curses
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK17=1]:%NAME%%NL%%ORANGE%Poison & Bone: %WHITE%1%CONTINUE%//Poison & Bone Spells
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK18=1]:%NAME%%NL%%ORANGE%SummoningN: %WHITE%1%CONTINUE%//Summoning Spells
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK24=1]:%NAME%%NL%%ORANGE%CombatP: %WHITE%1%CONTINUE%//Combat Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK25=1]:%NAME%%NL%%ORANGE%Offensive: %WHITE%1%CONTINUE%//Offensive Auras
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK26=1]:%NAME%%NL%%ORANGE%Defensive: %WHITE%1%CONTINUE%//Defensive Auras
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK32=1]:%NAME%%NL%%ORANGE%CombatB: %WHITE%1%CONTINUE%//Combat Skills
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK33=1]:%NAME%%NL%%ORANGE%Masteries: %WHITE%1%CONTINUE%//Combat Masteries
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK34=1]:%NAME%%NL%%ORANGE%Warcries: %WHITE%1%CONTINUE%//Warcries
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK40=1]:%NAME%%NL%%ORANGE%SummoningD: %WHITE%1%CONTINUE%//Summoning
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK41=1]:%NAME%%NL%%ORANGE%Shape Shifting: %WHITE%1%CONTINUE%//Shape Shifting
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK42=1]:%NAME%%NL%%ORANGE%Elemental: %WHITE%1%CONTINUE%//Elemental
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK48=1]:%NAME%%NL%%ORANGE%Traps: %WHITE%1%CONTINUE%//Traps
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK49=1]:%NAME%%NL%%ORANGE%Shadow Disciplines: %WHITE%1%CONTINUE%//Shadow Disciplines
+ItemDisplay[(NMAG OR MAG OR RARE) !RW TABSK50=1]:%NAME%%NL%%ORANGE%Martial Arts: %WHITE%1%CONTINUE%//Martial Arts
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK6=3]: %NAME%%NL%%ORANGE%Magic Arrow: %WHITE%3%CONTINUE%//Magic Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK7=3]: %NAME%%NL%%ORANGE%Fire Arrow: %WHITE%3%CONTINUE%//Fire Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK8=3]: %NAME%%NL%%ORANGE%Inner Sight: %WHITE%3%CONTINUE%//Inner Sight
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK9=3]: %NAME%%NL%%ORANGE%Critical Strike: %WHITE%3%CONTINUE%//Critical Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK10=3]: %NAME%%NL%%ORANGE%Jab: %WHITE%3%CONTINUE%//Jab
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK11=3]: %NAME%%NL%%ORANGE%Cold Arrow: %WHITE%3%CONTINUE%//Cold Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK12=3]: %NAME%%NL%%ORANGE%Multiple Shot: %WHITE%3%CONTINUE%//Multiple Shot
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK13=3]: %NAME%%NL%%ORANGE%Dodge: %WHITE%3%CONTINUE%//Dodge
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK14=3]: %NAME%%NL%%ORANGE%Power Strike: %WHITE%3%CONTINUE%//Power Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK15=3]: %NAME%%NL%%ORANGE%Poison Javelin: %WHITE%3%CONTINUE%//Poison Javelin
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK16=3]: %NAME%%NL%%ORANGE%Exploding Arrow: %WHITE%3%CONTINUE%//Exploding Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK17=3]: %NAME%%NL%%ORANGE%Slow Movement: %WHITE%3%CONTINUE%//Slow Movement
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK18=3]: %NAME%%NL%%ORANGE%Avoid: %WHITE%3%CONTINUE%//Avoid
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK19=3]: %NAME%%NL%%ORANGE%Javelin and Spear Mastery: %WHITE%3%CONTINUE%//Javelin and Spear Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK20=3]: %NAME%%NL%%ORANGE%Lightning Bolt: %WHITE%3%CONTINUE%//Lightning Bolt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK21=3]: %NAME%%NL%%ORANGE%Ice Arrow: %WHITE%3%CONTINUE%//Ice Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK22=3]: %NAME%%NL%%ORANGE%Guided Arrow: %WHITE%3%CONTINUE%//Guided Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK23=3]: %NAME%%NL%%ORANGE%Penetrate: %WHITE%3%CONTINUE%//Penetrate
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK24=3]: %NAME%%NL%%ORANGE%Charged Strike: %WHITE%3%CONTINUE%//Charged Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK25=3]: %NAME%%NL%%ORANGE%Plague Javelin: %WHITE%3%CONTINUE%//Plague Javelin
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK26=3]: %NAME%%NL%%ORANGE%Strafe: %WHITE%3%CONTINUE%//Strafe
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK27=3]: %NAME%%NL%%ORANGE%Immolation Arrow: %WHITE%3%CONTINUE%//Immolation Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK28=3]: %NAME%%NL%%ORANGE%Decoy: %WHITE%3%CONTINUE%//Decoy
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK29=3]: %NAME%%NL%%ORANGE%Evade: %WHITE%3%CONTINUE%//Evade
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK30=3]: %NAME%%NL%%ORANGE%Fend: %WHITE%3%CONTINUE%//Fend
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK31=3]: %NAME%%NL%%ORANGE%Freezing Arrow: %WHITE%3%CONTINUE%//Freezing Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK32=3]: %NAME%%NL%%ORANGE%Valkyrie: %WHITE%3%CONTINUE%//Valkyrie
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK33=3]: %NAME%%NL%%ORANGE%Pierce: %WHITE%3%CONTINUE%//Pierce
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK34=3]: %NAME%%NL%%ORANGE%Lightning Strike: %WHITE%3%CONTINUE%//Lightning Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK35=3]: %NAME%%NL%%ORANGE%Lightning Fury: %WHITE%3%CONTINUE%//Lightning Fury
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK36=3]: %NAME%%NL%%ORANGE%Fire Bolt: %WHITE%3%CONTINUE%//Fire Bolt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK37=3]: %NAME%%NL%%ORANGE%Warmth: %WHITE%3%CONTINUE%//Warmth
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK38=3]: %NAME%%NL%%ORANGE%Charged Bolt: %WHITE%3%CONTINUE%//Charged Bolt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK39=3]: %NAME%%NL%%ORANGE%Ice Bolt: %WHITE%3%CONTINUE%//Ice Bolt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK40=3]: %NAME%%NL%%ORANGE%Cold Enchant: %WHITE%3%CONTINUE%//Cold Enchant
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK41=3]: %NAME%%NL%%ORANGE%Inferno: %WHITE%3%CONTINUE%//Inferno
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK42=3]: %NAME%%NL%%ORANGE%Static Field: %WHITE%3%CONTINUE%//Static Field
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK43=3]: %NAME%%NL%%ORANGE%Telekinesis: %WHITE%3%CONTINUE%//Telekinesis
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK44=3]: %NAME%%NL%%ORANGE%Frost Nova: %WHITE%3%CONTINUE%//Frost Nova
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK45=3]: %NAME%%NL%%ORANGE%Ice Blast: %WHITE%3%CONTINUE%//Ice Blast
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK46=3]: %NAME%%NL%%ORANGE%Blaze: %WHITE%3%CONTINUE%//Blaze
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK47=3]: %NAME%%NL%%ORANGE%Fire Ball: %WHITE%3%CONTINUE%//Fire Ball
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK48=3]: %NAME%%NL%%ORANGE%Nova: %WHITE%3%CONTINUE%//Nova
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK49=3]: %NAME%%NL%%ORANGE%Lightning: %WHITE%3%CONTINUE%//Lightning
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK50=3]: %NAME%%NL%%ORANGE%Shiver Armor: %WHITE%3%CONTINUE%//Shiver Armor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK51=3]: %NAME%%NL%%ORANGE%Fire Wall: %WHITE%3%CONTINUE%//Fire Wall
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK52=3]: %NAME%%NL%%ORANGE%Enchant Fire: %WHITE%3%CONTINUE%//Enchant Fire
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK53=3]: %NAME%%NL%%ORANGE%Chain Lightning: %WHITE%3%CONTINUE%//Chain Lightning
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK54=3]: %NAME%%NL%%ORANGE%Teleport: %WHITE%3%CONTINUE%//Teleport
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK55=3]: %NAME%%NL%%ORANGE%Glacial Spike: %WHITE%3%CONTINUE%//Glacial Spike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK56=3]: %NAME%%NL%%ORANGE%Meteor: %WHITE%3%CONTINUE%//Meteor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK57=3]: %NAME%%NL%%ORANGE%Thunder Storm: %WHITE%3%CONTINUE%//Thunder Storm
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK58=3]: %NAME%%NL%%ORANGE%Energy Shield: %WHITE%3%CONTINUE%//Energy Shield
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK59=3]: %NAME%%NL%%ORANGE%Blizzard: %WHITE%3%CONTINUE%//Blizzard
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK60=3]: %NAME%%NL%%ORANGE%Chilling Armor: %WHITE%3%CONTINUE%//Chilling Armor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK61=3]: %NAME%%NL%%ORANGE%Fire Mastery: %WHITE%3%CONTINUE%//Fire Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK62=3]: %NAME%%NL%%ORANGE%Hydra: %WHITE%3%CONTINUE%//Hydra
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK63=3]: %NAME%%NL%%ORANGE%Lightning Mastery: %WHITE%3%CONTINUE%//Lightning Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK64=3]: %NAME%%NL%%ORANGE%Frozen Orb: %WHITE%3%CONTINUE%//Frozen Orb
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK65=3]: %NAME%%NL%%ORANGE%Cold Mastery: %WHITE%3%CONTINUE%//Cold Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK66=3]: %NAME%%NL%%ORANGE%Amplify Damage: %WHITE%3%CONTINUE%//Amplify Damage
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK67=3]: %NAME%%NL%%ORANGE%Teeth: %WHITE%3%CONTINUE%//Teeth
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK68=3]: %NAME%%NL%%ORANGE%Bone Armor: %WHITE%3%CONTINUE%//Bone Armor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK69=3]: %NAME%%NL%%ORANGE%Skeleton Mastery: %WHITE%3%CONTINUE%//Skeleton Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK70=3]: %NAME%%NL%%ORANGE%Raise Skeleton Warrior: %WHITE%3%CONTINUE%//Raise Skeleton Warrior
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK71=3]: %NAME%%NL%%ORANGE%Dim Vision: %WHITE%3%CONTINUE%//Dim Vision
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK72=3]: %NAME%%NL%%ORANGE%Weaken: %WHITE%3%CONTINUE%//Weaken
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK73=3]: %NAME%%NL%%ORANGE%Poison Dagger: %WHITE%3%CONTINUE%//Poison Dagger
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK74=3]: %NAME%%NL%%ORANGE%Corpse Explosion: %WHITE%3%CONTINUE%//Corpse Explosion
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK75=3]: %NAME%%NL%%ORANGE%Clay Golem: %WHITE%3%CONTINUE%//Clay Golem
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK76=3]: %NAME%%NL%%ORANGE%Iron Maiden: %WHITE%3%CONTINUE%//Iron Maiden
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK77=3]: %NAME%%NL%%ORANGE%Terror: %WHITE%3%CONTINUE%//Terror
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK78=3]: %NAME%%NL%%ORANGE%Bone Wall: %WHITE%3%CONTINUE%//Bone Wall
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK79=3]: %NAME%%NL%%ORANGE%Golem Mastery: %WHITE%3%CONTINUE%//Golem Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK80=3]: %NAME%%NL%%ORANGE%Raise Skeletal Mage: %WHITE%3%CONTINUE%//Raise Skeletal Mage
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK81=3]: %NAME%%NL%%ORANGE%Confuse: %WHITE%3%CONTINUE%//Confuse
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK82=3]: %NAME%%NL%%ORANGE%Life Tap: %WHITE%3%CONTINUE%//Life Tap
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK83=3]: %NAME%%NL%%ORANGE%Desecrate: %WHITE%3%CONTINUE%//Desecrate
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK84=3]: %NAME%%NL%%ORANGE%Bone Spear: %WHITE%3%CONTINUE%//Bone Spear
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK85=3]: %NAME%%NL%%ORANGE%Blood Golem: %WHITE%3%CONTINUE%//Blood Golem
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK86=3]: %NAME%%NL%%ORANGE%Attract: %WHITE%3%CONTINUE%//Attract
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK87=3]: %NAME%%NL%%ORANGE%Decrepify: %WHITE%3%CONTINUE%//Decrepify
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK88=3]: %NAME%%NL%%ORANGE%Bone Prison: %WHITE%3%CONTINUE%//Bone Prison
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK89=3]: %NAME%%NL%%ORANGE%Summon Resist: %WHITE%3%CONTINUE%//Summon Resist
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK90=3]: %NAME%%NL%%ORANGE%Iron Golem: %WHITE%3%CONTINUE%//Iron Golem
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK91=3]: %NAME%%NL%%ORANGE%Lower Resist: %WHITE%3%CONTINUE%//Lower Resist
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK92=3]: %NAME%%NL%%ORANGE%Poison Nova: %WHITE%3%CONTINUE%//Poison Nova
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK93=3]: %NAME%%NL%%ORANGE%Bone Spirit: %WHITE%3%CONTINUE%//Bone Spirit
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK94=3]: %NAME%%NL%%ORANGE%Fire Golem: %WHITE%3%CONTINUE%//Fire Golem
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK95=3]: %NAME%%NL%%ORANGE%Revive: %WHITE%3%CONTINUE%//Revive
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK96=3]: %NAME%%NL%%ORANGE%Sacrifice: %WHITE%3%CONTINUE%//Sacrifice
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK97=3]: %NAME%%NL%%ORANGE%Smite: %WHITE%3%CONTINUE%//Smite
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK98=3]: %NAME%%NL%%ORANGE%Might: %WHITE%3%CONTINUE%//Might
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK99=3]: %NAME%%NL%%ORANGE%Prayer: %WHITE%3%CONTINUE%//Prayer
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK100=3]: %NAME%%NL%%ORANGE%Resist Fire: %WHITE%3%CONTINUE%//Resist Fire
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK101=3]: %NAME%%NL%%ORANGE%Holy Bolt: %WHITE%3%CONTINUE%//Holy Bolt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK102=3]: %NAME%%NL%%ORANGE%Holy Fire: %WHITE%3%CONTINUE%//Holy Fire
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK103=3]: %NAME%%NL%%ORANGE%Thorns: %WHITE%3%CONTINUE%//Thorns
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK104=3]: %NAME%%NL%%ORANGE%Defiance: %WHITE%3%CONTINUE%//Defiance
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK105=3]: %NAME%%NL%%ORANGE%Resist Cold: %WHITE%3%CONTINUE%//Resist Cold
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK106=3]: %NAME%%NL%%ORANGE%Zeal: %WHITE%3%CONTINUE%//Zeal
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK107=3]: %NAME%%NL%%ORANGE%Charge: %WHITE%3%CONTINUE%//Charge
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK108=3]: %NAME%%NL%%ORANGE%Blessed Aim: %WHITE%3%CONTINUE%//Blessed Aim
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK109=3]: %NAME%%NL%%ORANGE%Cleansing: %WHITE%3%CONTINUE%//Cleansing
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK110=3]: %NAME%%NL%%ORANGE%Resist Lightning: %WHITE%3%CONTINUE%//Resist Lightning
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK111=3]: %NAME%%NL%%ORANGE%Vengeance: %WHITE%3%CONTINUE%//Vengeance
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK112=3]: %NAME%%NL%%ORANGE%Blessed Hammer: %WHITE%3%CONTINUE%//Blessed Hammer
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK113=3]: %NAME%%NL%%ORANGE%Concentration: %WHITE%3%CONTINUE%//Concentration
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK114=3]: %NAME%%NL%%ORANGE%Holy Freeze: %WHITE%3%CONTINUE%//Holy Freeze
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK115=3]: %NAME%%NL%%ORANGE%Vigor: %WHITE%3%CONTINUE%//Vigor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK116=3]: %NAME%%NL%%ORANGE%Conversion: %WHITE%3%CONTINUE%//Conversion
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK117=3]: %NAME%%NL%%ORANGE%Holy Shield: %WHITE%3%CONTINUE%//Holy Shield
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK118=3]: %NAME%%NL%%ORANGE%Holy Shock: %WHITE%3%CONTINUE%//Holy Shock
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK119=3]: %NAME%%NL%%ORANGE%Sanctuary: %WHITE%3%CONTINUE%//Sanctuary
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK120=3]: %NAME%%NL%%ORANGE%Meditation: %WHITE%3%CONTINUE%//Meditation
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK121=3]: %NAME%%NL%%ORANGE%Fist of the Heavens: %WHITE%3%CONTINUE%//Fist of the Heavens
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK122=3]: %NAME%%NL%%ORANGE%Fanaticism: %WHITE%3%CONTINUE%//Fanaticism
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK123=3]: %NAME%%NL%%ORANGE%Conviction: %WHITE%3%CONTINUE%//Conviction
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK124=3]: %NAME%%NL%%ORANGE%Redemption: %WHITE%3%CONTINUE%//Redemption
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK125=3]: %NAME%%NL%%ORANGE%Salvation: %WHITE%3%CONTINUE%//Salvation
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK126=3]: %NAME%%NL%%ORANGE%Bash: %WHITE%3%CONTINUE%//Bash
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK127=3]: %NAME%%NL%%ORANGE%Sword Mastery: %WHITE%3%CONTINUE%//Sword Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK128=3]: %NAME%%NL%%ORANGE%General Mastery: %WHITE%3%CONTINUE%//General Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK129=3]: %NAME%%NL%%ORANGE%Mace Mastery: %WHITE%3%CONTINUE%//Mace Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK130=3]: %NAME%%NL%%ORANGE%Howl: %WHITE%3%CONTINUE%//Howl
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK131=3]: %NAME%%NL%%ORANGE%Find Potion: %WHITE%3%CONTINUE%//Find Potion
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK132=3]: %NAME%%NL%%ORANGE%Leap: %WHITE%3%CONTINUE%//Leap
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK133=3]: %NAME%%NL%%ORANGE%Double Swing: %WHITE%3%CONTINUE%//Double Swing
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK134=3]: %NAME%%NL%%ORANGE%Polearm Mastery: %WHITE%3%CONTINUE%//Polearm Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK135=3]: %NAME%%NL%%ORANGE%Throwing Mastery: %WHITE%3%CONTINUE%//Throwing Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK136=3]: %NAME%%NL%%ORANGE%Polearm and Spear Mastery: %WHITE%3%CONTINUE%//Polearm and Spear Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK137=3]: %NAME%%NL%%ORANGE%Taunt: %WHITE%3%CONTINUE%//Taunt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK138=3]: %NAME%%NL%%ORANGE%Shout: %WHITE%3%CONTINUE%//Shout
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK139=3]: %NAME%%NL%%ORANGE%Stun: %WHITE%3%CONTINUE%//Stun
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK140=3]: %NAME%%NL%%ORANGE%Double Throw: %WHITE%3%CONTINUE%//Double Throw
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK141=3]: %NAME%%NL%%ORANGE%Combat Reflexes: %WHITE%3%CONTINUE%//Combat Reflexes
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK142=3]: %NAME%%NL%%ORANGE%Find Item: %WHITE%3%CONTINUE%//Find Item
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK143=3]: %NAME%%NL%%ORANGE%Leap Attack: %WHITE%3%CONTINUE%//Leap Attack
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK144=3]: %NAME%%NL%%ORANGE%Concentrate: %WHITE%3%CONTINUE%//Concentrate
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK145=3]: %NAME%%NL%%ORANGE%Iron Skin: %WHITE%3%CONTINUE%//Iron Skin
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK146=3]: %NAME%%NL%%ORANGE%Battle Cry: %WHITE%3%CONTINUE%//Battle Cry
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK147=3]: %NAME%%NL%%ORANGE%Frenzy: %WHITE%3%CONTINUE%//Frenzy
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK148=3]: %NAME%%NL%%ORANGE%Increased Speed: %WHITE%3%CONTINUE%//Increased Speed
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK149=3]: %NAME%%NL%%ORANGE%Battle Orders: %WHITE%3%CONTINUE%//Battle Orders
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK150=3]: %NAME%%NL%%ORANGE%Grim Ward: %WHITE%3%CONTINUE%//Grim Ward
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK151=3]: %NAME%%NL%%ORANGE%Whirlwind: %WHITE%3%CONTINUE%//Whirlwind
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK152=3]: %NAME%%NL%%ORANGE%Berserk: %WHITE%3%CONTINUE%//Berserk
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK153=3]: %NAME%%NL%%ORANGE%Natural Resistance: %WHITE%3%CONTINUE%//Natural Resistance
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK154=3]: %NAME%%NL%%ORANGE%War Cry: %WHITE%3%CONTINUE%//War Cry
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK155=3]: %NAME%%NL%%ORANGE%Battle Command: %WHITE%3%CONTINUE%//Battle Command
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK221=3]: %NAME%%NL%%ORANGE%Raven: %WHITE%3%CONTINUE%//Raven
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK222=3]: %NAME%%NL%%ORANGE%Poison Creeper: %WHITE%3%CONTINUE%//Poison Creeper
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK223=3]: %NAME%%NL%%ORANGE%Werewolf: %WHITE%3%CONTINUE%//Werewolf
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK224=3]: %NAME%%NL%%ORANGE%Lycanthropy: %WHITE%3%CONTINUE%//Lycanthropy
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK225=3]: %NAME%%NL%%ORANGE%Firestorm: %WHITE%3%CONTINUE%//Firestorm
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK226=3]: %NAME%%NL%%ORANGE%Oak Sage: %WHITE%3%CONTINUE%//Oak Sage
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK227=3]: %NAME%%NL%%ORANGE%Summon Spirit Wolf: %WHITE%3%CONTINUE%//Summon Spirit Wolf
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK228=3]: %NAME%%NL%%ORANGE%Werebear: %WHITE%3%CONTINUE%//Werebear
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK229=3]: %NAME%%NL%%ORANGE%Molten Boulder: %WHITE%3%CONTINUE%//Molten Boulder
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK230=3]: %NAME%%NL%%ORANGE%Arctic Blast: %WHITE%3%CONTINUE%//Arctic Blast
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK231=3]: %NAME%%NL%%ORANGE%Carrion Vine: %WHITE%3%CONTINUE%//Carrion Vine
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK232=3]: %NAME%%NL%%ORANGE%Feral Rage: %WHITE%3%CONTINUE%//Feral Rage
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK233=3]: %NAME%%NL%%ORANGE%Maul: %WHITE%3%CONTINUE%//Maul
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK234=3]: %NAME%%NL%%ORANGE%Fissure: %WHITE%3%CONTINUE%//Fissure
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK235=3]: %NAME%%NL%%ORANGE%Cyclone Armor: %WHITE%3%CONTINUE%//Cyclone Armor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK236=3]: %NAME%%NL%%ORANGE%Heart of Wolverine: %WHITE%3%CONTINUE%//Heart of Wolverine
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK237=3]: %NAME%%NL%%ORANGE%Summon Dire Wolf: %WHITE%3%CONTINUE%//Summon Dire Wolf
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK238=3]: %NAME%%NL%%ORANGE%Rabies: %WHITE%3%CONTINUE%//Rabies
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK239=3]: %NAME%%NL%%ORANGE%Fire Claws: %WHITE%3%CONTINUE%//Fire Claws
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK240=3]: %NAME%%NL%%ORANGE%Twister: %WHITE%3%CONTINUE%//Twister
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK241=3]: %NAME%%NL%%ORANGE%Solar Creeper: %WHITE%3%CONTINUE%//Solar Creeper
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK242=3]: %NAME%%NL%%ORANGE%Hunger: %WHITE%3%CONTINUE%//Hunger
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK243=3]: %NAME%%NL%%ORANGE%Shock Wave: %WHITE%3%CONTINUE%//Shock Wave
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK244=3]: %NAME%%NL%%ORANGE%Volcano: %WHITE%3%CONTINUE%//Volcano
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK245=3]: %NAME%%NL%%ORANGE%Tornado: %WHITE%3%CONTINUE%//Tornado
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK246=3]: %NAME%%NL%%ORANGE%Spirit of Barbs: %WHITE%3%CONTINUE%//Spirit of Barbs
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK247=3]: %NAME%%NL%%ORANGE%Summon Grizzly: %WHITE%3%CONTINUE%//Summon Grizzly
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK248=3]: %NAME%%NL%%ORANGE%Fury: %WHITE%3%CONTINUE%//Fury
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK249=3]: %NAME%%NL%%ORANGE%Armageddon: %WHITE%3%CONTINUE%//Armageddon
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK250=3]: %NAME%%NL%%ORANGE%Hurricane: %WHITE%3%CONTINUE%//Hurricane
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK251=3]: %NAME%%NL%%ORANGE%Fire Blast: %WHITE%3%CONTINUE%//Fire Blast
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK252=3]: %NAME%%NL%%ORANGE%Claw Mastery: %WHITE%3%CONTINUE%//Claw Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK253=3]: %NAME%%NL%%ORANGE%Psychic Hammer: %WHITE%3%CONTINUE%//Psychic Hammer
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK254=3]: %NAME%%NL%%ORANGE%Tiger Strike: %WHITE%3%CONTINUE%//Tiger Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK255=3]: %NAME%%NL%%ORANGE%Dragon Talon: %WHITE%3%CONTINUE%//Dragon Talon
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK256=3]: %NAME%%NL%%ORANGE%Shock Web: %WHITE%3%CONTINUE%//Shock Web
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK257=3]: %NAME%%NL%%ORANGE%Blade Sentinel: %WHITE%3%CONTINUE%//Blade Sentinel
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK258=3]: %NAME%%NL%%ORANGE%Burst of Speed: %WHITE%3%CONTINUE%//Burst of Speed
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK259=3]: %NAME%%NL%%ORANGE%Fists of Fire: %WHITE%3%CONTINUE%//Fists of Fire
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK260=3]: %NAME%%NL%%ORANGE%Dragon Claw: %WHITE%3%CONTINUE%//Dragon Claw
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK261=3]: %NAME%%NL%%ORANGE%Charged Bolt Sentry: %WHITE%3%CONTINUE%//Charged Bolt Sentry
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK262=3]: %NAME%%NL%%ORANGE%Wake of Fire: %WHITE%3%CONTINUE%//Wake of Fire
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK263=3]: %NAME%%NL%%ORANGE%Weapon Block: %WHITE%3%CONTINUE%//Weapon Block
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK264=3]: %NAME%%NL%%ORANGE%Cloak of Shadows: %WHITE%3%CONTINUE%//Cloak of Shadows
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK265=3]: %NAME%%NL%%ORANGE%Cobra Strike: %WHITE%3%CONTINUE%//Cobra Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK266=3]: %NAME%%NL%%ORANGE%Blade Fury: %WHITE%3%CONTINUE%//Blade Fury
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK267=3]: %NAME%%NL%%ORANGE%Fade: %WHITE%3%CONTINUE%//Fade
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK268=3]: %NAME%%NL%%ORANGE%Shadow Warrior: %WHITE%3%CONTINUE%//Shadow Warrior
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK269=3]: %NAME%%NL%%ORANGE%Claws of Thunder: %WHITE%3%CONTINUE%//Claws of Thunder
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK270=3]: %NAME%%NL%%ORANGE%Dragon Tail: %WHITE%3%CONTINUE%//Dragon Tail
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK271=3]: %NAME%%NL%%ORANGE%Chain Lightning Sentry: %WHITE%3%CONTINUE%//Chain Lightning Sentry
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK272=3]: %NAME%%NL%%ORANGE%Wake of Inferno: %WHITE%3%CONTINUE%//Wake of Inferno
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK273=3]: %NAME%%NL%%ORANGE%Mind Blast: %WHITE%3%CONTINUE%//Mind Blast
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK274=3]: %NAME%%NL%%ORANGE%Blades of Ice: %WHITE%3%CONTINUE%//Blades of Ice
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK275=3]: %NAME%%NL%%ORANGE%Dragon Flight: %WHITE%3%CONTINUE%//Dragon Flight
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK276=3]: %NAME%%NL%%ORANGE%Death Sentry: %WHITE%3%CONTINUE%//Death Sentry
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK277=3]: %NAME%%NL%%ORANGE%Blade Shield: %WHITE%3%CONTINUE%//Blade Shield
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK278=3]: %NAME%%NL%%ORANGE%Venom: %WHITE%3%CONTINUE%//Venom
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK279=3]: %NAME%%NL%%ORANGE%Shadow Master: %WHITE%3%CONTINUE%//Shadow Master
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK280=3]: %NAME%%NL%%ORANGE%Phoenix Strike: %WHITE%3%CONTINUE%//Phoenix Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK357=3]: %NAME%%NL%%ORANGE%Blink: %WHITE%3%CONTINUE%//Blink
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK364=3]: %NAME%%NL%%ORANGE%Holy Nova: %WHITE%3%CONTINUE%//Holy Nova
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK367=3]: %NAME%%NL%%ORANGE%Blood Warp: %WHITE%3%CONTINUE%//Blood Warp
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK369=3]: %NAME%%NL%%ORANGE%Ice Barrage: %WHITE%3%CONTINUE%//Ice Barrage
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK371=3]: %NAME%%NL%%ORANGE%Holy Light: %WHITE%3%CONTINUE%//Holy Light
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK381=3]: %NAME%%NL%%ORANGE%Dark Pact: %WHITE%3%CONTINUE%//Dark Pact
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK383=3]: %NAME%%NL%%ORANGE%Lesser Hydra: %WHITE%3%CONTINUE%//Lesser Hydra
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK6=2]: %NAME%%NL%%ORANGE%Magic Arrow: %WHITE%2%CONTINUE%//Magic Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK7=2]: %NAME%%NL%%ORANGE%Fire Arrow: %WHITE%2%CONTINUE%//Fire Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK8=2]: %NAME%%NL%%ORANGE%Inner Sight: %WHITE%2%CONTINUE%//Inner Sight
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK9=2]: %NAME%%NL%%ORANGE%Critical Strike: %WHITE%2%CONTINUE%//Critical Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK10=2]: %NAME%%NL%%ORANGE%Jab: %WHITE%2%CONTINUE%//Jab
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK11=2]: %NAME%%NL%%ORANGE%Cold Arrow: %WHITE%2%CONTINUE%//Cold Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK12=2]: %NAME%%NL%%ORANGE%Multiple Shot: %WHITE%2%CONTINUE%//Multiple Shot
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK13=2]: %NAME%%NL%%ORANGE%Dodge: %WHITE%2%CONTINUE%//Dodge
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK14=2]: %NAME%%NL%%ORANGE%Power Strike: %WHITE%2%CONTINUE%//Power Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK15=2]: %NAME%%NL%%ORANGE%Poison Javelin: %WHITE%2%CONTINUE%//Poison Javelin
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK16=2]: %NAME%%NL%%ORANGE%Exploding Arrow: %WHITE%2%CONTINUE%//Exploding Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK17=2]: %NAME%%NL%%ORANGE%Slow Movement: %WHITE%2%CONTINUE%//Slow Movement
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK18=2]: %NAME%%NL%%ORANGE%Avoid: %WHITE%2%CONTINUE%//Avoid
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK19=2]: %NAME%%NL%%ORANGE%Javelin and Spear Mastery: %WHITE%2%CONTINUE%//Javelin and Spear Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK20=2]: %NAME%%NL%%ORANGE%Lightning Bolt: %WHITE%2%CONTINUE%//Lightning Bolt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK21=2]: %NAME%%NL%%ORANGE%Ice Arrow: %WHITE%2%CONTINUE%//Ice Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK22=2]: %NAME%%NL%%ORANGE%Guided Arrow: %WHITE%2%CONTINUE%//Guided Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK23=2]: %NAME%%NL%%ORANGE%Penetrate: %WHITE%2%CONTINUE%//Penetrate
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK24=2]: %NAME%%NL%%ORANGE%Charged Strike: %WHITE%2%CONTINUE%//Charged Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK25=2]: %NAME%%NL%%ORANGE%Plague Javelin: %WHITE%2%CONTINUE%//Plague Javelin
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK26=2]: %NAME%%NL%%ORANGE%Strafe: %WHITE%2%CONTINUE%//Strafe
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK27=2]: %NAME%%NL%%ORANGE%Immolation Arrow: %WHITE%2%CONTINUE%//Immolation Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK28=2]: %NAME%%NL%%ORANGE%Decoy: %WHITE%2%CONTINUE%//Decoy
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK29=2]: %NAME%%NL%%ORANGE%Evade: %WHITE%2%CONTINUE%//Evade
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK30=2]: %NAME%%NL%%ORANGE%Fend: %WHITE%2%CONTINUE%//Fend
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK31=2]: %NAME%%NL%%ORANGE%Freezing Arrow: %WHITE%2%CONTINUE%//Freezing Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK32=2]: %NAME%%NL%%ORANGE%Valkyrie: %WHITE%2%CONTINUE%//Valkyrie
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK33=2]: %NAME%%NL%%ORANGE%Pierce: %WHITE%2%CONTINUE%//Pierce
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK34=2]: %NAME%%NL%%ORANGE%Lightning Strike: %WHITE%2%CONTINUE%//Lightning Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK35=2]: %NAME%%NL%%ORANGE%Lightning Fury: %WHITE%2%CONTINUE%//Lightning Fury
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK36=2]: %NAME%%NL%%ORANGE%Fire Bolt: %WHITE%2%CONTINUE%//Fire Bolt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK37=2]: %NAME%%NL%%ORANGE%Warmth: %WHITE%2%CONTINUE%//Warmth
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK38=2]: %NAME%%NL%%ORANGE%Charged Bolt: %WHITE%2%CONTINUE%//Charged Bolt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK39=2]: %NAME%%NL%%ORANGE%Ice Bolt: %WHITE%2%CONTINUE%//Ice Bolt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK40=2]: %NAME%%NL%%ORANGE%Cold Enchant: %WHITE%2%CONTINUE%//Cold Enchant
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK41=2]: %NAME%%NL%%ORANGE%Inferno: %WHITE%2%CONTINUE%//Inferno
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK42=2]: %NAME%%NL%%ORANGE%Static Field: %WHITE%2%CONTINUE%//Static Field
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK43=2]: %NAME%%NL%%ORANGE%Telekinesis: %WHITE%2%CONTINUE%//Telekinesis
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK44=2]: %NAME%%NL%%ORANGE%Frost Nova: %WHITE%2%CONTINUE%//Frost Nova
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK45=2]: %NAME%%NL%%ORANGE%Ice Blast: %WHITE%2%CONTINUE%//Ice Blast
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK46=2]: %NAME%%NL%%ORANGE%Blaze: %WHITE%2%CONTINUE%//Blaze
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK47=2]: %NAME%%NL%%ORANGE%Fire Ball: %WHITE%2%CONTINUE%//Fire Ball
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK48=2]: %NAME%%NL%%ORANGE%Nova: %WHITE%2%CONTINUE%//Nova
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK49=2]: %NAME%%NL%%ORANGE%Lightning: %WHITE%2%CONTINUE%//Lightning
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK50=2]: %NAME%%NL%%ORANGE%Shiver Armor: %WHITE%2%CONTINUE%//Shiver Armor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK51=2]: %NAME%%NL%%ORANGE%Fire Wall: %WHITE%2%CONTINUE%//Fire Wall
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK52=2]: %NAME%%NL%%ORANGE%Enchant Fire: %WHITE%2%CONTINUE%//Enchant Fire
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK53=2]: %NAME%%NL%%ORANGE%Chain Lightning: %WHITE%2%CONTINUE%//Chain Lightning
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK54=2]: %NAME%%NL%%ORANGE%Teleport: %WHITE%2%CONTINUE%//Teleport
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK55=2]: %NAME%%NL%%ORANGE%Glacial Spike: %WHITE%2%CONTINUE%//Glacial Spike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK56=2]: %NAME%%NL%%ORANGE%Meteor: %WHITE%2%CONTINUE%//Meteor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK57=2]: %NAME%%NL%%ORANGE%Thunder Storm: %WHITE%2%CONTINUE%//Thunder Storm
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK58=2]: %NAME%%NL%%ORANGE%Energy Shield: %WHITE%2%CONTINUE%//Energy Shield
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK59=2]: %NAME%%NL%%ORANGE%Blizzard: %WHITE%2%CONTINUE%//Blizzard
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK60=2]: %NAME%%NL%%ORANGE%Chilling Armor: %WHITE%2%CONTINUE%//Chilling Armor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK61=2]: %NAME%%NL%%ORANGE%Fire Mastery: %WHITE%2%CONTINUE%//Fire Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK62=2]: %NAME%%NL%%ORANGE%Hydra: %WHITE%2%CONTINUE%//Hydra
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK63=2]: %NAME%%NL%%ORANGE%Lightning Mastery: %WHITE%2%CONTINUE%//Lightning Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK64=2]: %NAME%%NL%%ORANGE%Frozen Orb: %WHITE%2%CONTINUE%//Frozen Orb
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK65=2]: %NAME%%NL%%ORANGE%Cold Mastery: %WHITE%2%CONTINUE%//Cold Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK66=2]: %NAME%%NL%%ORANGE%Amplify Damage: %WHITE%2%CONTINUE%//Amplify Damage
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK67=2]: %NAME%%NL%%ORANGE%Teeth: %WHITE%2%CONTINUE%//Teeth
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK68=2]: %NAME%%NL%%ORANGE%Bone Armor: %WHITE%2%CONTINUE%//Bone Armor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK69=2]: %NAME%%NL%%ORANGE%Skeleton Mastery: %WHITE%2%CONTINUE%//Skeleton Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK70=2]: %NAME%%NL%%ORANGE%Raise Skeleton Warrior: %WHITE%2%CONTINUE%//Raise Skeleton Warrior
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK71=2]: %NAME%%NL%%ORANGE%Dim Vision: %WHITE%2%CONTINUE%//Dim Vision
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK72=2]: %NAME%%NL%%ORANGE%Weaken: %WHITE%2%CONTINUE%//Weaken
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK73=2]: %NAME%%NL%%ORANGE%Poison Dagger: %WHITE%2%CONTINUE%//Poison Dagger
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK74=2]: %NAME%%NL%%ORANGE%Corpse Explosion: %WHITE%2%CONTINUE%//Corpse Explosion
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK75=2]: %NAME%%NL%%ORANGE%Clay Golem: %WHITE%2%CONTINUE%//Clay Golem
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK76=2]: %NAME%%NL%%ORANGE%Iron Maiden: %WHITE%2%CONTINUE%//Iron Maiden
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK77=2]: %NAME%%NL%%ORANGE%Terror: %WHITE%2%CONTINUE%//Terror
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK78=2]: %NAME%%NL%%ORANGE%Bone Wall: %WHITE%2%CONTINUE%//Bone Wall
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK79=2]: %NAME%%NL%%ORANGE%Golem Mastery: %WHITE%2%CONTINUE%//Golem Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK80=2]: %NAME%%NL%%ORANGE%Raise Skeletal Mage: %WHITE%2%CONTINUE%//Raise Skeletal Mage
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK81=2]: %NAME%%NL%%ORANGE%Confuse: %WHITE%2%CONTINUE%//Confuse
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK82=2]: %NAME%%NL%%ORANGE%Life Tap: %WHITE%2%CONTINUE%//Life Tap
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK83=2]: %NAME%%NL%%ORANGE%Desecrate: %WHITE%2%CONTINUE%//Desecrate
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK84=2]: %NAME%%NL%%ORANGE%Bone Spear: %WHITE%2%CONTINUE%//Bone Spear
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK85=2]: %NAME%%NL%%ORANGE%Blood Golem: %WHITE%2%CONTINUE%//Blood Golem
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK86=2]: %NAME%%NL%%ORANGE%Attract: %WHITE%2%CONTINUE%//Attract
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK87=2]: %NAME%%NL%%ORANGE%Decrepify: %WHITE%2%CONTINUE%//Decrepify
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK88=2]: %NAME%%NL%%ORANGE%Bone Prison: %WHITE%2%CONTINUE%//Bone Prison
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK89=2]: %NAME%%NL%%ORANGE%Summon Resist: %WHITE%2%CONTINUE%//Summon Resist
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK90=2]: %NAME%%NL%%ORANGE%Iron Golem: %WHITE%2%CONTINUE%//Iron Golem
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK91=2]: %NAME%%NL%%ORANGE%Lower Resist: %WHITE%2%CONTINUE%//Lower Resist
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK92=2]: %NAME%%NL%%ORANGE%Poison Nova: %WHITE%2%CONTINUE%//Poison Nova
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK93=2]: %NAME%%NL%%ORANGE%Bone Spirit: %WHITE%2%CONTINUE%//Bone Spirit
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK94=2]: %NAME%%NL%%ORANGE%Fire Golem: %WHITE%2%CONTINUE%//Fire Golem
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK95=2]: %NAME%%NL%%ORANGE%Revive: %WHITE%2%CONTINUE%//Revive
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK96=2]: %NAME%%NL%%ORANGE%Sacrifice: %WHITE%2%CONTINUE%//Sacrifice
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK97=2]: %NAME%%NL%%ORANGE%Smite: %WHITE%2%CONTINUE%//Smite
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK98=2]: %NAME%%NL%%ORANGE%Might: %WHITE%2%CONTINUE%//Might
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK99=2]: %NAME%%NL%%ORANGE%Prayer: %WHITE%2%CONTINUE%//Prayer
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK100=2]: %NAME%%NL%%ORANGE%Resist Fire: %WHITE%2%CONTINUE%//Resist Fire
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK101=2]: %NAME%%NL%%ORANGE%Holy Bolt: %WHITE%2%CONTINUE%//Holy Bolt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK102=2]: %NAME%%NL%%ORANGE%Holy Fire: %WHITE%2%CONTINUE%//Holy Fire
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK103=2]: %NAME%%NL%%ORANGE%Thorns: %WHITE%2%CONTINUE%//Thorns
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK104=2]: %NAME%%NL%%ORANGE%Defiance: %WHITE%2%CONTINUE%//Defiance
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK105=2]: %NAME%%NL%%ORANGE%Resist Cold: %WHITE%2%CONTINUE%//Resist Cold
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK106=2]: %NAME%%NL%%ORANGE%Zeal: %WHITE%2%CONTINUE%//Zeal
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK107=2]: %NAME%%NL%%ORANGE%Charge: %WHITE%2%CONTINUE%//Charge
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK108=2]: %NAME%%NL%%ORANGE%Blessed Aim: %WHITE%2%CONTINUE%//Blessed Aim
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK109=2]: %NAME%%NL%%ORANGE%Cleansing: %WHITE%2%CONTINUE%//Cleansing
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK110=2]: %NAME%%NL%%ORANGE%Resist Lightning: %WHITE%2%CONTINUE%//Resist Lightning
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK111=2]: %NAME%%NL%%ORANGE%Vengeance: %WHITE%2%CONTINUE%//Vengeance
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK112=2]: %NAME%%NL%%ORANGE%Blessed Hammer: %WHITE%2%CONTINUE%//Blessed Hammer
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK113=2]: %NAME%%NL%%ORANGE%Concentration: %WHITE%2%CONTINUE%//Concentration
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK114=2]: %NAME%%NL%%ORANGE%Holy Freeze: %WHITE%2%CONTINUE%//Holy Freeze
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK115=2]: %NAME%%NL%%ORANGE%Vigor: %WHITE%2%CONTINUE%//Vigor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK116=2]: %NAME%%NL%%ORANGE%Conversion: %WHITE%2%CONTINUE%//Conversion
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK117=2]: %NAME%%NL%%ORANGE%Holy Shield: %WHITE%2%CONTINUE%//Holy Shield
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK118=2]: %NAME%%NL%%ORANGE%Holy Shock: %WHITE%2%CONTINUE%//Holy Shock
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK119=2]: %NAME%%NL%%ORANGE%Sanctuary: %WHITE%2%CONTINUE%//Sanctuary
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK120=2]: %NAME%%NL%%ORANGE%Meditation: %WHITE%2%CONTINUE%//Meditation
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK121=2]: %NAME%%NL%%ORANGE%Fist of the Heavens: %WHITE%2%CONTINUE%//Fist of the Heavens
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK122=2]: %NAME%%NL%%ORANGE%Fanaticism: %WHITE%2%CONTINUE%//Fanaticism
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK123=2]: %NAME%%NL%%ORANGE%Conviction: %WHITE%2%CONTINUE%//Conviction
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK124=2]: %NAME%%NL%%ORANGE%Redemption: %WHITE%2%CONTINUE%//Redemption
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK125=2]: %NAME%%NL%%ORANGE%Salvation: %WHITE%2%CONTINUE%//Salvation
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK126=2]: %NAME%%NL%%ORANGE%Bash: %WHITE%2%CONTINUE%//Bash
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK127=2]: %NAME%%NL%%ORANGE%Sword Mastery: %WHITE%2%CONTINUE%//Sword Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK128=2]: %NAME%%NL%%ORANGE%General Mastery: %WHITE%2%CONTINUE%//General Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK129=2]: %NAME%%NL%%ORANGE%Mace Mastery: %WHITE%2%CONTINUE%//Mace Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK130=2]: %NAME%%NL%%ORANGE%Howl: %WHITE%2%CONTINUE%//Howl
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK131=2]: %NAME%%NL%%ORANGE%Find Potion: %WHITE%2%CONTINUE%//Find Potion
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK132=2]: %NAME%%NL%%ORANGE%Leap: %WHITE%2%CONTINUE%//Leap
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK133=2]: %NAME%%NL%%ORANGE%Double Swing: %WHITE%2%CONTINUE%//Double Swing
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK134=2]: %NAME%%NL%%ORANGE%Polearm Mastery: %WHITE%2%CONTINUE%//Polearm Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK135=2]: %NAME%%NL%%ORANGE%Throwing Mastery: %WHITE%2%CONTINUE%//Throwing Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK136=2]: %NAME%%NL%%ORANGE%Polearm and Spear Mastery: %WHITE%2%CONTINUE%//Polearm and Spear Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK137=2]: %NAME%%NL%%ORANGE%Taunt: %WHITE%2%CONTINUE%//Taunt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK138=2]: %NAME%%NL%%ORANGE%Shout: %WHITE%2%CONTINUE%//Shout
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK139=2]: %NAME%%NL%%ORANGE%Stun: %WHITE%2%CONTINUE%//Stun
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK140=2]: %NAME%%NL%%ORANGE%Double Throw: %WHITE%2%CONTINUE%//Double Throw
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK141=2]: %NAME%%NL%%ORANGE%Combat Reflexes: %WHITE%2%CONTINUE%//Combat Reflexes
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK142=2]: %NAME%%NL%%ORANGE%Find Item: %WHITE%2%CONTINUE%//Find Item
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK143=2]: %NAME%%NL%%ORANGE%Leap Attack: %WHITE%2%CONTINUE%//Leap Attack
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK144=2]: %NAME%%NL%%ORANGE%Concentrate: %WHITE%2%CONTINUE%//Concentrate
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK145=2]: %NAME%%NL%%ORANGE%Iron Skin: %WHITE%2%CONTINUE%//Iron Skin
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK146=2]: %NAME%%NL%%ORANGE%Battle Cry: %WHITE%2%CONTINUE%//Battle Cry
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK147=2]: %NAME%%NL%%ORANGE%Frenzy: %WHITE%2%CONTINUE%//Frenzy
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK148=2]: %NAME%%NL%%ORANGE%Increased Speed: %WHITE%2%CONTINUE%//Increased Speed
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK149=2]: %NAME%%NL%%ORANGE%Battle Orders: %WHITE%2%CONTINUE%//Battle Orders
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK150=2]: %NAME%%NL%%ORANGE%Grim Ward: %WHITE%2%CONTINUE%//Grim Ward
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK151=2]: %NAME%%NL%%ORANGE%Whirlwind: %WHITE%2%CONTINUE%//Whirlwind
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK152=2]: %NAME%%NL%%ORANGE%Berserk: %WHITE%2%CONTINUE%//Berserk
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK153=2]: %NAME%%NL%%ORANGE%Natural Resistance: %WHITE%2%CONTINUE%//Natural Resistance
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK154=2]: %NAME%%NL%%ORANGE%War Cry: %WHITE%2%CONTINUE%//War Cry
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK155=2]: %NAME%%NL%%ORANGE%Battle Command: %WHITE%2%CONTINUE%//Battle Command
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK221=2]: %NAME%%NL%%ORANGE%Raven: %WHITE%2%CONTINUE%//Raven
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK222=2]: %NAME%%NL%%ORANGE%Poison Creeper: %WHITE%2%CONTINUE%//Poison Creeper
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK223=2]: %NAME%%NL%%ORANGE%Werewolf: %WHITE%2%CONTINUE%//Werewolf
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK224=2]: %NAME%%NL%%ORANGE%Lycanthropy: %WHITE%2%CONTINUE%//Lycanthropy
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK225=2]: %NAME%%NL%%ORANGE%Firestorm: %WHITE%2%CONTINUE%//Firestorm
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK226=2]: %NAME%%NL%%ORANGE%Oak Sage: %WHITE%2%CONTINUE%//Oak Sage
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK227=2]: %NAME%%NL%%ORANGE%Summon Spirit Wolf: %WHITE%2%CONTINUE%//Summon Spirit Wolf
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK228=2]: %NAME%%NL%%ORANGE%Werebear: %WHITE%2%CONTINUE%//Werebear
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK229=2]: %NAME%%NL%%ORANGE%Molten Boulder: %WHITE%2%CONTINUE%//Molten Boulder
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK230=2]: %NAME%%NL%%ORANGE%Arctic Blast: %WHITE%2%CONTINUE%//Arctic Blast
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK231=2]: %NAME%%NL%%ORANGE%Carrion Vine: %WHITE%2%CONTINUE%//Carrion Vine
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK232=2]: %NAME%%NL%%ORANGE%Feral Rage: %WHITE%2%CONTINUE%//Feral Rage
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK233=2]: %NAME%%NL%%ORANGE%Maul: %WHITE%2%CONTINUE%//Maul
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK234=2]: %NAME%%NL%%ORANGE%Fissure: %WHITE%2%CONTINUE%//Fissure
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK235=2]: %NAME%%NL%%ORANGE%Cyclone Armor: %WHITE%2%CONTINUE%//Cyclone Armor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK236=2]: %NAME%%NL%%ORANGE%Heart of Wolverine: %WHITE%2%CONTINUE%//Heart of Wolverine
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK237=2]: %NAME%%NL%%ORANGE%Summon Dire Wolf: %WHITE%2%CONTINUE%//Summon Dire Wolf
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK238=2]: %NAME%%NL%%ORANGE%Rabies: %WHITE%2%CONTINUE%//Rabies
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK239=2]: %NAME%%NL%%ORANGE%Fire Claws: %WHITE%2%CONTINUE%//Fire Claws
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK240=2]: %NAME%%NL%%ORANGE%Twister: %WHITE%2%CONTINUE%//Twister
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK241=2]: %NAME%%NL%%ORANGE%Solar Creeper: %WHITE%2%CONTINUE%//Solar Creeper
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK242=2]: %NAME%%NL%%ORANGE%Hunger: %WHITE%2%CONTINUE%//Hunger
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK243=2]: %NAME%%NL%%ORANGE%Shock Wave: %WHITE%2%CONTINUE%//Shock Wave
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK244=2]: %NAME%%NL%%ORANGE%Volcano: %WHITE%2%CONTINUE%//Volcano
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK245=2]: %NAME%%NL%%ORANGE%Tornado: %WHITE%2%CONTINUE%//Tornado
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK246=2]: %NAME%%NL%%ORANGE%Spirit of Barbs: %WHITE%2%CONTINUE%//Spirit of Barbs
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK247=2]: %NAME%%NL%%ORANGE%Summon Grizzly: %WHITE%2%CONTINUE%//Summon Grizzly
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK248=2]: %NAME%%NL%%ORANGE%Fury: %WHITE%2%CONTINUE%//Fury
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK249=2]: %NAME%%NL%%ORANGE%Armageddon: %WHITE%2%CONTINUE%//Armageddon
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK250=2]: %NAME%%NL%%ORANGE%Hurricane: %WHITE%2%CONTINUE%//Hurricane
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK251=2]: %NAME%%NL%%ORANGE%Fire Blast: %WHITE%2%CONTINUE%//Fire Blast
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK252=2]: %NAME%%NL%%ORANGE%Claw Mastery: %WHITE%2%CONTINUE%//Claw Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK253=2]: %NAME%%NL%%ORANGE%Psychic Hammer: %WHITE%2%CONTINUE%//Psychic Hammer
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK254=2]: %NAME%%NL%%ORANGE%Tiger Strike: %WHITE%2%CONTINUE%//Tiger Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK255=2]: %NAME%%NL%%ORANGE%Dragon Talon: %WHITE%2%CONTINUE%//Dragon Talon
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK256=2]: %NAME%%NL%%ORANGE%Shock Web: %WHITE%2%CONTINUE%//Shock Web
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK257=2]: %NAME%%NL%%ORANGE%Blade Sentinel: %WHITE%2%CONTINUE%//Blade Sentinel
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK258=2]: %NAME%%NL%%ORANGE%Burst of Speed: %WHITE%2%CONTINUE%//Burst of Speed
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK259=2]: %NAME%%NL%%ORANGE%Fists of Fire: %WHITE%2%CONTINUE%//Fists of Fire
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK260=2]: %NAME%%NL%%ORANGE%Dragon Claw: %WHITE%2%CONTINUE%//Dragon Claw
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK261=2]: %NAME%%NL%%ORANGE%Charged Bolt Sentry: %WHITE%2%CONTINUE%//Charged Bolt Sentry
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK262=2]: %NAME%%NL%%ORANGE%Wake of Fire: %WHITE%2%CONTINUE%//Wake of Fire
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK263=2]: %NAME%%NL%%ORANGE%Weapon Block: %WHITE%2%CONTINUE%//Weapon Block
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK264=2]: %NAME%%NL%%ORANGE%Cloak of Shadows: %WHITE%2%CONTINUE%//Cloak of Shadows
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK265=2]: %NAME%%NL%%ORANGE%Cobra Strike: %WHITE%2%CONTINUE%//Cobra Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK266=2]: %NAME%%NL%%ORANGE%Blade Fury: %WHITE%2%CONTINUE%//Blade Fury
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK267=2]: %NAME%%NL%%ORANGE%Fade: %WHITE%2%CONTINUE%//Fade
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK268=2]: %NAME%%NL%%ORANGE%Shadow Warrior: %WHITE%2%CONTINUE%//Shadow Warrior
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK269=2]: %NAME%%NL%%ORANGE%Claws of Thunder: %WHITE%2%CONTINUE%//Claws of Thunder
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK270=2]: %NAME%%NL%%ORANGE%Dragon Tail: %WHITE%2%CONTINUE%//Dragon Tail
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK271=2]: %NAME%%NL%%ORANGE%Chain Lightning Sentry: %WHITE%2%CONTINUE%//Chain Lightning Sentry
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK272=2]: %NAME%%NL%%ORANGE%Wake of Inferno: %WHITE%2%CONTINUE%//Wake of Inferno
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK273=2]: %NAME%%NL%%ORANGE%Mind Blast: %WHITE%2%CONTINUE%//Mind Blast
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK274=2]: %NAME%%NL%%ORANGE%Blades of Ice: %WHITE%2%CONTINUE%//Blades of Ice
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK275=2]: %NAME%%NL%%ORANGE%Dragon Flight: %WHITE%2%CONTINUE%//Dragon Flight
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK276=2]: %NAME%%NL%%ORANGE%Death Sentry: %WHITE%2%CONTINUE%//Death Sentry
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK277=2]: %NAME%%NL%%ORANGE%Blade Shield: %WHITE%2%CONTINUE%//Blade Shield
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK278=2]: %NAME%%NL%%ORANGE%Venom: %WHITE%2%CONTINUE%//Venom
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK279=2]: %NAME%%NL%%ORANGE%Shadow Master: %WHITE%2%CONTINUE%//Shadow Master
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK280=2]: %NAME%%NL%%ORANGE%Phoenix Strike: %WHITE%2%CONTINUE%//Phoenix Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK357=2]: %NAME%%NL%%ORANGE%Blink: %WHITE%2%CONTINUE%//Blink
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK364=2]: %NAME%%NL%%ORANGE%Holy Nova: %WHITE%2%CONTINUE%//Holy Nova
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK367=2]: %NAME%%NL%%ORANGE%Blood Warp: %WHITE%2%CONTINUE%//Blood Warp
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK369=2]: %NAME%%NL%%ORANGE%Ice Barrage: %WHITE%2%CONTINUE%//Ice Barrage
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK371=2]: %NAME%%NL%%ORANGE%Holy Light: %WHITE%2%CONTINUE%//Holy Light
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK381=2]: %NAME%%NL%%ORANGE%Dark Pact: %WHITE%2%CONTINUE%//Dark Pact
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK383=2]: %NAME%%NL%%ORANGE%Lesser Hydra: %WHITE%2%CONTINUE%//Lesser Hydra
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK6=1]: %NAME%%NL%%ORANGE%Magic Arrow: %WHITE%1%CONTINUE%//Magic Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK7=1]: %NAME%%NL%%ORANGE%Fire Arrow: %WHITE%1%CONTINUE%//Fire Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK8=1]: %NAME%%NL%%ORANGE%Inner Sight: %WHITE%1%CONTINUE%//Inner Sight
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK9=1]: %NAME%%NL%%ORANGE%Critical Strike: %WHITE%1%CONTINUE%//Critical Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK10=1]: %NAME%%NL%%ORANGE%Jab: %WHITE%1%CONTINUE%//Jab
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK11=1]: %NAME%%NL%%ORANGE%Cold Arrow: %WHITE%1%CONTINUE%//Cold Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK12=1]: %NAME%%NL%%ORANGE%Multiple Shot: %WHITE%1%CONTINUE%//Multiple Shot
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK13=1]: %NAME%%NL%%ORANGE%Dodge: %WHITE%1%CONTINUE%//Dodge
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK14=1]: %NAME%%NL%%ORANGE%Power Strike: %WHITE%1%CONTINUE%//Power Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK15=1]: %NAME%%NL%%ORANGE%Poison Javelin: %WHITE%1%CONTINUE%//Poison Javelin
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK16=1]: %NAME%%NL%%ORANGE%Exploding Arrow: %WHITE%1%CONTINUE%//Exploding Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK17=1]: %NAME%%NL%%ORANGE%Slow Movement: %WHITE%1%CONTINUE%//Slow Movement
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK18=1]: %NAME%%NL%%ORANGE%Avoid: %WHITE%1%CONTINUE%//Avoid
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK19=1]: %NAME%%NL%%ORANGE%Javelin and Spear Mastery: %WHITE%1%CONTINUE%//Javelin and Spear Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK20=1]: %NAME%%NL%%ORANGE%Lightning Bolt: %WHITE%1%CONTINUE%//Lightning Bolt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK21=1]: %NAME%%NL%%ORANGE%Ice Arrow: %WHITE%1%CONTINUE%//Ice Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK22=1]: %NAME%%NL%%ORANGE%Guided Arrow: %WHITE%1%CONTINUE%//Guided Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK23=1]: %NAME%%NL%%ORANGE%Penetrate: %WHITE%1%CONTINUE%//Penetrate
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK24=1]: %NAME%%NL%%ORANGE%Charged Strike: %WHITE%1%CONTINUE%//Charged Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK25=1]: %NAME%%NL%%ORANGE%Plague Javelin: %WHITE%1%CONTINUE%//Plague Javelin
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK26=1]: %NAME%%NL%%ORANGE%Strafe: %WHITE%1%CONTINUE%//Strafe
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK27=1]: %NAME%%NL%%ORANGE%Immolation Arrow: %WHITE%1%CONTINUE%//Immolation Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK28=1]: %NAME%%NL%%ORANGE%Decoy: %WHITE%1%CONTINUE%//Decoy
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK29=1]: %NAME%%NL%%ORANGE%Evade: %WHITE%1%CONTINUE%//Evade
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK30=1]: %NAME%%NL%%ORANGE%Fend: %WHITE%1%CONTINUE%//Fend
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK31=1]: %NAME%%NL%%ORANGE%Freezing Arrow: %WHITE%1%CONTINUE%//Freezing Arrow
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK32=1]: %NAME%%NL%%ORANGE%Valkyrie: %WHITE%1%CONTINUE%//Valkyrie
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK33=1]: %NAME%%NL%%ORANGE%Pierce: %WHITE%1%CONTINUE%//Pierce
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK34=1]: %NAME%%NL%%ORANGE%Lightning Strike: %WHITE%1%CONTINUE%//Lightning Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK35=1]: %NAME%%NL%%ORANGE%Lightning Fury: %WHITE%1%CONTINUE%//Lightning Fury
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK36=1]: %NAME%%NL%%ORANGE%Fire Bolt: %WHITE%1%CONTINUE%//Fire Bolt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK37=1]: %NAME%%NL%%ORANGE%Warmth: %WHITE%1%CONTINUE%//Warmth
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK38=1]: %NAME%%NL%%ORANGE%Charged Bolt: %WHITE%1%CONTINUE%//Charged Bolt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK39=1]: %NAME%%NL%%ORANGE%Ice Bolt: %WHITE%1%CONTINUE%//Ice Bolt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK40=1]: %NAME%%NL%%ORANGE%Cold Enchant: %WHITE%1%CONTINUE%//Cold Enchant
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK41=1]: %NAME%%NL%%ORANGE%Inferno: %WHITE%1%CONTINUE%//Inferno
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK42=1]: %NAME%%NL%%ORANGE%Static Field: %WHITE%1%CONTINUE%//Static Field
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK43=1]: %NAME%%NL%%ORANGE%Telekinesis: %WHITE%1%CONTINUE%//Telekinesis
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK44=1]: %NAME%%NL%%ORANGE%Frost Nova: %WHITE%1%CONTINUE%//Frost Nova
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK45=1]: %NAME%%NL%%ORANGE%Ice Blast: %WHITE%1%CONTINUE%//Ice Blast
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK46=1]: %NAME%%NL%%ORANGE%Blaze: %WHITE%1%CONTINUE%//Blaze
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK47=1]: %NAME%%NL%%ORANGE%Fire Ball: %WHITE%1%CONTINUE%//Fire Ball
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK48=1]: %NAME%%NL%%ORANGE%Nova: %WHITE%1%CONTINUE%//Nova
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK49=1]: %NAME%%NL%%ORANGE%Lightning: %WHITE%1%CONTINUE%//Lightning
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK50=1]: %NAME%%NL%%ORANGE%Shiver Armor: %WHITE%1%CONTINUE%//Shiver Armor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK51=1]: %NAME%%NL%%ORANGE%Fire Wall: %WHITE%1%CONTINUE%//Fire Wall
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK52=1]: %NAME%%NL%%ORANGE%Enchant Fire: %WHITE%1%CONTINUE%//Enchant Fire
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK53=1]: %NAME%%NL%%ORANGE%Chain Lightning: %WHITE%1%CONTINUE%//Chain Lightning
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK54=1]: %NAME%%NL%%ORANGE%Teleport: %WHITE%1%CONTINUE%//Teleport
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK55=1]: %NAME%%NL%%ORANGE%Glacial Spike: %WHITE%1%CONTINUE%//Glacial Spike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK56=1]: %NAME%%NL%%ORANGE%Meteor: %WHITE%1%CONTINUE%//Meteor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK57=1]: %NAME%%NL%%ORANGE%Thunder Storm: %WHITE%1%CONTINUE%//Thunder Storm
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK58=1]: %NAME%%NL%%ORANGE%Energy Shield: %WHITE%1%CONTINUE%//Energy Shield
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK59=1]: %NAME%%NL%%ORANGE%Blizzard: %WHITE%1%CONTINUE%//Blizzard
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK60=1]: %NAME%%NL%%ORANGE%Chilling Armor: %WHITE%1%CONTINUE%//Chilling Armor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK61=1]: %NAME%%NL%%ORANGE%Fire Mastery: %WHITE%1%CONTINUE%//Fire Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK62=1]: %NAME%%NL%%ORANGE%Hydra: %WHITE%1%CONTINUE%//Hydra
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK63=1]: %NAME%%NL%%ORANGE%Lightning Mastery: %WHITE%1%CONTINUE%//Lightning Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK64=1]: %NAME%%NL%%ORANGE%Frozen Orb: %WHITE%1%CONTINUE%//Frozen Orb
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK65=1]: %NAME%%NL%%ORANGE%Cold Mastery: %WHITE%1%CONTINUE%//Cold Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK66=1]: %NAME%%NL%%ORANGE%Amplify Damage: %WHITE%1%CONTINUE%//Amplify Damage
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK67=1]: %NAME%%NL%%ORANGE%Teeth: %WHITE%1%CONTINUE%//Teeth
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK68=1]: %NAME%%NL%%ORANGE%Bone Armor: %WHITE%1%CONTINUE%//Bone Armor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK69=1]: %NAME%%NL%%ORANGE%Skeleton Mastery: %WHITE%1%CONTINUE%//Skeleton Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK70=1]: %NAME%%NL%%ORANGE%Raise Skeleton Warrior: %WHITE%1%CONTINUE%//Raise Skeleton Warrior
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK71=1]: %NAME%%NL%%ORANGE%Dim Vision: %WHITE%1%CONTINUE%//Dim Vision
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK72=1]: %NAME%%NL%%ORANGE%Weaken: %WHITE%1%CONTINUE%//Weaken
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK73=1]: %NAME%%NL%%ORANGE%Poison Dagger: %WHITE%1%CONTINUE%//Poison Dagger
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK74=1]: %NAME%%NL%%ORANGE%Corpse Explosion: %WHITE%1%CONTINUE%//Corpse Explosion
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK75=1]: %NAME%%NL%%ORANGE%Clay Golem: %WHITE%1%CONTINUE%//Clay Golem
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK76=1]: %NAME%%NL%%ORANGE%Iron Maiden: %WHITE%1%CONTINUE%//Iron Maiden
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK77=1]: %NAME%%NL%%ORANGE%Terror: %WHITE%1%CONTINUE%//Terror
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK78=1]: %NAME%%NL%%ORANGE%Bone Wall: %WHITE%1%CONTINUE%//Bone Wall
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK79=1]: %NAME%%NL%%ORANGE%Golem Mastery: %WHITE%1%CONTINUE%//Golem Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK80=1]: %NAME%%NL%%ORANGE%Raise Skeletal Mage: %WHITE%1%CONTINUE%//Raise Skeletal Mage
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK81=1]: %NAME%%NL%%ORANGE%Confuse: %WHITE%1%CONTINUE%//Confuse
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK82=1]: %NAME%%NL%%ORANGE%Life Tap: %WHITE%1%CONTINUE%//Life Tap
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK83=1]: %NAME%%NL%%ORANGE%Desecrate: %WHITE%1%CONTINUE%//Desecrate
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK84=1]: %NAME%%NL%%ORANGE%Bone Spear: %WHITE%1%CONTINUE%//Bone Spear
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK85=1]: %NAME%%NL%%ORANGE%Blood Golem: %WHITE%1%CONTINUE%//Blood Golem
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK86=1]: %NAME%%NL%%ORANGE%Attract: %WHITE%1%CONTINUE%//Attract
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK87=1]: %NAME%%NL%%ORANGE%Decrepify: %WHITE%1%CONTINUE%//Decrepify
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK88=1]: %NAME%%NL%%ORANGE%Bone Prison: %WHITE%1%CONTINUE%//Bone Prison
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK89=1]: %NAME%%NL%%ORANGE%Summon Resist: %WHITE%1%CONTINUE%//Summon Resist
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK90=1]: %NAME%%NL%%ORANGE%Iron Golem: %WHITE%1%CONTINUE%//Iron Golem
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK91=1]: %NAME%%NL%%ORANGE%Lower Resist: %WHITE%1%CONTINUE%//Lower Resist
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK92=1]: %NAME%%NL%%ORANGE%Poison Nova: %WHITE%1%CONTINUE%//Poison Nova
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK93=1]: %NAME%%NL%%ORANGE%Bone Spirit: %WHITE%1%CONTINUE%//Bone Spirit
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK94=1]: %NAME%%NL%%ORANGE%Fire Golem: %WHITE%1%CONTINUE%//Fire Golem
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK95=1]: %NAME%%NL%%ORANGE%Revive: %WHITE%1%CONTINUE%//Revive
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK96=1]: %NAME%%NL%%ORANGE%Sacrifice: %WHITE%1%CONTINUE%//Sacrifice
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK97=1]: %NAME%%NL%%ORANGE%Smite: %WHITE%1%CONTINUE%//Smite
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK98=1]: %NAME%%NL%%ORANGE%Might: %WHITE%1%CONTINUE%//Might
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK99=1]: %NAME%%NL%%ORANGE%Prayer: %WHITE%1%CONTINUE%//Prayer
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK100=1]: %NAME%%NL%%ORANGE%Resist Fire: %WHITE%1%CONTINUE%//Resist Fire
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK101=1]: %NAME%%NL%%ORANGE%Holy Bolt: %WHITE%1%CONTINUE%//Holy Bolt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK102=1]: %NAME%%NL%%ORANGE%Holy Fire: %WHITE%1%CONTINUE%//Holy Fire
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK103=1]: %NAME%%NL%%ORANGE%Thorns: %WHITE%1%CONTINUE%//Thorns
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK104=1]: %NAME%%NL%%ORANGE%Defiance: %WHITE%1%CONTINUE%//Defiance
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK105=1]: %NAME%%NL%%ORANGE%Resist Cold: %WHITE%1%CONTINUE%//Resist Cold
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK106=1]: %NAME%%NL%%ORANGE%Zeal: %WHITE%1%CONTINUE%//Zeal
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK107=1]: %NAME%%NL%%ORANGE%Charge: %WHITE%1%CONTINUE%//Charge
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK108=1]: %NAME%%NL%%ORANGE%Blessed Aim: %WHITE%1%CONTINUE%//Blessed Aim
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK109=1]: %NAME%%NL%%ORANGE%Cleansing: %WHITE%1%CONTINUE%//Cleansing
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK110=1]: %NAME%%NL%%ORANGE%Resist Lightning: %WHITE%1%CONTINUE%//Resist Lightning
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK111=1]: %NAME%%NL%%ORANGE%Vengeance: %WHITE%1%CONTINUE%//Vengeance
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK112=1]: %NAME%%NL%%ORANGE%Blessed Hammer: %WHITE%1%CONTINUE%//Blessed Hammer
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK113=1]: %NAME%%NL%%ORANGE%Concentration: %WHITE%1%CONTINUE%//Concentration
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK114=1]: %NAME%%NL%%ORANGE%Holy Freeze: %WHITE%1%CONTINUE%//Holy Freeze
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK115=1]: %NAME%%NL%%ORANGE%Vigor: %WHITE%1%CONTINUE%//Vigor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK116=1]: %NAME%%NL%%ORANGE%Conversion: %WHITE%1%CONTINUE%//Conversion
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK117=1]: %NAME%%NL%%ORANGE%Holy Shield: %WHITE%1%CONTINUE%//Holy Shield
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK118=1]: %NAME%%NL%%ORANGE%Holy Shock: %WHITE%1%CONTINUE%//Holy Shock
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK119=1]: %NAME%%NL%%ORANGE%Sanctuary: %WHITE%1%CONTINUE%//Sanctuary
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK120=1]: %NAME%%NL%%ORANGE%Meditation: %WHITE%1%CONTINUE%//Meditation
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK121=1]: %NAME%%NL%%ORANGE%Fist of the Heavens: %WHITE%1%CONTINUE%//Fist of the Heavens
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK122=1]: %NAME%%NL%%ORANGE%Fanaticism: %WHITE%1%CONTINUE%//Fanaticism
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK123=1]: %NAME%%NL%%ORANGE%Conviction: %WHITE%1%CONTINUE%//Conviction
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK124=1]: %NAME%%NL%%ORANGE%Redemption: %WHITE%1%CONTINUE%//Redemption
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK125=1]: %NAME%%NL%%ORANGE%Salvation: %WHITE%1%CONTINUE%//Salvation
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK126=1]: %NAME%%NL%%ORANGE%Bash: %WHITE%1%CONTINUE%//Bash
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK127=1]: %NAME%%NL%%ORANGE%Sword Mastery: %WHITE%1%CONTINUE%//Sword Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK128=1]: %NAME%%NL%%ORANGE%General Mastery: %WHITE%1%CONTINUE%//General Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK129=1]: %NAME%%NL%%ORANGE%Mace Mastery: %WHITE%1%CONTINUE%//Mace Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK130=1]: %NAME%%NL%%ORANGE%Howl: %WHITE%1%CONTINUE%//Howl
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK131=1]: %NAME%%NL%%ORANGE%Find Potion: %WHITE%1%CONTINUE%//Find Potion
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK132=1]: %NAME%%NL%%ORANGE%Leap: %WHITE%1%CONTINUE%//Leap
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK133=1]: %NAME%%NL%%ORANGE%Double Swing: %WHITE%1%CONTINUE%//Double Swing
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK134=1]: %NAME%%NL%%ORANGE%Polearm Mastery: %WHITE%1%CONTINUE%//Polearm Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK135=1]: %NAME%%NL%%ORANGE%Throwing Mastery: %WHITE%1%CONTINUE%//Throwing Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK136=1]: %NAME%%NL%%ORANGE%Polearm and Spear Mastery: %WHITE%1%CONTINUE%//Polearm and Spear Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK137=1]: %NAME%%NL%%ORANGE%Taunt: %WHITE%1%CONTINUE%//Taunt
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK138=1]: %NAME%%NL%%ORANGE%Shout: %WHITE%1%CONTINUE%//Shout
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK139=1]: %NAME%%NL%%ORANGE%Stun: %WHITE%1%CONTINUE%//Stun
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK140=1]: %NAME%%NL%%ORANGE%Double Throw: %WHITE%1%CONTINUE%//Double Throw
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK141=1]: %NAME%%NL%%ORANGE%Combat Reflexes: %WHITE%1%CONTINUE%//Combat Reflexes
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK142=1]: %NAME%%NL%%ORANGE%Find Item: %WHITE%1%CONTINUE%//Find Item
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK143=1]: %NAME%%NL%%ORANGE%Leap Attack: %WHITE%1%CONTINUE%//Leap Attack
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK144=1]: %NAME%%NL%%ORANGE%Concentrate: %WHITE%1%CONTINUE%//Concentrate
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK145=1]: %NAME%%NL%%ORANGE%Iron Skin: %WHITE%1%CONTINUE%//Iron Skin
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK146=1]: %NAME%%NL%%ORANGE%Battle Cry: %WHITE%1%CONTINUE%//Battle Cry
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK147=1]: %NAME%%NL%%ORANGE%Frenzy: %WHITE%1%CONTINUE%//Frenzy
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK148=1]: %NAME%%NL%%ORANGE%Increased Speed: %WHITE%1%CONTINUE%//Increased Speed
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK149=1]: %NAME%%NL%%ORANGE%Battle Orders: %WHITE%1%CONTINUE%//Battle Orders
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK150=1]: %NAME%%NL%%ORANGE%Grim Ward: %WHITE%1%CONTINUE%//Grim Ward
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK151=1]: %NAME%%NL%%ORANGE%Whirlwind: %WHITE%1%CONTINUE%//Whirlwind
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK152=1]: %NAME%%NL%%ORANGE%Berserk: %WHITE%1%CONTINUE%//Berserk
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK153=1]: %NAME%%NL%%ORANGE%Natural Resistance: %WHITE%1%CONTINUE%//Natural Resistance
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK154=1]: %NAME%%NL%%ORANGE%War Cry: %WHITE%1%CONTINUE%//War Cry
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK155=1]: %NAME%%NL%%ORANGE%Battle Command: %WHITE%1%CONTINUE%//Battle Command
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK221=1]: %NAME%%NL%%ORANGE%Raven: %WHITE%1%CONTINUE%//Raven
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK222=1]: %NAME%%NL%%ORANGE%Poison Creeper: %WHITE%1%CONTINUE%//Poison Creeper
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK223=1]: %NAME%%NL%%ORANGE%Werewolf: %WHITE%1%CONTINUE%//Werewolf
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK224=1]: %NAME%%NL%%ORANGE%Lycanthropy: %WHITE%1%CONTINUE%//Lycanthropy
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK225=1]: %NAME%%NL%%ORANGE%Firestorm: %WHITE%1%CONTINUE%//Firestorm
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK226=1]: %NAME%%NL%%ORANGE%Oak Sage: %WHITE%1%CONTINUE%//Oak Sage
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK227=1]: %NAME%%NL%%ORANGE%Summon Spirit Wolf: %WHITE%1%CONTINUE%//Summon Spirit Wolf
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK228=1]: %NAME%%NL%%ORANGE%Werebear: %WHITE%1%CONTINUE%//Werebear
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK229=1]: %NAME%%NL%%ORANGE%Molten Boulder: %WHITE%1%CONTINUE%//Molten Boulder
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK230=1]: %NAME%%NL%%ORANGE%Arctic Blast: %WHITE%1%CONTINUE%//Arctic Blast
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK231=1]: %NAME%%NL%%ORANGE%Carrion Vine: %WHITE%1%CONTINUE%//Carrion Vine
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK232=1]: %NAME%%NL%%ORANGE%Feral Rage: %WHITE%1%CONTINUE%//Feral Rage
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK233=1]: %NAME%%NL%%ORANGE%Maul: %WHITE%1%CONTINUE%//Maul
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK234=1]: %NAME%%NL%%ORANGE%Fissure: %WHITE%1%CONTINUE%//Fissure
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK235=1]: %NAME%%NL%%ORANGE%Cyclone Armor: %WHITE%1%CONTINUE%//Cyclone Armor
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK236=1]: %NAME%%NL%%ORANGE%Heart of Wolverine: %WHITE%1%CONTINUE%//Heart of Wolverine
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK237=1]: %NAME%%NL%%ORANGE%Summon Dire Wolf: %WHITE%1%CONTINUE%//Summon Dire Wolf
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK238=1]: %NAME%%NL%%ORANGE%Rabies: %WHITE%1%CONTINUE%//Rabies
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK239=1]: %NAME%%NL%%ORANGE%Fire Claws: %WHITE%1%CONTINUE%//Fire Claws
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK240=1]: %NAME%%NL%%ORANGE%Twister: %WHITE%1%CONTINUE%//Twister
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK241=1]: %NAME%%NL%%ORANGE%Solar Creeper: %WHITE%1%CONTINUE%//Solar Creeper
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK242=1]: %NAME%%NL%%ORANGE%Hunger: %WHITE%1%CONTINUE%//Hunger
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK243=1]: %NAME%%NL%%ORANGE%Shock Wave: %WHITE%1%CONTINUE%//Shock Wave
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK244=1]: %NAME%%NL%%ORANGE%Volcano: %WHITE%1%CONTINUE%//Volcano
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK245=1]: %NAME%%NL%%ORANGE%Tornado: %WHITE%1%CONTINUE%//Tornado
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK246=1]: %NAME%%NL%%ORANGE%Spirit of Barbs: %WHITE%1%CONTINUE%//Spirit of Barbs
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK247=1]: %NAME%%NL%%ORANGE%Summon Grizzly: %WHITE%1%CONTINUE%//Summon Grizzly
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK248=1]: %NAME%%NL%%ORANGE%Fury: %WHITE%1%CONTINUE%//Fury
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK249=1]: %NAME%%NL%%ORANGE%Armageddon: %WHITE%1%CONTINUE%//Armageddon
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK250=1]: %NAME%%NL%%ORANGE%Hurricane: %WHITE%1%CONTINUE%//Hurricane
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK251=1]: %NAME%%NL%%ORANGE%Fire Blast: %WHITE%1%CONTINUE%//Fire Blast
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK252=1]: %NAME%%NL%%ORANGE%Claw Mastery: %WHITE%1%CONTINUE%//Claw Mastery
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK253=1]: %NAME%%NL%%ORANGE%Psychic Hammer: %WHITE%1%CONTINUE%//Psychic Hammer
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK254=1]: %NAME%%NL%%ORANGE%Tiger Strike: %WHITE%1%CONTINUE%//Tiger Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK255=1]: %NAME%%NL%%ORANGE%Dragon Talon: %WHITE%1%CONTINUE%//Dragon Talon
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK256=1]: %NAME%%NL%%ORANGE%Shock Web: %WHITE%1%CONTINUE%//Shock Web
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK257=1]: %NAME%%NL%%ORANGE%Blade Sentinel: %WHITE%1%CONTINUE%//Blade Sentinel
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK258=1]: %NAME%%NL%%ORANGE%Burst of Speed: %WHITE%1%CONTINUE%//Burst of Speed
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK259=1]: %NAME%%NL%%ORANGE%Fists of Fire: %WHITE%1%CONTINUE%//Fists of Fire
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK260=1]: %NAME%%NL%%ORANGE%Dragon Claw: %WHITE%1%CONTINUE%//Dragon Claw
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK261=1]: %NAME%%NL%%ORANGE%Charged Bolt Sentry: %WHITE%1%CONTINUE%//Charged Bolt Sentry
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK262=1]: %NAME%%NL%%ORANGE%Wake of Fire: %WHITE%1%CONTINUE%//Wake of Fire
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK263=1]: %NAME%%NL%%ORANGE%Weapon Block: %WHITE%1%CONTINUE%//Weapon Block
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK264=1]: %NAME%%NL%%ORANGE%Cloak of Shadows: %WHITE%1%CONTINUE%//Cloak of Shadows
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK265=1]: %NAME%%NL%%ORANGE%Cobra Strike: %WHITE%1%CONTINUE%//Cobra Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK266=1]: %NAME%%NL%%ORANGE%Blade Fury: %WHITE%1%CONTINUE%//Blade Fury
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK267=1]: %NAME%%NL%%ORANGE%Fade: %WHITE%1%CONTINUE%//Fade
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK268=1]: %NAME%%NL%%ORANGE%Shadow Warrior: %WHITE%1%CONTINUE%//Shadow Warrior
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK269=1]: %NAME%%NL%%ORANGE%Claws of Thunder: %WHITE%1%CONTINUE%//Claws of Thunder
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK270=1]: %NAME%%NL%%ORANGE%Dragon Tail: %WHITE%1%CONTINUE%//Dragon Tail
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK271=1]: %NAME%%NL%%ORANGE%Chain Lightning Sentry: %WHITE%1%CONTINUE%//Chain Lightning Sentry
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK272=1]: %NAME%%NL%%ORANGE%Wake of Inferno: %WHITE%1%CONTINUE%//Wake of Inferno
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK273=1]: %NAME%%NL%%ORANGE%Mind Blast: %WHITE%1%CONTINUE%//Mind Blast
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK274=1]: %NAME%%NL%%ORANGE%Blades of Ice: %WHITE%1%CONTINUE%//Blades of Ice
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK275=1]: %NAME%%NL%%ORANGE%Dragon Flight: %WHITE%1%CONTINUE%//Dragon Flight
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK276=1]: %NAME%%NL%%ORANGE%Death Sentry: %WHITE%1%CONTINUE%//Death Sentry
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK277=1]: %NAME%%NL%%ORANGE%Blade Shield: %WHITE%1%CONTINUE%//Blade Shield
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK278=1]: %NAME%%NL%%ORANGE%Venom: %WHITE%1%CONTINUE%//Venom
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK279=1]: %NAME%%NL%%ORANGE%Shadow Master: %WHITE%1%CONTINUE%//Shadow Master
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK280=1]: %NAME%%NL%%ORANGE%Phoenix Strike: %WHITE%1%CONTINUE%//Phoenix Strike
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK357=1]: %NAME%%NL%%ORANGE%Blink: %WHITE%1%CONTINUE%//Blink
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK364=1]: %NAME%%NL%%ORANGE%Holy Nova: %WHITE%1%CONTINUE%//Holy Nova
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK367=1]: %NAME%%NL%%ORANGE%Blood Warp: %WHITE%1%CONTINUE%//Blood Warp
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK369=1]: %NAME%%NL%%ORANGE%Ice Barrage: %WHITE%1%CONTINUE%//Ice Barrage
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK371=1]: %NAME%%NL%%ORANGE%Holy Light: %WHITE%1%CONTINUE%//Holy Light
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK381=1]: %NAME%%NL%%ORANGE%Dark Pact: %WHITE%1%CONTINUE%//Dark Pact
+ItemDisplay[(NMAG OR MAG OR RARE) !RW SK383=1]: %NAME%%NL%%ORANGE%Lesser Hydra: %WHITE%1%CONTINUE%//Lesser Hydra
