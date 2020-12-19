@@ -490,8 +490,8 @@ ItemDisplay[NMAG ELT !RW]:%NAME%%CONTINUE%//NON MAGICAL ITEMS
 //║                   MAGICAL                   ║
 //╚═════════════════════════════════════════════╝
 ItemDisplay[(cm1 OR cm2 OR cm3) !ID MAG]: %DOT-A0%%BLUE%%NAME%%CONTINUE%//MAGIC CHARM
-ItemDisplay[EQ7 !ID MAG]: %DOT-A0%%BLUE%%NAME%%CONTINUE%//MAGIC CIRCLET
-ItemDisplay[EQ7 ID MAG]: %DOT-A0%%BLUE%%NAME%%CONTINUE%//MAGIC CIRCLET
+ItemDisplay[EQ7 !ID MAG]: %DOT-A0%%BLUE%%NAME%//MAGIC CIRCLET
+ItemDisplay[EQ7 ID MAG]: %DOT-A0%%BLUE%%NAME%//MAGIC CIRCLET
 ItemDisplay[MAG !ID NORM !RW CLVL>30]://MAGICAL ITEMS
 ItemDisplay[MAG !ID EXC !RW CLVL>60]://MAGICAL ITEMS
 ItemDisplay[MAG !ID ELT !RW]://MAGICAL ITEMS MAPS ONLY TO HIDE
@@ -501,8 +501,8 @@ ItemDisplay[MAG !ID ELT !RW]://MAGICAL ITEMS MAPS ONLY TO HIDE
 //╔══════════════════════════════════════════╗
 //║                   RARE                   ║
 //╚══════════════════════════════════════════╝
-ItemDisplay[EQ7 !ID RARE]: %DOT-A8%%YELLOW%%NAME%%CONTINUE%//RARE CIRCLET
-ItemDisplay[EQ7 ID RARE]: %DOT-A8%%YELLOW%%NAME%%CONTINUE%//RARE CIRCLET
+ItemDisplay[EQ7 !ID RARE]: %DOT-A8%%YELLOW%%NAME%//RARE CIRCLET
+ItemDisplay[EQ7 ID RARE]: %DOT-A8%%YELLOW%%NAME%//RARE CIRCLET
 ItemDisplay[RARE !ID NORM !RW CLVL>30]://RARE ITEMS
 ItemDisplay[RARE !ID EXC !RW CLVL>60]://RARE ITEMS
 //ItemDisplay[RARE !ID ELT !RW]://RARE ITEMS MAPS ONLY TO HIDE
@@ -1345,7 +1345,7 @@ ItemDisplay[amu MAG ILVL>87]: %DOT-62%%RED%>>> %BLUE%%NAME% %RED%<<<{%ORANGE%Blo
 ItemDisplay[rin MAG ILVL>87]: %DOT-62%%RED%>>> %BLUE%%NAME% %RED%<<<{%ORANGE%Blood Ring: %TAN%Sol + Perfect Ruby + Jewel}//MAGIC
 
 //BLOOD GLOVES
-ItemDisplay[(vbl OR zvb OR uvc) MAG ILVL>87]: %DOT-62%%RED%>>> %BLUE%%NAME% %RED%<<<{%ORANGE%Caster Belt: %TAN%Nef + Perfect Ruby + Jewel}//MAGIC
+ItemDisplay[uvc MAG ILVL>87]: %DOT-62%%RED%>>> %BLUE%%NAME% %RED%<<<{%ORANGE%Caster Belt: %TAN%Nef + Perfect Ruby + Jewel}//MAGIC
 
 //CASTER BELT
-ItemDisplay[(vgl OR xvg OR uvg) MAG ILVL>87]: %DOT-62%%RED%>>> %BLUE%%NAME% %RED%<<<{%ORANGE%Caster Belt: %TAN%Ith + Perfect Amethyst + Jewel}//MAGIC
+ItemDisplay[uvg MAG ILVL>87]: %DOT-62%%RED%>>> %BLUE%%NAME% %RED%<<<{%ORANGE%Caster Belt: %TAN%Ith + Perfect Amethyst + Jewel}//MAGIC
