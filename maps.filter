@@ -61,42 +61,6 @@ ItemDisplay[hfh]: %TAN%%NAME%
 ItemDisplay[ice]: %TAN%%NAME%
 ItemDisplay[tr2]: %TAN%%NAME%
 
-//╔═════════════════════════════════════════════╗
-//║                   REMOVE                    ║
-//╚═════════════════════════════════════════════╝
-
-ItemDisplay[NMAG INF]://Any Inferior Item
-ItemDisplay[WP1 !RW NMAG CLVL>30 (SOCKS<3 && !SOCKS=0)]://Axes
-ItemDisplay[WP2 !RW NMAG CLVL>30 (SOCKS<4 && !SOCKS=0)]://Maces
-ItemDisplay[WP3 !RW NMAG CLVL>30 (SOCKS<3 && !SOCKS=0)]://Swords
-ItemDisplay[WP4 !RW NMAG CLVL>30]://Daggers
-ItemDisplay[WP5 !RW NMAG CLVL>30]://Throwing Weapons
-ItemDisplay[WP6 !RW NMAG CLVL>30]://Javelins
-ItemDisplay[WP7 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]://Spears
-ItemDisplay[WP8 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]://Polearms
-ItemDisplay[WP9 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]://Bows
-ItemDisplay[WP10 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]://Crossbows
-ItemDisplay[WP11 !RW NMAG CLVL>30 (!SOCKS=2 OR !SOCKS=4)]://Staves
-ItemDisplay[WP13 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]://Scepters
-ItemDisplay[EQ4 NMAG CLVL>30]://GLOVES
-ItemDisplay[EQ5 NMAG CLVL>30]://BOOTS
-ItemDisplay[EQ6 NMAG CLVL>30]://BELT
-ItemDisplay[(!CL1 && !CL2 && EQ1) NORM !RW NMAG DIFF>0]://HELM
-ItemDisplay[(ob1 AND ob2 AND ob3 AND ob4) !RW NMAG DIFF>0]://SORC WANDS 1
-ItemDisplay[(ob6 AND ob7 AND ob8 AND ob9) !RW NMAG DIFF>0]://SORC WANDS 2
-ItemDisplay[(obb AND obc AND obd AND obe) !RW NMAG DIFF>0]://SORC WANDS 3
-ItemDisplay[CL5 !RW NMAG (SOCKS=1 OR SOCKS=2) DIFF>0]://ASSASSIN CLAWS
-ItemDisplay[EQ2 NORM !RW NMAG DIFF>0]://CHEST
-ItemDisplay[(!CL3 && !CL4 && EQ3) NORM !RW NMAG DIFF>0]://SHIELD
-ItemDisplay[EQ7 !RW NMAG DIFF>0]://CIRCLET
-ItemDisplay[WP4 NMAG DIFF>0]://DAGGER
-ItemDisplay[WP5 NMAG DIFF>0]://THROWING
-ItemDisplay[WP6 NMAG DIFF>0]://JAV
-ItemDisplay[NMAG SOCKS=1]://ANY 1 SOCKET NON MAGICAL ITEM
-ItemDisplay[aqv]://ARROWS
-ItemDisplay[cqv]://BOLTS
-ItemDisplay[key]://Keys
-
 //╔══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 //║                                                                                               MISC                                                                                               ║
 //╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
@@ -107,22 +71,22 @@ ItemDisplay[GOLD<4200 CLVL>30]://Gold Piles
 //║                   ESSENCES RESET TOKENS                   ║
 //╚═══════════════════════════════════════════════════════════╝
 
-ItemDisplay[tes]: %DOT-62%%RED% %GOLD%Twisted Essence of Suffering [Andariel & Duriel] %RED%{%WHITE%Cube With: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%To Make A %RED%Token of Absolution}
-ItemDisplay[ceh]: %DOT-62%%RED% %GOLD%Charged Essence of Hatred [Mephisto] %RED%{%WHITE%Cube With: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%To Make A %RED%Token of Absolution}
-ItemDisplay[bet]: %DOT-62%%RED% %GOLD%Burning Essence of Terror [Diablo] %RED%{%WHITE%Cube With: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%To Make A %RED%Token of Absolution}
-ItemDisplay[fed]: %DOT-62%%RED% %GOLD%Festering Essence of Destruction [Baal] %RED%{%WHITE%Cube With: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%To Make A %RED%Token of Absolution}
-ItemDisplay[toa]: %DOT-62%%RED% %GOLD%Token of Absolution %RED%{%WHITE%Used to reset characters stats and skill points}
+ItemDisplay[tes]: %DOT-62%%RED%>>> %GOLD%Twisted Essence of Suffering [Andariel & Duriel] %RED%<<<{%WHITE%Cube With: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%To Make A %RED%Token of Absolution}
+ItemDisplay[ceh]: %DOT-62%%RED%>>> %GOLD%Charged Essence of Hatred [Mephisto] %RED%<<<{%WHITE%Cube With: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%To Make A %RED%Token of Absolution}
+ItemDisplay[bet]: %DOT-62%%RED%>>> %GOLD%Burning Essence of Terror [Diablo] %RED%<<<{%WHITE%Cube With: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%To Make A %RED%Token of Absolution}
+ItemDisplay[fed]: %DOT-62%%RED%>>> %GOLD%Festering Essence of Destruction [Baal] %RED%<<<{%WHITE%Cube With: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%To Make A %RED%Token of Absolution}
+ItemDisplay[toa]: %DOT-62%%RED%>>> %GOLD%Token of Absolution %RED%<<<{%WHITE%Used to reset characters stats and skill points}
 
 //╔═══════════════════════════════════════════════╗
 //║                   UBER KEYS                   ║
 //╚═══════════════════════════════════════════════╝
 
-ItemDisplay[pk1]: %DOT-62%%RED% %GOLD%Key of Terror [Countess] %RED%{%WHITE%Cube With: %GOLD%Key of Terror %WHITE%+ %GOLD%Key of Hate %WHITE%+ %GOLD%Key of Destruction %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
-ItemDisplay[pk2]: %DOT-62%%RED% %GOLD%Key of Hate [Summoner] %RED%{%WHITE%Cube With: %GOLD%Key of Terror %WHITE%+ %GOLD%Key of Hate %WHITE%+ %GOLD%Key of Destruction %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
-ItemDisplay[pk3]: %DOT-62%%RED% %GOLD%Key of Destruction [Nihlathak] %RED%{%WHITE%Cube With: %GOLD%Key of Terror %WHITE%+ %GOLD%Key of Hate %WHITE%+ %GOLD%Key of Destruction %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
-ItemDisplay[dhn]: %DOT-62%%RED% %GOLD%Diablos Horn %RED%{%WHITE%Cube With: %GOLD%Diablos Horn %WHITE%+ %GOLD%Baals Eye %WHITE%+ %GOLD%Mephistos Brain %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
-ItemDisplay[bey]: %DOT-62%%RED% %GOLD%Baals Eye %RED%{%WHITE%Cube With: %GOLD%Diablos Horn %WHITE%+ %GOLD%Baals Eye %WHITE%+ %GOLD%Mephistos Brain %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
-ItemDisplay[mbr]: %DOT-62%%RED% %GOLD%Mephistos Brain %RED%{%WHITE%Cube With: %GOLD%Diablos Horn %WHITE%+ %GOLD%Baals Eye %WHITE%+ %GOLD%Mephistos Brain %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
+ItemDisplay[pk1]: %DOT-62%%ORANGE%Countess%NL%%RED%>>> %GOLD%Key of Terror %RED%<<<{%WHITE%Cube With: %GOLD%Key of Terror %WHITE%+ %GOLD%Key of Hate %WHITE%+ %GOLD%Key of Destruction %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
+ItemDisplay[pk2]: %DOT-62%%ORANGE%Summoner%NL%%RED%>>> %GOLD%Key of Hate %RED%<<<{%WHITE%Cube With: %GOLD%Key of Terror %WHITE%+ %GOLD%Key of Hate %WHITE%+ %GOLD%Key of Destruction %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
+ItemDisplay[pk3]: %DOT-62%%ORANGE%Nihlathak%NL%%RED%>>> %GOLD%Key of Destruction %RED%<<<{%WHITE%Cube With: %GOLD%Key of Terror %WHITE%+ %GOLD%Key of Hate %WHITE%+ %GOLD%Key of Destruction %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
+ItemDisplay[dhn]: %DOT-62%%RED%>>> %GOLD%Diablos Horn %RED%<<<{%WHITE%Cube With: %GOLD%Diablos Horn %WHITE%+ %GOLD%Baals Eye %WHITE%+ %GOLD%Mephistos Brain %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
+ItemDisplay[bey]: %DOT-62%%RED%>>> %GOLD%Baals Eye %RED%<<<{%WHITE%Cube With: %GOLD%Diablos Horn %WHITE%+ %GOLD%Baals Eye %WHITE%+ %GOLD%Mephistos Brain %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
+ItemDisplay[mbr]: %DOT-62%%RED%>>> %GOLD%Mephistos Brain %RED%<<<{%WHITE%Cube With: %GOLD%Diablos Horn %WHITE%+ %GOLD%Baals Eye %WHITE%+ %GOLD%Mephistos Brain %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
 
 //╔═══════════════════════════════════════════╗
 //║                   RUNES                   ║
@@ -147,20 +111,20 @@ ItemDisplay[r16]: %DOT-60%%TAN%Io Rune %WHITE%[%RUNENUM%]{%WHITE%Cube to swap be
 ItemDisplay[r17]: %DOT-60%%TAN%Lum Rune %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r18]: %DOT-60%%TAN%Ko Rune %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r19]: %DOT-60%%TAN%Fal Rune %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r20]: %DOT-62%%RED% %PURPLE%Lem Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r21]: %DOT-62%%RED% %PURPLE%Pul Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r22]: %DOT-62%%RED% %PURPLE%Um Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r23]: %DOT-62%%RED% %PURPLE%Mal Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r24]: %DOT-62%%ORANGE%HR: %WHITE%[0.125]%NL%%RED% Ist Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r25]: %DOT-62%%ORANGE%HR: %WHITE%[0.25]%NL%%RED% %PURPLE%Gul Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r26]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED% %PURPLE%Vex Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r27]: %DOT-9B%%ORANGE%HR: %WHITE%[0.75]%NL%%RED% %PURPLE%Ohm Rune %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r28]: %DOT-9B%%ORANGE%HR: %YELLOW%[1.5]%NL%%RED% %PURPLE%Lo Rune %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r29]: %DOT-9B%%ORANGE%HR: %GREEN%[1.5]%NL%%RED% %PURPLE%Sur Rune %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r30]: %DOT-9B%%ORANGE%HR: %RED%[3]%NL%%RED% %PURPLE%Ber Rune %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r31]: %DOT-9B%%ORANGE%HR: %PURPLE%[2]%NL%%RED% %PURPLE%Jah Rune %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r32]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED% %PURPLE%Cham Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r33]: %DOT-62%%ORANGE%HR: %GREEN%[1]%NL%%RED% %PURPLE%Zod Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r20]: %DOT-62%%NL%%RED%>>> %PURPLE%Lem Rune %WHITE%[%RUNENUM%] %RED%<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r21]: %DOT-62%%NL%%RED%>>> %PURPLE%Pul Rune %WHITE%[%RUNENUM%] %RED%<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r22]: %DOT-62%%NL%%RED%>>> %PURPLE%Um Rune %WHITE%[%RUNENUM%] %RED%<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r23]: %DOT-62%%NL%%RED%>>> %PURPLE%Mal Rune %WHITE%[%RUNENUM%] %RED%<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r24]: %DOT-62%%ORANGE%HR: %WHITE%[0.125]%NL%%RED%>>>>>> Ist Rune %WHITE%[%RUNENUM%] %RED%<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r25]: %DOT-62%%ORANGE%HR: %WHITE%[0.25]%NL%%RED%>>>>>> %PURPLE%Gul Rune %WHITE%[%RUNENUM%] %RED%<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r26]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED%>>>>>>>>>>>>>>>> %PURPLE%Vex Rune %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r27]: %DOT-9B%%ORANGE%HR: %WHITE%[0.75]%NL%%RED%>>>>>>>>>>>>>>>> %PURPLE%Ohm Rune %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r28]: %DOT-9B%%ORANGE%HR: %YELLOW%[1.5]%NL%%RED%>>>>>>>>>>>>>>>> %PURPLE%Lo Rune %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r29]: %DOT-9B%%ORANGE%HR: %GREEN%[1.75]%NL%%RED%>>>>>>>>>>>>>> %PURPLE%Sur Rune %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r30]: %DOT-9B%%ORANGE%HR: %RED%[3.5]%NL%%RED%>>>>>>>>>>>>>>>> %PURPLE%Ber Rune %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r31]: %DOT-9B%%ORANGE%HR: %PURPLE%[2]%NL%%RED%>>>>>>>>>>>>>>>> %PURPLE%Jah Rune %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r32]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED%>>>>>>>>>>>>>>>> %PURPLE%Cham Rune %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r33]: %DOT-62%%ORANGE%HR: %GREEN%[1]%NL%%RED%>>>>>>>>>>>>>>>> %PURPLE%Zod Rune %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
 
 //╔══════════════════════════════════════════════════╗
 //║                   RUNES STACKS                   ║
@@ -185,20 +149,20 @@ ItemDisplay[r16s]: %DOT-60%%TAN%Io Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to 
 ItemDisplay[r17s]: %DOT-60%%TAN%Lum Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r18s]: %DOT-60%%TAN%Ko Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r19s]: %DOT-60%%TAN%Fal Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r20s]: %DOT-62%%RED% %PURPLE%Lem Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r21s]: %DOT-62%%RED% %PURPLE%Pul Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r22s]: %DOT-62%%RED% %PURPLE%Um Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r23s]: %DOT-62%%RED% %PURPLE%Mal Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r24s]: %DOT-62%%ORANGE%HR: %WHITE%[0.125]%NL%%RED% Ist Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r25s]: %DOT-62%%ORANGE%HR: %WHITE%[0.25]%NL%%RED% %PURPLE%Gul Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r26s]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED% %PURPLE%Vex Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r27s]: %DOT-9B%%ORANGE%HR: %WHITE%[0.75]%NL%%RED% %PURPLE%Ohm Rune Stack %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r28s]: %DOT-9B%%ORANGE%HR: %YELLOW%[1.5]%NL%%RED% %PURPLE%Lo Rune Stack %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r29s]: %DOT-9B%%ORANGE%HR: %GREEN%[1.5]%NL%%RED% %PURPLE%Sur Rune Stack %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r30s]: %DOT-9B%%ORANGE%HR: %RED%[3]%NL%%RED% %PURPLE%Ber Rune Stack %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r31s]: %DOT-9B%%ORANGE%HR: %PURPLE%[2]%NL%%RED% %PURPLE%Jah Rune Stack %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r32s]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED% %PURPLE%Cham Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r33s]: %DOT-62%%ORANGE%HR: %GREEN%[1]%NL%%RED% %PURPLE%Zod Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r20s]: %DOT-62%%NL%%RED%>>> %PURPLE%Lem Rune Stack %WHITE%[%RUNENUM%] %RED%<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r21s]: %DOT-62%%NL%%RED%>>> %PURPLE%Pul Rune Stack %WHITE%[%RUNENUM%] %RED%<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r22s]: %DOT-62%%NL%%RED%>>> %PURPLE%Um Rune Stack %WHITE%[%RUNENUM%] %RED%<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r23s]: %DOT-62%%NL%%RED%>>> %PURPLE%Mal Rune Stack %WHITE%[%RUNENUM%] %RED%<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r24s]: %DOT-62%%ORANGE%HR: %WHITE%[0.125]%NL%%RED%>>>>>> Ist Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r25s]: %DOT-62%%ORANGE%HR: %WHITE%[0.25]%NL%%RED%>>>>>> %PURPLE%Gul Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r26s]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED%>>>>>>>>>>>>>>>> %PURPLE%Vex Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r27s]: %DOT-9B%%ORANGE%HR: %WHITE%[0.75]%NL%%RED%>>>>>>>>>>>>>>>> %PURPLE%Ohm Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r28s]: %DOT-9B%%ORANGE%HR: %YELLOW%[1.5]%NL%%RED%>>>>>>>>>>>>>>>> %PURPLE%Lo Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r29s]: %DOT-9B%%ORANGE%HR: %GREEN%[1.75]%NL%%RED%>>>>>>>>>>>>>> %PURPLE%Sur Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r30s]: %DOT-9B%%ORANGE%HR: %RED%[3.5]%NL%%RED%>>>>>>>>>>>>>>>> %PURPLE%Ber Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r31s]: %DOT-9B%%ORANGE%HR: %PURPLE%[2]%NL%%RED%>>>>>>>>>>>>>>>> %PURPLE%Jah Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r32s]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED%>>>>>>>>>>>>>>>> %PURPLE%Cham Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r33s]: %DOT-62%%ORANGE%HR: %GREEN%[1]%NL%%RED%>>>>>>>>>>>>>>>> %PURPLE%Zod Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<<<<<%NL%{%WHITE%Cube to swap between stackable and socketable version}
 
 //╔══════════════════════════════════════════════════════════════════════════════╗
 //║                   CHIPPED GEMS & FLAWED GEMS & NORMAL GEMS                   ║
@@ -355,28 +319,51 @@ ItemDisplay[isc]: %GREEN%!%WHITE%ID
 //║                                                                                               PD2 EXCLUSIVE                                                                                               ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
-ItemDisplay[wss]: %DOT-62%%RED% %GOLD%Worldstone Shard %RED%{%WHITE%Cube With: %GOLD%Unique Item %WHITE%+ %PURPLE%Worldstone Shard %WHITE%To %RED%Corrupt %WHITE%An Item}
-ItemDisplay[lbox]: %DOT-62%%RED% %GOLD%Puzzlebox %RED%{%WHITE%Used to socket items}
+ItemDisplay[wss]: %DOT-62%%NL%%RED%>>> %GOLD%Worldstone Shard %RED%<<<%NL%{%WHITE%Cube With: %GOLD%Unique Item %WHITE%+ %PURPLE%Worldstone Shard %WHITE%To %RED%Corrupt %WHITE%An Item}
+ItemDisplay[lbox]: %DOT-62%%NL%%RED%>>>>>> %GOLD%Larzuk's Puzzlebox %RED%<<<<<<%NL%{%WHITE%Used to socket items}
 ItemDisplay[imra]: %DOT-62%%NAME%{%WHITE%Cube With: %WHITE%Normal Map %WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Thul [10]+ %WHITE%To Make A %YELLOW%Rare Map}
 ItemDisplay[imma]: %DOT-62%%NAME%{%WHITE%Cube With: %WHITE%Normal Map %WHITE%+ %BLUE%Jewel %WHITE%To Make A %BLUE%Magic Map}
 ItemDisplay[scou]: %DOT-62%%NAME%{%WHITE%Cube With: %WHITE%Any Map %WHITE%+ %ORANGE%Hel %WHITE%To Make A %WHITE%White Map}
 ItemDisplay[rera]: %DOT-62%%NAME%{%WHITE%Cube With: %YELLOW%Rare Map %WHITE%+ %WHITE%Perfect Gem %WHITE%+ %ORANGE%Thul [10]+ %WHITE%To Make A %YELLOW%Rare Map}
 ItemDisplay[upma]: %DOT-62%%NAME%{%WHITE%Cube With: %BLUE%Magic Map %WHITE%+ %ORANGE%Thul [10] %WHITE%+ %WHITE%Perfect Skull To Make A %YELLOW%Rare Map}
 
-ItemDisplay[dcbl]: %DOT-62%%NAME%{%WHITE%Cube With: %GOLD%Prime Evil Soul %WHITE%+ %GOLD%Pure Demonic Essence %WHITE%+ %GOLD%Black Soulstone %WHITE%To Make A %RED%Vision Of Terror}
-ItemDisplay[dcho]: %DOT-62%%NAME%{%WHITE%Cube With: %GOLD%Prime Evil Soul %WHITE%+ %GOLD%Pure Demonic Essence %WHITE%+ %GOLD%Black Soulstone %WHITE%To Make A %RED%Vision Of Terror}
-ItemDisplay[dcso]: %DOT-62%%NAME%{%WHITE%Cube With: %GOLD%Prime Evil Soul %WHITE%+ %GOLD%Pure Demonic Essence %WHITE%+ %GOLD%Black Soulstone %WHITE%To Make A %RED%Vision Of Terror}
-ItemDisplay[dcma]: %DOT-62%%NAME%{%WHITE%Used to summon the Prime Evil DClone}
+ItemDisplay[dcbl]: %DOT-62%%NL%%RED%>>>>>>>>>>>>>> %GOLD%Pure Demonic Essence %RED%<<<<<<<<<<<<<<%NL%{%WHITE%Cube With: %GOLD%Prime Evil Soul %WHITE%+ %GOLD%Pure Demonic Essence %WHITE%+ %GOLD%Black Soulstone %WHITE%To Make A %RED%Vision Of Terror}
+ItemDisplay[dcho]: %DOT-62%%NL%%GOLD%Black Soulstone%NL%{%WHITE%Cube With: %GOLD%Prime Evil Soul %WHITE%+ %GOLD%Pure Demonic Essence %WHITE%+ %GOLD%Black Soulstone %WHITE%To Make A %RED%Vision Of Terror}
+ItemDisplay[dcso]: %DOT-62%%NL%%RED%>>> %GOLD%Prime Evil Soul %RED%<<<%NL%{%WHITE%Cube With: %GOLD%Prime Evil Soul %WHITE%+ %GOLD%Pure Demonic Essence %WHITE%+ %GOLD%Black Soulstone %WHITE%To Make A %RED%Vision Of Terror}
+ItemDisplay[dcma]: %DOT-62%%RED%Vision of Terror{%WHITE%Used to summon the Prime Evil DClone}
 
 ItemDisplay[t16]: %DOT-62%%NAME%{%WHITE%Used to summon the Ruins of Viz-Jun Map}
 ItemDisplay[t17]: %DOT-62%%NAME%{%WHITE%Used to summon the River of Blood Map}
 ItemDisplay[t18]: %DOT-62%%NAME%{%WHITE%Used to summon the Ruins of Lava Map}
 
-//╔══════════════════════════════════════════╗
-//║                   HIDE                   ║
-//╚══════════════════════════════════════════╝
-ItemDisplay[NMAG INF]://HIDE INFERIOR ITEMS
-ItemDisplay[NMAG (EQ4 OR EQ5 OR EQ6 OR WP4 OR WP5) DIFF>0]://ANY
+//╔═════════════════════════════════════════════╗
+//║                   REMOVE                    ║
+//╚═════════════════════════════════════════════╝
+
+ItemDisplay[NMAG INF]://Any Inferior Item
+ItemDisplay[WP1 !RW NMAG CLVL>30 (SOCKS<3 && !SOCKS=0)]://Axes
+ItemDisplay[WP2 !RW NMAG CLVL>30 (SOCKS<3 && !SOCKS=0)]://Maces
+ItemDisplay[WP3 !RW NMAG CLVL>30 (SOCKS<3 && !SOCKS=0)]://Swords
+ItemDisplay[WP4 !RW NMAG CLVL>30]://Daggers
+ItemDisplay[WP5 !RW NMAG CLVL>30]://Throwing Weapons
+ItemDisplay[WP6 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]://Javelins
+ItemDisplay[WP7 !RW NMAG CLVL>30 (SOCKS<4 AND !SOCK=0)]://Spears
+ItemDisplay[WP8 !RW NMAG CLVL>30 (SOCKS<4 AND !SOCK=0)]://Polearms
+ItemDisplay[WP9 !RW NMAG CLVL>30 (SOCKS<4 AND !SOCK=0)]://Bows
+ItemDisplay[WP10 !RW NMAG CLVL>30 (SOCKS<4 AND !SOCK=0)]://Crossbows
+ItemDisplay[WP11 !RW NMAG CLVL>30 (!SOCKS=2 OR !SOCKS=4)]://Staves
+ItemDisplay[WP13 !RW NMAG CLVL>30 (SOCKS<3 AND !SOCK=0)]://Scepters
+ItemDisplay[EQ4 NMAG CLVL>30]://GLOVES
+ItemDisplay[EQ5 NMAG CLVL>30]://BOOTS
+ItemDisplay[EQ6 NMAG CLVL>30]://BELT
+ItemDisplay[(!CL1 && !CL2 && EQ1) NORM !RW NMAG DIFF>0]://HELM
+ItemDisplay[(ob1 AND ob2 AND ob3 AND ob4) !RW NMAG DIFF>0]://SORC WANDS 1
+ItemDisplay[(ob6 AND ob7 AND ob8 AND ob9) !RW NMAG DIFF>0]://SORC WANDS 2
+ItemDisplay[(obb AND obc AND obd AND obe) !RW NMAG DIFF>0]://SORC WANDS 3
+ItemDisplay[CL5 !RW NMAG (SOCKS=1 OR SOCKS=2) DIFF>0]://ASSASSIN CLAWS
+ItemDisplay[EQ2 NORM !RW NMAG DIFF>0]://CHEST
+ItemDisplay[(!CL3 && !CL4 && EQ3) NORM !RW NMAG DIFF>0]://SHIELD
+ItemDisplay[EQ7 !RW NMAG DIFF>0]://CIRCLET
 
 //ARMORS
 //HELMS
@@ -482,7 +469,7 @@ ItemDisplay[NMAG RW]:%NAME%//RUNEWORD ITEMS
 //╔═════════════════════════════════════════════════╗
 //║                   NON MAGICAL                   ║
 //╚═════════════════════════════════════════════════╝
-ItemDisplay[NMAG NORM !RW CLVL>30]://NON MAGICAL ITEMS
+ItemDisplay[(!gsc AND !crs AND !fla) NMAG NORM !RW CLVL>30]://NON MAGICAL ITEMS
 ItemDisplay[NMAG EXC !RW CLVL>60]:%NAME%%CONTINUE%//NON MAGICAL ITEMS
 ItemDisplay[NMAG ELT !RW]:%NAME%%CONTINUE%//NON MAGICAL ITEMS
 
@@ -492,31 +479,583 @@ ItemDisplay[NMAG ELT !RW]:%NAME%%CONTINUE%//NON MAGICAL ITEMS
 ItemDisplay[(cm1 OR cm2 OR cm3) !ID MAG]: %DOT-A0%%BLUE%%NAME%%CONTINUE%//MAGIC CHARM
 ItemDisplay[EQ7 !ID MAG]: %DOT-A0%%BLUE%%NAME%//MAGIC CIRCLET
 ItemDisplay[EQ7 ID MAG]: %DOT-A0%%BLUE%%NAME%//MAGIC CIRCLET
-ItemDisplay[MAG !ID NORM !RW CLVL>30]://MAGICAL ITEMS
-ItemDisplay[MAG !ID EXC !RW CLVL>60]://MAGICAL ITEMS
-ItemDisplay[MAG !ID ELT !RW]://MAGICAL ITEMS MAPS ONLY TO HIDE
-//ItemDisplay[MAG !ID ELT !RW]:%NAME%%CONTINUE%//MAGICAL ITEMS
-//ItemDisplay[MAG ID]:%NAME%//MAGICAL ITEMS
+ItemDisplay[jew !ID MAG]: %DOT-A0%%BLUE%%NAME%%CONTINUE%//MAGIC JEWEL
+ItemDisplay[!EQ7 MAG !ID NORM !RW CLVL>30]://MAGICAL ITEMS
+ItemDisplay[!EQ7 MAG !ID EXC !RW CLVL>60]://MAGICAL ITEMS
+ItemDisplay[!EQ7 MAG !ID ELT !RW]://MAGICAL ITEMS MAPS ONLY TO HIDE
+//ItemDisplay[!EQ7 MAG !ID ELT !RW]:%NAME%%CONTINUE%//MAGICAL ITEMS
+//ItemDisplay[!EQ7 MAG ID]:%NAME%//MAGICAL ITEMS
 
 //╔══════════════════════════════════════════╗
 //║                   RARE                   ║
 //╚══════════════════════════════════════════╝
 ItemDisplay[EQ7 !ID RARE]: %DOT-A8%%YELLOW%%NAME%//RARE CIRCLET
 ItemDisplay[EQ7 ID RARE]: %DOT-A8%%YELLOW%%NAME%//RARE CIRCLET
-ItemDisplay[RARE !ID NORM !RW CLVL>30]://RARE ITEMS
-ItemDisplay[RARE !ID EXC !RW CLVL>60]://RARE ITEMS
-//ItemDisplay[RARE !ID ELT !RW]://RARE ITEMS MAPS ONLY TO HIDE
-ItemDisplay[RARE !ID ELT !RW]:%NAME%%CONTINUE%//RARE ITEMS
-//ItemDisplay[RARE ID]:%NAME%//RARE ITEMS
+ItemDisplay[jew !ID RARE]: %DOT-A8%%YELLOW%%NAME%%CONTINUE%//RARE JEWEL
+ItemDisplay[!EQ7 RARE !ID NORM !RW CLVL>30]://RARE ITEMS
+ItemDisplay[!EQ7 RARE !ID EXC !RW CLVL>60]://RARE ITEMS
+//ItemDisplay[!EQ7 RARE !ID ELT !RW]://RARE ITEMS MAPS ONLY TO HIDE
+ItemDisplay[!EQ7 RARE !ID ELT !RW]:%NAME%%CONTINUE%//RARE ITEMS
+//ItemDisplay[!EQ7 RARE ID]:%NAME%//RARE ITEMS
 
 //╔════════════════════════════════════════════╗
 //║                   UNIQUE                   ║
 //╚════════════════════════════════════════════╝
-ItemDisplay[UNI]:%DOT-0E%%NAME%%CONTINUE%//UNIQUE ITEMS
+//ARMORS
+//NORMAL
+ItemDisplay[UNI !ID cap]: Biggin's Bonnet%CONTINUE%//Cap
+ItemDisplay[UNI !ID skp]: Tarnhelm%CONTINUE%//Skull Cap
+ItemDisplay[UNI !ID hlm]: Coif of Glory%CONTINUE%//Helm
+ItemDisplay[UNI !ID fhl]: Duskdeep%CONTINUE%//Full Helm
+ItemDisplay[UNI !ID msk]: The Face of Horror%CONTINUE%//Mask
+ItemDisplay[UNI !ID bhm]: Wormskull%CONTINUE%//Bone Helm
+ItemDisplay[UNI !ID ghm]: Howltusk%CONTINUE%//Great Helm
+ItemDisplay[UNI !ID crn]: Undead Crown%CONTINUE%//Crown
+ItemDisplay[UNI !ID qui]: Greyform%CONTINUE%//Quilted Armor
+ItemDisplay[UNI !ID lea]: Blinkbat's Form%CONTINUE%//Leather Armor
+ItemDisplay[UNI !ID hla]: The Centurion%CONTINUE%//Hard Leather Armor
+ItemDisplay[UNI !ID stu]: %DOT-0E%Twitchthroe%CONTINUE%//Studded Leather
+ItemDisplay[UNI !ID rng]: Darkglow%CONTINUE%//Ring Mail
+ItemDisplay[UNI !ID scl]: Hawkmail%CONTINUE%//Scale Mail
+ItemDisplay[UNI !ID brs]: Venom Ward%CONTINUE%//Breast Plate
+ItemDisplay[UNI !ID chn]: Sparking Mail%CONTINUE%//Chain Mail
+ItemDisplay[UNI !ID spl]: Iceblink%CONTINUE%//Splint Mail
+ItemDisplay[UNI !ID ltp]: Heavenly Garb%CONTINUE%//Light Plate
+ItemDisplay[UNI !ID fld]: Rockfleece%CONTINUE%//Field Plate
+ItemDisplay[UNI !ID plt]: Boneflesh%CONTINUE%//Plate Mail
+ItemDisplay[UNI !ID gth]: Rattlecage%CONTINUE%//Gothic Plate
+ItemDisplay[UNI !ID ful]: Goldskin%CONTINUE%//Full Plate
+ItemDisplay[UNI !ID aar]: Silks of the Victor%CONTINUE%//Ancient Armor
+ItemDisplay[UNI !ID buc]: Pelta Lunata%CONTINUE%//Buckler
+ItemDisplay[UNI !ID sml]: Umbral Disk%CONTINUE%//Small Shield
+ItemDisplay[UNI !ID lrg]: Stormguild%CONTINUE%//Large Shield
+ItemDisplay[UNI !ID spk]: Swordback Hold%CONTINUE%//Spiked Shield
+ItemDisplay[UNI !ID kit]: Steelclash%CONTINUE%//Kite Shield
+ItemDisplay[UNI !ID bsh]: Wall of the Eyeless%CONTINUE%//Bone Shield
+ItemDisplay[UNI !ID tow]: Bverrit Keep%CONTINUE%//Tower Shield
+ItemDisplay[UNI !ID gts]: %DOT-0E%The Ward%CONTINUE%//Gothic Shield
+ItemDisplay[UNI !ID lgl]: The Hand of Broc%CONTINUE%//Leather Gloves
+ItemDisplay[UNI !ID vgl]: Bloodfist%CONTINUE%//Heavy Gloves
+ItemDisplay[UNI !ID mgl]: %DOT-0E%Chance Guards%CONTINUE%//Chain Gloves
+ItemDisplay[UNI !ID tgl]: %DOT-0E%Magefist%CONTINUE%//Light Gauntlets
+ItemDisplay[UNI !ID hgl]: %DOT-0E%Frostburn%CONTINUE%//Gauntlets
+ItemDisplay[UNI !ID lbt]: %DOT-0E%Hotspur%CONTINUE%//Boots
+ItemDisplay[UNI !ID vbt]: Gorefoot%CONTINUE%//Heavy Boots
+ItemDisplay[UNI !ID mbt]: Treads of Cthon%CONTINUE%//Chain Boots
+ItemDisplay[UNI !ID tbt]: %DOT-0E%Goblin Toe%CONTINUE%//Light Plated Boots
+ItemDisplay[UNI !ID hbt]: Tearhaunch%CONTINUE%//Greaves
+ItemDisplay[UNI !ID lbl]: %DOT-0E%Lenymo%CONTINUE%//Sash
+ItemDisplay[UNI !ID vbl]: Snakecord%CONTINUE%//Light Belt
+ItemDisplay[UNI !ID mbl]: Nightsmoke%CONTINUE%//Belt
+ItemDisplay[UNI !ID tbl]: %DOT-0E%Goldwrap%CONTINUE%//Heavy Belt
+ItemDisplay[UNI !ID hbl]: Bladebuckle%CONTINUE%//Plated Belt
+
+//EXCEPTIONAL
+ItemDisplay[UNI !ID xap]: %DOT-0E%Peasant Crown%CONTINUE%//War Hat
+ItemDisplay[UNI !ID xkp]: Rockstopper%CONTINUE%//Sallet
+ItemDisplay[UNI !ID xlm]: Stealskull%CONTINUE%//Casque
+ItemDisplay[UNI !ID xhl]: Darksight Helm%CONTINUE%//Basinet
+ItemDisplay[UNI !ID xsk]: Blackhorn's Face%CONTINUE%//Death Mask
+ItemDisplay[UNI !ID xh9]: %DOT-0E%Vampire Gaze%CONTINUE%//Grim Helm
+ItemDisplay[UNI !ID xhm]: %DOT-0E%Valkyrie Wing%CONTINUE%//Winged Helm
+ItemDisplay[UNI !ID xrn]: Crown of Thieves%CONTINUE%//Grand Crown
+ItemDisplay[UNI !ID xui]: The Spirit Shroud%CONTINUE%//Ghost Armor
+ItemDisplay[UNI !ID xea]: %DOT-0E%Skin of the Vipermagi%CONTINUE%//Serpentskin
+ItemDisplay[UNI !ID xla]: Skin of the Flayed One%CONTINUE%//Demonhide Armor
+ItemDisplay[UNI !ID xtu]: Iron Pelt%CONTINUE%//Trellised Armor
+ItemDisplay[UNI !ID xng]: Spirit Forge%CONTINUE%//Linked Mail
+ItemDisplay[UNI !ID xcl]: Crow Caw%CONTINUE%//Tigulated Mail
+ItemDisplay[UNI !ID xrs]: %DOT-0E%Duriel's Shell%CONTINUE%//Cuirass
+ItemDisplay[UNI !ID xhn]: %DOT-0E%Shaftstop%CONTINUE%//Mesh Armor
+ItemDisplay[UNI !ID xpl]: %DOT-0E%Skullder's Ire%CONTINUE%//Russet Armor
+ItemDisplay[UNI !ID xtp]: %DOT-0E%Que-Hegan's Wisdom%CONTINUE%//Mage Plate
+ItemDisplay[UNI !ID xld]: Toothrow%CONTINUE%//Sharktooth
+ItemDisplay[UNI !ID xlt]: %DOT-0E%Guardian Angel%CONTINUE%//Templar Coat
+ItemDisplay[UNI !ID xth]: %DOT-0E%Atma's Wail%CONTINUE%//Embossed Plate
+ItemDisplay[UNI !ID xul]: Black Hades%CONTINUE%//Chaos Armor
+ItemDisplay[UNI !ID xar]: Corpsemourn%CONTINUE%//Ornate Plate
+ItemDisplay[UNI !ID xuc]: Visceratuant%CONTINUE%//Defender
+ItemDisplay[UNI !ID xml]: Moser's Blessed Circle%CONTINUE%//Round Shield
+ItemDisplay[UNI !ID xrg]: Stormchaser%CONTINUE%//Scutum
+ItemDisplay[UNI !ID xpk]: Lance Guard%CONTINUE%//Barbed Shield
+ItemDisplay[UNI !ID xit]: Tiamat's Rebuke%CONTINUE%//Dragon Shield
+ItemDisplay[UNI !ID xsh]: %DOT-0E%Lidless Wall%CONTINUE%//Grim Shield
+ItemDisplay[UNI !ID xow]: %DOT-0E%Gerke's Sanctuary%CONTINUE%//Pavise
+ItemDisplay[UNI !ID xts]: Radament's Sphere%CONTINUE%//Ancient Shield
+ItemDisplay[UNI !ID xlg]: %DOT-0E%Venom Grip%CONTINUE%//Demonhide Gloves
+ItemDisplay[UNI !ID xvg]: %DOT-0E%Gravepalm%CONTINUE%//Sharkskin Gloves
+ItemDisplay[UNI !ID xmg]: %DOT-0E%Ghoulhide%CONTINUE%//Heavy Bracers
+ItemDisplay[UNI !ID xtg]: Lava Gout%CONTINUE%//Battle Gauntlets
+ItemDisplay[UNI !ID xhg]: Hellmouth%CONTINUE%//War Gauntlets
+ItemDisplay[UNI !ID xlb]: Infernostride%CONTINUE%//Demonhide Boots
+ItemDisplay[UNI !ID xvb]: %DOT-0E%Waterwalk%CONTINUE%//Sharkskin Boots
+ItemDisplay[UNI !ID xmb]: %DOT-0E%Silkweave%CONTINUE%//Mesh Boots
+ItemDisplay[UNI !ID xtb]: %DOT-0E%War Traveler%CONTINUE%//Battle Boots
+ItemDisplay[UNI !ID xhb]: %DOT-0E%Gore Rider%CONTINUE%//War Boots
+ItemDisplay[UNI !ID zlb]: %DOT-0E%String of Ears%CONTINUE%//Demonhide Sash
+ItemDisplay[UNI !ID zvb]: Razortail%CONTINUE%//Sharkskin Belt
+ItemDisplay[UNI !ID zmb]: Gloom's Trap%CONTINUE%//Mesh Belt
+ItemDisplay[UNI !ID ztb]: %DOT-0E%Snowclash%CONTINUE%//Battle Belt
+ItemDisplay[UNI !ID zhb]: %DOT-0E%Thundergod's Vigor%CONTINUE%//War Belt
+ItemDisplay[UNI !ID cl2]: %DOT-0E%Kira's Guardian%CONTINUE%//Tiara
+ItemDisplay[UNI !ID dra]: %DOT-0E%Jalal's Mane%CONTINUE%//Totemic Mask
+ItemDisplay[UNI !ID baa]: %DOT-0E%Arreat's Face%CONTINUE%//Slayer Guard
+ItemDisplay[UNI !ID pa9]: %DOT-0E%Herald Of Zakarum%CONTINUE%//Gilded Shield
+ItemDisplay[UNI !ID nea]: %DOT-0E%Homunculus%CONTINUE%//Heirophant Trophy
+
+//ELITE
+ItemDisplay[UNI !ID uap]: %DOT-0E%Harlequin Crest%CONTINUE%//Shako
+ItemDisplay[UNI !ID ulm]: %DOT-0E%Steel Shade%CONTINUE%//Armet
+ItemDisplay[UNI !ID usk]: %DOT-0E%Andariel's Visage%CONTINUE%//Demonhead
+ItemDisplay[UNI !ID uh9]: %DOT-0E%Giant Skull%CONTINUE%//Bone Visage
+ItemDisplay[UNI !ID uhm]: %DOT-0E%Veil of Steel | Nightwing's Veil%CONTINUE%//Spired Helm
+ItemDisplay[UNI !ID urn]: %DOT-0E%Crown of Ages%CONTINUE%//Corona
+ItemDisplay[UNI !ID uui]: %DOT-0E%Ormus' Robes%CONTINUE%//Dusk Shroud
+ItemDisplay[UNI !ID utu]: %DOT-0E%The Gladiator's Bane%CONTINUE%//Wire Fleece
+ItemDisplay[UNI !ID upl]: %DOT-0E%Arkaine's Valor%CONTINUE%//Balrog Skin
+ItemDisplay[UNI !ID uld]: Leviathan%CONTINUE%//Kraken Shell
+ItemDisplay[UNI !ID uul]: Steel Carapace%CONTINUE%//Shadow Plate
+ItemDisplay[UNI !ID uar]: %DOT-0E%Templar's Might or Tyrael's Might%CONTINUE%//Sacred Armor
+ItemDisplay[UNI !ID uml]: Blackoak Shield%CONTINUE%//Luna
+ItemDisplay[UNI !ID upk]: Spike Thorn%CONTINUE%//Blade Barrier
+ItemDisplay[UNI !ID uit]: %DOT-0E%Stormshield%CONTINUE%//Monarch
+ItemDisplay[UNI !ID ush]: Head Hunter's Glory%CONTINUE%//Troll Nest
+ItemDisplay[UNI !ID uow]: %DOT-0E%Medusa's Gaze%CONTINUE%//Aegis
+ItemDisplay[UNI !ID uts]: Spirit Ward%CONTINUE%//Ward
+ItemDisplay[UNI !ID uvg]: %DOT-0E%Dracul's Grasp%CONTINUE%//Vampirebone Gloves
+ItemDisplay[UNI !ID umg]: %DOT-0E%Soul Drainer%CONTINUE%//Vambraces
+ItemDisplay[UNI !ID uhg]: Steelrend%CONTINUE%//Ogre Gauntlets
+ItemDisplay[UNI !ID uvb]: %DOT-0E%Sandstorm Trek%CONTINUE%//Scarabshell Boots
+ItemDisplay[UNI !ID umb]: %DOT-0E%Marrowwalk%CONTINUE%//Boneweave Boots
+ItemDisplay[UNI !ID uhb]: %DOT-0E%Shadow Dancer%CONTINUE%//Myrmidon Greaves
+ItemDisplay[UNI !ID ulc]: %DOT-0E%Arachnid Mesh%CONTINUE%//Spiderweb Sash
+ItemDisplay[UNI !ID uvc]: Nosferatu's Coil%CONTINUE%//Vampirefang Belt
+ItemDisplay[UNI !ID umc]: %DOT-0E%Verdungo's Hearty Cord%CONTINUE%//Mithril Coil
+ItemDisplay[UNI !ID cl3]: %DOT-0E%Griffon's Eye%CONTINUE%//Diadem
+ItemDisplay[UNI !ID drb]: Cerebus' Bite%CONTINUE%//Blood Spirit
+ItemDisplay[UNI !ID drd]: Spirit Keeper%CONTINUE%//Earth Spirit
+ItemDisplay[UNI !ID dre]: Ravenlore%CONTINUE%//Sky Spirit
+ItemDisplay[UNI !ID bac]: Wolfhowl%CONTINUE%//Fury Visor
+ItemDisplay[UNI !ID bad]: Demonhorn's Edge%CONTINUE%//Destroyer Helm
+ItemDisplay[UNI !ID bae]: Halaberd's Reign%CONTINUE%//Conqueror Crown
+ItemDisplay[UNI !ID pac]: %DOT-0E%Alma Negra%CONTINUE%//Sacred Rondache
+ItemDisplay[UNI !ID pae]: %DOT-0E%Dragonscale%CONTINUE%//Zakarum Shield
+ItemDisplay[UNI !ID nee]: %DOT-0E%Boneflame%CONTINUE%//Succubus Skull
+ItemDisplay[UNI !ID nef]: Darkforce Spawn%CONTINUE%//Bloodlord Skull
+
+//WEAPONS
+//NORMAL
+ItemDisplay[UNI !ID hax]: The Gnasher%CONTINUE%//Hand Axe
+ItemDisplay[UNI !ID axe]: Deathspade%CONTINUE%//Axe
+ItemDisplay[UNI !ID 2ax]: Bladebone%CONTINUE%//Double Axe
+ItemDisplay[UNI !ID mpi]: Skull Splitter%CONTINUE%//Military Pick
+ItemDisplay[UNI !ID wax]: Rakescar%CONTINUE%//War Axe
+ItemDisplay[UNI !ID lax]: Axe of Fechmar%CONTINUE%//Large Axe
+ItemDisplay[UNI !ID bax]: Goreshovel%CONTINUE%//Broad Axe
+ItemDisplay[UNI !ID btx]: The Chieftain%CONTINUE%//Battle Axe
+ItemDisplay[UNI !ID gax]: Brainhew%CONTINUE%//Great Axe
+ItemDisplay[UNI !ID gix]: Humongous%CONTINUE%//Giant Axe
+ItemDisplay[UNI !ID clb]: Felloak%CONTINUE%//Club
+ItemDisplay[UNI !ID spc]: Stoutnail%CONTINUE%//Spiked Club
+ItemDisplay[UNI !ID mac]: Crushflange%CONTINUE%//Mace
+ItemDisplay[UNI !ID mst]: Bloodrise%CONTINUE%//Morning Star
+ItemDisplay[UNI !ID fla]: The General's Tan Do Li Ga%CONTINUE%//Flail
+ItemDisplay[UNI !ID whm]: Ironstone%CONTINUE%//War Hammer
+ItemDisplay[UNI !ID mau]: Bonesnap%CONTINUE%//Maul
+ItemDisplay[UNI !ID gma]: Steeldriver%CONTINUE%//Great Maul
+ItemDisplay[UNI !ID ssd]: Rixot's Keen%CONTINUE%//Short Sword
+ItemDisplay[UNI !ID scm]: Blood Crescent%CONTINUE%//Scimitar
+ItemDisplay[UNI !ID sbr]: Skewer of Krintiz%CONTINUE%//Saber
+ItemDisplay[UNI !ID flc]: Gleamscythe%CONTINUE%//Falchion
+ItemDisplay[UNI !ID bsd]: Griswold's Edge%CONTINUE%//Broad Sword
+ItemDisplay[UNI !ID lsd]: Hellplague%CONTINUE%//Long Sword
+ItemDisplay[UNI !ID wsd]: Culwen's Point%CONTINUE%//War Sword
+ItemDisplay[UNI !ID 2hs]: Shadowfang%CONTINUE%//Two-handed Sword
+ItemDisplay[UNI !ID clm]: Soulflay%CONTINUE%//Claymore
+ItemDisplay[UNI !ID gis]: Kinemil's Awl%CONTINUE%//Giant Sword
+ItemDisplay[UNI !ID bsw]: Blacktongue%CONTINUE%//Bastard Sword
+ItemDisplay[UNI !ID flb]: Ripsaw%CONTINUE%//Flamberge
+ItemDisplay[UNI !ID gsd]: The Patriarch%CONTINUE%//Great Sword
+ItemDisplay[UNI !ID dgr]: %DOT-0E%Gull%CONTINUE%//Dagger
+ItemDisplay[UNI !ID dir]: The Diggler%CONTINUE%//Dirk
+ItemDisplay[UNI !ID kri]: The Jade Tan Do%CONTINUE%//Kris
+ItemDisplay[UNI !ID bld]: Spectral Shard%CONTINUE%//Blade
+ItemDisplay[UNI !ID spr]: The Dragon Chang%CONTINUE%//Spear
+ItemDisplay[UNI !ID tri]: Razortine%CONTINUE%//Trident
+ItemDisplay[UNI !ID brn]: Bloodthief%CONTINUE%//Brandistock
+ItemDisplay[UNI !ID spt]: Lance of Yaggai%CONTINUE%//Spetum
+ItemDisplay[UNI !ID pik]: The Tannr Gorerod%CONTINUE%//Pike
+ItemDisplay[UNI !ID bar]: Dimoak's Hew%CONTINUE%//Bardiche
+ItemDisplay[UNI !ID vou]: Steelgoad%CONTINUE%//Voulge
+ItemDisplay[UNI !ID scy]: Soul Harvest%CONTINUE%//Scythe
+ItemDisplay[UNI !ID pax]: The Battlebranch%CONTINUE%//Poleaxe
+ItemDisplay[UNI !ID hal]: Woestave%CONTINUE%//Halberd
+ItemDisplay[UNI !ID wsc]: The Grim Reaper%CONTINUE%//War Scythe
+ItemDisplay[UNI !ID sbw]: Pluckeye%CONTINUE%//Short Bow
+ItemDisplay[UNI !ID hbw]: Witherstring%CONTINUE%//Hunter’s Bow
+ItemDisplay[UNI !ID lbw]: Raven Claw%CONTINUE%//Long Bow
+ItemDisplay[UNI !ID cbw]: Rogue's Bow%CONTINUE%//Composite Bow
+ItemDisplay[UNI !ID sbb]: Stormstrike%CONTINUE%//Short Battle Bow
+ItemDisplay[UNI !ID lbb]: Wizendraw%CONTINUE%//Long Battle Bow
+ItemDisplay[UNI !ID swb]: Hellclap%CONTINUE%//Short War Bow
+ItemDisplay[UNI !ID lwb]: Blastbark%CONTINUE%//Long War Bow
+ItemDisplay[UNI !ID lxb]: Leadcrow%CONTINUE%//Light Crossbow
+ItemDisplay[UNI !ID mxb]: Ichorsting%CONTINUE%//Crossbow
+ItemDisplay[UNI !ID hxb]: Hellcast%CONTINUE%//Heavy Crossbow
+ItemDisplay[UNI !ID rxb]: Doomslinger%CONTINUE%//Repeating Crossbow
+ItemDisplay[UNI !ID sst]: Bane Ash%CONTINUE%//Short Staff
+ItemDisplay[UNI !ID lst]: Serpent Lord%CONTINUE%//Long Staff
+ItemDisplay[UNI !ID cst]: Spire of Lazarus%CONTINUE%//Gnarled Staff
+ItemDisplay[UNI !ID bst]: The Salamander%CONTINUE%//Battle Staff
+ItemDisplay[UNI !ID wst]: The Iron Jang Bong%CONTINUE%//War Staff
+ItemDisplay[UNI !ID wnd]: Torch of Iro%CONTINUE%//Wand
+ItemDisplay[UNI !ID ywn]: Maelstrom%CONTINUE%//Yew Wand
+ItemDisplay[UNI !ID bwn]: Gravenspine%CONTINUE%//Bone Wand
+ItemDisplay[UNI !ID gwn]: Ume's Lament%CONTINUE%//Grim Wand
+ItemDisplay[UNI !ID scp]: Knell Striker%CONTINUE%//Scepter
+ItemDisplay[UNI !ID gsc]: Rusthandle%CONTINUE%//Grand Scepter
+ItemDisplay[UNI !ID wsp]: Stormeye%CONTINUE%//War Scepter
+
+//EXCEPTIONAL
+ItemDisplay[UNI !ID 9ha]: Coldkill%CONTINUE%//Hatchet
+ItemDisplay[UNI !ID 9ax]: Butcher's Pupil%CONTINUE%//Cleaver
+ItemDisplay[UNI !ID 92a]: Islestrike%CONTINUE%//Twin Axe
+ItemDisplay[UNI !ID 9mp]: Pompeii's Wrath%CONTINUE%//Crowbill
+ItemDisplay[UNI !ID 9wa]: Guardian Naga%CONTINUE%//Naga
+ItemDisplay[UNI !ID 9la]: Warlord's Trust%CONTINUE%//Military Axe
+ItemDisplay[UNI !ID 9ba]: Spellsteel%CONTINUE%//Bearded Axe
+ItemDisplay[UNI !ID 9bt]: Stormrider%CONTINUE%//Tabar
+ItemDisplay[UNI !ID 9ga]: Boneslayer Blade%CONTINUE%//Gothic Axe
+ItemDisplay[UNI !ID 9gi]: The Minotaur%CONTINUE%//Ancient Axe
+ItemDisplay[UNI !ID 9cl]: Dark Clan Crusher%CONTINUE%//Cudgel
+ItemDisplay[UNI !ID 9sp]: Fleshrender%CONTINUE%//Barbed Club
+ItemDisplay[UNI !ID 9ma]: Sureshrill Frost%CONTINUE%//Flanged Mace
+ItemDisplay[UNI !ID 9mt]: Moonfall%CONTINUE%//Jagged Star
+ItemDisplay[UNI !ID 9fl]: Baezil's Vortex%CONTINUE%//Knout
+ItemDisplay[UNI !ID 9wh]: Earthshaker%CONTINUE%//Battle Hammer
+ItemDisplay[UNI !ID 9m9]: Bloodtree Stump%CONTINUE%//War Club
+ItemDisplay[UNI !ID 9gm]: The Gavel Of Pain%CONTINUE%//Martel de Fer
+ItemDisplay[UNI !ID 9ss]: Bloodletter%CONTINUE%//Gladius
+ItemDisplay[UNI !ID 9sm]: Coldsteel Eye%CONTINUE%//Cutlass
+ItemDisplay[UNI !ID 9sb]: Hexfire%CONTINUE%//Shamshir
+ItemDisplay[UNI !ID 9fc]: Blade Of Ali Baba%CONTINUE%//Tulwar
+ItemDisplay[UNI !ID 9cr]: Ginther's Rift%CONTINUE%//Dimensional Blade
+ItemDisplay[UNI !ID 9bs]: %DOT-0E%Headstriker%CONTINUE%//Battle Sword
+ItemDisplay[UNI !ID 9ls]: Plague Bearer%CONTINUE%//Rune Sword
+ItemDisplay[UNI !ID 9wd]: The Atlantean%CONTINUE%//Ancient Sword
+ItemDisplay[UNI !ID 92h]: Crainte Vomir%CONTINUE%//Espandon
+ItemDisplay[UNI !ID 9cm]: Bing Sz Wang%CONTINUE%//Dacian Falx
+ItemDisplay[UNI !ID 9gs]: The Vile Husk%CONTINUE%//Tusk Sword
+ItemDisplay[UNI !ID 9b9]: Cloudcrack%CONTINUE%//Gothic Sword
+ItemDisplay[UNI !ID 9fb]: Todesfaelle Flamme%CONTINUE%//Zweihander
+ItemDisplay[UNI !ID 9gd]: Swordguard%CONTINUE%//Executioner Sword
+ItemDisplay[UNI !ID 9dg]: Spineripper%CONTINUE%//Poignard
+ItemDisplay[UNI !ID 9di]: Heart Carver%CONTINUE%//Rondel
+ItemDisplay[UNI !ID 9kr]: Blackbog's Sharp%CONTINUE%//Cinquedeas
+ItemDisplay[UNI !ID 9bl]: Stormspike%CONTINUE%//Stilleto
+ItemDisplay[UNI !ID 9tk]: Deathbit%CONTINUE%//Battle Dart
+ItemDisplay[UNI !ID 9ta]: The Scalper%CONTINUE%//Francisca
+ItemDisplay[UNI !ID 9sr]: The Impaler%CONTINUE%//War Spear
+ItemDisplay[UNI !ID 9tr]: Kelpie Snare%CONTINUE%//Fuscina
+ItemDisplay[UNI !ID 9br]: Soulfeast Tine%CONTINUE%//War Fork
+ItemDisplay[UNI !ID 9st]: Hone Sundan%CONTINUE%//Yari
+ItemDisplay[UNI !ID 9p9]: Spire of Honor%CONTINUE%//Lance
+ItemDisplay[UNI !ID 9b7]: The Meat Scraper%CONTINUE%//Lochaber Axe
+ItemDisplay[UNI !ID 9vo]: Blackleach Blade%CONTINUE%//Bill
+ItemDisplay[UNI !ID 9s8]: Athena's Wrath%CONTINUE%//Battle Scythe
+ItemDisplay[UNI !ID 9pa]: Pierre Tombale Couant%CONTINUE%//Partizan
+ItemDisplay[UNI !ID 9h9]: Husoldal Evo%CONTINUE%//Bec-de-Corbin
+ItemDisplay[UNI !ID 9wc]: Grim's Burning Dead%CONTINUE%//Grim Scythe
+ItemDisplay[UNI !ID 8sb]: Skystrike%CONTINUE%//Edge Bow
+ItemDisplay[UNI !ID 8hb]: Riphook%CONTINUE%//Razor Bow
+ItemDisplay[UNI !ID 8lb]: Kuko Shakaku%CONTINUE%//Cedar Bow
+ItemDisplay[UNI !ID 8cb]: Endlesshail%CONTINUE%//Double Bow
+ItemDisplay[UNI !ID 8s8]: Witchwild String%CONTINUE%//Short Siege Bow
+ItemDisplay[UNI !ID 8l8]: Cliffkiller%CONTINUE%//Long Siege Bow
+ItemDisplay[UNI !ID 8sw]: Magewrath%CONTINUE%//Rune Bow
+ItemDisplay[UNI !ID 8lw]: %DOT-0E%Goldstrike Arch%CONTINUE%//Gothic Bow
+ItemDisplay[UNI !ID 8lx]: Langer Briser%CONTINUE%//Arbalest
+ItemDisplay[UNI !ID 8mx]: Pus Spitter%CONTINUE%//Siege Crossbow
+ItemDisplay[UNI !ID 8hx]: Buriza-Do Kyanon%CONTINUE%//Ballista
+ItemDisplay[UNI !ID 8rx]: Demon Machine%CONTINUE%//Chu-Ko-Nu
+ItemDisplay[UNI !ID 8ss]: Razorswitch%CONTINUE%//Jo Staff
+ItemDisplay[UNI !ID 8ls]: Ribcracker%CONTINUE%//Quarterstaff
+ItemDisplay[UNI !ID 8cs]: Chromatic Ire%CONTINUE%//Cedar Staff
+ItemDisplay[UNI !ID 8bs]: Warpspear%CONTINUE%//Gothic Staff
+ItemDisplay[UNI !ID 8ws]: Skull Collector%CONTINUE%//Rune Staff
+ItemDisplay[UNI !ID 9wn]: Suicide Branch%CONTINUE%//Burnt Wand
+ItemDisplay[UNI !ID 9yw]: Carin Shard%CONTINUE%//Petrified Wand
+ItemDisplay[UNI !ID 9bw]: Arm of King Leoric%CONTINUE%//Tomb Wand
+ItemDisplay[UNI !ID 9gw]: Blackhand Key%CONTINUE%//Grave Wand
+ItemDisplay[UNI !ID 9sc]: Zakarum's Hand%CONTINUE%//Rune Scepter
+ItemDisplay[UNI !ID 9qs]: The Fetid Sprinkler%CONTINUE%//Holy Water Sprinkler
+ItemDisplay[UNI !ID 9ws]: The Fetid Sprinkler%CONTINUE%//Divine Scepter
+ItemDisplay[UNI !ID 9tw]: Bartuc's Cut-Throat%CONTINUE%//Greater Talons
+ItemDisplay[UNI !ID oba]: %DOT-0E%The Oculus%CONTINUE%//Swirling Crystal
+ItemDisplay[UNI !ID am7]: %DOT-0E%Lycander's Aim%CONTINUE%//Ceremonial Bow
+ItemDisplay[UNI !ID am9]: Lycander's Flank%CONTINUE%//Ceremonial Pike
+ItemDisplay[UNI !ID ama]: %DOT-0E%Titan's Revenge%CONTINUE%//Ceremonial Javelin
+
+//ELITE
+ItemDisplay[UNI !ID 7ha]: Razor's Edge%CONTINUE%//Tomahawk
+ItemDisplay[UNI !ID 72a]: Rune Master%CONTINUE%//Ettin Axe
+ItemDisplay[UNI !ID 7mp]: Cranebeak%CONTINUE%//War Spike
+ItemDisplay[UNI !ID 7wa]: Death Cleaver%CONTINUE%//Berserker Axe
+ItemDisplay[UNI !ID 7ba]: Ethereal Edge%CONTINUE%//Silver Edged Axe
+ItemDisplay[UNI !ID 7bt]: Hellslayer%CONTINUE%//Decapitator
+ItemDisplay[UNI !ID 7ga]: Messerschmidt's Reaver%CONTINUE%//Champion Axe
+ItemDisplay[UNI !ID 7gi]: Executioner's Justice%CONTINUE%//Glorious Axe
+ItemDisplay[UNI !ID 7cl]: Nord's Tenderizer%CONTINUE%//Truncheon
+ItemDisplay[UNI !ID 7sp]: Demon Limb%CONTINUE%//Tyrant Club
+ItemDisplay[UNI !ID 7mt]: Baranar's Star%CONTINUE%//Devil Star
+ItemDisplay[UNI !ID 7fl]: Horizon's Tornado%CONTINUE%//Scourge
+ItemDisplay[UNI !ID 7wh]: %DOT-0E%Stone Crusher%CONTINUE%//Legendary Mallet
+ItemDisplay[UNI !ID 7m7]: Windhammer%CONTINUE%//Ogre Maul
+ItemDisplay[UNI !ID 7gm]: %DOT-0E%Earth Shifter or The Cranium Basher%CONTINUE%//Thunder Maul
+ItemDisplay[UNI !ID 7sm]: Djinn Slayer%CONTINUE%//Ataghan
+ItemDisplay[UNI !ID 7sb]: Bloodmoon%CONTINUE%//Elegant Blade
+ItemDisplay[UNI !ID 7cr]: %DOT-0E%Lightsabre or Azurewrath%CONTINUE%//Phase Blade
+ItemDisplay[UNI !ID 7ls]: Frostwind%CONTINUE%//Cryptic Sword
+ItemDisplay[UNI !ID 7gs]: Flamebellow%CONTINUE%//Balrog Blade
+ItemDisplay[UNI !ID 7b7]: Doombringer%CONTINUE%//Champion Sword
+ItemDisplay[UNI !ID 7gd]: %DOT-0E%The Grandfather%CONTINUE%//Colossus Blade
+ItemDisplay[UNI !ID 7dg]: %DOT-0E%Wizardspike%CONTINUE%//Bone Knife
+ItemDisplay[UNI !ID 7kr]: %DOT-0E%Fleshripper%CONTINUE%//Fanged Knife
+ItemDisplay[UNI !ID 7bl]: Ghostflame%CONTINUE%//Legend Spike
+ItemDisplay[UNI !ID 7ta]: Gimmershred%CONTINUE%//Flying Axe
+ItemDisplay[UNI !ID 7bk]: Warshrike%CONTINUE%//Winged Knife
+ItemDisplay[UNI !ID 7b8]: Lacerator%CONTINUE%//Winged Axe
+ItemDisplay[UNI !ID 7s7]: Demon's Arch%CONTINUE%//Balrog Spear
+ItemDisplay[UNI !ID 7gl]: Wraith Flight%CONTINUE%//Ghost Glaive
+ItemDisplay[UNI !ID 7ts]: Gargoyle's Bite%CONTINUE%//Winged Harpoon
+ItemDisplay[UNI !ID 7sr]: Arioc's Needle%CONTINUE%//Hyperion Spear
+ItemDisplay[UNI !ID 7br]: Viperfork%CONTINUE%//Mancatcher
+ItemDisplay[UNI !ID 7p7]: Steel Pillar%CONTINUE%//War Pike
+ItemDisplay[UNI !ID 7o7]: Bonehew%CONTINUE%//Ogre Axe
+ItemDisplay[UNI !ID 7s8]: %DOT-0E%The Reaper's Toll%CONTINUE%//Thresher
+ItemDisplay[UNI !ID 7pa]: Tomb Reaver%CONTINUE%//Cryptic Axe
+ItemDisplay[UNI !ID 7wc]: Stormspire%CONTINUE%//Giant Thresher
+ItemDisplay[UNI !ID 6l7]: %DOT-0E%Eaglehorn%CONTINUE%//Crusader Bow
+ItemDisplay[UNI !ID 6sw]: %DOT-0E%Widowmaker%CONTINUE%//Ward Bow
+ItemDisplay[UNI !ID 6lw]: %DOT-0E%Windforce%CONTINUE%//Hydra Bow
+ItemDisplay[UNI !ID 6hx]: Hellrack%CONTINUE%//Colossus Crossbow
+ItemDisplay[UNI !ID 6rx]: Gut Siphon%CONTINUE%//Demon Crossbow
+ItemDisplay[UNI !ID 6cs]: Ondal's Wisdom%CONTINUE%//Elder Staff
+ItemDisplay[UNI !ID 6ws]: Mang Song's Lesson%CONTINUE%//Archon Staff
+ItemDisplay[UNI !ID 7bw]: %DOT-0E%Boneshade%CONTINUE%//Lich Wand
+ItemDisplay[UNI !ID 7gw]: %DOT-0E%Death's Web%CONTINUE%//Unearthed Wand
+ItemDisplay[UNI !ID 7sc]: Heaven's Light or The Redeemer%CONTINUE%//Mighty Scepter
+ItemDisplay[UNI !ID 7ws]: Astreon's Iron Ward%CONTINUE%//Caduceus
+ItemDisplay[UNI !ID 7wb]: Jade Talon%CONTINUE%//Wrist Sword
+ItemDisplay[UNI !ID 7cs]: %DOT-0E%Shadow Killer%CONTINUE%//Battle Cestus
+ItemDisplay[UNI !ID 7lw]: %DOT-0E%Firelizard's Talons%CONTINUE%//Feral Claws
+ItemDisplay[UNI !ID obc]: %DOT-0E%Eschuta's Temper%CONTINUE%//Eldritch Orb
+ItemDisplay[UNI !ID obf]: %DOT-0E%Death's Fathom%CONTINUE%//Dimensional Shard
+ItemDisplay[UNI !ID amb]: Blood Raven's Charge%CONTINUE%//Matriarchal Bow
+ItemDisplay[UNI !ID amd]: Stoneraven%CONTINUE%//Matriarchal Spear
+ItemDisplay[UNI !ID amf]: %DOT-0E%Thunderstroke%CONTINUE%//Matriarchal Javelin
+
+ItemDisplay[UNI]:%DOT-0E%%NAME%%CONTINUE%//UNIQUE ITEMS CATCH ALL
 
 //╔═════════════════════════════════════════╗
 //║                   SET                   ║
 //╚═════════════════════════════════════════╝
+//RINGS
+ItemDisplay[SET !ID rin ILVL<10]: Civerb's Icon?%CONTINUE%//Ring
+ItemDisplay[SET !ID rin ILVL<12]: Cathan's Seal?%CONTINUE%//Ring
+ItemDisplay[SET !ID rin ILVL<13]: Angelic Halo?%CONTINUE%//Ring
+ItemDisplay[SET !ID rin ILVL>68]: %DOT-84%Bul-Kathos' Death Band?%CONTINUE%//Ring
+
+//AMULETS
+ItemDisplay[SET !ID amu ILVL<12]: Cathan's Sigil?%CONTINUE%//Amulet
+ItemDisplay[SET !ID amu ILVL<13]: Angelic Wings?%CONTINUE%//Amulet
+ItemDisplay[SET !ID amu ILVL<15]: Vidala's Snare?%CONTINUE%//Amulet
+ItemDisplay[SET !ID amu ILVL<16]: Arcanna's Sign?%CONTINUE%//Amulet
+ItemDisplay[SET !ID amu ILVL<21]: Tancred's Weird?%CONTINUE%//Amulet
+ItemDisplay[SET !ID amu ILVL<31]: %DOT-84%Telling of Beads?%CONTINUE%//Amulet
+ItemDisplay[SET !ID amu ILVL>66]: %DOT-84%Tal Rasha's Adjudication?%CONTINUE%//Amulet
+
+//Angelic Raiment
+ItemDisplay[SET !ID rng]: Angelic Mantle%CONTINUE%//Ring Mail
+ItemDisplay[SET !ID sbr]: Angelic Sickle%CONTINUE%//Saber
+
+//Arcanna's Tricks
+ItemDisplay[SET !ID skp]: Arcanna's Head%CONTINUE%//Skull Cap
+ItemDisplay[SET !ID ltp]: Arcanna's Flesh%CONTINUE%//Light Plate
+ItemDisplay[SET !ID wst]: Arcanna's Deathwand%CONTINUE%//War Staff
+
+//Arctic Gear
+ItemDisplay[SET !ID qui]: Arctic Furs%CONTINUE%//Quilted Armor
+ItemDisplay[SET !ID vbl]: Arctic Binding%CONTINUE%//Light Belt
+ItemDisplay[SET !ID tgl ILVL<3]: Arctic Mitts%CONTINUE%//Light Gauntlets
+ItemDisplay[SET !ID swb]: Arctic Horn%CONTINUE%//Short War Bow
+
+//Berserker's Arsenal
+ItemDisplay[SET !ID hlm]: Berserker's Headgear%CONTINUE%//Helm
+ItemDisplay[SET !ID spl]: Berserker's Hauberk%CONTINUE%//Splint Mail
+ItemDisplay[SET !ID 2ax]: Berserker's Hatchet%CONTINUE%//Double Axe
+
+//Cathan's Traps
+ItemDisplay[SET !ID msk]: Cathan's Visage%CONTINUE%//Mask
+ItemDisplay[SET !ID chn]: Cathan's Mesh%CONTINUE%//Chain Mail
+ItemDisplay[SET !ID bst]: Cathan's Rule%CONTINUE%//Battle Staff
+
+//Civerb's Vestments
+ItemDisplay[SET !ID gsc]: Civerb's Cudgel%CONTINUE%//Grand Scepter
+ItemDisplay[SET !ID lrg]: Civerb's Ward%CONTINUE%//Large Shield
+
+//Cleglaw's Brace
+ItemDisplay[SET !ID lsd]: Cleglaw's Tooth%CONTINUE%//Long Sword
+ItemDisplay[SET !ID mgl]: Cleglaw's Pincers%CONTINUE%//Chain Gloves
+ItemDisplay[SET !ID sml]: Cleglaw's Claw%CONTINUE%//Small Shield
+
+//Death's Disguise
+ItemDisplay[SET !ID wsd]: Death's Touch%CONTINUE%//War Sword
+ItemDisplay[SET !ID lgl]: Death's Hand%CONTINUE%//Leather Gloves
+ItemDisplay[SET !ID lbl]: Death's Guard%CONTINUE%//Sash
+
+//Hsarus' Defense
+ItemDisplay[SET !ID buc]: Hsarus' Iron Fist%CONTINUE%//Buckler
+ItemDisplay[SET !ID mbl ILVL<4]: Hsarus' Iron Stay%CONTINUE%//Belt
+ItemDisplay[SET !ID mbt]: Hsarus' Iron Heel%CONTINUE%//Chain Boots
+
+//Infernal Tools
+ItemDisplay[SET !ID cap]: Infernal Cranium%CONTINUE%//Cap
+ItemDisplay[SET !ID tbl]: Infernal Sign%CONTINUE%//Heavy Belt
+ItemDisplay[SET !ID gwn]: Infernal Torch%CONTINUE%//Grim Wand
+ItemDisplay[SET !ID dgr]: %NAME%%CONTINUE%//Dagger
+
+//Iratha's Finery
+ItemDisplay[SET !ID crn]: Iratha's Coil%CONTINUE%//Crown
+ItemDisplay[SET !ID tbl ILVL>14]: Iratha's Cord?%CONTINUE%//Heavy Belt
+ItemDisplay[SET !ID tgl ILVL>14]: Iratha's Cuff?%CONTINUE%//Light Gauntlets
+
+//Isenhart's Armory
+ItemDisplay[SET !ID bsd]: Isenhart's Lightbrand%CONTINUE%//Broad Sword
+ItemDisplay[SET !ID fhl]: Isenhart's Horns%CONTINUE%//Full Helm
+ItemDisplay[SET !ID brs]: Isenhart's Case%CONTINUE%//Breast Plate
+ItemDisplay[SET !ID gts]: Isenhart's Parry%CONTINUE%//Gothic Shield
+
+//Milabrega's Regalia
+ItemDisplay[SET !ID crn ILVL>16]: Milabrega's Diadem%CONTINUE%//Crown
+ItemDisplay[SET !ID aar]: Milabrega's Robe%CONTINUE%//Ancient Armor
+ItemDisplay[SET !ID kit]: Milabrega's Orb%CONTINUE%//Kite Shield
+ItemDisplay[SET !ID wsp]: Milabrega's Rod%CONTINUE%//War Scepter
+
+//Sigon's Complete Steel
+ItemDisplay[SET !ID ghm]: Sigon's Visor%CONTINUE%//Great Helm
+ItemDisplay[SET !ID gth]: Sigon's Shelter%CONTINUE%//Gothic Plate
+ItemDisplay[SET !ID hbt]: Sigon's Sabot%CONTINUE%//Greaves
+ItemDisplay[SET !ID tow]: Sigon's Guard%CONTINUE%//Tower Shield
+ItemDisplay[SET !ID hbl]: Sigon's Wrap%CONTINUE%//Plated Belt
+ItemDisplay[SET !ID hgl]: Sigon's Gage%CONTINUE%//Gauntlets
+
+//Tancred's Battlegear
+ItemDisplay[SET !ID bhm]: Tancred's Skull%CONTINUE%//Bone Helm
+ItemDisplay[SET !ID ful]: Tancred's Spine%CONTINUE%//Full Plate
+ItemDisplay[SET !ID lbt]: Tancred's Hobnails%CONTINUE%//Boots
+ItemDisplay[SET !ID mpi]: Tancred's Crowbill%CONTINUE%//Military Pick
+
+//Vidala's Rig
+ItemDisplay[SET !ID lbb]: Vidala's Barb%CONTINUE%//Long Battle Bow
+ItemDisplay[SET !ID lea]: Vidala's Ambush%CONTINUE%//Leather Armor
+ItemDisplay[SET !ID tbt]: Vidala's Fetlock%CONTINUE%//Light Plated Boots
+
+//Aldur's Watchtower
+ItemDisplay[SET !ID dr8]: %DOT-84%Aldur's Stony Gaze%CONTINUE%//Hunter's Guise
+ItemDisplay[SET !ID xtb]: %DOT-84%Aldur's Advance%CONTINUE%//Battle Boots
+ItemDisplay[SET !ID uul]: %DOT-84%Aldur's Deception%CONTINUE%//Shadow Plate
+ItemDisplay[SET !ID 9mt]: Aldur's Rhythm%CONTINUE%//Jagged Star
+
+//Bul-Kathos' Children
+ItemDisplay[SET !ID 7gd]: Bul-Kathos' Sacred Charge%CONTINUE%//Colossus Blade
+ItemDisplay[SET !ID 7wd]: Bul-Kathos' Tribal Guardian%CONTINUE%//Mythical Sword
+
+//Cow King's Leathers
+ItemDisplay[SET !ID xap]: Cow King's Horns%CONTINUE%//War Hat
+ItemDisplay[SET !ID stu]: Cow King's Hide%CONTINUE%//Studded Leather
+ItemDisplay[SET !ID vbt]: Cow King's Hooves%CONTINUE%//Heavy Boots
+
+//The Disciple
+ItemDisplay[SET !ID ulg]: %DOT-84%Laying of Hands%CONTINUE%//Bramble Mitts
+ItemDisplay[SET !ID uui]: Dark Adherent%CONTINUE%//Dusk Shroud
+ItemDisplay[SET !ID xlb]: Rite of Passage%CONTINUE%//Demonhide Boots
+ItemDisplay[SET !ID umc]: Credendum%CONTINUE%//Mithril Coil
+
+//Griswold's Legacy
+ItemDisplay[SET !ID xar]: Griswold's Heart%CONTINUE%//Ornate Plate
+ItemDisplay[SET !ID urn]: %DOT-84%Griswold's Valor%CONTINUE%//Corona
+ItemDisplay[SET !ID 7ws]: %DOT-84%Griswold's Redemption%CONTINUE%//Caduceus
+ItemDisplay[SET !ID paf]: %DOT-84%Griswold's Honor%CONTINUE%//Vortex Shield
+
+//Heaven's Brethren
+ItemDisplay[SET !ID xrs]: Haemosu's Adamant%CONTINUE%//Cuirass
+ItemDisplay[SET !ID 7ma]: Dangoon's Teaching%CONTINUE%//Reinforced Mace
+ItemDisplay[SET !ID uts]: Taebaek's Glory%CONTINUE%//Ward
+ItemDisplay[SET !ID uhm]: Ondal's Almighty%CONTINUE%//Spired Helm
+
+//Hwanin's Majesty
+ItemDisplay[SET !ID xrn]: Hwanin's Splendor%CONTINUE%//Grand Crown
+ItemDisplay[SET !ID 9vo]: Hwanin's Justice%CONTINUE%//Bill
+ItemDisplay[SET !ID xcl]: Hwanin's Refuge%CONTINUE%//Tigulated Mail
+ItemDisplay[SET !ID mbl ILVL>35]: Hwanin's Blessing?%CONTINUE%//Belt
+
+//Immortal King
+ItemDisplay[SET !ID ba5]: %DOT-84%Immortal King's Will%CONTINUE%//Avenger Guard
+ItemDisplay[SET !ID 7m7]: %DOT-84%Immortal King's Stone Crusher%CONTINUE%//Ogre Maul
+ItemDisplay[SET !ID uar]: %DOT-84%Immortal King's Soul Cage%CONTINUE%//Sacred Armor
+ItemDisplay[SET !ID zhb]: %DOT-84%Immortal King's Detail%CONTINUE%//War Belt
+ItemDisplay[SET !ID xhg]: %DOT-84%Immortal King's Forge%CONTINUE%//War Gauntlets
+ItemDisplay[SET !ID xhb]: %DOT-84%Immortal King's Pillar%CONTINUE%//War Boots
+
+//M'avina's Battle Hymn
+ItemDisplay[SET !ID cl3]: %DOT-84%M'avina's True Sight%CONTINUE%//Diadem
+ItemDisplay[SET !ID amc]: %DOT-84%M'avina's Caster%CONTINUE%//Grand Matron Bow
+ItemDisplay[SET !ID uld]: %DOT-84%M'avina's Embrace%CONTINUE%//Kraken Shell
+ItemDisplay[SET !ID xtg]: %DOT-84%M'avina's Icy Clutch%CONTINUE%//Battle Gauntlets
+ItemDisplay[SET !ID zvb]: %DOT-84%M'avina's Tenet%CONTINUE%//Sharkskin Belt
+
+//Natalya's Odium
+ItemDisplay[SET !ID xh9]: %DOT-84%Natalya's Totem%CONTINUE%//Grim Helm
+ItemDisplay[SET !ID 7qr]: %DOT-84%Natalya's Mark%CONTINUE%//Scissors Suwayyah
+ItemDisplay[SET !ID ucl]: %DOT-84%Natalya's Shadow%CONTINUE%//Loricated Mail
+ItemDisplay[SET !ID xmb]: %DOT-84%Natalya's Soul%CONTINUE%//Mesh Boots
+
+//Naj's Ancient Vestige
+ItemDisplay[SET !ID ci0]: Naj's Circlet%CONTINUE%//Circlet
+ItemDisplay[SET !ID ult]: Naj's Light Plate%CONTINUE%//Hellforge Plate
+ItemDisplay[SET !ID 6cs]: Naj's Puzzler%CONTINUE%//Elder Staff
+
+//Orphan's Call
+ItemDisplay[SET !ID xhm]: %DOT-84%Guillaume's Face%CONTINUE%//Winged Helm
+ItemDisplay[SET !ID xml]: Whitstan's Guard%CONTINUE%//Round Shield
+ItemDisplay[SET !ID xvg]: Magnus' Skin%CONTINUE%//Sharkskin Gloves
+ItemDisplay[SET !ID ztb]: Wilhelm's Pride%CONTINUE%//Battle Belt
+
+//Sander's Folly
+ItemDisplay[SET !ID cap ILVL>11]: Sander's Paragon?%CONTINUE%//Cap
+ItemDisplay[SET !ID bwn]: Sander's Superstition%CONTINUE%//Bone Wand
+ItemDisplay[SET !ID vgl]: Sander's Taboo%CONTINUE%//Heavy Gloves
+ItemDisplay[SET !ID vbt]: Sander's Riprap%CONTINUE%//Heavy Boots
+
+//Sazabi's Grand Tribute
+ItemDisplay[SET !ID xhl]: Sazabi's Mental Sheath%CONTINUE%//Basinet
+ItemDisplay[SET !ID 7ls]: Sazabi's Cobalt Redeemer%CONTINUE%//Cryptic Sword
+ItemDisplay[SET !ID upl]: Sazabi's Ghost Liberator%CONTINUE%//Balrog Skin
+
+//Tal Rasha's Wrappings
+ItemDisplay[SET !ID oba]: %DOT-84%Tal Rasha's Lidless Eye%CONTINUE%//Swirling Crystal
+ItemDisplay[SET !ID xsk]: %DOT-84%Tal Rasha's Horadric Crest%CONTINUE%//Death Mask
+ItemDisplay[SET !ID uth]: %DOT-84%Tal Rasha's Guardianship%CONTINUE%//Lacquered Plate
+ItemDisplay[SET !ID zmb]: %DOT-84%Tal Rasha's Fine-Spun Cloth%CONTINUE%//Mesh Belt
+
+//Trang-Oul's Avatar
+ItemDisplay[SET !ID uh9]: %DOT-84%Trang-Oul's Guise%CONTINUE%//Bone Visage
+ItemDisplay[SET !ID xul]: %DOT-84%Trang-Oul's Scales%CONTINUE%//Chaos Armor
+ItemDisplay[SET !ID ne9]: %DOT-84%Trang-Oul's Wing%CONTINUE%//Cantor Trophy
+ItemDisplay[SET !ID utc]: %DOT-84%Trang-Oul's Girth%CONTINUE%//Troll Belt
+ItemDisplay[SET !ID xmg]: %DOT-84%Trang-Oul's Claws%CONTINUE%//Heavy Bracers
+
 ItemDisplay[SET]:%DOT-84%%NAME%%CONTINUE%//SET ITEMS
 
 //╔═══════════════════════════════════════════════╗
@@ -530,7 +1069,7 @@ ItemDisplay[ETH]:%NAME% Eth%CONTINUE%//ADD ETH TO ITEM
 ItemDisplay[(NMAG OR MAG OR RARE) SOCKS>0]:%NAME% %ORANGE%OS: %WHITE%%SOCKETS%%CONTINUE%//ADD ETH TO ITEM
 
 //ENHANCED DAMAGE AND DEFENSE
-ItemDisplay[NMAG ED=15]:%NAME% %ORANGE%ED: %WHITE%15%CONTINUE%//ADD ETH TO ITEM
+ItemDisplay[NMAG ED=15]:%RED%%NAME% %ORANGE%ED: %WHITE%15%CONTINUE%//ADD ETH TO ITEM
 ItemDisplay[NMAG ED=14]:%NAME% %ORANGE%ED: %WHITE%14%CONTINUE%//ADD ETH TO ITEM
 ItemDisplay[NMAG ED=13]:%NAME% %ORANGE%ED: %WHITE%13%CONTINUE%//ADD ETH TO ITEM
 ItemDisplay[NMAG ED=12]:%NAME% %ORANGE%ED: %WHITE%12%CONTINUE%//ADD ETH TO ITEM
@@ -547,7 +1086,7 @@ ItemDisplay[NMAG ED=2]:%NAME% %ORANGE%ED: %WHITE%2%CONTINUE%//ADD ETH TO ITEM
 ItemDisplay[NMAG ED=1]:%NAME% %ORANGE%ED: %WHITE%1%CONTINUE%//ADD ETH TO ITEM
 
 //RESIST ALL
-ItemDisplay[CL3 NMAG RES=45]:%NAME% %ORANGE%RES: %WHITE%45%CONTINUE%//ADD ETH TO ITEM
+ItemDisplay[CL3 NMAG RES=45]:%RED%%NAME% %ORANGE%RES: %WHITE%45%CONTINUE%//ADD ETH TO ITEM
 ItemDisplay[CL3 NMAG RES=44]:%NAME% %ORANGE%RES: %WHITE%44%CONTINUE%//ADD ETH TO ITEM
 ItemDisplay[CL3 NMAG RES=43]:%NAME% %ORANGE%RES: %WHITE%43%CONTINUE%//ADD ETH TO ITEM
 ItemDisplay[CL3 NMAG RES=42]:%NAME% %ORANGE%RES: %WHITE%42%CONTINUE%//ADD ETH TO ITEM
