@@ -2,7 +2,7 @@
 //║VideoGameRoulette's Advanced Item Filter                                   ║
 //║Mod: Project Diablo 2                                                      ║
 //║Filter: Advanced                                                           ║
-//║Version: 1.0                                                               ║
+//║Version: 2.0                                                               ║
 //║Created by: VGRoulette                                                     ║
 //║For questions, comments, feedback, or suggestions:                         ║
 //║Contact on discord: VideoGameRoulette#7026                                 ║
@@ -66,22 +66,21 @@ ItemDisplay[tr2]: %TAN%%NAME%
 //╚═════════════════════════════════════════════╝
 
 ItemDisplay[NMAG INF]://Any Inferior Item
-ItemDisplay[(EQ4 OR EQ5 OR EQ6) NMAG CLVL>30]://Gloves, Boots, and Belt
-ItemDisplay[WP1 !RW NMAG CLVL>30 SOCKS<3]://Axes
-ItemDisplay[WP2 !RW NMAG CLVL>30 SOCKS<4]://Maces
-ItemDisplay[WP3 !RW NMAG CLVL>30 SOCKS<3]://Swords
+ItemDisplay[WP1 !RW NMAG CLVL>30 (SOCKS<3 && !SOCKS=0)]://Axes
+ItemDisplay[WP2 !RW NMAG CLVL>30 (SOCKS<4 && !SOCKS=0)]://Maces
+ItemDisplay[WP3 !RW NMAG CLVL>30 (SOCKS<3 && !SOCKS=0)]://Swords
 ItemDisplay[WP4 !RW NMAG CLVL>30]://Daggers
 ItemDisplay[WP5 !RW NMAG CLVL>30]://Throwing Weapons
 ItemDisplay[WP6 !RW NMAG CLVL>30]://Javelins
 ItemDisplay[WP7 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]://Spears
 ItemDisplay[WP8 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]://Polearms
-ItemDisplay[WP9 !RW NMAG CLVL>30 SOCKS<4]://Bows
-ItemDisplay[WP10 !RW NMAG CLVL>30 SOCKS<4]://Crossbows
+ItemDisplay[WP9 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]://Bows
+ItemDisplay[WP10 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]://Crossbows
 ItemDisplay[WP11 !RW NMAG CLVL>30 (!SOCKS=2 OR !SOCKS=4)]://Staves
-ItemDisplay[WP13 !RW NMAG CLVL>30 SOCKS<4]://Scepters
-ItemDisplay[EQ4 NMAG DIFF>0]://GLOVES
-ItemDisplay[EQ5 NMAG DIFF>0]://BOOTS
-ItemDisplay[EQ6 NMAG DIFF>0]://BELT
+ItemDisplay[WP13 !RW NMAG CLVL>30 (SOCKS<4 AND SOCK>0)]://Scepters
+ItemDisplay[EQ4 NMAG CLVL>30]://GLOVES
+ItemDisplay[EQ5 NMAG CLVL>30]://BOOTS
+ItemDisplay[EQ6 NMAG CLVL>30]://BELT
 ItemDisplay[(!CL1 && !CL2 && EQ1) NORM !RW NMAG DIFF>0]://HELM
 ItemDisplay[(ob1 AND ob2 AND ob3 AND ob4) !RW NMAG DIFF>0]://SORC WANDS 1
 ItemDisplay[(ob6 AND ob7 AND ob8 AND ob9) !RW NMAG DIFF>0]://SORC WANDS 2
@@ -102,28 +101,28 @@ ItemDisplay[key]://Keys
 //║                                                                                               MISC                                                                                               ║
 //╚══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
-ItemDisplay[GOLD<4000 CLVL>30]://Gold Piles
+ItemDisplay[GOLD<4200 CLVL>30]://Gold Piles
 
 //╔═══════════════════════════════════════════════════════════╗
 //║                   ESSENCES RESET TOKENS                   ║
 //╚═══════════════════════════════════════════════════════════╝
 
-ItemDisplay[tes]: %DOT-62%%RED%>>> %GOLD%Twisted Essence of Suffering [Andariel & Duriel] %RED%<<<{%WHITE%Cube with: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%to make a %RED%Token of Absolution}
-ItemDisplay[ceh]: %DOT-62%%RED%>>> %GOLD%Charged Essence of Hatred [Mephisto] %RED%<<<{%WHITE%Cube with: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%to make a %RED%Token of Absolution}
-ItemDisplay[bet]: %DOT-62%%RED%>>> %GOLD%Burning Essence of Terror [Diablo] %RED%<<<{%WHITE%Cube with: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%to make a %RED%Token of Absolution}
-ItemDisplay[fed]: %DOT-62%%RED%>>> %GOLD%Festering Essence of Destruction [Baal] %RED%<<<{%WHITE%Cube with: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%to make a %RED%Token of Absolution}
-ItemDisplay[toa]: %DOT-62%%RED%>>> %GOLD%Token of Absolution %RED%<<<{%WHITE%Used to reset characters stats and skill points}
+ItemDisplay[tes]: %DOT-62%%RED% %GOLD%Twisted Essence of Suffering [Andariel & Duriel] %RED%{%WHITE%Cube With: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%To Make A %RED%Token of Absolution}
+ItemDisplay[ceh]: %DOT-62%%RED% %GOLD%Charged Essence of Hatred [Mephisto] %RED%{%WHITE%Cube With: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%To Make A %RED%Token of Absolution}
+ItemDisplay[bet]: %DOT-62%%RED% %GOLD%Burning Essence of Terror [Diablo] %RED%{%WHITE%Cube With: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%To Make A %RED%Token of Absolution}
+ItemDisplay[fed]: %DOT-62%%RED% %GOLD%Festering Essence of Destruction [Baal] %RED%{%WHITE%Cube With: %PURPLE%Suffering %WHITE%+ %PURPLE%Hatred %WHITE%+ %PURPLE%Terror %WHITE%+ %PURPLE%Destruction %WHITE%To Make A %RED%Token of Absolution}
+ItemDisplay[toa]: %DOT-62%%RED% %GOLD%Token of Absolution %RED%{%WHITE%Used to reset characters stats and skill points}
 
 //╔═══════════════════════════════════════════════╗
 //║                   UBER KEYS                   ║
 //╚═══════════════════════════════════════════════╝
 
-ItemDisplay[pk1]: %DOT-62%%RED%>>> %GOLD%Key of Terror [Countess] %RED%<<<{%WHITE%Cube with: %GOLD%Key of Terror %WHITE%+ %GOLD%Key of Hate %WHITE%+ %GOLD%Key of Destruction %WHITE%to make a %RED%Uber Portal %WHITE%in %GOLD%Act 5}
-ItemDisplay[pk2]: %DOT-62%%RED%>>> %GOLD%Key of Hate [Summoner] %RED%<<<{%WHITE%Cube with: %GOLD%Key of Terror %WHITE%+ %GOLD%Key of Hate %WHITE%+ %GOLD%Key of Destruction %WHITE%to make a %RED%Uber Portal %WHITE%in %GOLD%Act 5}
-ItemDisplay[pk3]: %DOT-62%%RED%>>> %GOLD%Key of Destruction [Nihlathak] %RED%<<<{%WHITE%Cube with: %GOLD%Key of Terror %WHITE%+ %GOLD%Key of Hate %WHITE%+ %GOLD%Key of Destruction %WHITE%to make a %RED%Uber Portal %WHITE%in %GOLD%Act 5}
-ItemDisplay[dhn]: %DOT-62%%RED%>>> %GOLD%Diablos Horn %RED%<<<{%WHITE%Cube with: %GOLD%Diablos Horn %WHITE%+ %GOLD%Baals Eye %WHITE%+ %GOLD%Mephistos Brain %WHITE%to make a %RED%Uber Portal %WHITE%in %GOLD%Act 5}
-ItemDisplay[bey]: %DOT-62%%RED%>>> %GOLD%Baals Eye %RED%<<<{%WHITE%Cube with: %GOLD%Diablos Horn %WHITE%+ %GOLD%Baals Eye %WHITE%+ %GOLD%Mephistos Brain %WHITE%to make a %RED%Uber Portal %WHITE%in %GOLD%Act 5}
-ItemDisplay[mbr]: %DOT-62%%RED%>>> %GOLD%Mephistos Brain %RED%<<<{%WHITE%Cube with: %GOLD%Diablos Horn %WHITE%+ %GOLD%Baals Eye %WHITE%+ %GOLD%Mephistos Brain %WHITE%to make a %RED%Uber Portal %WHITE%in %GOLD%Act 5}
+ItemDisplay[pk1]: %DOT-62%%RED% %GOLD%Key of Terror [Countess] %RED%{%WHITE%Cube With: %GOLD%Key of Terror %WHITE%+ %GOLD%Key of Hate %WHITE%+ %GOLD%Key of Destruction %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
+ItemDisplay[pk2]: %DOT-62%%RED% %GOLD%Key of Hate [Summoner] %RED%{%WHITE%Cube With: %GOLD%Key of Terror %WHITE%+ %GOLD%Key of Hate %WHITE%+ %GOLD%Key of Destruction %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
+ItemDisplay[pk3]: %DOT-62%%RED% %GOLD%Key of Destruction [Nihlathak] %RED%{%WHITE%Cube With: %GOLD%Key of Terror %WHITE%+ %GOLD%Key of Hate %WHITE%+ %GOLD%Key of Destruction %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
+ItemDisplay[dhn]: %DOT-62%%RED% %GOLD%Diablos Horn %RED%{%WHITE%Cube With: %GOLD%Diablos Horn %WHITE%+ %GOLD%Baals Eye %WHITE%+ %GOLD%Mephistos Brain %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
+ItemDisplay[bey]: %DOT-62%%RED% %GOLD%Baals Eye %RED%{%WHITE%Cube With: %GOLD%Diablos Horn %WHITE%+ %GOLD%Baals Eye %WHITE%+ %GOLD%Mephistos Brain %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
+ItemDisplay[mbr]: %DOT-62%%RED% %GOLD%Mephistos Brain %RED%{%WHITE%Cube With: %GOLD%Diablos Horn %WHITE%+ %GOLD%Baals Eye %WHITE%+ %GOLD%Mephistos Brain %WHITE%To Make A %RED%Uber Portal %WHITE%in %GOLD%Act 5}
 
 //╔═══════════════════════════════════════════╗
 //║                   RUNES                   ║
@@ -148,58 +147,58 @@ ItemDisplay[r16]: %DOT-60%%TAN%Io Rune %WHITE%[%RUNENUM%]{%WHITE%Cube to swap be
 ItemDisplay[r17]: %DOT-60%%TAN%Lum Rune %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r18]: %DOT-60%%TAN%Ko Rune %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
 ItemDisplay[r19]: %DOT-60%%TAN%Fal Rune %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r20]: %DOT-62%%RED%>>> %PURPLE%Lem Rune %WHITE%[%RUNENUM%] %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r21]: %DOT-62%%RED%>>> %PURPLE%Pul Rune %WHITE%[%RUNENUM%] %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r22]: %DOT-62%%RED%>>> %PURPLE%Um Rune %WHITE%[%RUNENUM%] %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r23]: %DOT-62%%RED%>>> %PURPLE%Mal Rune %WHITE%[%RUNENUM%] %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r24]: %DOT-62%%ORANGE%HR: %WHITE%[0.125]%NL%%RED%>>> Ist Rune %WHITE%[%RUNENUM%] %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r25]: %DOT-62%%ORANGE%HR: %WHITE%[0.25]%NL%%RED%>>>> %PURPLE%Gul Rune %WHITE%[%RUNENUM%] %RED%<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r26]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED%>>>>> %PURPLE%Vex Rune %WHITE%[%RUNENUM%] %RED%<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r27]: %DOT-9B%%ORANGE%HR: %WHITE%[0.75]%NL%%RED%>>>>>> %PURPLE%Ohm Rune %WHITE%[%RUNENUM%]  %RED%<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r28]: %DOT-9B%%ORANGE%HR: %YELLOW%[1.5]%NL%%RED%>>>>>>>>>>>> %PURPLE%Lo Rune %WHITE%[%RUNENUM%]  %RED%<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r29]: %DOT-9B%%ORANGE%HR: %GREEN%[1.5]%NL%%RED%>>>>>>>>>>>> %PURPLE%Sur Rune %WHITE%[%RUNENUM%]  %RED%<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r30]: %DOT-9B%%ORANGE%HR: %RED%[3]%NL%%RED%>>>>>>>>>>>>>>>>>>>>>>>> %PURPLE%Ber Rune %WHITE%[%RUNENUM%]  %RED%<<<<<<<<<<<<<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r31]: %DOT-9B%%ORANGE%HR: %PURPLE%[2]%NL%%RED%>>>>>>>>>>>>>>>>> %PURPLE%Jah Rune %WHITE%[%RUNENUM%]  %RED%<<<<<<<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r32]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED%>>>>> %PURPLE%Cham Rune %WHITE%[%RUNENUM%] %RED%<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r33]: %DOT-62%%ORANGE%HR: %GREEN%[1]%NL%%RED%>>>>>>>>>> %PURPLE%Zod Rune %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r20]: %DOT-62%%RED% %PURPLE%Lem Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r21]: %DOT-62%%RED% %PURPLE%Pul Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r22]: %DOT-62%%RED% %PURPLE%Um Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r23]: %DOT-62%%RED% %PURPLE%Mal Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r24]: %DOT-62%%ORANGE%HR: %WHITE%[0.125]%NL%%RED% Ist Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r25]: %DOT-62%%ORANGE%HR: %WHITE%[0.25]%NL%%RED% %PURPLE%Gul Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r26]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED% %PURPLE%Vex Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r27]: %DOT-9B%%ORANGE%HR: %WHITE%[0.75]%NL%%RED% %PURPLE%Ohm Rune %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r28]: %DOT-9B%%ORANGE%HR: %YELLOW%[1.5]%NL%%RED% %PURPLE%Lo Rune %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r29]: %DOT-9B%%ORANGE%HR: %GREEN%[1.5]%NL%%RED% %PURPLE%Sur Rune %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r30]: %DOT-9B%%ORANGE%HR: %RED%[3]%NL%%RED% %PURPLE%Ber Rune %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r31]: %DOT-9B%%ORANGE%HR: %PURPLE%[2]%NL%%RED% %PURPLE%Jah Rune %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r32]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED% %PURPLE%Cham Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r33]: %DOT-62%%ORANGE%HR: %GREEN%[1]%NL%%RED% %PURPLE%Zod Rune %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
 
 //╔══════════════════════════════════════════════════╗
 //║                   RUNES STACKS                   ║
 //╚══════════════════════════════════════════════════╝
 
-ItemDisplay[r01s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%TAN%El Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r02s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%TAN%Eld Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r03s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%TAN%Tir Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r04s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%ORANGE%Nef Stack %WHITE%[%RUNENUM%]{%WHITE% Used for Blood Gloves recipe}
-ItemDisplay[r05s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%TAN%Eth Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r06s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%ORANGE%Ith Rune Stack %WHITE%[%RUNENUM%]{%WHITE% Used for Caster Belt recipe}
-ItemDisplay[r07s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%ORANGE%Tal Rune Stack %WHITE%[%RUNENUM%]{%WHITE% Used for Blood Belt recipe}
-ItemDisplay[r08s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%ORANGE%Ral Rune Stack %WHITE%[%RUNENUM%]{%WHITE% Used for Caster Amulet recipe}
-ItemDisplay[r09s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%ORANGE%Ort Rune Stack %WHITE%[%RUNENUM%]{%WHITE% Used for HP Gloves recipe}
-ItemDisplay[r10s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%ORANGE%Thul Rune Stack %WHITE%[%RUNENUM%]{%WHITE% Used for S Amulet recipe}
-ItemDisplay[r11s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%ORANGE%Amn Rune Stack %WHITE%[%RUNENUM%]{%WHITE% Used for Caster Ring recipe}
-ItemDisplay[r12s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%ORANGE%Sol Rune Stack %WHITE%[%RUNENUM%]{%WHITE% Used for Blood Ring recipe}
-ItemDisplay[r13s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%TAN%Shael Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r14s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%TAN%Dol Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r15s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%TAN%Hel Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r16s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%TAN%Io Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r17s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%TAN%Lum Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r18s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%TAN%Ko Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r19s]: %DOT-60%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%TAN%Fal Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r20s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%>>> %PURPLE%Lem Rune Stack %WHITE%[%RUNENUM%] %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r21s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%>>> %PURPLE%Pul Rune Stack %WHITE%[%RUNENUM%] %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r22s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%>>> %PURPLE%Um Rune Stack %WHITE%[%RUNENUM%] %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r23s]: %DOT-62%%ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%>>> %PURPLE%Mal Rune Stack %WHITE%[%RUNENUM%] %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r24s]: %DOT-62%%ORANGE%HR: %WHITE%[0.125]%NL%%RED%>>> Ist Rune Stack %WHITE%[%RUNENUM%] %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r25s]: %DOT-62%%ORANGE%HR: %WHITE%[0.25]%NL%%RED%>>>> %PURPLE%Gul Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r26s]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED%>>>>> %PURPLE%Vex Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r27s]: %DOT-9B%%ORANGE%HR: %WHITE%[0.75]%NL%%RED%>>>>>> %PURPLE%Ohm Rune Stack %WHITE%[%RUNENUM%]  %RED%<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r28s]: %DOT-9B%%ORANGE%HR: %YELLOW%[1.5]%NL%%RED%>>>>>>>>>>>> %PURPLE%Lo Rune Stack %WHITE%[%RUNENUM%]  %RED%<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r29s]: %DOT-9B%%ORANGE%HR: %GREEN%[1.5]%NL%%RED%>>>>>>>>>>>> %PURPLE%Sur Rune Stack %WHITE%[%RUNENUM%]  %RED%<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r30s]: %DOT-9B%%ORANGE%HR: %RED%[3]%NL%%RED%>>>>>>>>>>>>>>>>>>>>>>>> %PURPLE%Ber Rune Stack %WHITE%[%RUNENUM%]  %RED%<<<<<<<<<<<<<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r31s]: %DOT-9B%%ORANGE%HR: %PURPLE%[2]%NL%%RED%>>>>>>>>>>>>>>>>> %PURPLE%Jah Rune Stack %WHITE%[%RUNENUM%]  %RED%<<<<<<<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r32s]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED%>>>>> %PURPLE%Cham Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[r33s]: %DOT-62%%ORANGE%HR: %GREEN%[1]%NL%%RED%>>>>>>>>>> %PURPLE%Zod Rune Stack %WHITE%[%RUNENUM%] %RED%<<<<<<<<<<<<{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r01s]: %DOT-60%%TAN%El Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r02s]: %DOT-60%%TAN%Eld Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r03s]: %DOT-60%%TAN%Tir Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r04s]: %DOT-60%%ORANGE%Nef Stack %WHITE%[%RUNENUM%]{%WHITE% Used for Blood Gloves recipe}
+ItemDisplay[r05s]: %DOT-60%%TAN%Eth Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r06s]: %DOT-60%%ORANGE%Ith Rune Stack %WHITE%[%RUNENUM%]{%WHITE% Used for Caster Belt recipe}
+ItemDisplay[r07s]: %DOT-60%%ORANGE%Tal Rune Stack %WHITE%[%RUNENUM%]{%WHITE% Used for Blood Belt recipe}
+ItemDisplay[r08s]: %DOT-60%%ORANGE%Ral Rune Stack %WHITE%[%RUNENUM%]{%WHITE% Used for Caster Amulet recipe}
+ItemDisplay[r09s]: %DOT-60%%ORANGE%Ort Rune Stack %WHITE%[%RUNENUM%]{%WHITE% Used for HP Gloves recipe}
+ItemDisplay[r10s]: %DOT-60%%ORANGE%Thul Rune Stack %WHITE%[%RUNENUM%]{%WHITE% Used for S Amulet recipe}
+ItemDisplay[r11s]: %DOT-60%%ORANGE%Amn Rune Stack %WHITE%[%RUNENUM%]{%WHITE% Used for Caster Ring recipe}
+ItemDisplay[r12s]: %DOT-60%%ORANGE%Sol Rune Stack %WHITE%[%RUNENUM%]{%WHITE% Used for Blood Ring recipe}
+ItemDisplay[r13s]: %DOT-60%%TAN%Shael Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r14s]: %DOT-60%%TAN%Dol Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r15s]: %DOT-60%%TAN%Hel Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r16s]: %DOT-60%%TAN%Io Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r17s]: %DOT-60%%TAN%Lum Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r18s]: %DOT-60%%TAN%Ko Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r19s]: %DOT-60%%TAN%Fal Rune Stack %WHITE%[%RUNENUM%]{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r20s]: %DOT-62%%RED% %PURPLE%Lem Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r21s]: %DOT-62%%RED% %PURPLE%Pul Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r22s]: %DOT-62%%RED% %PURPLE%Um Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r23s]: %DOT-62%%RED% %PURPLE%Mal Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r24s]: %DOT-62%%ORANGE%HR: %WHITE%[0.125]%NL%%RED% Ist Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r25s]: %DOT-62%%ORANGE%HR: %WHITE%[0.25]%NL%%RED% %PURPLE%Gul Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r26s]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED% %PURPLE%Vex Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r27s]: %DOT-9B%%ORANGE%HR: %WHITE%[0.75]%NL%%RED% %PURPLE%Ohm Rune Stack %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r28s]: %DOT-9B%%ORANGE%HR: %YELLOW%[1.5]%NL%%RED% %PURPLE%Lo Rune Stack %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r29s]: %DOT-9B%%ORANGE%HR: %GREEN%[1.5]%NL%%RED% %PURPLE%Sur Rune Stack %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r30s]: %DOT-9B%%ORANGE%HR: %RED%[3]%NL%%RED% %PURPLE%Ber Rune Stack %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r31s]: %DOT-9B%%ORANGE%HR: %PURPLE%[2]%NL%%RED% %PURPLE%Jah Rune Stack %WHITE%[%RUNENUM%]  %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r32s]: %DOT-62%%ORANGE%HR: %WHITE%[0.5]%NL%%RED% %PURPLE%Cham Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[r33s]: %DOT-62%%ORANGE%HR: %GREEN%[1]%NL%%RED% %PURPLE%Zod Rune Stack %WHITE%[%RUNENUM%] %RED%{%WHITE%Cube to swap between stackable and socketable version}
 
 //╔══════════════════════════════════════════════════════════════════════════════╗
 //║                   CHIPPED GEMS & FLAWED GEMS & NORMAL GEMS                   ║
@@ -224,37 +223,37 @@ ItemDisplay[skl]: %ORANGE%%NAME%{%WHITE%Cube to swap between stackable and socke
 //║                   FLAWLESS STACKED GEMS                   ║
 //╚═══════════════════════════════════════════════════════════╝
 
-ItemDisplay[gzvs]: %ORANGE%Quantity: %WHITE%[%QTY%]%NL%%ORANGE%%NAME% Stack{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[glws]: %ORANGE%Quantity: %WHITE%[%QTY%]%NL%%ORANGE%%NAME% Stack{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[glgs]: %ORANGE%Quantity: %WHITE%[%QTY%]%NL%%ORANGE%%NAME% Stack{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[glrs]: %ORANGE%Quantity: %WHITE%[%QTY%]%NL%%ORANGE%%NAME% Stack{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[glbs]: %ORANGE%Quantity: %WHITE%[%QTY%]%NL%%ORANGE%%NAME% Stack{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[glys]: %ORANGE%Quantity: %WHITE%[%QTY%]%NL%%ORANGE%%NAME% Stack{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[skls]: %ORANGE%Quantity: %WHITE%[%QTY%]%NL%%ORANGE%%NAME% Stack{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[gzvs]: %ORANGE%%NAME% Stack{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[glws]: %ORANGE%%NAME% Stack{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[glgs]: %ORANGE%%NAME% Stack{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[glrs]: %ORANGE%%NAME% Stack{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[glbs]: %ORANGE%%NAME% Stack{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[glys]: %ORANGE%%NAME% Stack{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[skls]: %ORANGE%%NAME% Stack{%WHITE%Cube to swap between stackable and socketable version}
 
 //╔══════════════════════════════════════════════════╗
 //║                   PERFECT GEMS                   ║
 //╚══════════════════════════════════════════════════╝
 
-ItemDisplay[gpv]: %RED%>>> %ORANGE%%NAME% %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[gpw]: %RED%>>> %ORANGE%%NAME% %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[gpg]: %RED%>>> %ORANGE%%NAME% %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[gpr]: %RED%>>> %ORANGE%%NAME% %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[gpb]: %RED%>>> %ORANGE%%NAME% %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[gpy]: %RED%>>> %ORANGE%%NAME% %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[skz]: %RED%>>> %ORANGE%%NAME% %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[gpv]: %RED% %ORANGE%%NAME% %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[gpw]: %RED% %ORANGE%%NAME% %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[gpg]: %RED% %ORANGE%%NAME% %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[gpr]: %RED% %ORANGE%%NAME% %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[gpb]: %RED% %ORANGE%%NAME% %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[gpy]: %RED% %ORANGE%%NAME% %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[skz]: %RED% %ORANGE%%NAME% %RED%{%WHITE%Cube to swap between stackable and socketable version}
 
 //╔══════════════════════════════════════════════════════════╗
 //║                   PERFECT STACKED GEMS                   ║
 //╚══════════════════════════════════════════════════════════╝
 
-ItemDisplay[gpvs]: %ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%>>> %ORANGE%%NAME% Stack %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[gpws]: %ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%>>> %ORANGE%%NAME% Stack %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[gpgs]: %ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%>>> %ORANGE%%NAME% Stack %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[gprs]: %ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%>>> %ORANGE%%NAME% Stack %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[gpbs]: %ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%>>> %ORANGE%%NAME% Stack %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[gpys]: %ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%>>> %ORANGE%%NAME% Stack %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
-ItemDisplay[skzs]: %ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%>>> %ORANGE%%NAME% Stack %RED%<<<{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[gpvs]: %RED% %ORANGE%%NAME% Stack %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[gpws]: %RED% %ORANGE%%NAME% Stack %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[gpgs]: %RED% %ORANGE%%NAME% Stack %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[gprs]: %RED% %ORANGE%%NAME% Stack %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[gpbs]: %RED% %ORANGE%%NAME% Stack %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[gpys]: %RED% %ORANGE%%NAME% Stack %RED%{%WHITE%Cube to swap between stackable and socketable version}
+ItemDisplay[skzs]: %RED% %ORANGE%%NAME% Stack %RED%{%WHITE%Cube to swap between stackable and socketable version}
 
 //╔══════════════════════════════════════════╗
 //║                   HIDE                   ║
@@ -267,6 +266,7 @@ ItemDisplay[skzs]: %ORANGE%Quantity: %WHITE%[%QTY%]%NL%%RED%>>> %ORANGE%%NAME% S
 ItemDisplay[hp1 CLVL>14]:
 ItemDisplay[hp2 CLVL>17]:
 ItemDisplay[hp3 CLVL>24]:
+ItemDisplay[hp4 CLVL>40]:
 
 //╔═════════════════════════════════════════════════╗
 //║                   MANA POTIONS                  ║
@@ -275,6 +275,7 @@ ItemDisplay[hp3 CLVL>24]:
 ItemDisplay[mp1 CLVL>14]:
 ItemDisplay[mp2 CLVL>19]:
 ItemDisplay[mp3 CLVL>25]:
+ItemDisplay[mp4 CLVL>40]:
 
 //╔═════════════════════════════════════════════════╗
 //║                   THAW POTIONS                  ║
@@ -317,7 +318,7 @@ ItemDisplay[rvl]: %PURPLE%!FR %WHITE%100%
 ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%MH
 ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%LH
 ItemDisplay[hp3 CLVL<24]: %RED%!%WHITE%H
-ItemDisplay[hp4]: %RED%!%WHITE%GH
+ItemDisplay[hp4 CLVL<40]: %RED%!%WHITE%GH
 ItemDisplay[hp5]: %RED%!%WHITE%SH
 
 //╔═════════════════════════════════════════════════╗
@@ -327,7 +328,7 @@ ItemDisplay[hp5]: %RED%!%WHITE%SH
 ItemDisplay[mp1 CLVL<15]: %BLUE%!%WHITE%MM
 ItemDisplay[mp2 CLVL<20]: %BLUE%!%WHITE%LM
 ItemDisplay[mp3 CLVL<26]: %BLUE%!%WHITE%M
-ItemDisplay[mp4]: %BLUE%!%WHITE%GM
+ItemDisplay[mp4 CLVL<41]: %BLUE%!%WHITE%GM
 ItemDisplay[mp5]: %BLUE%!%WHITE%SM
 
 //╔══════════════════════════════════════════════════╗
@@ -354,17 +355,17 @@ ItemDisplay[isc]: %GREEN%!%WHITE%ID
 //║                                                                                               PD2 EXCLUSIVE                                                                                               ║
 //╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 
-ItemDisplay[wss]: %DOT-62%%RED%>>> %GOLD%Worldstone Shard %RED%<<<{%WHITE%Cube with: %GOLD%Unique Item %WHITE%+ %PURPLE%Worldstone Shard %WHITE%to make a %RED%Corrupted Item}
-ItemDisplay[lbox]: %DOT-62%%RED%>>>>>> %GOLD%Puzzlebox %RED%<<<<<<{%WHITE%Used to socket items}
-ItemDisplay[imra]: %DOT-62%%NAME%{%WHITE%Cube with: %WHITE%Normal Map %WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Thul [10]+ %WHITE%to make a %YELLOW%Rare Map}
-ItemDisplay[imma]: %DOT-62%%NAME%{%WHITE%Cube with: %WHITE%Normal Map %WHITE%+ %BLUE%Jewel %WHITE%to make a %BLUE%Magic Map}
-ItemDisplay[scou]: %DOT-62%%NAME%{%WHITE%Cube with: %WHITE%Any Map %WHITE%+ %ORANGE%Hel %WHITE%to make a %WHITE%White Map}
-ItemDisplay[rera]: %DOT-62%%NAME%{%WHITE%Cube with: %YELLOW%Rare Map %WHITE%+ %WHITE%Perfect Gem %WHITE%+ %ORANGE%Thul [10]+ %WHITE%to make a %YELLOW%Rare Map}
-ItemDisplay[upma]: %DOT-62%%NAME%{%WHITE%Cube with: %BLUE%Magic Map %WHITE%+ %ORANGE%Thul [10] %WHITE%+ %WHITE%Perfect Skull to make a %YELLOW%Rare Map}
+ItemDisplay[wss]: %DOT-62%%RED% %GOLD%Worldstone Shard %RED%{%WHITE%Cube With: %GOLD%Unique Item %WHITE%+ %PURPLE%Worldstone Shard %WHITE%To %RED%Corrupt %WHITE%An Item}
+ItemDisplay[lbox]: %DOT-62%%RED% %GOLD%Puzzlebox %RED%{%WHITE%Used to socket items}
+ItemDisplay[imra]: %DOT-62%%NAME%{%WHITE%Cube With: %WHITE%Normal Map %WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Thul [10]+ %WHITE%To Make A %YELLOW%Rare Map}
+ItemDisplay[imma]: %DOT-62%%NAME%{%WHITE%Cube With: %WHITE%Normal Map %WHITE%+ %BLUE%Jewel %WHITE%To Make A %BLUE%Magic Map}
+ItemDisplay[scou]: %DOT-62%%NAME%{%WHITE%Cube With: %WHITE%Any Map %WHITE%+ %ORANGE%Hel %WHITE%To Make A %WHITE%White Map}
+ItemDisplay[rera]: %DOT-62%%NAME%{%WHITE%Cube With: %YELLOW%Rare Map %WHITE%+ %WHITE%Perfect Gem %WHITE%+ %ORANGE%Thul [10]+ %WHITE%To Make A %YELLOW%Rare Map}
+ItemDisplay[upma]: %DOT-62%%NAME%{%WHITE%Cube With: %BLUE%Magic Map %WHITE%+ %ORANGE%Thul [10] %WHITE%+ %WHITE%Perfect Skull To Make A %YELLOW%Rare Map}
 
-ItemDisplay[dcbl]: %DOT-62%%RED%--------------------%NL%%RED%>>>>>>>>>>>>>>>>>>>>>>>> %NAME% %RED%<<<<<<<<<<<<<<<<<<<<<<<<%NL%%RED%--------------------{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
-ItemDisplay[dcho]: %DOT-62%%RED%--------------------%NL%%RED%>>>>>>>>>>>>>>>>>>>>>>>> %NAME% %RED%<<<<<<<<<<<<<<<<<<<<<<<<%NL%%RED%--------------------{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
-ItemDisplay[dcso]: %DOT-62%%RED%--------------------%NL%%RED%>>>>>>>>>>>>>>>>>>>>>>>> %NAME% %RED%<<<<<<<<<<<<<<<<<<<<<<<<%NL%%RED%--------------------{%WHITE%Cube with: %GOLD%Prime Evil Soul %WHITE%+ Pure Demonic Essence %WHITE%+ Black Soulstone %WHITE%to make a %RED%Vision of Terror}
+ItemDisplay[dcbl]: %DOT-62%%NAME%{%WHITE%Cube With: %GOLD%Prime Evil Soul %WHITE%+ %GOLD%Pure Demonic Essence %WHITE%+ %GOLD%Black Soulstone %WHITE%To Make A %RED%Vision Of Terror}
+ItemDisplay[dcho]: %DOT-62%%NAME%{%WHITE%Cube With: %GOLD%Prime Evil Soul %WHITE%+ %GOLD%Pure Demonic Essence %WHITE%+ %GOLD%Black Soulstone %WHITE%To Make A %RED%Vision Of Terror}
+ItemDisplay[dcso]: %DOT-62%%NAME%{%WHITE%Cube With: %GOLD%Prime Evil Soul %WHITE%+ %GOLD%Pure Demonic Essence %WHITE%+ %GOLD%Black Soulstone %WHITE%To Make A %RED%Vision Of Terror}
 ItemDisplay[dcma]: %DOT-62%%NAME%{%WHITE%Used to summon the Prime Evil DClone}
 
 ItemDisplay[t16]: %DOT-62%%NAME%{%WHITE%Used to summon the Ruins of Viz-Jun Map}
@@ -481,27 +482,32 @@ ItemDisplay[NMAG RW]:%NAME%//RUNEWORD ITEMS
 //╔═════════════════════════════════════════════════╗
 //║                   NON MAGICAL                   ║
 //╚═════════════════════════════════════════════════╝
-//ItemDisplay[NMAG NORM !RW CLVL>30]://NON MAGICAL ITEMS
-//ItemDisplay[NMAG EXC !RW CLVL>60]://NON MAGICAL ITEMS
+ItemDisplay[NMAG NORM !RW CLVL>30]://NON MAGICAL ITEMS
+ItemDisplay[NMAG EXC !RW CLVL>60]:%NAME%%CONTINUE%//NON MAGICAL ITEMS
 ItemDisplay[NMAG ELT !RW]:%NAME%%CONTINUE%//NON MAGICAL ITEMS
 
 //╔═════════════════════════════════════════════╗
 //║                   MAGICAL                   ║
 //╚═════════════════════════════════════════════╝
+ItemDisplay[(cm1 OR cm2 OR cm3) !ID MAG]: %DOT-A0%%BLUE%%NAME%%CONTINUE%//MAGIC CHARM
 ItemDisplay[EQ7 !ID MAG]: %DOT-A0%%BLUE%%NAME%%CONTINUE%//MAGIC CIRCLET
 ItemDisplay[EQ7 ID MAG]: %DOT-A0%%BLUE%%NAME%%CONTINUE%//MAGIC CIRCLET
-ItemDisplay[MAG NORM !RW CLVL>30]://MAGICAL ITEMS
-ItemDisplay[MAG EXC !RW CLVL>60]://MAGICAL ITEMS
-ItemDisplay[MAG ELT !RW]:%NAME%%CONTINUE%//MAGICAL ITEMS
+ItemDisplay[MAG !ID NORM !RW CLVL>30]://MAGICAL ITEMS
+ItemDisplay[MAG !ID EXC !RW CLVL>60]://MAGICAL ITEMS
+ItemDisplay[MAG !ID ELT !RW]://MAGICAL ITEMS MAPS ONLY TO HIDE
+//ItemDisplay[MAG !ID ELT !RW]:%NAME%%CONTINUE%//MAGICAL ITEMS
+//ItemDisplay[MAG ID]:%NAME%//MAGICAL ITEMS
 
 //╔══════════════════════════════════════════╗
 //║                   RARE                   ║
 //╚══════════════════════════════════════════╝
-ItemDisplay[EQ7 !ID RARE]: %DOT-A8%%YELLOW%%NAME%//RARE CIRCLET
-ItemDisplay[EQ7 ID RARE]: %DOT-A8%%YELLOW%%NAME%//RARE CIRCLET
-ItemDisplay[RARE NORM !RW CLVL>30]://RARE ITEMS
-ItemDisplay[RARE EXC !RW CLVL>60]://RARE ITEMS
-ItemDisplay[RARE ELT !RW]:%NAME%%CONTINUE%//RARE ITEMS
+ItemDisplay[EQ7 !ID RARE]: %DOT-A8%%YELLOW%%NAME%%CONTINUE%//RARE CIRCLET
+ItemDisplay[EQ7 ID RARE]: %DOT-A8%%YELLOW%%NAME%%CONTINUE%//RARE CIRCLET
+ItemDisplay[RARE !ID NORM !RW CLVL>30]://RARE ITEMS
+ItemDisplay[RARE !ID EXC !RW CLVL>60]://RARE ITEMS
+//ItemDisplay[RARE !ID ELT !RW]://RARE ITEMS MAPS ONLY TO HIDE
+ItemDisplay[RARE !ID ELT !RW]:%NAME%%CONTINUE%//RARE ITEMS
+//ItemDisplay[RARE ID]:%NAME%//RARE ITEMS
 
 //╔════════════════════════════════════════════╗
 //║                   UNIQUE                   ║
@@ -586,6 +592,9 @@ ItemDisplay[CL3 NMAG RES=4]:%NAME% %ORANGE%RES: %WHITE%4%CONTINUE%//ADD ETH TO I
 ItemDisplay[CL3 NMAG RES=3]:%NAME% %ORANGE%RES: %WHITE%3%CONTINUE%//ADD ETH TO ITEM
 ItemDisplay[CL3 NMAG RES=2]:%NAME% %ORANGE%RES: %WHITE%2%CONTINUE%//ADD ETH TO ITEM
 ItemDisplay[CL3 NMAG RES=1]:%NAME% %ORANGE%RES: %WHITE%1%CONTINUE%//ADD ETH TO ITEM
+
+//ITEM LEVEL
+ItemDisplay[(MAG OR RARE) ILVL>85]:%NAME% %ORANGE%ILVL: %WHITE%%ILVL%%CONTINUE%//ADD ETH TO ITEM
 
 //PRICE
 ItemDisplay[(NMAG OR MAG OR RARE) PRICE=35000]:%NAME% %ORANGE%Price: %WHITE%35K%TAN%G%CONTINUE%//ADD ETH TO ITEM
@@ -1321,3 +1330,22 @@ ItemDisplay[(NMAG OR MAG OR RARE) !RW SK369=1]: %NAME%%NL%%ORANGE%Ice Barrage: %
 ItemDisplay[(NMAG OR MAG OR RARE) !RW SK371=1]: %NAME%%NL%%ORANGE%Holy Light: %WHITE%1%CONTINUE%//Holy Light
 ItemDisplay[(NMAG OR MAG OR RARE) !RW SK381=1]: %NAME%%NL%%ORANGE%Dark Pact: %WHITE%1%CONTINUE%//Dark Pact
 ItemDisplay[(NMAG OR MAG OR RARE) !RW SK383=1]: %NAME%%NL%%ORANGE%Lesser Hydra: %WHITE%1%CONTINUE%//Lesser Hydra
+
+//SOCKET RECIPE
+ItemDisplay[EQ2 NMAG !RW !SUP SOCKS=0]:%NAME%%CONTINUE%{%WHITE%Cube With: Tal Rune + Thul Rune + Perfect Topaz %WHITE%To Add %GOLD%Random Sockets}//Chest
+ItemDisplay[WEAPON NMAG !RW !SUP SOCKS=0]:%NAME%%CONTINUE%{%WHITE%Cube With: Ral Rune + Amn Rune + Perfect Amethyst %WHITE%To Add %GOLD%Random Sockets}//Weapon
+ItemDisplay[EQ1 NMAG !RW !SUP SOCKS=0]:%NAME%%CONTINUE%{%WHITE%Cube With: Ral Rune + Thul Rune + Perfect Sapphire %WHITE%To Add %GOLD%Random Sockets}//Helm
+ItemDisplay[EQ3 NMAG !RW !SUP SOCKS=0]:%NAME%%CONTINUE%{%WHITE%Cube With: Tal Rune + Amn Rune + Perfect Ruby %WHITE%To Add %GOLD%Random Sockets}//Shield
+
+//CRAFTING RECIPES
+//AMULETS
+ItemDisplay[amu MAG ILVL>87]: %DOT-62%%RED%>>> %BLUE%%NAME% %RED%<<<{%ORANGE%Blood Amulet: %TAN%Amn + Perfect Ruby + Jewel%NL%%ORANGE%Caster Amulet: %TAN%Ral + Perfect Amethyst + Jewel}//MAGIC
+
+//RINGS
+ItemDisplay[rin MAG ILVL>87]: %DOT-62%%RED%>>> %BLUE%%NAME% %RED%<<<{%ORANGE%Blood Ring: %TAN%Sol + Perfect Ruby + Jewel}//MAGIC
+
+//BLOOD GLOVES
+ItemDisplay[(vbl OR zvb OR uvc) MAG ILVL>87]: %DOT-62%%RED%>>> %BLUE%%NAME% %RED%<<<{%ORANGE%Caster Belt: %TAN%Nef + Perfect Ruby + Jewel}//MAGIC
+
+//CASTER BELT
+ItemDisplay[(vgl OR xvg OR uvg) MAG ILVL>87]: %DOT-62%%RED%>>> %BLUE%%NAME% %RED%<<<{%ORANGE%Caster Belt: %TAN%Ith + Perfect Amethyst + Jewel}//MAGIC
